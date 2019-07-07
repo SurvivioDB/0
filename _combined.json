@@ -5747,6 +5747,21 @@
     },
     "lootIMG": "https://surviv.io/img/loot/loot-shirt-01.svg"
   },
+  "outfitSummerGhillie": {
+    "name": "Ghillie Suit",
+    "type": "outfit",
+    "skinImg": {
+      "baseTint": "6658085 | #659825",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "6658085 | #659825",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "6658085 | #659825",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "6697728 | #663300",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/loot-shirt-01.svg"
+  },
   "outfitSpringGhillie": {
     "name": "Ghillie Suit",
     "type": "outfit",
@@ -7740,8 +7755,8 @@
     "https://surviv.io/audio/ui/ping_leader_01.mp3"
   ],
   "info": {
-    "version": 59,
-    "timestamp": 1562226627911,
-    "date": "04/07/2019 @ 7:50AM UTC"
+    "version": 60,
+    "timestamp": 1562517000482,
+    "date": "07/07/2019 @ 4:30PM UTC"
   }
 }
