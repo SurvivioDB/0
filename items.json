@@ -705,8 +705,6 @@
     "lootIMG": "https://surviv.io/img/loot/loot-throwable-frag.svg",
     "calculations": {
       "damage": {
-        "bulletsWHS": 0.15,
-        "bulletsREG": 0.85,
         "blastDamage": [125, 84.38, 62.5, 48.13, 42.5],
         "blastDamageObj": 137.5,
         "shrapDamage": [240, 162, 120, 92.4, 81.6],
@@ -771,8 +769,6 @@
     "lootIMG": "https://surviv.io/img/loot/loot-throwable-mirv.svg",
     "calculations": {
       "damage": {
-        "bulletsWHS": 0.15,
-        "bulletsREG": 0.85,
         "blastDamage": [125, 84.38, 62.5, 48.13, 42.5],
         "blastDamageObj": 137.5,
         "shrapDamage": [240, 162, 120, 92.4, 81.6],
@@ -824,8 +820,6 @@
     "lootIMG": "https://surviv.io/img/loot/loot-throwable-frag.svg",
     "calculations": {
       "damage": {
-        "bulletsWHS": 0.15,
-        "bulletsREG": 0.85,
         "blastDamage": [75, 50.63, 37.5, 28.88, 25.5],
         "blastDamageObj": 82.5,
         "shrapDamage": [42, 28.35, 21, 16.17, 14.28],
@@ -943,8 +937,6 @@
     "lootIMG": "https://surviv.io/img/loot/loot-throwable-strobe.svg",
     "calculations": {
       "damage": {
-        "bulletsWHS": 0.15,
-        "bulletsREG": 0.85,
         "blastDamage": [1, 0.68, 0.5, 0.39, 0.34],
         "blastDamageObj": 5,
         "shrapDamage": [9, 6.07, 4.5, 3.46, 3.06],
@@ -992,12 +984,7 @@
     "worldIMG": "https://surviv.io/img/proj/proj-snowball-01.svg",
     "lootIMG": "https://surviv.io/img/loot/loot-throwable-snowball.svg",
     "calculations": {
-      "damage": {
-        "bulletsWHS": 0.15,
-        "bulletsREG": 0.85,
-        "blastDamage": [2, 1.35, 1, 0.77, 0.68],
-        "blastDamageObj": 2
-      },
+      "damage": {"blastDamage": [2, 1.35, 1, 0.77, 0.68], "blastDamageObj": 2},
       "firing": {"firePerMin": 200, "firePerSec": 3.33, "fireDelay": 0.3}
     }
   },
@@ -1038,12 +1025,7 @@
     "worldIMG": "https://surviv.io/img/proj/proj-snowball-02.svg",
     "lootIMG": "https://surviv.io/img/loot/loot-throwable-snowball.svg",
     "calculations": {
-      "damage": {
-        "bulletsWHS": 0.15,
-        "bulletsREG": 0.85,
-        "blastDamage": [5, 3.38, 2.5, 1.92, 1.7],
-        "blastDamageObj": 5
-      },
+      "damage": {"blastDamage": [5, 3.38, 2.5, 1.92, 1.7], "blastDamageObj": 5},
       "firing": {"firePerMin": 200, "firePerSec": 3.33, "fireDelay": 0.3}
     }
   },
@@ -1086,12 +1068,7 @@
     "worldIMG": "https://surviv.io/img/proj/proj-potato-01.svg",
     "lootIMG": "https://surviv.io/img/loot/loot-throwable-potato.svg",
     "calculations": {
-      "damage": {
-        "bulletsWHS": 0.15,
-        "bulletsREG": 0.85,
-        "blastDamage": [2, 1.35, 1, 0.77, 0.68],
-        "blastDamageObj": 2
-      },
+      "damage": {"blastDamage": [2, 1.35, 1, 0.77, 0.68], "blastDamageObj": 2},
       "firing": {"firePerMin": 200, "firePerSec": 3.33, "fireDelay": 0.3}
     }
   },
@@ -1133,12 +1110,7 @@
     "worldIMG": "https://surviv.io/img/proj/proj-potato-02.svg",
     "lootIMG": "https://surviv.io/img/loot/loot-throwable-potato.svg",
     "calculations": {
-      "damage": {
-        "bulletsWHS": 0.15,
-        "bulletsREG": 0.85,
-        "blastDamage": [5, 3.38, 2.5, 1.92, 1.7],
-        "blastDamageObj": 5
-      },
+      "damage": {"blastDamage": [5, 3.38, 2.5, 1.92, 1.7], "blastDamageObj": 5},
       "firing": {"firePerMin": 200, "firePerSec": 3.33, "fireDelay": 0.3}
     }
   },
@@ -1191,8 +1163,6 @@
     "lootIMG": "https://surviv.io/img/loot/loot-throwable-frag.svg",
     "calculations": {
       "damage": {
-        "bulletsWHS": 0.15,
-        "bulletsREG": 0.85,
         "blastDamage": [40, 27, 20, 15.4, 13.6],
         "blastDamageObj": 80,
         "shrapDamage": [80, 54, 40, 30.8, 27.2],
@@ -3658,11 +3628,11 @@
         "shrapDamageObj": 45,
         "maxDamage": [99, 66.82, 49.5, 38.12, 33.66],
         "maxDamageObj": 225,
-        "magDMG": [120, 82, 62, 47, 40],
-        "susDPS": [15, 10, 8, 6, 5],
-        "burDPS": [24, 16, 12, 9, 8],
-        "htKill": [9, 13, 17, 22, 25],
-        "ttKill": [4, 6, 8, 10.5, 12]
+        "magDMG": [990, 82, 62, 47, 40],
+        "susDPS": [125, 10, 8, 6, 5],
+        "burDPS": [198, 16, 12, 9, 8],
+        "htKill": [2, 13, 17, 22, 25],
+        "ttKill": [0.5, 6, 8, 10.5, 12]
       },
       "firing": {
         "firePerMin": 120,
@@ -5270,11 +5240,11 @@
       "damage": {
         "blastDamage": [95, 64.13, 47.5, 36.58, 32.3],
         "blastDamageObj": 123.5,
-        "magDMG": [0, 0, 0, 0, 0],
-        "susDPS": [0, 0, 0, 0, 0],
-        "burDPS": [0, 0, 0, 0, 0],
-        "htKill": [null, null, null, null, null],
-        "ttKill": [100, 100, 100, 100, 100]
+        "magDMG": [380, 257, 190, 146, 129],
+        "susDPS": [50, 34, 25, 19, 17],
+        "burDPS": [105, 71, 53, 41, 36],
+        "htKill": [2, 2, 3, 3, 4],
+        "ttKill": [0.9, 0.9, 1.8, 1.8, 2.7]
       },
       "firing": {
         "firePerMin": 66.67,
