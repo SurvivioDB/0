@@ -1,4 +1,278 @@
 {
+  "helmet01": {
+    "name": "Level 1 Helmet",
+    "type": "helmet",
+    "level": 1,
+    "damageReduction": 0.25,
+    "skinImg": {
+      "baseTint": "3244031 | #317FFF",
+      "baseTintRed": "10972011 | #A76B6B",
+      "baseTintBlue": "6459582 | #6290BE",
+      "baseSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/loot-helmet-01.svg"
+  },
+  "helmet02": {
+    "name": "Level 2 Helmet",
+    "type": "helmet",
+    "level": 2,
+    "damageReduction": 0.4,
+    "skinImg": {
+      "baseTint": "13027014 | #C6C6C6",
+      "baseTintRed": "10027008 | #990000",
+      "baseTintBlue": "20642 | #0050A2",
+      "baseSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/loot-helmet-02.svg"
+  },
+  "helmet03": {
+    "name": "Level 3 Helmet",
+    "type": "helmet",
+    "level": 3,
+    "damageReduction": 0.55,
+    "skinImg": {
+      "baseTint": "2434341 | #252525",
+      "baseTintRed": "2491396 | #260404",
+      "baseTintBlue": "334125 | #05192D",
+      "baseSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/loot-helmet-03.svg"
+  },
+  "helmet04": {
+    "name": "Level 4 Helmet",
+    "type": "helmet",
+    "level": 4,
+    "damageReduction": 0.7,
+    "skinImg": {
+      "baseTint": "2434341 | #252525",
+      "baseTintRed": "2491396 | #260404",
+      "baseTintBlue": "334125 | #05192D",
+      "baseSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/loot-helmet-03.svg"
+  },
+  "helmet03_leader": {
+    "name": "Leader Helmet",
+    "type": "helmet",
+    "level": 3,
+    "damageReduction": 0.55,
+    "skinImg": {
+      "baseTint": "16777215 | #FFFFFF",
+      "baseTintRed": "16777215 | #FFFFFF",
+      "baseTintBlue": "16777215 | #FFFFFF",
+      "baseSprite": "https://surviv.io/img/player/player-helmet-leader.svg"
+    }
+  },
+  "helmet03_forest": {
+    "name": "Shishigami no Kabuto",
+    "type": "helmet",
+    "level": 3,
+    "damageReduction": 0.55,
+    "role": "woods_king",
+    "skinImg": {
+      "baseTint": "16777215 | #FFFFFF",
+      "baseTintRed": "16777215 | #FFFFFF",
+      "baseTintBlue": "16777215 | #FFFFFF",
+      "baseSprite": "https://surviv.io/img/player/player-helmet-forest.svg"
+    },
+    "mapIndicator": {
+      "sprite": "https://surviv.io/img/gui/player-king-woods.svg",
+      "tint": 65280,
+      "pulse": true,
+      "pulseTint": 65280
+    },
+    "lootIMG": "https://surviv.io/img/loot/player-helmet-forest.svg"
+  },
+  "helmet03_moon": {
+    "name": "Tsukuyomi no Kabuto",
+    "type": "helmet",
+    "level": 3,
+    "damageReduction": 0.55,
+    "skinImg": {
+      "baseTint": "16777215 | #FFFFFF",
+      "baseTintRed": "16777215 | #FFFFFF",
+      "baseTintBlue": "16777215 | #FFFFFF",
+      "baseSprite": "https://surviv.io/img/player/player-helmet-moon.svg"
+    }
+  },
+  "helmet03_lt": {
+    "name": "Lieutenant Helmet",
+    "type": "helmet",
+    "level": 3,
+    "damageReduction": 0.55,
+    "noDrop": true,
+    "skinImg": {
+      "baseTint": "16777215 | #FFFFFF",
+      "baseTintRed": "16777215 | #FFFFFF",
+      "baseTintBlue": "16777215 | #FFFFFF",
+      "baseSprite": "https://surviv.io/img/player/player-helmet-lieutenant.svg"
+    }
+  },
+  "helmet03_lt_aged": {
+    "name": "Lieutenant Helmet",
+    "type": "helmet",
+    "level": 3,
+    "damageReduction": 0.55,
+    "role": "lieutenant",
+    "skinImg": {
+      "baseTint": "16777215 | #FFFFFF",
+      "baseTintRed": "16777215 | #FFFFFF",
+      "baseTintBlue": "16777215 | #FFFFFF",
+      "baseSprite": "https://surviv.io/img/player/player-helmet-lieutenant.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/player-helmet-lieutenant.svg"
+  },
+  "helmet03_potato": {
+    "name": "K-pot-ato",
+    "type": "helmet",
+    "level": 3,
+    "damageReduction": 0.55,
+    "perk": "rare_potato",
+    "skinImg": {
+      "baseTint": "16777215 | #FFFFFF",
+      "baseTintRed": "16777215 | #FFFFFF",
+      "baseTintBlue": "16777215 | #FFFFFF",
+      "baseSprite": "https://surviv.io/img/player/player-helmet-potato.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/player-helmet-potato.svg"
+  },
+  "helmet03_dm01": {
+    "name": "Marksman Helmet",
+    "type": "helmet",
+    "level": 3,
+    "damageReduction": 0.55,
+    "perk": "endless_ammo",
+    "skinImg": {
+      "baseTint": "16777215 | #FFFFFF",
+      "baseTintRed": "16777215 | #FFFFFF",
+      "baseTintBlue": "16777215 | #FFFFFF",
+      "baseSprite": "https://surviv.io/img/player/player-helmet-dm-01.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/player-helmet-dm-01.svg"
+  },
+  "helmet04_medic": {
+    "name": "Medic Helmet",
+    "type": "helmet",
+    "level": 4,
+    "damageReduction": 0.7,
+    "noDrop": true,
+    "skinImg": {
+      "baseTint": "16777215 | #FFFFFF",
+      "baseTintRed": "16777215 | #FFFFFF",
+      "baseTintBlue": "16777215 | #FFFFFF",
+      "baseSprite": "https://surviv.io/img/player/player-helmet-medic.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/player-helmet-medic.svg"
+  },
+  "helmet04_leader": {
+    "name": "Leader Helmet",
+    "type": "helmet",
+    "level": 4,
+    "damageReduction": 0.7,
+    "noDrop": true,
+    "skinImg": {
+      "baseTint": "16777215 | #FFFFFF",
+      "baseTintRed": "16777215 | #FFFFFF",
+      "baseTintBlue": "16777215 | #FFFFFF",
+      "baseSprite": "https://surviv.io/img/player/player-helmet-leader.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/player-helmet-leader.svg"
+  },
+  "backpack00": {
+    "name": "Pouch",
+    "type": "backpack",
+    "level": 0,
+    "playerRad": 0.55,
+    "tint": "16777215 | #FFFFFF",
+    "lootIMG": "https://surviv.io/img/loot/loot-pack-00.svg"
+  },
+  "backpack01": {
+    "name": "Small Pack",
+    "type": "backpack",
+    "level": 1,
+    "playerRad": 0.65,
+    "tint": "6697728 | #663300",
+    "lootIMG": "https://surviv.io/img/loot/loot-pack-01.svg"
+  },
+  "backpack02": {
+    "name": "Regular Pack",
+    "type": "backpack",
+    "level": 2,
+    "tint": "26112 | #006600",
+    "playerRad": 0.85,
+    "lootIMG": "https://surviv.io/img/loot/loot-pack-02.svg"
+  },
+  "backpack03": {
+    "name": "Military Pack",
+    "type": "backpack",
+    "level": 3,
+    "tint": "6710835 | #666633",
+    "playerRad": 1,
+    "lootIMG": "https://surviv.io/img/loot/loot-pack-03.svg"
+  },
+  "chest01": {
+    "name": "Level 1 Vest",
+    "type": "chest",
+    "level": 1,
+    "damageReduction": 0.25,
+    "skinImg": {
+      "baseTint": "11842740 | #B4B4B4",
+      "baseSprite": "https://surviv.io/img/player/player-armor-base-01.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/loot-chest-01.svg"
+  },
+  "chest02": {
+    "name": "Level 2 Vest",
+    "type": "chest",
+    "level": 2,
+    "damageReduction": 0.38,
+    "skinImg": {
+      "baseTint": "4934475 | #4B4B4B",
+      "baseSprite": "https://surviv.io/img/player/player-armor-base-01.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/loot-chest-02.svg"
+  },
+  "chest03": {
+    "name": "Level 3 Vest",
+    "type": "chest",
+    "level": 3,
+    "damageReduction": 0.45,
+    "skinImg": {
+      "baseTint": 0,
+      "baseSprite": "https://surviv.io/img/player/player-armor-base-01.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/loot-chest-03.svg"
+  },
+  "1xscope": {
+    "name": "1x Scope",
+    "type": "scope",
+    "level": 1,
+    "lootIMG": "https://surviv.io/img/loot/loot-scope-00.svg"
+  },
+  "2xscope": {
+    "name": "2x Scope",
+    "type": "scope",
+    "level": 2,
+    "lootIMG": "https://surviv.io/img/loot/loot-scope-01.svg"
+  },
+  "4xscope": {
+    "name": "4x Scope",
+    "type": "scope",
+    "level": 4,
+    "lootIMG": "https://surviv.io/img/loot/loot-scope-02.svg"
+  },
+  "8xscope": {
+    "name": "8x Scope",
+    "type": "scope",
+    "level": 8,
+    "lootIMG": "https://surviv.io/img/loot/loot-scope-03.svg"
+  },
+  "15xscope": {
+    "name": "15x Scope",
+    "type": "scope",
+    "level": 15,
+    "lootIMG": "https://surviv.io/img/loot/loot-scope-04.svg"
+  },
   "9mm": {
     "name": "9mm",
     "type": "ammo",
@@ -106,153 +380,6 @@
     "useTime": 5,
     "boost": 50,
     "lootIMG": "https://surviv.io/img/loot/loot-medical-pill.svg"
-  },
-  "backpack00": {
-    "name": "Pouch",
-    "type": "backpack",
-    "level": 0,
-    "playerRad": 0.55,
-    "tint": "16777215 | #FFFFFF",
-    "lootIMG": "https://surviv.io/img/loot/loot-pack-00.svg"
-  },
-  "backpack01": {
-    "name": "Small Pack",
-    "type": "backpack",
-    "level": 1,
-    "playerRad": 0.65,
-    "tint": "6697728 | #663300",
-    "lootIMG": "https://surviv.io/img/loot/loot-pack-01.svg"
-  },
-  "backpack02": {
-    "name": "Regular Pack",
-    "type": "backpack",
-    "level": 2,
-    "tint": "26112 | #006600",
-    "playerRad": 0.85,
-    "lootIMG": "https://surviv.io/img/loot/loot-pack-02.svg"
-  },
-  "backpack03": {
-    "name": "Military Pack",
-    "type": "backpack",
-    "level": 3,
-    "tint": "6710835 | #666633",
-    "playerRad": 1,
-    "lootIMG": "https://surviv.io/img/loot/loot-pack-03.svg"
-  },
-  "helmet01": {
-    "name": "Level 1 Helmet",
-    "type": "helmet",
-    "level": 1,
-    "damageReduction": 0.25,
-    "skinImg": {
-      "baseTint": "3244031 | #317FFF",
-      "baseTintRed": "10972011 | #A76B6B",
-      "baseTintBlue": "6459582 | #6290BE",
-      "baseSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
-    },
-    "lootIMG": "https://surviv.io/img/loot/loot-helmet-01.svg"
-  },
-  "helmet02": {
-    "name": "Level 2 Helmet",
-    "type": "helmet",
-    "level": 2,
-    "damageReduction": 0.4,
-    "skinImg": {
-      "baseTint": "13027014 | #C6C6C6",
-      "baseTintRed": "10027008 | #990000",
-      "baseTintBlue": "20642 | #0050A2",
-      "baseSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
-    },
-    "lootIMG": "https://surviv.io/img/loot/loot-helmet-02.svg"
-  },
-  "helmet03": {
-    "name": "Level 3 Helmet",
-    "type": "helmet",
-    "level": 3,
-    "damageReduction": 0.55,
-    "skinImg": {
-      "baseTint": "2434341 | #252525",
-      "baseTintRed": "2491396 | #260404",
-      "baseTintBlue": "334125 | #05192D",
-      "baseSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
-    },
-    "lootIMG": "https://surviv.io/img/loot/loot-helmet-03.svg"
-  },
-  "helmet04": {
-    "name": "Level 4 Helmet",
-    "type": "helmet",
-    "level": 4,
-    "damageReduction": 0.7,
-    "skinImg": {
-      "baseTint": "2434341 | #252525",
-      "baseTintRed": "2491396 | #260404",
-      "baseTintBlue": "334125 | #05192D",
-      "baseSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
-    },
-    "lootIMG": "https://surviv.io/img/loot/loot-helmet-03.svg"
-  },
-  "chest01": {
-    "name": "Level 1 Vest",
-    "type": "chest",
-    "level": 1,
-    "damageReduction": 0.25,
-    "skinImg": {
-      "baseTint": "11842740 | #B4B4B4",
-      "baseSprite": "https://surviv.io/img/player/player-armor-base-01.svg"
-    },
-    "lootIMG": "https://surviv.io/img/loot/loot-chest-01.svg"
-  },
-  "chest02": {
-    "name": "Level 2 Vest",
-    "type": "chest",
-    "level": 2,
-    "damageReduction": 0.38,
-    "skinImg": {
-      "baseTint": "4934475 | #4B4B4B",
-      "baseSprite": "https://surviv.io/img/player/player-armor-base-01.svg"
-    },
-    "lootIMG": "https://surviv.io/img/loot/loot-chest-02.svg"
-  },
-  "chest03": {
-    "name": "Level 3 Vest",
-    "type": "chest",
-    "level": 3,
-    "damageReduction": 0.45,
-    "skinImg": {
-      "baseTint": 0,
-      "baseSprite": "https://surviv.io/img/player/player-armor-base-01.svg"
-    },
-    "lootIMG": "https://surviv.io/img/loot/loot-chest-03.svg"
-  },
-  "1xscope": {
-    "name": "1x Scope",
-    "type": "scope",
-    "level": 1,
-    "lootIMG": "https://surviv.io/img/loot/loot-scope-00.svg"
-  },
-  "2xscope": {
-    "name": "2x Scope",
-    "type": "scope",
-    "level": 2,
-    "lootIMG": "https://surviv.io/img/loot/loot-scope-01.svg"
-  },
-  "4xscope": {
-    "name": "4x Scope",
-    "type": "scope",
-    "level": 4,
-    "lootIMG": "https://surviv.io/img/loot/loot-scope-02.svg"
-  },
-  "8xscope": {
-    "name": "8x Scope",
-    "type": "scope",
-    "level": 8,
-    "lootIMG": "https://surviv.io/img/loot/loot-scope-03.svg"
-  },
-  "15xscope": {
-    "name": "15x Scope",
-    "type": "scope",
-    "level": 15,
-    "lootIMG": "https://surviv.io/img/loot/loot-scope-04.svg"
   },
   "fists": {
     "name": "Fists",
