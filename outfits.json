@@ -303,7 +303,6 @@
   },
   "outfitKhaki": {
     "name": "The Initiative",
-    "lore": "",
     "type": "outfit",
     "rarity": 1,
     "skinImg": {
@@ -317,6 +316,22 @@
       "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
     },
     "lootIMG": "https://surviv.io/img/loot/loot-shirt-01.svg"
+  },
+  "outfitParma": {
+    "name": "PARMA Jumpsuit",
+    "type": "outfit",
+    "rarity": 1,
+    "skinImg": {
+      "baseTint": "8746585 | #857659",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "12824197 | #C3AE85",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "12824197 | #C3AE85",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "4208940 | #40392C",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/loot-shirt-outfitParma.svg"
   },
   "outfitCasanova": {
     "name": "Casanova Silks",
@@ -382,7 +397,6 @@
   },
   "outfitRoyalFortune": {
     "name": "Royal Fortune",
-    "lore": "",
     "type": "outfit",
     "rarity": 3,
     "skinImg": {
@@ -465,6 +479,23 @@
     },
     "lootIMG": "https://surviv.io/img/loot/loot-shirt-outfitDarkGloves.svg"
   },
+  "outfitDarkShirt": {
+    "name": "The Semi-Pro",
+    "lore": "Some survivrs wear the dark shirt.",
+    "type": "outfit",
+    "rarity": 1,
+    "skinImg": {
+      "baseTint": "12482560 | #BE7800",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "16303476 | #F8C574",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "16303476 | #F8C574",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "15183443 | #E7AE53",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/loot-shirt-outfitDarkShirt.svg"
+  },
   "outfitDarkGhillie": {
     "name": "Incursion Ghillie",
     "type": "outfit",
@@ -542,7 +573,6 @@
   },
   "outfitDesertCamo": {
     "name": "Desert Camo",
-    "lore": "",
     "type": "outfit",
     "rarity": 1,
     "skinImg": {

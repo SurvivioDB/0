@@ -113,7 +113,7 @@
     "type": "helmet",
     "level": 3,
     "damageReduction": 0.55,
-    "role": "lieutenant",
+    "perk": "firepower",
     "skinImg": {
       "baseTint": "16777215 | #FFFFFF",
       "baseTintRed": "16777215 | #FFFFFF",
@@ -404,6 +404,31 @@
       "firing": {"swingPerMin": 240, "swingPerSec": 4, "swingDelay": 0.25}
     }
   },
+  "knuckles": {
+    "name": "Knuckles",
+    "type": "melee",
+    "quality": 0,
+    "autoAttack": false,
+    "switchDelay": 0.25,
+    "damage": 24,
+    "obstacleDamage": 1,
+    "headshotMult": 1,
+    "noPotatoSwap": true,
+    "noDrop": true,
+    "attack": {"rad": 0.9, "cooldownTime": 0.25, "damageTime": 0.1},
+    "speed": {"equip": 1, "attack": 0},
+    "lootIMG": "https://surviv.io/img/loot/loot-melee-knuckles-rusted.svg",
+    "calculations": {
+      "damage": {
+        "swingDamage": [24, 16.2, 12, 9.24, 8.16],
+        "swingDamageObj": 24,
+        "burDPS": [96, 65, 48, 37, 33],
+        "htKill": [5, 7, 9, 11, 13],
+        "ttKill": [1, 1.5, 2, 2.5, 3]
+      },
+      "firing": {"swingPerMin": 240, "swingPerSec": 4, "swingDelay": 0.25}
+    }
+  },
   "karambit": {
     "name": "Karambit",
     "type": "melee",
@@ -414,19 +439,10 @@
     "obstacleDamage": 1,
     "headshotMult": 1,
     "noPotatoSwap": true,
+    "noDrop": true,
     "attack": {"rad": 0.9, "cooldownTime": 0.25, "damageTime": 0.1},
     "speed": {"equip": 1},
     "lootIMG": "https://surviv.io/img/loot/loot-melee-karambit-rugged.svg",
-    "skins": {
-      "karambit_prismatic": {
-        "name": "Karambit Prismatic",
-        "lootImg": "https://surviv.io/img/loot/loot-melee-karambit-prismatic.svg"
-      },
-      "karambit_drowned": {
-        "name": "Karambit Drowned",
-        "lootImg": "https://surviv.io/img/loot/loot-melee-karambit-drowned.svg"
-      }
-    },
     "calculations": {
       "damage": {
         "swingDamage": [24, 16.2, 12, 9.24, 8.16],
@@ -448,15 +464,10 @@
     "obstacleDamage": 1,
     "headshotMult": 1,
     "noPotatoSwap": true,
+    "noDrop": true,
     "attack": {"rad": 0.9, "cooldownTime": 0.25, "damageTime": 0.1},
     "speed": {"equip": 1},
     "lootIMG": "https://surviv.io/img/loot/loot-melee-bayonet-rugged.svg",
-    "skins": {
-      "bayonet_woodland": {
-        "name": "Bayonet Woodland",
-        "lootImg": "https://surviv.io/img/loot/loot-melee-bayonet-woodland.svg"
-      }
-    },
     "calculations": {
       "damage": {
         "swingDamage": [24, 16.2, 12, 9.24, 8.16],
@@ -478,15 +489,10 @@
     "obstacleDamage": 1,
     "headshotMult": 1,
     "noPotatoSwap": true,
+    "noDrop": true,
     "attack": {"rad": 0.9, "cooldownTime": 0.25, "damageTime": 0.1},
     "speed": {"equip": 1},
     "lootIMG": "https://surviv.io/img/loot/loot-melee-huntsman-rugged.svg",
-    "skins": {
-      "huntsman_burnished": {
-        "name": "Huntsman Burnished",
-        "lootImg": "https://surviv.io/img/loot/loot-melee-huntsman-burnished.svg"
-      }
-    },
     "calculations": {
       "damage": {
         "swingDamage": [24, 16.2, 12, 9.24, 8.16],
@@ -508,15 +514,10 @@
     "obstacleDamage": 1,
     "headshotMult": 1,
     "noPotatoSwap": true,
+    "noDrop": true,
     "attack": {"rad": 0.9, "cooldownTime": 0.25, "damageTime": 0.1},
     "speed": {"equip": 1},
     "lootIMG": "https://surviv.io/img/loot/loot-melee-bowie-vintage.svg",
-    "skins": {
-      "bowie_frontier": {
-        "name": "Bowie Frontier",
-        "lootImg": "https://surviv.io/img/loot/loot-melee-bowie-frontier.svg"
-      }
-    },
     "calculations": {
       "damage": {
         "swingDamage": [24, 16.2, 12, 9.24, 8.16],
@@ -542,12 +543,6 @@
     "attack": {"rad": 1.75, "cooldownTime": 0.3, "damageTime": 0.12},
     "speed": {"equip": 1},
     "lootIMG": "https://surviv.io/img/loot/loot-melee-machete-taiga.svg",
-    "skins": {
-      "kukri_trad": {
-        "name": "Tallow's Kukri",
-        "lootImg": "https://surviv.io/img/loot/loot-melee-kukri-trad.svg"
-      }
-    },
     "calculations": {
       "damage": {
         "swingDamage": [33, 22.27, 16.5, 12.71, 11.22],
@@ -597,12 +592,6 @@
     "attack": {"rad": 1, "cooldownTime": 0.36, "damageTime": 0.18},
     "speed": {"equip": 1},
     "lootIMG": "https://surviv.io/img/loot/loot-melee-woodaxe.svg",
-    "skins": {
-      "woodaxe_bloody": {
-        "name": "Axe Bloodstained",
-        "lootImg": "https://surviv.io/img/loot/loot-melee-woodaxe-bloody.svg"
-      }
-    },
     "calculations": {
       "damage": {
         "swingDamage": [36, 24.3, 18, 13.86, 12.24],
@@ -652,16 +641,6 @@
     "attack": {"rad": 2, "cooldownTime": 0.4, "damageTime": 0.2},
     "speed": {"equip": 1},
     "lootIMG": "https://surviv.io/img/loot/loot-melee-katana.svg",
-    "skins": {
-      "katana_rusted": {
-        "name": "Katana Rusted",
-        "lootImg": "https://surviv.io/img/loot/loot-melee-katana-rusted.svg"
-      },
-      "katana_orchid": {
-        "name": "Katana Orchid",
-        "lootImg": "https://surviv.io/img/loot/loot-melee-katana-orchid.svg"
-      }
-    },
     "calculations": {
       "damage": {
         "swingDamage": [40, 27, 20, 15.4, 13.6],
@@ -712,12 +691,6 @@
     "attack": {"rad": 1, "cooldownTime": 0.5, "damageTime": 0.25},
     "speed": {"equip": 1},
     "lootIMG": "https://surviv.io/img/loot/loot-melee-stonehammer.svg",
-    "skins": {
-      "sledgehammer": {
-        "name": "Sledgehammer",
-        "lootImg": "https://surviv.io/img/loot/loot-melee-sledgehammer.svg"
-      }
-    },
     "calculations": {
       "damage": {
         "swingDamage": [60, 40.5, 30, 23.1, 20.4],
@@ -785,11 +758,13 @@
     "type": "throwable",
     "quality": 0,
     "explosionType": {
+      "type": "explosion",
       "damage": 125,
       "obstacleDamage": 1.1,
       "rad": {"min": 5, "max": 12},
       "shrapnelCount": 12,
       "shrapnelType": {
+        "type": "bullet",
         "damage": 20,
         "obstacleDamage": 1,
         "falloff": 1,
@@ -845,11 +820,13 @@
     "type": "throwable",
     "quality": 1,
     "explosionType": {
+      "type": "explosion",
       "damage": 125,
       "obstacleDamage": 1.1,
       "rad": {"min": 5, "max": 12},
       "shrapnelCount": 12,
       "shrapnelType": {
+        "type": "bullet",
         "damage": 20,
         "obstacleDamage": 1,
         "falloff": 1,
@@ -907,11 +884,13 @@
     "type": "throwable",
     "quality": 0,
     "explosionType": {
+      "type": "explosion",
       "damage": 75,
       "obstacleDamage": 1.1,
       "rad": {"min": 4, "max": 8},
       "shrapnelCount": 7,
       "shrapnelType": {
+        "type": "bullet",
         "damage": 6,
         "obstacleDamage": 1,
         "falloff": 1,
@@ -956,11 +935,13 @@
     "type": "throwable",
     "quality": 0,
     "explosionType": {
+      "type": "explosion",
       "damage": 0,
       "obstacleDamage": 1,
       "rad": {"min": 5, "max": 12},
       "shrapnelCount": 0,
       "shrapnelType": {
+        "type": "bullet",
         "damage": 20,
         "obstacleDamage": 1,
         "falloff": 1,
@@ -1008,11 +989,13 @@
     "type": "throwable",
     "quality": 1,
     "explosionType": {
+      "type": "explosion",
       "damage": 1,
       "obstacleDamage": 5,
       "rad": {"min": 1.5, "max": 2.5},
       "shrapnelCount": 3,
       "shrapnelType": {
+        "type": "bullet",
         "damage": 3,
         "obstacleDamage": 1,
         "falloff": 1,
@@ -1069,6 +1052,7 @@
     "type": "throwable",
     "quality": 0,
     "explosionType": {
+      "type": "explosion",
       "damage": 2,
       "obstacleDamage": 1,
       "rad": {"min": 1.24, "max": 1.25},
@@ -1109,6 +1093,7 @@
     "type": "throwable",
     "quality": 0,
     "explosionType": {
+      "type": "explosion",
       "damage": 5,
       "obstacleDamage": 1,
       "rad": {"min": 1.24, "max": 1.25},
@@ -1149,6 +1134,7 @@
     "type": "throwable",
     "quality": 0,
     "explosionType": {
+      "type": "explosion",
       "damage": 2,
       "obstacleDamage": 1,
       "teamDamage": false,
@@ -1191,6 +1177,7 @@
     "type": "throwable",
     "quality": 0,
     "explosionType": {
+      "type": "explosion",
       "damage": 5,
       "obstacleDamage": 1,
       "teamDamage": false,
@@ -1232,11 +1219,13 @@
     "type": "throwable",
     "quality": 0,
     "explosionType": {
+      "type": "explosion",
       "damage": 40,
       "obstacleDamage": 2,
       "rad": {"min": 5, "max": 14},
       "shrapnelCount": 2,
       "shrapnelType": {
+        "type": "bullet",
         "damage": 40,
         "obstacleDamage": 1,
         "falloff": 1,
@@ -1306,6 +1295,7 @@
     "shotSpread": 3,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 11,
       "obstacleDamage": 1,
       "falloff": 0.8,
@@ -1377,6 +1367,7 @@
     "shotSpread": 10,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 9.25,
       "obstacleDamage": 1,
       "falloff": 0.6,
@@ -1443,6 +1434,7 @@
     "bulletCount": 1,
     "burstCount": 3,
     "bulletType": {
+      "type": "bullet",
       "damage": 15,
       "obstacleDamage": 1,
       "falloff": 0.75,
@@ -1521,6 +1513,7 @@
     "shotSpread": 2.5,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 7.5,
       "obstacleDamage": 1,
       "falloff": 0.6,
@@ -1585,6 +1578,7 @@
     "shotSpread": 4.5,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 9.5,
       "obstacleDamage": 1,
       "falloff": 0.6,
@@ -1649,6 +1643,7 @@
     "shotSpread": 4,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 10.75,
       "obstacleDamage": 1,
       "falloff": 0.77,
@@ -1723,6 +1718,7 @@
     "bulletCount": 1,
     "burstCount": 3,
     "bulletType": {
+      "type": "bullet",
       "damage": 17,
       "obstacleDamage": 1,
       "falloff": 0.8,
@@ -1800,6 +1796,7 @@
     "shotSpread": 4,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 11,
       "obstacleDamage": 1,
       "falloff": 0.85,
@@ -1871,6 +1868,7 @@
     "shotSpread": 2,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 14,
       "obstacleDamage": 1,
       "falloff": 0.82,
@@ -1942,6 +1940,7 @@
     "shotSpread": 1,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 19.5,
       "obstacleDamage": 1,
       "falloff": 0.9,
@@ -2013,6 +2012,7 @@
     "shotSpread": 1.5,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 14,
       "obstacleDamage": 1.75,
       "falloff": 0.9,
@@ -2082,6 +2082,7 @@
     "shotSpread": 4,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 14,
       "obstacleDamage": 1.5,
       "falloff": 0.9,
@@ -2155,6 +2156,7 @@
     "shotSpread": 1,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 56,
       "obstacleDamage": 1,
       "falloff": 0.92,
@@ -2226,6 +2228,7 @@
     "shotSpread": 2.5,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 13.5,
       "obstacleDamage": 1,
       "falloff": 0.9,
@@ -2297,6 +2300,7 @@
     "shotSpread": 2,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 15,
       "obstacleDamage": 1,
       "falloff": 0.85,
@@ -2371,6 +2375,7 @@
     "burstCount": 2,
     "burstSounds": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 17.5,
       "obstacleDamage": 1,
       "falloff": 0.94,
@@ -2450,6 +2455,7 @@
     "shotSpread": 5,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 12.5,
       "obstacleDamage": 1,
       "falloff": 0.85,
@@ -2521,6 +2527,7 @@
     "shotSpread": 3.5,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 13,
       "obstacleDamage": 1,
       "falloff": 0.87,
@@ -2592,6 +2599,7 @@
     "shotSpread": 2,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 14,
       "obstacleDamage": 1.5,
       "falloff": 0.9,
@@ -2663,6 +2671,7 @@
     "shotSpread": 2,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 17.5,
       "obstacleDamage": 1.75,
       "falloff": 0.9,
@@ -2734,6 +2743,7 @@
     "shotSpread": 2.5,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 18,
       "obstacleDamage": 2,
       "falloff": 0.9,
@@ -2805,6 +2815,7 @@
     "shotSpread": 2,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 44,
       "obstacleDamage": 1,
       "falloff": 0.75,
@@ -2882,6 +2893,7 @@
     "shotSpread": 1,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 72,
       "obstacleDamage": 1.5,
       "falloff": 0.95,
@@ -2956,6 +2968,7 @@
     "shotSpread": 1,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 80,
       "obstacleDamage": 1.5,
       "falloff": 0.96,
@@ -3029,6 +3042,7 @@
     "shotSpread": 0.5,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 180,
       "obstacleDamage": 1.5,
       "falloff": 0.94,
@@ -3097,6 +3111,7 @@
     "shotSpread": 1,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 24.5,
       "obstacleDamage": 1,
       "falloff": 0.9,
@@ -3168,6 +3183,7 @@
     "shotSpread": 1,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 32,
       "obstacleDamage": 1,
       "falloff": 0.9,
@@ -3241,6 +3257,7 @@
     "bulletCount": 9,
     "jitter": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 12.5,
       "obstacleDamage": 1,
       "falloff": 0.3,
@@ -3308,6 +3325,7 @@
     "bulletCount": 18,
     "jitter": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 4,
       "obstacleDamage": 1,
       "falloff": 0.25,
@@ -3375,6 +3393,7 @@
     "bulletCount": 9,
     "jitter": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 12.5,
       "obstacleDamage": 1,
       "falloff": 0.3,
@@ -3440,6 +3459,7 @@
     "bulletCount": 9,
     "jitter": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 12.5,
       "obstacleDamage": 1,
       "falloff": 0.3,
@@ -3507,6 +3527,7 @@
     "bulletCount": 9,
     "jitter": 0.2,
     "bulletType": {
+      "type": "bullet",
       "damage": 8.75,
       "obstacleDamage": 1,
       "falloff": 0.85,
@@ -3581,6 +3602,7 @@
     "bulletCount": 1,
     "jitter": 0.2,
     "bulletType": {
+      "type": "bullet",
       "damage": 77,
       "obstacleDamage": 1,
       "falloff": 0.85,
@@ -3655,6 +3677,7 @@
     "bulletCount": 1,
     "jitter": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 12,
       "obstacleDamage": 1,
       "falloff": 0.3,
@@ -3665,11 +3688,13 @@
       "tracerWidth": 0.1,
       "tracerLength": 0.5,
       "onHit": {
+        "type": "explosion",
         "damage": 42,
         "obstacleDamage": 4,
         "rad": {"min": 3.5, "max": 6.5},
         "shrapnelCount": 9,
         "shrapnelType": {
+          "type": "bullet",
           "damage": 5,
           "obstacleDamage": 1,
           "falloff": 1,
@@ -3743,6 +3768,7 @@
     "shotSpread": 8,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 12,
       "obstacleDamage": 1,
       "falloff": 0.7,
@@ -3816,6 +3842,7 @@
     "shotSpread": 11,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 12,
       "obstacleDamage": 1,
       "falloff": 0.7,
@@ -3891,6 +3918,7 @@
     "bulletCount": 1,
     "burstCount": 3,
     "bulletType": {
+      "type": "bullet",
       "damage": 12,
       "obstacleDamage": 1,
       "falloff": 0.7,
@@ -3973,6 +4001,7 @@
     "bulletCount": 1,
     "burstCount": 3,
     "bulletType": {
+      "type": "bullet",
       "damage": 12,
       "obstacleDamage": 1,
       "falloff": 0.7,
@@ -4053,6 +4082,7 @@
     "shotSpread": 12,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 9,
       "obstacleDamage": 1,
       "falloff": 0.5,
@@ -4119,6 +4149,7 @@
     "shotSpread": 18,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 9,
       "obstacleDamage": 1,
       "falloff": 0.5,
@@ -4185,6 +4216,7 @@
     "shotSpread": 2,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 21,
       "obstacleDamage": 1,
       "falloff": 0.75,
@@ -4257,6 +4289,7 @@
     "shotSpread": 3,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 21,
       "obstacleDamage": 1,
       "falloff": 0.75,
@@ -4329,6 +4362,7 @@
     "shotSpread": 1.25,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 26,
       "obstacleDamage": 1,
       "falloff": 0.75,
@@ -4402,6 +4436,7 @@
     "shotSpread": 1.75,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 26,
       "obstacleDamage": 1,
       "falloff": 0.75,
@@ -4475,6 +4510,7 @@
     "shotSpread": 1.2,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 32,
       "obstacleDamage": 1,
       "falloff": 0.77,
@@ -4548,6 +4584,7 @@
     "shotSpread": 1.4,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 32,
       "obstacleDamage": 1,
       "falloff": 0.77,
@@ -4621,6 +4658,7 @@
     "shotSpread": 16,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 29,
       "obstacleDamage": 1,
       "falloff": 0.7,
@@ -4694,6 +4732,7 @@
     "shotSpread": 16,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 29,
       "obstacleDamage": 1,
       "falloff": 0.7,
@@ -4767,6 +4806,7 @@
     "shotSpread": 6,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 14,
       "obstacleDamage": 1,
       "falloff": 0.7,
@@ -4840,6 +4880,7 @@
     "shotSpread": 9.5,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 14,
       "obstacleDamage": 1,
       "falloff": 0.7,
@@ -4911,6 +4952,7 @@
     "shotSpread": 6,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 13,
       "obstacleDamage": 1,
       "falloff": 0.8,
@@ -4984,6 +5026,7 @@
     "shotSpread": 2.5,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 35,
       "obstacleDamage": 1,
       "falloff": 0.75,
@@ -5057,6 +5100,7 @@
     "shotSpread": 3.5,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 35,
       "obstacleDamage": 1,
       "falloff": 0.75,
@@ -5131,6 +5175,7 @@
     "shotSpread": 1.25,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 0,
       "obstacleDamage": 1,
       "falloff": 10,
@@ -5191,6 +5236,7 @@
     "shotSpread": 1.25,
     "bulletCount": 1,
     "bulletType": {
+      "type": "bullet",
       "damage": 0,
       "obstacleDamage": 1,
       "falloff": 10,
@@ -5252,6 +5298,7 @@
     "bulletCount": 1,
     "projType": {
       "explosionType": {
+        "type": "explosion",
         "damage": 95,
         "obstacleDamage": 1.3,
         "teamDamage": false,
