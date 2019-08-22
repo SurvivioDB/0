@@ -150,6 +150,20 @@
     },
     "lootIMG": "https://surviv.io/img/loot/player-helmet-dm-01.svg"
   },
+  "helmet03_dm02": {
+    "name": "Marksman Helmet",
+    "type": "helmet",
+    "level": 3,
+    "damageReduction": 0.55,
+    "perk": "splinter",
+    "skinImg": {
+      "baseTint": "16777215 | #FFFFFF",
+      "baseTintRed": "16777215 | #FFFFFF",
+      "baseTintBlue": "16777215 | #FFFFFF",
+      "baseSprite": "https://surviv.io/img/player/player-helmet-dm-02.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/player-helmet-dm-02.svg"
+  },
   "helmet04_medic": {
     "name": "Medic Helmet",
     "type": "helmet",
@@ -3714,6 +3728,7 @@
         "saturated": "13303808 | #CB0000"
       }
     },
+    "noSplinter": true,
     "headshotMult": 1,
     "speed": {"equip": 0, "attack": -1},
     "worldIMG": "https://surviv.io/img/guns/gun-usas-01.svg",
@@ -5194,6 +5209,7 @@
         "saturated": "14869218 | #E2E2E2"
       }
     },
+    "noSplinter": true,
     "headshotMult": 2,
     "speed": {"equip": 0, "attack": 0},
     "worldTINT": "16733184 | #FF5400",
@@ -5255,6 +5271,7 @@
         "saturated": "14869218 | #E2E2E2"
       }
     },
+    "noSplinter": true,
     "headshotMult": 2,
     "speed": {"equip": 0, "attack": 0},
     "worldTINT": "16733184 | #FF5400",
@@ -5332,6 +5349,7 @@
       "worldIMG": "https://surviv.io/img/proj/proj-potato-02.svg",
       "lootIMG": "https://surviv.io/img/loot/loot-throwable-potato.svg"
     },
+    "noSplinter": true,
     "headshotMult": 1,
     "speed": {"equip": -3, "attack": 0},
     "worldIMG": "https://surviv.io/img/guns/gun-potato-cannon-01.svg",
@@ -5438,6 +5456,55 @@
     },
     "lootIMG": "https://surviv.io/img/loot/loot-shirt-outfitBase.svg"
   },
+  "outfitDev": {
+    "name": "Developer Swag",
+    "lore": "Two-time limited edition print.",
+    "type": "outfit",
+    "rarity": 5,
+    "skinImg": {
+      "baseTint": "3442216 | #348628",
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitDC.svg",
+      "handTint": "6937122 | #69DA22",
+      "handSprite": "https://surviv.io/img/player/player-hands-02.svg",
+      "footTint": "6937122 | #69DA22",
+      "footSprite": "https://surviv.io/img/player/player-feet-02.svg",
+      "backpackTint": "2902793 | #2C4B09",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/loot-shirt-outfitDev.svg"
+  },
+  "outfitMod": {
+    "name": "Discord Moderatr",
+    "lore": "For those who wield the power of the pan.",
+    "type": "outfit",
+    "rarity": 3,
+    "skinImg": {
+      "baseTint": "3380187 | #3393DB",
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitDC.svg",
+      "handTint": "9684974 | #93C7EE",
+      "handSprite": "https://surviv.io/img/player/player-hands-02.svg",
+      "footTint": "9684974 | #93C7EE",
+      "footSprite": "https://surviv.io/img/player/player-feet-02.svg",
+      "backpackTint": "1529478 | #175686",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/loot-shirt-outfitMod.svg"
+  },
+  "outfitWheat": {
+    "name": "Splintered Wheat",
+    "type": "outfit",
+    "skinImg": {
+      "baseTint": "16777215 | #FFFFFF",
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitWheat.svg",
+      "handTint": "15785362 | #F0DD92",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "15785362 | #F0DD92",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "13346845 | #CBA81D",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/loot-shirt-outfitWheat.svg"
+  },
   "outfitNoir": {
     "name": "Neo Noir",
     "type": "outfit",
@@ -5518,7 +5585,7 @@
     "type": "outfit",
     "skinImg": {
       "baseTint": "16777215 | #FFFFFF",
-      "baseSprite": "https://surviv.io/img/player/player-base-05.svg",
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitSpetsnaz.svg",
       "handTint": "15000804 | #E4E4E4",
       "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
       "footTint": "15000804 | #E4E4E4",
@@ -5526,7 +5593,7 @@
       "backpackTint": "13816530 | #D2D2D2",
       "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
     },
-    "lootIMG": "https://surviv.io/img/loot/loot-shirt-04.svg"
+    "lootIMG": "https://surviv.io/img/loot/loot-shirt-outfitSpetsnaz.svg"
   },
   "outfitWoodsCloak": {
     "name": "GreenCloak",
@@ -5578,7 +5645,7 @@
     "type": "outfit",
     "skinImg": {
       "baseTint": "16777215 | #FFFFFF",
-      "baseSprite": "https://surviv.io/img/player/player-base-04.svg",
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitLumber.svg",
       "handTint": "8258312 | #7E0308",
       "handSprite": "https://surviv.io/img/player/player-hands-02.svg",
       "footTint": "8258312 | #7E0308",
@@ -5586,7 +5653,7 @@
       "backpackTint": "4854547 | #4A1313",
       "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
     },
-    "lootIMG": "https://surviv.io/img/loot/loot-shirt-03.svg"
+    "lootIMG": "https://surviv.io/img/loot/loot-shirt-outfitLumber.svg"
   },
   "outfitVerde": {
     "name": "Poncho Verde",
@@ -5653,7 +5720,7 @@
     "type": "outfit",
     "skinImg": {
       "baseTint": "16777215 | #FFFFFF",
-      "baseSprite": "https://surviv.io/img/player/player-base-03.svg",
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitHeaven.svg",
       "handTint": "13762639 | #D2004F",
       "handSprite": "https://surviv.io/img/player/player-hands-02.svg",
       "footTint": "13762639 | #D2004F",
@@ -5661,7 +5728,7 @@
       "backpackTint": "36503 | #008E97",
       "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
     },
-    "lootIMG": "https://surviv.io/img/loot/loot-shirt-02.svg"
+    "lootIMG": "https://surviv.io/img/loot/loot-shirt-outfitHeaven.svg"
   },
   "outfitMeteor": {
     "name": "Falling Star",
@@ -7551,7 +7618,7 @@
     "type": "emote",
     "name": "Flag Lithuania",
     "rarity": 1,
-    "texture": "https://surviv.io/img/emotes/flag-azerbaijan.svg",
+    "texture": "https://surviv.io/img/emotes/flag-lithuania.svg",
     "sound": "emote_01",
     "channel": "ui",
     "teamOnly": false,
@@ -7938,8 +8005,8 @@
     "https://surviv.io/audio/ui/ping_leader_01.mp3"
   ],
   "info": {
-    "version": 62,
-    "timestamp": 1566099000337,
-    "date": "18/08/2019 @ 3:30AM UTC"
+    "version": 63,
+    "timestamp": 1566442800691,
+    "date": "22/08/2019 @ 3:00AM UTC"
   }
 }

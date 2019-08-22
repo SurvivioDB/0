@@ -150,6 +150,20 @@
     },
     "lootIMG": "https://surviv.io/img/loot/player-helmet-dm-01.svg"
   },
+  "helmet03_dm02": {
+    "name": "Marksman Helmet",
+    "type": "helmet",
+    "level": 3,
+    "damageReduction": 0.55,
+    "perk": "splinter",
+    "skinImg": {
+      "baseTint": "16777215 | #FFFFFF",
+      "baseTintRed": "16777215 | #FFFFFF",
+      "baseTintBlue": "16777215 | #FFFFFF",
+      "baseSprite": "https://surviv.io/img/player/player-helmet-dm-02.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/player-helmet-dm-02.svg"
+  },
   "helmet04_medic": {
     "name": "Medic Helmet",
     "type": "helmet",
@@ -3714,6 +3728,7 @@
         "saturated": "13303808 | #CB0000"
       }
     },
+    "noSplinter": true,
     "headshotMult": 1,
     "speed": {"equip": 0, "attack": -1},
     "worldIMG": "https://surviv.io/img/guns/gun-usas-01.svg",
@@ -5194,6 +5209,7 @@
         "saturated": "14869218 | #E2E2E2"
       }
     },
+    "noSplinter": true,
     "headshotMult": 2,
     "speed": {"equip": 0, "attack": 0},
     "worldTINT": "16733184 | #FF5400",
@@ -5255,6 +5271,7 @@
         "saturated": "14869218 | #E2E2E2"
       }
     },
+    "noSplinter": true,
     "headshotMult": 2,
     "speed": {"equip": 0, "attack": 0},
     "worldTINT": "16733184 | #FF5400",
@@ -5332,6 +5349,7 @@
       "worldIMG": "https://surviv.io/img/proj/proj-potato-02.svg",
       "lootIMG": "https://surviv.io/img/loot/loot-throwable-potato.svg"
     },
+    "noSplinter": true,
     "headshotMult": 1,
     "speed": {"equip": -3, "attack": 0},
     "worldIMG": "https://surviv.io/img/guns/gun-potato-cannon-01.svg",
