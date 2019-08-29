@@ -164,6 +164,20 @@
     },
     "lootIMG": "https://surviv.io/img/loot/player-helmet-dm-02.svg"
   },
+  "helmet03_dm03": {
+    "name": "Marksman Helmet",
+    "type": "helmet",
+    "level": 3,
+    "damageReduction": 0.55,
+    "perk": "small_arms",
+    "skinImg": {
+      "baseTint": "16777215 | #FFFFFF",
+      "baseTintRed": "16777215 | #FFFFFF",
+      "baseTintBlue": "16777215 | #FFFFFF",
+      "baseSprite": "https://surviv.io/img/player/player-helmet-dm-03.svg"
+    },
+    "lootIMG": "https://surviv.io/img/loot/player-helmet-dm-03.svg"
+  },
   "helmet04_medic": {
     "name": "Medic Helmet",
     "type": "helmet",
@@ -407,31 +421,6 @@
     "attack": {"rad": 0.9, "cooldownTime": 0.25, "damageTime": 0.1},
     "speed": {"equip": 1},
     "lootIMG": "https://surviv.io/img/loot/loot-weapon-fists.svg",
-    "calculations": {
-      "damage": {
-        "swingDamage": [24, 16.2, 12, 9.24, 8.16],
-        "swingDamageObj": 24,
-        "burDPS": [96, 65, 48, 37, 33],
-        "htKill": [5, 7, 9, 11, 13],
-        "ttKill": [1, 1.5, 2, 2.5, 3]
-      },
-      "firing": {"swingPerMin": 240, "swingPerSec": 4, "swingDelay": 0.25}
-    }
-  },
-  "knuckles": {
-    "name": "Knuckles",
-    "type": "melee",
-    "quality": 0,
-    "autoAttack": false,
-    "switchDelay": 0.25,
-    "damage": 24,
-    "obstacleDamage": 1,
-    "headshotMult": 1,
-    "noPotatoSwap": true,
-    "noDrop": true,
-    "attack": {"rad": 0.9, "cooldownTime": 0.25, "damageTime": 0.1},
-    "speed": {"equip": 1, "attack": 0},
-    "lootIMG": "https://surviv.io/img/loot/loot-melee-knuckles-rusted.svg",
     "calculations": {
       "damage": {
         "swingDamage": [24, 16.2, 12, 9.24, 8.16],
