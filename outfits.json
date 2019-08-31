@@ -1,1 +1,900 @@
-undefined
+{
+  "outfitBase": {
+    "noDropOnDeath": true,
+    "name": "Basic Outfit",
+    "rarity": 0,
+    "lore": "Pure and simple.",
+    "type": "outfit",
+    "skinImg": {
+      "baseTint": "16303476 | #F8C574",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "16303476 | #F8C574",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "16303476 | #F8C574",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "8480055 | #816537",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-outfitBase.svg",
+      "tint": false,
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    }
+  },
+  "outfitDev": {
+    "name": "Developer Swag",
+    "noDropOnDeath": true,
+    "skinImg": {
+      "baseTint": "3442216 | #348628",
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitDC.svg",
+      "handTint": "6937122 | #69DA22",
+      "handSprite": "https://surviv.io/img/player/player-hands-02.svg",
+      "footTint": "6937122 | #69DA22",
+      "footSprite": "https://surviv.io/img/player/player-feet-02.svg",
+      "backpackTint": "2902793 | #2C4B09",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-outfitDev.svg",
+      "tint": false
+    },
+    "rarity": 5,
+    "lore": "Two-time limited edition print."
+  },
+  "outfitMod": {
+    "name": "Discord Moderatr",
+    "noDropOnDeath": true,
+    "skinImg": {
+      "baseTint": "3380187 | #3393DB",
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitDC.svg",
+      "handTint": "9684974 | #93C7EE",
+      "handSprite": "https://surviv.io/img/player/player-hands-02.svg",
+      "footTint": "9684974 | #93C7EE",
+      "footSprite": "https://surviv.io/img/player/player-feet-02.svg",
+      "backpackTint": "1529478 | #175686",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-outfitMod.svg",
+      "tint": false
+    },
+    "rarity": 3,
+    "lore": "For those who wield the power of the pan."
+  },
+  "outfitWheat": {
+    "name": "Splintered Wheat",
+    "skinImg": {
+      "baseTint": false,
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitWheat.svg",
+      "handTint": "15785362 | #F0DD92",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "15785362 | #F0DD92",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "13346845 | #CBA81D",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-outfitWheat.svg",
+      "tint": false
+    }
+  },
+  "outfitNoir": {
+    "name": "Neo Noir",
+    "skinImg": {
+      "baseTint": "1776411 | #1B1B1B",
+      "baseSprite": "https://surviv.io/img/player/player-base-02.svg",
+      "handTint": false,
+      "handSprite": "https://surviv.io/img/player/player-hands-02.svg",
+      "footTint": false,
+      "footSprite": "https://surviv.io/img/player/player-feet-02.svg",
+      "backpackTint": "7829367 | #777777",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "1776411 | #1B1B1B"
+    }
+  },
+  "outfitRedLeaderAged": {
+    "name": "Weathered Red",
+    "skinImg": {
+      "baseTint": "10098712 | #9A1818",
+      "baseSprite": "https://surviv.io/img/player/player-base-02.svg",
+      "handTint": "16711680 | #FF0000",
+      "handSprite": "https://surviv.io/img/player/player-hands-02.svg",
+      "footTint": "16711680 | #FF0000",
+      "footSprite": "https://surviv.io/img/player/player-feet-02.svg",
+      "backpackTint": "5442572 | #530C0C",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "10098712 | #9A1818"
+    }
+  },
+  "outfitBlueLeaderAged": {
+    "name": "Stifled Blue",
+    "skinImg": {
+      "baseTint": "1523353 | #173E99",
+      "baseSprite": "https://surviv.io/img/player/player-base-02.svg",
+      "handTint": "20223 | #004EFF",
+      "handSprite": "https://surviv.io/img/player/player-hands-02.svg",
+      "footTint": "20223 | #004EFF",
+      "footSprite": "https://surviv.io/img/player/player-feet-02.svg",
+      "backpackTint": "794700 | #0C204C",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "1523353 | #173E99"
+    }
+  },
+  "outfitRedLeader": {
+    "name": "Red Leader",
+    "noDrop": true,
+    "skinImg": {
+      "baseTint": "10158080 | #9B0000",
+      "baseSprite": "https://surviv.io/img/player/player-base-02.svg",
+      "handTint": "16711680 | #FF0000",
+      "handSprite": "https://surviv.io/img/player/player-hands-02.svg",
+      "footTint": "16711680 | #FF0000",
+      "footSprite": "https://surviv.io/img/player/player-feet-02.svg",
+      "backpackTint": "5439488 | #530000",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "8650752 | #840000"
+    }
+  },
+  "outfitBlueLeader": {
+    "name": "Blue Leader",
+    "noDrop": true,
+    "skinImg": {
+      "baseTint": "12187 | #002F9B",
+      "baseSprite": "https://surviv.io/img/player/player-base-02.svg",
+      "handTint": "20223 | #004EFF",
+      "handSprite": "https://surviv.io/img/player/player-hands-02.svg",
+      "footTint": "20223 | #004EFF",
+      "footSprite": "https://surviv.io/img/player/player-feet-02.svg",
+      "backpackTint": "5964 | #00174C",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "13223 | #0033A7"
+    }
+  },
+  "outfitSpetsnaz": {
+    "name": "Siberian Assault",
+    "skinImg": {
+      "baseTint": false,
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitSpetsnaz.svg",
+      "handTint": "15000804 | #E4E4E4",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "15000804 | #E4E4E4",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "13816530 | #D2D2D2",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-outfitSpetsnaz.svg",
+      "tint": false
+    }
+  },
+  "outfitWoodsCloak": {
+    "name": "GreenCloak",
+    "skinImg": {
+      "baseTint": "2817792 | #2AFF00",
+      "baseSprite": "https://surviv.io/img/player/player-base-02.svg",
+      "handTint": "16711594 | #FEFFAA",
+      "handSprite": "https://surviv.io/img/player/player-hands-02.svg",
+      "footTint": "16711594 | #FEFFAA",
+      "footSprite": "https://surviv.io/img/player/player-feet-02.svg",
+      "backpackTint": "15635271 | #EE9347",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "2817792 | #2AFF00"
+    }
+  },
+  "outfitElf": {
+    "name": "Tallow's Little Helper",
+    "skinImg": {
+      "baseTint": "12845056 | #C40000",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "1489152 | #16B900",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "1489152 | #16B900",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "365312 | #059300",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "1489152 | #16B900"
+    }
+  },
+  "outfitImperial": {
+    "name": "Imperial Seal",
+    "skinImg": {
+      "baseTint": "12320813 | #BC002D",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": false,
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": false,
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "12625727 | #C0A73F",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "12320813 | #BC002D"
+    }
+  },
+  "outfitLumber": {
+    "name": "Woodcutter's Wrap",
+    "skinImg": {
+      "baseTint": false,
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitLumber.svg",
+      "handTint": "8258312 | #7E0308",
+      "handSprite": "https://surviv.io/img/player/player-hands-02.svg",
+      "footTint": "8258312 | #7E0308",
+      "footSprite": "https://surviv.io/img/player/player-feet-02.svg",
+      "backpackTint": "4854547 | #4A1313",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-outfitLumber.svg",
+      "tint": false
+    }
+  },
+  "outfitVerde": {
+    "name": "Poncho Verde",
+    "skinImg": {
+      "baseTint": "1785868 | #1B400C",
+      "baseSprite": "https://surviv.io/img/player/player-base-02.svg",
+      "handTint": "11912587 | #B5C58B",
+      "handSprite": "https://surviv.io/img/player/player-hands-02.svg",
+      "footTint": "11912587 | #B5C58B",
+      "footSprite": "https://surviv.io/img/player/player-feet-02.svg",
+      "backpackTint": "11238441 | #AB7C29",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "1785868 | #1B400C"
+    }
+  },
+  "outfitPineapple": {
+    "name": "Valiant Pineapple",
+    "skinImg": {
+      "baseTint": "10027008 | #990000",
+      "baseSprite": "https://surviv.io/img/player/player-base-02.svg",
+      "handTint": "4985105 | #4C1111",
+      "handSprite": "https://surviv.io/img/player/player-hands-02.svg",
+      "footTint": "4985105 | #4C1111",
+      "footSprite": "https://surviv.io/img/player/player-feet-02.svg",
+      "backpackTint": "16763904 | #FFCC00",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "10027008 | #990000"
+    }
+  },
+  "outfitTarkhany": {
+    "name": "Tarkhany Regal",
+    "skinImg": {
+      "baseTint": "4927107 | #4B2E83",
+      "baseSprite": "https://surviv.io/img/player/player-base-02.svg",
+      "handTint": "16757760 | #FFB400",
+      "handSprite": "https://surviv.io/img/player/player-hands-02.svg",
+      "footTint": "16757760 | #FFB400",
+      "footSprite": "https://surviv.io/img/player/player-feet-02.svg",
+      "backpackTint": "4661344 | #472060",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "4927107 | #4B2E83"
+    }
+  },
+  "outfitWaterElem": {
+    "name": "Water Elemental",
+    "skinImg": {
+      "baseTint": "7143401 | #6CFFE9",
+      "baseSprite": "https://surviv.io/img/player/player-base-02.svg",
+      "handTint": "15990876 | #F4005C",
+      "handSprite": "https://surviv.io/img/player/player-hands-02.svg",
+      "footTint": "15990876 | #F4005C",
+      "footSprite": "https://surviv.io/img/player/player-feet-02.svg",
+      "backpackTint": "32644 | #007F84",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "7143401 | #6CFFE9"
+    }
+  },
+  "outfitHeaven": {
+    "name": "Celestial Garb",
+    "skinImg": {
+      "baseTint": false,
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitHeaven.svg",
+      "handTint": "13762639 | #D2004F",
+      "handSprite": "https://surviv.io/img/player/player-hands-02.svg",
+      "footTint": "13762639 | #D2004F",
+      "footSprite": "https://surviv.io/img/player/player-feet-02.svg",
+      "backpackTint": "36503 | #008E97",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-outfitHeaven.svg",
+      "tint": false
+    }
+  },
+  "outfitMeteor": {
+    "name": "Falling Star",
+    "skinImg": {
+      "baseTint": "9764864 | #950000",
+      "baseSprite": "https://surviv.io/img/player/player-base-02.svg",
+      "handTint": "16742400 | #FF7800",
+      "handSprite": "https://surviv.io/img/player/player-hands-02.svg",
+      "footTint": "16742400 | #FF7800",
+      "footSprite": "https://surviv.io/img/player/player-feet-02.svg",
+      "backpackTint": "4727582 | #48231E",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "9764864 | #950000"
+    }
+  },
+  "outfitIslander": {
+    "name": "Island Time",
+    "skinImg": {
+      "baseTint": "16762368 | #FFC600",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "148992 | #024600",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "148992 | #024600",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "4495104 | #449700",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "16762368 | #FFC600"
+    }
+  },
+  "outfitAqua": {
+    "name": "Aquatic Avenger",
+    "skinImg": {
+      "baseTint": "47778 | #00BAA2",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "65502 | #00FFDE",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "65502 | #00FFDE",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "536620 | #08302C",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "47778 | #00BAA2"
+    }
+  },
+  "outfitCoral": {
+    "name": "Coral Guise",
+    "skinImg": {
+      "baseTint": "16736103 | #FF5F67",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "16746895 | #FF898F",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "16746895 | #FF898F",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "16772298 | #FFECCA",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "16736103 | #FF5F67"
+    }
+  },
+  "outfitKhaki": {
+    "name": "The Initiative",
+    "rarity": 1,
+    "skinImg": {
+      "baseTint": "12824197 | #C3AE85",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "9404516 | #8F8064",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "9404516 | #8F8064",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "4208940 | #40392C",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "12824197 | #C3AE85"
+    }
+  },
+  "outfitParma": {
+    "name": "PARMA Jumpsuit",
+    "rarity": 1,
+    "skinImg": {
+      "baseTint": "8746585 | #857659",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "12824197 | #C3AE85",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "12824197 | #C3AE85",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "4208940 | #40392C",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-outfitParma.svg",
+      "tint": "12824197 | #C3AE85"
+    }
+  },
+  "outfitCasanova": {
+    "name": "Casanova Silks",
+    "skinImg": {
+      "baseTint": "4327436 | #42080C",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "7602183 | #740007",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "7602183 | #740007",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "1052688 | #101010",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "4327436 | #42080C"
+    }
+  },
+  "outfitPrisoner": {
+    "name": "The New Black",
+    "skinImg": {
+      "baseTint": "16735266 | #FF5C22",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "16545059 | #FC7523",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "16545059 | #FC7523",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "16756224 | #FFAE00",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "16735266 | #FF5C22"
+    }
+  },
+  "outfitJester": {
+    "name": "Jester's Folly",
+    "skinImg": {
+      "baseTint": "7798904 | #770078",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "4915276 | #4B004C",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "4915276 | #4B004C",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "936960 | #0E4C00",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "7798904 | #770078"
+    }
+  },
+  "outfitWoodland": {
+    "name": "Woodland Combat",
+    "rarity": 1,
+    "lore": "Common component of PARMA survival caches.",
+    "skinImg": {
+      "baseTint": "2831146 | #2B332A",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "5925970 | #5A6C52",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "5925970 | #5A6C52",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "5056000 | #4D2600",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-outfitWoodland.svg",
+      "tint": false
+    }
+  },
+  "outfitRoyalFortune": {
+    "name": "Royal Fortune",
+    "rarity": 3,
+    "skinImg": {
+      "baseTint": "8333091 | #7F2723",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "15254058 | #E8C22A",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "15254058 | #E8C22A",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "9981696 | #984F00",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-outfitRoyalFortune.svg",
+      "tint": false
+    }
+  },
+  "outfitKeyLime": {
+    "name": "Key Lime",
+    "rarity": 1,
+    "lore": "Not for eating.",
+    "skinImg": {
+      "baseTint": "13107007 | #C7FF3F",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "15662941 | #EEFF5D",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "15662941 | #EEFF5D",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "12355383 | #BC8737",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-outfitKeyLime.svg",
+      "tint": false
+    }
+  },
+  "outfitCobaltShell": {
+    "name": "Cobalt Shell",
+    "rarity": 1,
+    "lore": "It means bluish.",
+    "skinImg": {
+      "baseTint": "11095 | #002B57",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "2711164 | #295E7C",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "2711164 | #295E7C",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "19093 | #004A95",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-outfitCobaltShell.svg",
+      "tint": false
+    }
+  },
+  "outfitCarbonFiber": {
+    "name": "Carbon Fiber",
+    "rarity": 1,
+    "lore": "Military-grade, fine spun filament.",
+    "skinImg": {
+      "baseTint": "2171169 | #212121",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "1842204 | #1C1C1C",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "1842204 | #1C1C1C",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "3552822 | #363636",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-outfitCarbonFiber.svg",
+      "tint": false
+    }
+  },
+  "outfitDarkGloves": {
+    "name": "The Professional",
+    "rarity": 1,
+    "lore": "True survivrs wear the dark gloves.",
+    "skinImg": {
+      "baseTint": "16303476 | #F8C574",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "12482560 | #BE7800",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "12482560 | #BE7800",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "10708736 | #A36700",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-outfitDarkGloves.svg",
+      "tint": false
+    }
+  },
+  "outfitDarkShirt": {
+    "name": "The Semi-Pro",
+    "noDropOnDeath": true,
+    "rarity": 1,
+    "lore": "Some survivrs wear the dark shirt.",
+    "skinImg": {
+      "baseTint": "12482560 | #BE7800",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "16303476 | #F8C574",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "16303476 | #F8C574",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "15183443 | #E7AE53",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-outfitDarkShirt.svg",
+      "tint": false
+    }
+  },
+  "outfitDarkGhillie": {
+    "name": "Incursion Ghillie",
+    "camo": true,
+    "skinImg": {
+      "baseTint": "5005348 | #4C6024",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "5005348 | #4C6024",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "5005348 | #4C6024",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "6697728 | #663300",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "5005348 | #4C6024"
+    }
+  },
+  "outfitDesertGhillie": {
+    "name": "Desert Ghillie",
+    "camo": true,
+    "skinImg": {
+      "baseTint": "14657377 | #DFA761",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "14657377 | #DFA761",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "14657377 | #DFA761",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "6697728 | #663300",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "14657377 | #DFA761"
+    }
+  },
+  "outfitSummerGhillie": {
+    "name": "Ghillie Suit",
+    "camo": true,
+    "skinImg": {
+      "baseTint": "6658085 | #659825",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "6658085 | #659825",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "6658085 | #659825",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "6697728 | #663300",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "6658085 | #659825"
+    }
+  },
+  "outfitSpringGhillie": {
+    "name": "Ghillie Suit",
+    "camo": true,
+    "skinImg": {
+      "baseTint": "4285194 | #41630A",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "4285194 | #41630A",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "4285194 | #41630A",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "6697728 | #663300",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "4285194 | #41630A"
+    }
+  },
+  "outfitGhillie": {
+    "name": "Ghillie Suit",
+    "camo": true,
+    "skinImg": {
+      "baseTint": "8630096 | #83AF50",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "8630096 | #83AF50",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "8630096 | #83AF50",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "6697728 | #663300",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
+      "tint": "8630096 | #83AF50"
+    }
+  },
+  "outfitDesertCamo": {
+    "name": "Desert Camo",
+    "rarity": 1,
+    "skinImg": {
+      "baseTint": "13736782 | #D19B4E",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "11169046 | #AA6D16",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "11169046 | #AA6D16",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "16763778 | #FFCB82",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-outfitDesertCamo.svg",
+      "tint": false
+    }
+  },
+  "outfitCamo": {
+    "name": "Forest Camo",
+    "rarity": 1,
+    "lore": "Be one with the trees.",
+    "skinImg": {
+      "baseTint": "10066278 | #999966",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "8684631 | #848457",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "8684631 | #848457",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "6710835 | #666633",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-outfitCamo.svg",
+      "tint": false
+    }
+  },
+  "outfitRed": {
+    "name": "Target Practice",
+    "rarity": 1,
+    "lore": "On the plus side, they won't see you bleed.",
+    "skinImg": {
+      "baseTint": "16711680 | #FF0000",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "13893632 | #D40000",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "13893632 | #D40000",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "11993088 | #B70000",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-outfitRed.svg",
+      "tint": false
+    }
+  },
+  "outfitWhite": {
+    "name": "Arctic Avenger",
+    "rarity": 1,
+    "lore": "No business like snow business.",
+    "skinImg": {
+      "baseTint": "14935011 | #E3E3E3",
+      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
+      "handTint": "15658734 | #EEEEEE",
+      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
+      "footTint": "15658734 | #EEEEEE",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "14474460 | #DCDCDC",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-shirt-outfitWhite.svg",
+      "tint": false
+    }
+  },
+  "outfitBarrel": {
+    "name": "Fish in a Barrel",
+    "obstacleType": "barrel_01",
+    "baseScale": 0.8,
+    "lootImg": {"tint": "3750201 | #393939"}
+  },
+  "outfitWoodBarrel": {
+    "name": "Fish in a Wood Barrel",
+    "obstacleType": "barrel_02",
+    "baseScale": 1,
+    "lootImg": {"tint": "11235106 | #AB6F22"}
+  },
+  "outfitStone": {
+    "name": "Stoneskin",
+    "obstacleType": "stone_01",
+    "baseScale": 0.9,
+    "lootImg": {"tint": "7434609 | #717171"}
+  },
+  "outfitTree": {
+    "name": "Barkskin",
+    "obstacleType": "tree_07",
+    "baseScale": 1,
+    "lootImg": {"tint": "4599058 | #462D12"}
+  },
+  "outfitTreeSpooky": {
+    "name": "Spooky Barkskin",
+    "obstacleType": "tree_05",
+    "baseScale": 1,
+    "lootImg": {"tint": "1775895 | #1B1917"}
+  },
+  "outfitStump": {
+    "name": "Stump Costume",
+    "obstacleType": "tree_09",
+    "baseScale": 1,
+    "lootImg": {"tint": "8602624 | #834400"}
+  },
+  "outfitBush": {
+    "name": "Bush Wookie",
+    "obstacleType": "bush_01b",
+    "baseScale": 1,
+    "lootImg": {"tint": "3889951 | #3B5B1F"}
+  },
+  "outfitLeafPile": {
+    "name": "Leaf Pile Wookie",
+    "obstacleType": "bush_06b",
+    "baseScale": 1,
+    "lootImg": {"tint": "16731392 | #FF4D00"}
+  },
+  "outfitCrate": {
+    "name": "Guy in a Box",
+    "obstacleType": "crate_01",
+    "baseScale": 1,
+    "lootImg": {"tint": "6697728 | #663300"}
+  },
+  "outfitTable": {
+    "name": "Yard Sale",
+    "obstacleType": "table_01",
+    "baseScale": 1,
+    "lootImg": {"tint": "6697728 | #663300"}
+  },
+  "outfitSoviet": {
+    "name": "Comrade in a Box",
+    "obstacleType": "crate_02",
+    "baseScale": 1,
+    "lootImg": {"tint": "6697728 | #663300"}
+  },
+  "outfitAirdrop": {
+    "name": "Air Drop Costume",
+    "obstacleType": "crate_10",
+    "baseScale": 1,
+    "lootImg": {"tint": "6579300 | #646464"}
+  },
+  "outfitOven": {
+    "name": "Oven Costume",
+    "obstacleType": "oven_01",
+    "baseScale": 1,
+    "lootImg": {"tint": "14935011 | #E3E3E3"}
+  },
+  "outfitRefrigerator": {
+    "name": "Fridge Costume",
+    "obstacleType": "refrigerator_01b",
+    "baseScale": 1,
+    "lootImg": {"tint": "7733259 | #76000B"}
+  },
+  "outfitVending": {
+    "name": "Vending Costume",
+    "obstacleType": "vending_01",
+    "baseScale": 1,
+    "lootImg": {"tint": "10925 | #002AAD"}
+  },
+  "outfitPumpkin": {
+    "name": "Pumpkin Costume",
+    "obstacleType": "pumpkin_01",
+    "baseScale": 1,
+    "lootImg": {"tint": "15889667 | #F27503"}
+  },
+  "outfitWoodpile": {
+    "name": "Woodpile Costume",
+    "obstacleType": "woodpile_01",
+    "baseScale": 1,
+    "lootImg": {"tint": "9455616 | #904800"}
+  },
+  "outfitToilet": {
+    "name": "Toilet Costume",
+    "obstacleType": "toilet_02",
+    "baseScale": 1,
+    "lootImg": {"tint": false}
+  }
+}
