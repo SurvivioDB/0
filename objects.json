@@ -1,0 +1,1344 @@
+{
+  "barrel_01": {
+    "img": {"sprite": "https://surviv.io/img/map/map-barrel-01.svg"}
+  },
+  "barrel_01b": {
+    "img": {"tint": "13224393 | #C9C9C9"},
+    "loot": ["tier_surviv", "mirv", "mirv", "mirv", "outfitCarbonFiber"]
+  },
+  "barrel_02": {
+    "health": 60,
+    "img": {"sprite": "https://surviv.io/img/map/map-barrel-02.svg"}
+  },
+  "barrel_03": {
+    "health": 20,
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-barrel-03.svg",
+      "residue": "https://surviv.io/img/map/map-barrel-res-03.svg"
+    }
+  },
+  "barrel_04": {
+    "health": 20,
+    "loot": ["tier_soviet"],
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-barrel-04.svg",
+      "residue": "https://surviv.io/img/map/map-barrel-res-03.svg"
+    }
+  },
+  "bed_sm_01": {"img": {"sprite": "https://surviv.io/img/map/map-bed-01.svg"}},
+  "bed_lg_01": {
+    "img": {"residue": "https://surviv.io/img/map/map-bed-res-02.svg"}
+  },
+  "bollard_01": {
+    "type": "obstacle",
+    "height": 0.5,
+    "collidable": true,
+    "destructible": false,
+    "health": 300,
+    "hitParticle": "barrelChip",
+    "explodeParticle": "barrelBreak",
+    "reflectBullets": true,
+    "loot": [],
+    "map": {"display": true, "color": "6310464 | #604A40"},
+    "terrain": {"grass": true, "beach": false},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-bollard-01.svg",
+      "tint": false
+    }
+  },
+  "bookshelf_01": {
+    "img": {"sprite": "https://surviv.io/img/map/map-bookshelf-01.svg"},
+    "loot": ["tier_world"]
+  },
+  "bookshelf_02": {
+    "img": {"sprite": "https://surviv.io/img/map/map-bookshelf-02.svg"},
+    "loot": ["tier_soviet"]
+  },
+  "bush_01": {"img": {"sprite": "https://surviv.io/img/map/map-bush-01.svg"}},
+  "bush_01b": {},
+  "bush_01f": {
+    "img": {"sprite": "https://surviv.io/img/map/map-bush-01f.svg"},
+    "map": {"color": "1793032 | #1B5C08"}
+  },
+  "bush_01sv": {
+    "hitParticle": "leafPrickly",
+    "explodeParticle": "leafPrickly",
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-bush-01sv.svg",
+      "residue": "https://surviv.io/img/map/map-bush-res-01sv.svg"
+    },
+    "map": {"color": "5207588 | #4F7624"}
+  },
+  "bush_01x": {
+    "map": {"color": "4545840 | #455D30"},
+    "img": {"sprite": "https://surviv.io/img/map/map-bush-01x.svg"}
+  },
+  "bush_02": {
+    "img": {"residue": "https://surviv.io/img/map/map-bush-res-02.svg"}
+  },
+  "bush_03": {"img": {"sprite": "https://surviv.io/img/map/map-bush-03.svg"}},
+  "bush_04": {
+    "hitParticle": "leafRiver",
+    "explodeParticle": "leafRiver",
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-bush-04.svg",
+      "residue": "https://surviv.io/img/map/map-bush-res-04.svg"
+    },
+    "terrain": {
+      "grass": true,
+      "river": {"centerWeight": 0.3},
+      "riverShore": true
+    }
+  },
+  "bush_05": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-bush-05.svg",
+      "residue": "https://surviv.io/img/map/map-bush-res-05.svg"
+    },
+    "map": {"color": "6971965 | #6A623D"}
+  },
+  "bush_06": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-bush-06.svg",
+      "residue": "https://surviv.io/img/map/map-bush-res-06.svg"
+    },
+    "map": {"display": true, "color": "6971965 | #6A623D"}
+  },
+  "bush_06b": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-bush-06.svg",
+      "residue": "https://surviv.io/img/map/map-bush-res-06.svg"
+    },
+    "map": {"display": true, "color": "14041344 | #D64100"}
+  },
+  "bush_07": {
+    "hitParticle": "leafRiver",
+    "explodeParticle": "leafRiver",
+    "img": {"sprite": "https://surviv.io/img/map/map-bush-07.svg"}
+  },
+  "bush_07sp": {
+    "hitParticle": "leafRiver",
+    "explodeParticle": "leafRiver",
+    "map": {"display": true, "color": "671242 | #0A3E0A"},
+    "img": {"sprite": "https://surviv.io/img/map/map-bush-07sp.svg"}
+  },
+  "bush_07x": {"img": {"sprite": "https://surviv.io/img/map/map-bush-07x.svg"}},
+  "case_01": {"loot": ["deagle"]},
+  "case_02": {
+    "img": {"sprite": "https://surviv.io/img/map/map-case-deagle-02.svg"},
+    "loot": ["deagle", "deagle"]
+  },
+  "case_03": {
+    "health": 140,
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-case-hatchet-01.svg",
+      "residue": "https://surviv.io/img/map/map-case-hatchet-res-01.svg"
+    },
+    "loot": ["tier_hatchet"],
+    "hitParticle": "blackChip"
+  },
+  "case_04": {
+    "health": 140,
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-case-flare-01.svg",
+      "residue": "https://surviv.io/img/map/map-case-flare-res-01.svg"
+    },
+    "loot": ["flare_gun"],
+    "hitParticle": "blackChip",
+    "map": {"display": true, "color": "7025920 | #6B3500"}
+  },
+  "case_05": {
+    "health": 140,
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-case-meteor-01.svg",
+      "residue": "https://surviv.io/img/map/map-case-meteor-res-01.svg"
+    },
+    "loot": ["flare_gun", "strobe", "strobe", "strobe", "strobe"],
+    "hitParticle": "blackChip",
+    "map": {"display": false, "color": "7025920 | #6B3500"}
+  },
+  "case_06": {
+    "health": 140,
+    "img": {"sprite": "https://surviv.io/img/map/map-case-chrys-01.svg"},
+    "loot": ["tier_chest", "tier_chrys_case"],
+    "hitParticle": "blackChip",
+    "map": {"display": false, "color": "7025920 | #6B3500"}
+  },
+  "case_07": {
+    "health": 200,
+    "img": {"sprite": "https://surviv.io/img/map/map-case-ring-01.svg"},
+    "loot": ["tier_ring_case"],
+    "hitParticle": "blackChip",
+    "map": {"display": false, "color": "7025920 | #6B3500"}
+  },
+  "chest_01": {
+    "loot": ["tier_chest", "tier_pirate_melee", "outfitRoyalFortune"],
+    "img": {"sprite": "https://surviv.io/img/map/map-chest-01.svg"}
+  },
+  "chest_02": {
+    "img": {"sprite": "https://surviv.io/img/map/map-chest-02.svg"},
+    "loot": ["tier_chest"],
+    "map": {"display": true, "color": "7025920 | #6B3500"}
+  },
+  "chest_03": {
+    "img": {"sprite": "https://surviv.io/img/map/map-chest-03.svg"},
+    "loot": ["tier_chest", "outfitWaterElem"]
+  },
+  "chest_03d": {
+    "img": {"sprite": "https://surviv.io/img/map/map-chest-03d.svg"},
+    "loot": ["tier_chest", "outfitWaterElem"]
+  },
+  "chest_03f": {
+    "img": {"sprite": "https://surviv.io/img/map/map-chest-03f.svg"},
+    "loot": ["tier_chest", "outfitKhaki"]
+  },
+  "chest_03x": {
+    "img": {"sprite": "https://surviv.io/img/map/map-chest-03x.svg"},
+    "loot": ["tier_chest", "outfitWaterElem"]
+  },
+  "chest_04": {
+    "health": 200,
+    "img": {"sprite": "https://surviv.io/img/map/map-case-basement-01.svg"},
+    "loot": ["outfitNoir", "tier_chest_04", "glock_dual", "smoke"],
+    "map": {"display": false, "color": "7025920 | #6B3500"}
+  },
+  "chest_04d": {
+    "health": 200,
+    "img": {"sprite": "https://surviv.io/img/map/map-case-basement-01.svg"},
+    "loot": ["outfitNoir", "tier_chest_04", "9mm", "smoke", "backpack02"],
+    "map": {"display": false, "color": "7025920 | #6B3500"}
+  },
+  "control_panel_01": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-control-panel-01.svg",
+      "use": "https://surviv.io/img/map/map-control-panel-02.svg"
+    }
+  },
+  "control_panel_02": {
+    "health": 175,
+    "img": {"sprite": "https://surviv.io/img/map/map-control-panel-02.svg"}
+  },
+  "control_panel_02b": {
+    "destructible": false,
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-control-panel-02.svg",
+      "use": "https://surviv.io/img/map/map-control-panel-01.svg"
+    }
+  },
+  "control_panel_03": {
+    "health": 150,
+    "img": {"sprite": "https://surviv.io/img/map/map-control-panel-03.svg"}
+  },
+  "control_panel_04": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-control-panel-04.svg",
+      "use": "https://surviv.io/img/map/map-control-panel-05.svg"
+    }
+  },
+  "control_panel_06": {
+    "health": 200,
+    "img": {"sprite": "https://surviv.io/img/map/map-control-panel-06.svg"}
+  },
+  "switch_01": {
+    "destructible": false,
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-switch-01.svg",
+      "use": "https://surviv.io/img/map/map-switch-02.svg"
+    }
+  },
+  "switch_02": {
+    "destructible": false,
+    "img": {"sprite": "https://surviv.io/img/map/map-switch-02.svg"}
+  },
+  "switch_03": {
+    "destructible": false,
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-switch-01.svg",
+      "use": "https://surviv.io/img/map/map-switch-02.svg"
+    }
+  },
+  "couch_01": {"img": {"sprite": "https://surviv.io/img/map/map-couch-01.svg"}},
+  "couch_02": {"img": {"sprite": "https://surviv.io/img/map/map-couch-02.svg"}},
+  "couch_02b": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-couch-02.svg",
+      "mirrorY": true
+    }
+  },
+  "couch_03": {"img": {"sprite": "https://surviv.io/img/map/map-couch-03.svg"}},
+  "crate_01": {"img": {"sprite": "https://surviv.io/img/map/map-crate-01.svg"}},
+  "crate_01x": {
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-01x.svg"}
+  },
+  "crate_02": {
+    "health": 140,
+    "loot": ["tier_soviet"],
+    "map": {"display": false},
+    "terrain": {"grass": true, "beach": false},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-02.svg"}
+  },
+  "crate_02x": {
+    "health": 140,
+    "loot": ["tier_soviet"],
+    "map": {"display": false},
+    "terrain": {"grass": true, "beach": false},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-02x.svg"}
+  },
+  "crate_02f": {
+    "health": 140,
+    "loot": ["tier_guns", "tier_armor", "tier_packs"],
+    "map": {"display": true, "color": "13369344 | #CC0000"},
+    "terrain": {"grass": true, "beach": false},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-02f.svg"}
+  },
+  "crate_02d": {
+    "health": 140,
+    "loot": [
+      "m1014",
+      "helmet03_lt_aged",
+      "outfitRedLeaderAged",
+      "machete_taiga"
+    ],
+    "map": {"display": true, "color": "13369344 | #CC0000"},
+    "terrain": {"grass": true, "beach": false},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-02f.svg"}
+  },
+  "crate_03": {
+    "health": 100,
+    "loot": ["tier_throwables"],
+    "map": {"color": "5066014 | #4D4D1E"},
+    "terrain": {"grass": true, "beach": false},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-03.svg"}
+  },
+  "crate_03x": {
+    "health": 100,
+    "hitParticle": "glassChip",
+    "explodeParticle": ["glassPlank"],
+    "loot": ["snowball", "snowball", "snowball"],
+    "map": {"color": "31863 | #007C77"},
+    "terrain": {"grass": true, "beach": false},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-03x.svg"}
+  },
+  "crate_04": {
+    "health": 225,
+    "destructible": true,
+    "armorPlated": true,
+    "hitParticle": "greenChip",
+    "loot": ["tier_ammo_crate"],
+    "map": {"display": true, "color": "5468244 | #537054"},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-04.svg"}
+  },
+  "crate_05": {
+    "destructible": false,
+    "hitParticle": "goldChip",
+    "loot": [],
+    "map": {"display": false},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-05.svg"}
+  },
+  "crate_06": {
+    "health": 175,
+    "destructible": true,
+    "armorPlated": true,
+    "hitParticle": "greenChip",
+    "loot": ["tier_ammo"],
+    "map": {"display": false},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-06.svg"}
+  },
+  "crate_07": {
+    "health": 140,
+    "loot": [
+      "tier_surviv",
+      "ak47",
+      "ak47",
+      "ak47",
+      "ak47",
+      "outfitKhaki",
+      "outfitKhaki",
+      "outfitKhaki",
+      "outfitKhaki"
+    ],
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-07.svg"}
+  },
+  "crate_07b": {
+    "health": 140,
+    "loot": [
+      "tier_armor",
+      "mp220",
+      "mp220",
+      "bar",
+      "bar",
+      "outfitKhaki",
+      "outfitKhaki",
+      "outfitKhaki",
+      "outfitKhaki"
+    ],
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-07.svg"}
+  },
+  "crate_08": {
+    "health": 140,
+    "loot": ["tier_surviv"],
+    "map": {"display": false},
+    "terrain": {"grass": true, "beach": false},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-08.svg"}
+  },
+  "crate_09": {
+    "health": 140,
+    "loot": ["tier_chest", "tier_conch"],
+    "map": {"display": false},
+    "terrain": {"grass": true, "beach": false},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-09.svg"}
+  },
+  "crate_10": {
+    "health": 200,
+    "loot": [
+      "tier_airdrop_uncommon",
+      "tier_airdrop_armor",
+      "tier_medical",
+      "tier_airdrop_scopes",
+      "tier_airdrop_outfits",
+      "tier_airdrop_melee",
+      "tier_airdrop_ammo",
+      "tier_airdrop_throwables"
+    ],
+    "map": {"display": false},
+    "terrain": {"grass": true, "beach": false},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-crate-10.svg",
+      "residue": "https://surviv.io/img/map/map-crate-res-03.svg"
+    }
+  },
+  "crate_11": {
+    "health": 200,
+    "loot": [
+      "tier_airdrop_rare",
+      "tier_airdrop_armor",
+      "tier_medical",
+      "tier_airdrop_scopes",
+      "tier_airdrop_outfits",
+      "tier_airdrop_melee",
+      "tier_airdrop_ammo",
+      "tier_airdrop_throwables"
+    ],
+    "map": {"display": false},
+    "terrain": {"grass": true, "beach": false},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-crate-11.svg",
+      "residue": "https://surviv.io/img/map/map-crate-res-03.svg"
+    }
+  },
+  "crate_12": {
+    "health": 500,
+    "loot": [
+      "tier_airdrop_rare",
+      "tier_airdrop_uncommon",
+      "tier_airdrop_armor",
+      "tier_medical",
+      "tier_airdrop_scopes",
+      "tier_airdrop_outfits",
+      "tier_airdrop_melee",
+      "tier_airdrop_ammo",
+      "tier_airdrop_throwables",
+      "tier_katanas"
+    ],
+    "map": {"display": false},
+    "terrain": {"grass": true, "beach": false},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-crate-12.svg",
+      "residue": "https://surviv.io/img/map/map-crate-res-03.svg"
+    }
+  },
+  "crate_13": {
+    "health": 200,
+    "loot": [
+      "tier_airdrop_mythic",
+      "tier_airdrop_rare",
+      "tier_airdrop_armor",
+      "tier_medical",
+      "tier_airdrop_scopes",
+      "tier_airdrop_faction_outfits",
+      "tier_airdrop_faction_melee",
+      "tier_airdrop_ammo",
+      "tier_airdrop_throwables",
+      "tier_katanas",
+      "strobe",
+      "strobe",
+      "strobe"
+    ],
+    "map": {"display": false},
+    "terrain": {"grass": true, "beach": false},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-crate-13.svg",
+      "residue": "https://surviv.io/img/map/map-crate-res-03.svg"
+    }
+  },
+  "crate_14": {
+    "explodeParticle": ["windowBreak", "woodPlank"],
+    "loot": ["tier_throwables"],
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-14.svg"}
+  },
+  "crate_14a": {
+    "explodeParticle": ["windowBreak", "woodPlank"],
+    "loot": ["tier_soviet"],
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-14a.svg"}
+  },
+  "crate_15": {
+    "health": 100,
+    "loot": ["tier_knives"],
+    "map": {"display": false},
+    "terrain": {"grass": true, "beach": true},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-14.svg"}
+  },
+  "crate_16": {
+    "health": 100,
+    "loot": ["tier_knives"],
+    "map": {"display": false},
+    "terrain": {"grass": true, "beach": true},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-14.svg"}
+  },
+  "crate_18": {
+    "health": 140,
+    "loot": ["tier_cattle_crate", "tier_soviet"],
+    "map": {"display": true, "color": "12867840 | #C45900"},
+    "terrain": {"grass": true, "beach": false},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-18.svg"}
+  },
+  "crate_19": {
+    "health": 140,
+    "loot": ["tier_guns", "tier_surviv"],
+    "map": {"display": true, "color": "4500224 | #44AB00"},
+    "terrain": {"grass": true, "beach": false},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-19.svg"}
+  },
+  "crate_20": {
+    "health": 75,
+    "hitParticle": "greenChip",
+    "explodeParticle": "greenPlank",
+    "loot": ["tier_armor", "tier_world"],
+    "map": {"display": true, "color": "3884335 | #3B452F"},
+    "terrain": {"grass": true, "beach": false},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-20.svg"}
+  },
+  "crate_21": {
+    "health": 140,
+    "loot": ["tier_cloud_01", "tier_cloud_02", "tier_dm_helmet_03"],
+    "map": {"display": true, "color": "10066329 | #999999"},
+    "terrain": {"grass": true, "beach": false},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-21.svg"}
+  },
+  "crate_22": {
+    "health": 140,
+    "loot": ["tier_guns", "tier_armor", "tier_packs"],
+    "map": {"display": true, "color": "32511 | #007EFF"},
+    "terrain": {"grass": true, "beach": false},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-22.svg"}
+  },
+  "crate_22d": {
+    "health": 140,
+    "loot": ["an94", "helmet03_lt_aged", "outfitBlueLeaderAged", "kukri_trad"],
+    "map": {"display": true, "color": "32511 | #007EFF"},
+    "terrain": {"grass": true, "beach": false},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-22.svg"}
+  },
+  "airdrop_crate_01": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-airdrop-01.svg",
+      "use": "https://surviv.io/img/map/map-airdrop-02.svg"
+    },
+    "destroyType": "crate_10",
+    "explodeParticle": "airdropCrate02"
+  },
+  "airdrop_crate_02": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-airdrop-01.svg",
+      "use": "https://surviv.io/img/map/map-airdrop-02.svg"
+    },
+    "destroyType": "crate_11",
+    "explodeParticle": "airdropCrate02"
+  },
+  "airdrop_crate_03": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-airdrop-03.svg",
+      "use": "https://surviv.io/img/map/map-airdrop-04.svg"
+    },
+    "destroyType": "crate_12",
+    "explodeParticle": "airdropCrate04"
+  },
+  "airdrop_crate_04": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-airdrop-03.svg",
+      "use": "https://surviv.io/img/map/map-airdrop-04.svg"
+    },
+    "destroyType": "crate_13",
+    "explodeParticle": "airdropCrate04"
+  },
+  "airdrop_crate_01x": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-airdrop-01x.svg",
+      "use": "https://surviv.io/img/map/map-crate-13x.svg"
+    },
+    "destroyType": "crate_10",
+    "explodeParticle": "airdropCrate02x"
+  },
+  "airdrop_crate_02x": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-airdrop-02x.svg",
+      "use": "https://surviv.io/img/map/map-crate-13x.svg"
+    },
+    "destroyType": "crate_11",
+    "explodeParticle": "airdropCrate02x"
+  },
+  "mil_crate_01": {
+    "health": 100,
+    "loot": ["tier_knives"],
+    "map": {"display": false},
+    "terrain": {"grass": true, "beach": true},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-mil-01.svg"}
+  },
+  "mil_crate_02": {
+    "health": 100,
+    "loot": ["ot38", "ot38", "ot38", "ot38"],
+    "map": {"display": false},
+    "terrain": {"grass": true, "beach": true},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-mil-02.svg"}
+  },
+  "mil_crate_03": {
+    "health": 100,
+    "loot": ["outfitWhite", "outfitWhite", "ots38_dual"],
+    "map": {"display": false},
+    "terrain": {"grass": true, "beach": true},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-mil-03.svg"}
+  },
+  "mil_crate_04": {
+    "health": 100,
+    "loot": ["tier_guns", "tier_throwables"],
+    "map": {"display": false},
+    "terrain": {"grass": true, "beach": true},
+    "img": {"sprite": "https://surviv.io/img/map/map-crate-mil-04.svg"}
+  },
+  "bottle_01": {
+    "health": 12,
+    "hitParticle": "bottleBrownChip",
+    "explodeParticle": "bottleBrownBreak",
+    "img": {"sprite": "https://surviv.io/img/map/map-bottle-01.svg"},
+    "loot": []
+  },
+  "bottle_02": {
+    "health": 20,
+    "hitParticle": "bottleBlueChip",
+    "explodeParticle": "bottleBlueBreak",
+    "img": {"sprite": "https://surviv.io/img/map/map-bottle-02.svg"},
+    "loot": []
+  },
+  "bottle_02r": {"img": {"tint": "13172736 | #C90000"}},
+  "bottle_02o": {"collidable": false, "img": {"tint": "16734720 | #FF5A00"}},
+  "bottle_02y": {"collidable": false, "img": {"tint": "16776960 | #FFFF00"}},
+  "bottle_02g": {"collidable": false, "img": {"tint": "32768 | #008000"}},
+  "bottle_02b": {"img": {"tint": "27903 | #006CFF"}},
+  "bottle_02i": {"collidable": false, "img": {"tint": "4915330 | #4B0082"}},
+  "bottle_02v": {"img": {"tint": "15631086 | #EE82EE"}},
+  "bottle_04": {
+    "health": 20,
+    "hitParticle": "bottleWhiteChip",
+    "explodeParticle": "bottleWhiteBreak",
+    "img": {"sprite": "https://surviv.io/img/map/map-bottle-04.svg"},
+    "loot": []
+  },
+  "bottle_05": {
+    "health": 20,
+    "hitParticle": "bottleWhiteChip",
+    "explodeParticle": "bottleWhiteBreak",
+    "img": {"sprite": "https://surviv.io/img/map/map-bottle-05.svg"},
+    "loot": []
+  },
+  "candle_01": {
+    "type": "obstacle",
+    "map": {"display": false, "color": false},
+    "height": 0.5,
+    "collidable": false,
+    "destructible": false,
+    "health": 150,
+    "hitParticle": "goldChip",
+    "explodeParticle": "barrelBreak",
+    "reflectBullets": false,
+    "loot": [],
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-candle-01.svg",
+      "tint": false
+    }
+  },
+  "deposit_box_01": {
+    "img": {"sprite": "https://surviv.io/img/map/map-deposit-box-01.svg"},
+    "loot": ["tier_world"]
+  },
+  "deposit_box_02": {
+    "explodeParticle": "depositBoxGoldBreak",
+    "img": {"sprite": "https://surviv.io/img/map/map-deposit-box-02.svg"},
+    "loot": ["tier_soviet", "tier_guns"]
+  },
+  "drawers_01": {
+    "img": {"sprite": "https://surviv.io/img/map/map-drawers-01.svg"},
+    "loot": ["tier_container"]
+  },
+  "drawers_02": {
+    "img": {"sprite": "https://surviv.io/img/map/map-drawers-02.svg"},
+    "loot": ["tier_soviet"]
+  },
+  "fire_ext_01": {
+    "type": "obstacle",
+    "height": 0.5,
+    "collidable": true,
+    "destructible": true,
+    "createSmoke": true,
+    "health": 75,
+    "hitParticle": "redChip",
+    "explodeParticle": "redBreak",
+    "reflectBullets": true,
+    "loot": [],
+    "map": {"display": false, "color": "6697728 | #663300"},
+    "terrain": {"grass": false, "beach": true},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-fire-ext-01.svg",
+      "residue": "https://surviv.io/img/map/map-fire-ext-res.svg",
+      "tint": false
+    }
+  },
+  "grill_01": {"img": {"sprite": "https://surviv.io/img/map/map-grill-01.svg"}},
+  "gun_mount_01": {
+    "loot": ["m870"],
+    "img": {"sprite": "https://surviv.io/img/map/map-gun-mount-01.svg"}
+  },
+  "gun_mount_02": {
+    "loot": ["mp220"],
+    "img": {"sprite": "https://surviv.io/img/map/map-gun-mount-02.svg"}
+  },
+  "gun_mount_03": {
+    "loot": ["qbb97"],
+    "img": {"sprite": "https://surviv.io/img/map/map-gun-mount-03.svg"}
+  },
+  "gun_mount_04": {
+    "loot": ["woodaxe_bloody"],
+    "img": {"sprite": "https://surviv.io/img/map/map-gun-mount-04.svg"}
+  },
+  "gun_mount_05": {
+    "loot": ["m1100"],
+    "img": {"sprite": "https://surviv.io/img/map/map-gun-mount-05.svg"}
+  },
+  "locker_01": {
+    "img": {"sprite": "https://surviv.io/img/map/map-locker-01.svg"},
+    "loot": ["tier_world"]
+  },
+  "locker_02": {
+    "img": {"sprite": "https://surviv.io/img/map/map-locker-02.svg"},
+    "loot": ["tier_police"]
+  },
+  "locker_03": {
+    "img": {"sprite": "https://surviv.io/img/map/map-locker-03.svg"},
+    "loot": ["outfitKhaki", "ak47", "backpack02"]
+  },
+  "oven_01": {"img": {"sprite": "https://surviv.io/img/map/map-oven-01.svg"}},
+  "piano_01": {
+    "type": "obstacle",
+    "height": 0.5,
+    "collidable": true,
+    "destructible": false,
+    "health": 75,
+    "hitParticle": "woodChip",
+    "explodeParticle": ["woodPlank", "book"],
+    "reflectBullets": false,
+    "loot": ["tier_world"],
+    "map": {"display": false, "color": "6697728 | #663300"},
+    "terrain": {"grass": false, "beach": true},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-piano-01.svg",
+      "residue": "https://surviv.io/img/map/map-drawers-res.svg",
+      "tint": false
+    }
+  },
+  "planter_01": {
+    "img": {"sprite": "https://surviv.io/img/map/map-planter-01.svg"}
+  },
+  "planter_02": {
+    "img": {"sprite": "https://surviv.io/img/map/map-planter-02.svg"}
+  },
+  "planter_03": {
+    "img": {"sprite": "https://surviv.io/img/map/map-planter-03.svg"}
+  },
+  "planter_04": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-planter-04.svg",
+      "use": "https://surviv.io/img/map/map-planter-05.svg"
+    },
+    "destructible": false
+  },
+  "planter_06": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-planter-06.svg",
+      "residue": "https://surviv.io/img/map/map-planter-res-02.svg"
+    }
+  },
+  "planter_07": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-planter-07.svg",
+      "residue": "https://surviv.io/img/map/map-planter-res-03.svg"
+    },
+    "destructible": true
+  },
+  "pot_01": {"img": {"sprite": "https://surviv.io/img/map/map-pot-01.svg"}},
+  "pot_02": {
+    "img": {"sprite": "https://surviv.io/img/map/map-pot-02.svg"},
+    "loot": ["spas12"]
+  },
+  "pot_03": {"img": {"sprite": "https://surviv.io/img/map/map-pot-03.svg"}},
+  "pot_03b": {
+    "img": {"sprite": "https://surviv.io/img/map/map-pot-03.svg"},
+    "loot": ["outfitWoodsCloak", "backpack03"]
+  },
+  "pot_03c": {
+    "img": {"sprite": "https://surviv.io/img/map/map-pot-03.svg"},
+    "loot": ["tier_pavilion"]
+  },
+  "pot_04": {"img": {"sprite": "https://surviv.io/img/map/map-pot-04.svg"}},
+  "pot_05": {
+    "img": {"sprite": "https://surviv.io/img/map/map-pot-05.svg"},
+    "loot": ["scout", "outfitIslander"]
+  },
+  "potato_01": {
+    "img": {"sprite": "https://surviv.io/img/map/map-potato-01.svg"}
+  },
+  "potato_02": {
+    "img": {"sprite": "https://surviv.io/img/map/map-potato-02.svg"}
+  },
+  "potato_03": {
+    "img": {"sprite": "https://surviv.io/img/map/map-potato-03.svg"}
+  },
+  "power_box_01": {},
+  "pumpkin_01": {
+    "img": {"sprite": "https://surviv.io/img/map/map-pumpkin-01.svg"}
+  },
+  "pumpkin_02": {
+    "health": 140,
+    "img": {"sprite": "https://surviv.io/img/map/map-pumpkin-02.svg"},
+    "loot": ["tier_guns", "tier_surviv", "tier_outfits"]
+  },
+  "refrigerator_01": {
+    "img": {"sprite": "https://surviv.io/img/map/map-refrigerator-01.svg"}
+  },
+  "refrigerator_01b": {"health": 250},
+  "recorder_01": {
+    "img": {"sprite": "https://surviv.io/img/map/map-recorder-01.svg"}
+  },
+  "recorder_02": {
+    "img": {"sprite": "https://surviv.io/img/map/map-recorder-02.svg"}
+  },
+  "recorder_03": {
+    "img": {"sprite": "https://surviv.io/img/map/map-recorder-03.svg"}
+  },
+  "recorder_04": {
+    "img": {"sprite": "https://surviv.io/img/map/map-recorder-04.svg"}
+  },
+  "recorder_05": {},
+  "recorder_06": {},
+  "recorder_07": {},
+  "recorder_08": {},
+  "recorder_09": {},
+  "recorder_10": {},
+  "recorder_11": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-recorder-03.svg",
+      "use": "https://surviv.io/img/map/map-recorder-04.svg"
+    }
+  },
+  "recorder_12": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-recorder-03.svg",
+      "use": "https://surviv.io/img/map/map-recorder-04.svg"
+    }
+  },
+  "screen_01": {
+    "type": "obstacle",
+    "height": 0.5,
+    "collidable": true,
+    "destructible": true,
+    "health": 25,
+    "hitParticle": "clothHit",
+    "explodeParticle": "barrelBreak",
+    "reflectBullets": false,
+    "loot": [],
+    "map": {"display": false, "color": "6697728 | #663300"},
+    "terrain": {"grass": false, "beach": true},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-screen-01.svg",
+      "residue": "https://surviv.io/img/map/map-screen-res-01.svg",
+      "tint": false
+    }
+  },
+  "sandbags_01": {
+    "img": {"sprite": "https://surviv.io/img/map/map-sandbags-01.svg"}
+  },
+  "sandbags_02": {
+    "img": {"sprite": "https://surviv.io/img/map/map-sandbags-02.svg"}
+  },
+  "silo_01": {
+    "type": "obstacle",
+    "height": 10,
+    "collidable": true,
+    "destructible": false,
+    "health": 300,
+    "hitParticle": "barrelChip",
+    "explodeParticle": "barrelBreak",
+    "reflectBullets": true,
+    "loot": [],
+    "map": {"display": true, "color": "4079166 | #3E3E3E"},
+    "terrain": {"grass": true, "beach": false},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-silo-01.svg",
+      "tint": false
+    }
+  },
+  "stairs_01": {
+    "type": "obstacle",
+    "height": 0.5,
+    "collidable": false,
+    "destructible": true,
+    "health": 100,
+    "hitParticle": "woodChip",
+    "explodeParticle": "woodPlank",
+    "reflectBullets": false,
+    "loot": [],
+    "map": {"display": false, "color": "6697728 | #663300"},
+    "terrain": {"grass": false, "beach": true},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-stairs-broken-01.svg",
+      "residue": "https://surviv.io/img/map/map-table-res.svg",
+      "tint": false
+    }
+  },
+  "stand_01": {
+    "type": "obstacle",
+    "height": 0.5,
+    "collidable": true,
+    "destructible": true,
+    "health": 75,
+    "hitParticle": "woodChip",
+    "explodeParticle": "woodPlank",
+    "reflectBullets": false,
+    "loot": ["tier_world"],
+    "map": {"display": false, "color": "6697728 | #663300"},
+    "terrain": {"grass": false, "beach": true},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-stand-01.svg",
+      "residue": "https://surviv.io/img/map/map-drawers-res.svg",
+      "tint": false
+    }
+  },
+  "stone_01": {"img": {"sprite": "https://surviv.io/img/map/map-stone-01.svg"}},
+  "stone_01b": {
+    "img": {"residue": "https://surviv.io/img/map/map-stone-res-01b.svg"}
+  },
+  "stone_01f": {"map": {"display": true, "color": "8224125 | #7D7D7D"}},
+  "stone_01x": {
+    "map": {"display": true, "color": "6052956 | #5C5C5C"},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-stone-01x.svg",
+      "residue": "https://surviv.io/img/map/map-stone-res-01x.svg"
+    }
+  },
+  "stone_02": {
+    "img": {"tint": "15066597 | #E5E5E5"},
+    "loot": ["tier_surviv", "ak47", "outfitKhaki"]
+  },
+  "stone_03": {"img": {"sprite": "https://surviv.io/img/map/map-stone-03.svg"}},
+  "stone_03b": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-stone-03b.svg",
+      "residue": "https://surviv.io/img/map/map-stone-res-01.svg"
+    }
+  },
+  "stone_03f": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-stone-03f.svg",
+      "residue": "https://surviv.io/img/map/map-stone-res-02f.svg"
+    }
+  },
+  "stone_03x": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-stone-03x.svg",
+      "residue": "https://surviv.io/img/map/map-stone-res-02x.svg"
+    }
+  },
+  "stone_04": {
+    "stonePlated": true,
+    "hitParticle": "rockEyeChip",
+    "explodeParticle": "rockEyeBreak",
+    "loot": ["tier_eye_block"],
+    "terrain": {"grass": true, "beach": true, "riverShore": true},
+    "map": {"display": true, "color": "1512466 | #171412"},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-stone-04.svg",
+      "residue": "https://surviv.io/img/map/map-stone-res-04.svg"
+    }
+  },
+  "stone_05": {
+    "stonePlated": true,
+    "hitParticle": "rockEyeChip",
+    "explodeParticle": "rockEyeBreak",
+    "loot": ["tier_eye_stone"],
+    "terrain": {"grass": true, "beach": true, "riverShore": true},
+    "map": {"display": true, "color": "1512466 | #171412"},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-stone-05.svg",
+      "residue": "https://surviv.io/img/map/map-stone-res-01b.svg"
+    }
+  },
+  "stone_06": {
+    "stonePlated": true,
+    "height": 10,
+    "terrain": {"grass": true, "beach": true, "riverShore": true},
+    "map": {"display": true, "color": "3618615 | #373737"},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-stone-06.svg",
+      "residue": "https://surviv.io/img/map/map-stone-res-06.svg"
+    }
+  },
+  "stove_01": {
+    "disableBuildingOccupied": true,
+    "damageCeiling": true,
+    "explosion": "explosion_stove",
+    "height": 10,
+    "health": 500,
+    "img": {"sprite": "https://surviv.io/img/map/map-stove-01.svg"}
+  },
+  "stove_02": {
+    "disableBuildingOccupied": true,
+    "damageCeiling": true,
+    "explosion": "explosion_stove",
+    "height": 10,
+    "health": 400,
+    "img": {"sprite": "https://surviv.io/img/map/map-stove-02.svg"}
+  },
+  "table_01": {"img": {"sprite": "https://surviv.io/img/map/map-table-01.svg"}},
+  "table_01x": {
+    "img": {"sprite": "https://surviv.io/img/map/map-table-01x.svg"}
+  },
+  "table_02": {
+    "health": 125,
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-table-02.svg",
+      "residue": "https://surviv.io/img/map/map-table-res.svg",
+      "tint": false
+    }
+  },
+  "table_02x": {
+    "health": 125,
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-table-02x.svg",
+      "residue": "https://surviv.io/img/map/map-table-res.svg",
+      "tint": false
+    }
+  },
+  "table_03": {
+    "health": 125,
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-table-03.svg",
+      "residue": "https://surviv.io/img/map/map-table-res.svg",
+      "tint": false
+    }
+  },
+  "table_03x": {
+    "health": 125,
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-table-03x.svg",
+      "residue": "https://surviv.io/img/map/map-table-res.svg",
+      "tint": false
+    }
+  },
+  "toilet_01": {
+    "img": {"sprite": "https://surviv.io/img/map/map-toilet-01.svg"},
+    "loot": ["tier_toilet"]
+  },
+  "toilet_02": {
+    "img": {"sprite": "https://surviv.io/img/map/map-toilet-02.svg"},
+    "loot": ["tier_soviet"]
+  },
+  "toilet_02b": {
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-toilet-02.svg",
+      "tint": "11842740 | #B4B4B4"
+    },
+    "loot": ["fireaxe"]
+  },
+  "toilet_03": {
+    "reflectBullets": true,
+    "hitParticle": "barrelChip",
+    "explodeParticle": "toiletMetalBreak",
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-toilet-03.svg",
+      "residue": "https://surviv.io/img/map/map-toilet-res-02.svg"
+    },
+    "loot": ["tier_world"]
+  },
+  "toilet_04": {
+    "reflectBullets": true,
+    "hitParticle": "barrelChip",
+    "explodeParticle": "toiletMetalBreak",
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-toilet-04.svg",
+      "residue": "https://surviv.io/img/map/map-toilet-res-02.svg"
+    },
+    "loot": ["tier_soviet"]
+  },
+  "towelrack_01": {
+    "img": {"sprite": "https://surviv.io/img/map/map-towelrack-01.svg"},
+    "explodeParticle": ["woodPlank", "clothBreak"]
+  },
+  "tree_01": {},
+  "tree_01sv": {
+    "map": {"color": "4411673 | #435119"},
+    "img": {"sprite": "https://surviv.io/img/map/map-tree-03sv.svg"}
+  },
+  "tree_interior_01": {},
+  "tree_01x": {},
+  "tree_02": {
+    "health": 120,
+    "aabb": {},
+    "height": 0.5,
+    "loot": ["woodaxe"],
+    "map": {"display": false},
+    "terrain": {"grass": true, "beach": false},
+    "img": {"sprite": "https://surviv.io/img/map/map-tree-04.svg"}
+  },
+  "tree_03": {
+    "img": {
+      "tint": "11645361 | #B1B1B1",
+      "sprite": "https://surviv.io/img/map/map-tree-03.svg"
+    },
+    "loot": ["tier_surviv", "mosin", "outfitWoodland"]
+  },
+  "tree_05": {
+    "aabb": {},
+    "health": 400,
+    "map": {"color": "5911831 | #5A3517"},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-tree-05.svg",
+      "residue": "https://surviv.io/img/map/map-tree-res-02.svg",
+      "tint": false
+    }
+  },
+  "tree_05b": {
+    "aabb": {},
+    "health": 500,
+    "loot": ["tier_shotguns", "tier_lmgs", "outfitTreeSpooky"],
+    "map": {"color": "5911831 | #5A3517"},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-tree-05.svg",
+      "residue": "https://surviv.io/img/map/map-tree-res-02.svg",
+      "tint": false
+    }
+  },
+  "tree_05c": {
+    "aabb": {},
+    "health": 200,
+    "map": {"color": "9064739 | #8A5123"},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-tree-05c.svg",
+      "residue": "https://surviv.io/img/map/map-tree-res-02.svg",
+      "tint": false
+    }
+  },
+  "tree_06": {
+    "img": {"sprite": "https://surviv.io/img/map/map-tree-06.svg"},
+    "map": {"color": "7700520 | #758028"}
+  },
+  "tree_07": {
+    "map": {"color": "5199637 | #4F5715"},
+    "img": {"sprite": "https://surviv.io/img/map/map-tree-07.svg"}
+  },
+  "tree_07sp": {
+    "map": {"color": "16697057 | #FEC6E1"},
+    "img": {"sprite": "https://surviv.io/img/map/map-tree-07sp.svg"},
+    "terrain": {"grass": true, "beach": false, "riverShore": true}
+  },
+  "tree_07spr": {
+    "map": {"color": "16697057 | #FEC6E1"},
+    "img": {"sprite": "https://surviv.io/img/map/map-tree-07sp.svg"},
+    "terrain": {"grass": false, "beach": false, "riverShore": true}
+  },
+  "tree_07su": {
+    "map": {"color": "2185478 | #215906"},
+    "img": {"sprite": "https://surviv.io/img/map/map-tree-07su.svg"}
+  },
+  "tree_08": {
+    "health": 225,
+    "map": {"color": "11033868 | #A85D0C"},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-tree-08.svg",
+      "residue": "https://surviv.io/img/map/map-tree-res-02.svg"
+    }
+  },
+  "tree_08b": {
+    "health": 300,
+    "map": {"color": "9647632 | #933610"},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-tree-08.svg",
+      "residue": "https://surviv.io/img/map/map-tree-res-02.svg",
+      "tint": "14383224 | #DB7878"
+    }
+  },
+  "tree_08c": {
+    "health": 500,
+    "loot": ["tier_shotguns", "tier_lmgs", "outfitWoodland"],
+    "map": {"color": "7817749 | #774A15"},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-tree-08.svg",
+      "residue": "https://surviv.io/img/map/map-tree-res-02.svg",
+      "tint": "11645361 | #B1B1B1"
+    }
+  },
+  "tree_08f": {
+    "health": 200,
+    "map": {"color": "995844 | #0F3204"},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-tree-08f.svg",
+      "residue": "https://surviv.io/img/map/map-tree-res-01.svg"
+    }
+  },
+  "tree_08sp": {
+    "health": 225,
+    "map": {"color": "16746936 | #FF89B8"},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-tree-08sp.svg",
+      "residue": "https://surviv.io/img/map/map-tree-res-02.svg"
+    },
+    "terrain": {"grass": true, "beach": false, "riverShore": true}
+  },
+  "tree_08spb": {
+    "health": 300,
+    "map": {"color": "16734619 | #FF599B"},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-tree-08sp.svg",
+      "residue": "https://surviv.io/img/map/map-tree-res-02.svg",
+      "tint": "14383224 | #DB7878"
+    },
+    "terrain": {"grass": true, "beach": false, "riverShore": true}
+  },
+  "tree_08spc": {
+    "health": 500,
+    "loot": ["tier_shotguns", "tier_lmgs", "outfitWoodland"],
+    "map": {"color": "8268107 | #7E294B"},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-tree-08sp.svg",
+      "residue": "https://surviv.io/img/map/map-tree-res-02.svg",
+      "tint": "11645361 | #B1B1B1"
+    }
+  },
+  "tree_08spr": {
+    "health": 225,
+    "map": {"color": "16746936 | #FF89B8"},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-tree-08sp.svg",
+      "residue": "https://surviv.io/img/map/map-tree-res-02.svg"
+    },
+    "terrain": {"grass": false, "beach": false, "riverShore": true}
+  },
+  "tree_08su": {
+    "health": 225,
+    "map": {"color": "2183181 | #21500D"},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-tree-08su.svg",
+      "residue": "https://surviv.io/img/map/map-tree-res-01.svg"
+    }
+  },
+  "tree_08sub": {
+    "health": 300,
+    "map": {"color": "1785864 | #1B4008"},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-tree-08su.svg",
+      "residue": "https://surviv.io/img/map/map-tree-res-02.svg",
+      "tint": "9211210 | #8C8D4A"
+    },
+    "terrain": {"grass": true, "beach": false, "riverShore": true}
+  },
+  "tree_09": {
+    "health": 120,
+    "aabb": {},
+    "height": 0.5,
+    "map": {"display": true, "color": "8602624 | #834400"},
+    "terrain": {"grass": true, "beach": false},
+    "img": {"sprite": "https://surviv.io/img/map/map-tree-09.svg"}
+  },
+  "tree_10": {
+    "map": {"color": "7571807 | #73895F"},
+    "img": {"sprite": "https://surviv.io/img/map/map-tree-10.svg"}
+  },
+  "tree_11": {"img": {"sprite": "https://surviv.io/img/map/map-tree-11.svg"}},
+  "tree_12": {
+    "map": {"color": "8032292 | #7A9024"},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-tree-12.svg",
+      "tint": false
+    }
+  },
+  "tree_switch_01": {
+    "img": {"sprite": "https://surviv.io/img/map/map-tree-switch-01.svg"}
+  },
+  "tree_switch_02": {
+    "img": {"sprite": "https://surviv.io/img/map/map-tree-switch-02.svg"}
+  },
+  "tree_switch_03": {
+    "img": {"sprite": "https://surviv.io/img/map/map-tree-switch-03.svg"}
+  },
+  "vat_01": {
+    "type": "obstacle",
+    "height": 0.5,
+    "collidable": true,
+    "destructible": true,
+    "health": 250,
+    "reflectBullets": false,
+    "hitParticle": "glassChip",
+    "explodeParticle": "windowBreak",
+    "loot": [],
+    "map": {"display": true, "color": "11776947 | #B3B3B3"},
+    "terrain": {"grass": false, "beach": false},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-vat-01.svg",
+      "residue": "https://surviv.io/img/map/map-vat-res.svg",
+      "tint": false
+    }
+  },
+  "vat_02": {
+    "type": "obstacle",
+    "height": 0.5,
+    "collidable": true,
+    "destructible": false,
+    "health": 1000,
+    "reflectBullets": false,
+    "hitParticle": "glassChip",
+    "explodeParticle": "windowBreak",
+    "loot": [],
+    "map": {"display": true, "color": "11776947 | #B3B3B3"},
+    "terrain": {"grass": true, "beach": false},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-vat-02.svg",
+      "residue": "https://surviv.io/img/map/map-vat-res.svg",
+      "tint": false
+    }
+  },
+  "vending_01": {
+    "type": "obstacle",
+    "height": 0.5,
+    "collidable": true,
+    "destructible": true,
+    "health": 150,
+    "hitParticle": "blueChip",
+    "explodeParticle": ["windowBreak", "lockerBreak"],
+    "reflectBullets": true,
+    "loot": ["tier_vending_soda", "soda"],
+    "map": {"display": false, "color": "10925 | #002AAD"},
+    "terrain": {"grass": true, "beach": true},
+    "img": {
+      "sprite": "https://surviv.io/img/map/map-vending-soda-01.svg",
+      "residue": "https://surviv.io/img/map/map-vending-res.svg",
+      "tint": false
+    }
+  }
+}
