@@ -4522,6 +4522,19 @@
       "obstacleDamage": 1.1,
       "rad": {"min": 5, "max": 12},
       "shrapnelCount": 12,
+      "shrapnelType": {
+        "type": "bullet",
+        "damage": 20,
+        "obstacleDamage": 1,
+        "falloff": 1,
+        "speed": 20,
+        "distance": 8,
+        "variance": 1.5,
+        "shrapnel": true,
+        "tracerColor": "shrapnel",
+        "tracerWidth": 0.125,
+        "tracerLength": 0.6
+      },
       "explosionEffectType": "mirv",
       "decalType": "decal_frag_explosion"
     },
@@ -4559,7 +4572,11 @@
     "calculations": {
       "damage": {
         "blastDamage": [125, 84.38, 62.5, 48.13, 42.5],
-        "blastDamageObj": 137.5
+        "blastDamageObj": 137.5,
+        "shrapDamage": [240, 162, 120, 92.4, 81.6],
+        "shrapDamageObj": 240,
+        "maxDamage": [365, 246.38, 182.5, 140.53, 124.1],
+        "maxDamageObj": 377.5
       },
       "firing": {"firePerMin": 200, "firePerSec": 3}
     }
@@ -4641,6 +4658,19 @@
       "obstacleDamage": 1,
       "rad": {"min": 5, "max": 12},
       "shrapnelCount": 0,
+      "shrapnelType": {
+        "type": "bullet",
+        "damage": 20,
+        "obstacleDamage": 1,
+        "falloff": 1,
+        "speed": 20,
+        "distance": 8,
+        "variance": 1.5,
+        "shrapnel": true,
+        "tracerColor": "shrapnel",
+        "tracerWidth": 0.125,
+        "tracerLength": 0.6
+      },
       "explosionEffectType": "smoke",
       "decalType": "decal_smoke_explosion"
     },
