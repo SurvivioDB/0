@@ -4644,7 +4644,6 @@
       "obstacleDamage": 1,
       "headshotMult": 1,
       "noPotatoSwap": true,
-      "noDrop": true,
       "attack": {
         "offset": {"x": 1.35, "y": 0},
         "rad": 0.9,
@@ -4693,7 +4692,6 @@
       "obstacleDamage": 1,
       "headshotMult": 1,
       "noPotatoSwap": true,
-      "noDrop": true,
       "attack": {
         "offset": {"x": 1.35, "y": 0},
         "rad": 0.9,
@@ -4741,7 +4739,6 @@
       "obstacleDamage": 1,
       "headshotMult": 1,
       "noPotatoSwap": true,
-      "noDrop": true,
       "attack": {
         "offset": {"x": 1.35, "y": 0},
         "rad": 0.9,
@@ -4789,7 +4786,6 @@
       "obstacleDamage": 1,
       "headshotMult": 1,
       "noPotatoSwap": true,
-      "noDrop": true,
       "attack": {
         "offset": {"x": 1.35, "y": 0},
         "rad": 0.9,
