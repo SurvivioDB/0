@@ -3953,7 +3953,6 @@
     "obstacleDamage": 1,
     "headshotMult": 1,
     "noPotatoSwap": true,
-    "noDrop": true,
     "attack": {"rad": 0.9, "damageTimes": [0.1], "cooldownTime": 0.25},
     "speed": {"equip": 1},
     "lootImg": {
@@ -3995,7 +3994,6 @@
     "obstacleDamage": 1,
     "headshotMult": 1,
     "noPotatoSwap": true,
-    "noDrop": true,
     "attack": {"rad": 0.9, "damageTimes": [0.1], "cooldownTime": 0.25},
     "speed": {"equip": 1},
     "lootImg": {
@@ -4036,7 +4034,6 @@
     "obstacleDamage": 1,
     "headshotMult": 1,
     "noPotatoSwap": true,
-    "noDrop": true,
     "attack": {"rad": 0.9, "damageTimes": [0.1], "cooldownTime": 0.25},
     "speed": {"equip": 1},
     "lootImg": {
@@ -4077,7 +4074,6 @@
     "obstacleDamage": 1,
     "headshotMult": 1,
     "noPotatoSwap": true,
-    "noDrop": true,
     "attack": {"rad": 0.9, "damageTimes": [0.1], "cooldownTime": 0.25},
     "speed": {"equip": 1},
     "lootImg": {
