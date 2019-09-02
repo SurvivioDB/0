@@ -829,13 +829,13 @@
     "name": "Bush Wookie",
     "baseScale": 1,
     "lootImg": {"tint": "3889951 | #3B5B1F"},
-    "skinImg": "https://surviv.io/img/map/map-bush-01b.svg"
+    "skinImg": "https://surviv.io/img/map/map-bush-01.svg"
   },
   "outfitLeafPile": {
     "name": "Leaf Pile Wookie",
     "baseScale": 1,
     "lootImg": {"tint": "16731392 | #FF4D00"},
-    "skinImg": "https://surviv.io/img/map/map-bush-06b.svg"
+    "skinImg": "https://surviv.io/img/map/map-bush-06.svg"
   },
   "outfitCrate": {
     "name": "Guy in a Box",
@@ -871,7 +871,7 @@
     "name": "Fridge Costume",
     "baseScale": 1,
     "lootImg": {"tint": "7733259 | #76000B"},
-    "skinImg": "https://surviv.io/img/map/map-refrigerator-01b.svg"
+    "skinImg": "https://surviv.io/img/map/map-refrigerator-01.svg"
   },
   "outfitVending": {
     "name": "Vending Costume",
