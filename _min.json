@@ -964,111 +964,111 @@
     },
     "outfitBarrel": {
       "name": "Fish in a Barrel",
-      "obstacleType": "barrel_01",
       "baseScale": 0.8,
-      "lootImg": {"tint": "3750201 | #393939"}
+      "lootImg": {"tint": "3750201 | #393939"},
+      "skinImg": "https://surviv.io/img/map/map-barrel_01.svg"
     },
     "outfitWoodBarrel": {
       "name": "Fish in a Wood Barrel",
-      "obstacleType": "barrel_02",
       "baseScale": 1,
-      "lootImg": {"tint": "11235106 | #AB6F22"}
+      "lootImg": {"tint": "11235106 | #AB6F22"},
+      "skinImg": "https://surviv.io/img/map/map-barrel_02.svg"
     },
     "outfitStone": {
       "name": "Stoneskin",
-      "obstacleType": "stone_01",
       "baseScale": 0.9,
-      "lootImg": {"tint": "7434609 | #717171"}
+      "lootImg": {"tint": "7434609 | #717171"},
+      "skinImg": "https://surviv.io/img/map/map-stone_01.svg"
     },
     "outfitTree": {
       "name": "Barkskin",
-      "obstacleType": "tree_07",
       "baseScale": 1,
-      "lootImg": {"tint": "4599058 | #462D12"}
+      "lootImg": {"tint": "4599058 | #462D12"},
+      "skinImg": "https://surviv.io/img/map/map-tree_07.svg"
     },
     "outfitTreeSpooky": {
       "name": "Spooky Barkskin",
-      "obstacleType": "tree_05",
       "baseScale": 1,
-      "lootImg": {"tint": "1775895 | #1B1917"}
+      "lootImg": {"tint": "1775895 | #1B1917"},
+      "skinImg": "https://surviv.io/img/map/map-tree_05.svg"
     },
     "outfitStump": {
       "name": "Stump Costume",
-      "obstacleType": "tree_09",
       "baseScale": 1,
-      "lootImg": {"tint": "8602624 | #834400"}
+      "lootImg": {"tint": "8602624 | #834400"},
+      "skinImg": "https://surviv.io/img/map/map-tree_09.svg"
     },
     "outfitBush": {
       "name": "Bush Wookie",
-      "obstacleType": "bush_01b",
       "baseScale": 1,
-      "lootImg": {"tint": "3889951 | #3B5B1F"}
+      "lootImg": {"tint": "3889951 | #3B5B1F"},
+      "skinImg": "https://surviv.io/img/map/map-bush_01b.svg"
     },
     "outfitLeafPile": {
       "name": "Leaf Pile Wookie",
-      "obstacleType": "bush_06b",
       "baseScale": 1,
-      "lootImg": {"tint": "16731392 | #FF4D00"}
+      "lootImg": {"tint": "16731392 | #FF4D00"},
+      "skinImg": "https://surviv.io/img/map/map-bush_06b.svg"
     },
     "outfitCrate": {
       "name": "Guy in a Box",
-      "obstacleType": "crate_01",
       "baseScale": 1,
-      "lootImg": {"tint": "6697728 | #663300"}
+      "lootImg": {"tint": "6697728 | #663300"},
+      "skinImg": "https://surviv.io/img/map/map-crate_01.svg"
     },
     "outfitTable": {
       "name": "Yard Sale",
-      "obstacleType": "table_01",
       "baseScale": 1,
-      "lootImg": {"tint": "6697728 | #663300"}
+      "lootImg": {"tint": "6697728 | #663300"},
+      "skinImg": "https://surviv.io/img/map/map-table_01.svg"
     },
     "outfitSoviet": {
       "name": "Comrade in a Box",
-      "obstacleType": "crate_02",
       "baseScale": 1,
-      "lootImg": {"tint": "6697728 | #663300"}
+      "lootImg": {"tint": "6697728 | #663300"},
+      "skinImg": "https://surviv.io/img/map/map-crate_02.svg"
     },
     "outfitAirdrop": {
       "name": "Air Drop Costume",
-      "obstacleType": "crate_10",
       "baseScale": 1,
-      "lootImg": {"tint": "6579300 | #646464"}
+      "lootImg": {"tint": "6579300 | #646464"},
+      "skinImg": "https://surviv.io/img/map/map-crate_10.svg"
     },
     "outfitOven": {
       "name": "Oven Costume",
-      "obstacleType": "oven_01",
       "baseScale": 1,
-      "lootImg": {"tint": "14935011 | #E3E3E3"}
+      "lootImg": {"tint": "14935011 | #E3E3E3"},
+      "skinImg": "https://surviv.io/img/map/map-oven_01.svg"
     },
     "outfitRefrigerator": {
       "name": "Fridge Costume",
-      "obstacleType": "refrigerator_01b",
       "baseScale": 1,
-      "lootImg": {"tint": "7733259 | #76000B"}
+      "lootImg": {"tint": "7733259 | #76000B"},
+      "skinImg": "https://surviv.io/img/map/map-refrigerator_01b.svg"
     },
     "outfitVending": {
       "name": "Vending Costume",
-      "obstacleType": "vending_01",
       "baseScale": 1,
-      "lootImg": {"tint": "10925 | #002AAD"}
+      "lootImg": {"tint": "10925 | #002AAD"},
+      "skinImg": "https://surviv.io/img/map/map-vending_01.svg"
     },
     "outfitPumpkin": {
       "name": "Pumpkin Costume",
-      "obstacleType": "pumpkin_01",
       "baseScale": 1,
-      "lootImg": {"tint": "15889667 | #F27503"}
+      "lootImg": {"tint": "15889667 | #F27503"},
+      "skinImg": "https://surviv.io/img/map/map-pumpkin_01.svg"
     },
     "outfitWoodpile": {
       "name": "Woodpile Costume",
-      "obstacleType": "woodpile_01",
       "baseScale": 1,
-      "lootImg": {"tint": "9455616 | #904800"}
+      "lootImg": {"tint": "9455616 | #904800"},
+      "skinImg": "https://surviv.io/img/map/map-woodpile_01.svg"
     },
     "outfitToilet": {
       "name": "Toilet Costume",
-      "obstacleType": "toilet_02",
       "baseScale": 1,
-      "lootImg": {"tint": false}
+      "lootImg": {"tint": false},
+      "skinImg": "https://surviv.io/img/map/map-toilet_02.svg"
     }
   },
   "projectile": {
@@ -15998,7 +15998,7 @@
   },
   "info": {
     "version": 64,
-    "timestamp": 1567378142447,
-    "date": "01/09/2019 @ 10:49PM UTC"
+    "timestamp": 1567418568880,
+    "date": "02/09/2019 @ 10:02AM UTC"
   }
 }
