@@ -2218,6 +2218,19 @@
     "shotSpread": 10,
     "bulletCount": 9,
     "jitter": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 12.5,
+      "obstacleDamage": 1,
+      "falloff": 0.3,
+      "speed": 66,
+      "distance": 27,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "12gauge",
+      "tracerWidth": 0.1,
+      "tracerLength": 0.8
+    },
     "headshotMult": 1.5,
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
@@ -2231,9 +2244,23 @@
       "tint": false
     },
     "calculations": {
+      "damage": {
+        "pelletDamage": "12.5x9",
+        "bulletDamage": [112.5, 75.94, 56.25, 43.31, 38.25],
+        "bulletDamageObj": 112.5,
+        "bulletDamageHS": [118.75, 89.06, 71.25, 53.44, 35.63],
+        "bulletsWHS": "2.7(0.3)",
+        "bulletsREG": "15.3(1.7)",
+        "magDMG": [227, 156, 117, 90, 76],
+        "susDPS": [73, 50, 38, 29, 24],
+        "burDPS": [567, 390, 293, 224, 189],
+        "htKill": [1, 2, 2, 3, 3],
+        "ttKill": [0, 0.2, 0.2, 0.4, 0.4]
+      },
       "firing": {
         "firePerMin": 300,
         "firePerSec": 5,
+        "distanceEffective": 7.2,
         "dumpTime": 0.4,
         "cycleTime": 3.1
       }
@@ -2261,6 +2288,19 @@
     "shotSpread": 10,
     "bulletCount": 9,
     "jitter": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 12.5,
+      "obstacleDamage": 1,
+      "falloff": 0.3,
+      "speed": 66,
+      "distance": 27,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "12gauge",
+      "tracerWidth": 0.1,
+      "tracerLength": 0.8
+    },
     "headshotMult": 1.5,
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
@@ -2274,9 +2314,23 @@
       "tint": false
     },
     "calculations": {
+      "damage": {
+        "pelletDamage": "12.5x9",
+        "bulletDamage": [112.5, 75.94, 56.25, 43.31, 38.25],
+        "bulletDamageObj": 112.5,
+        "bulletDamageHS": [118.75, 89.06, 71.25, 53.44, 35.63],
+        "bulletsWHS": "6.75(0.75)",
+        "bulletsREG": "38.25(4.25)",
+        "magDMG": [567, 390, 293, 224, 189],
+        "susDPS": [113, 78, 59, 45, 38],
+        "burDPS": [227, 156, 117, 90, 76],
+        "htKill": [1, 2, 2, 3, 3],
+        "ttKill": [0.1, 0.6, 0.6, 1.1, 1.1]
+      },
       "firing": {
         "firePerMin": 150,
         "firePerSec": 2,
+        "distanceEffective": 7.2,
         "dumpTime": 2.5,
         "cycleTime": 5
       }
@@ -2635,6 +2689,19 @@
     "moveSpread": 9,
     "shotSpread": 11,
     "bulletCount": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 12,
+      "obstacleDamage": 1,
+      "falloff": 0.7,
+      "speed": 85,
+      "distance": 100,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "9mm",
+      "tracerWidth": 0.1,
+      "tracerLength": 0.7
+    },
     "headshotMult": 2,
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
@@ -2648,9 +2715,29 @@
       "tint": "1973790 | #1E1E1E"
     },
     "calculations": {
+      "damage": {
+        "bulletDamage": [12, 8.1, 6, 4.62, 4.08],
+        "bulletDamageObj": 12,
+        "bulletDamageHS": [24, 18, 14.4, 10.8, 7.2],
+        "bulletsWHS": 4.5,
+        "bulletsREG": 25.5,
+        "magDMG": [414, 288, 218, 166, 136],
+        "susDPS": [74, 51, 39, 30, 24],
+        "burDPS": [166, 115, 87, 67, 55],
+        "htKill": [8, 11, 14, 19, 22],
+        "ttKill": [0.59, 0.84, 1.09, 1.5, 1.75],
+        "falloff": [
+          "74/68/62/57/52",
+          "51/47/43/39/36",
+          "39/36/33/30/27",
+          "30/27/25/23/21",
+          "24/22/20/19/17"
+        ]
+      },
       "firing": {
         "firePerMin": 750,
         "firePerSec": 12,
+        "distanceEffective": 64.61,
         "dumpTime": 2.5,
         "cycleTime": 5.6
       }
@@ -2767,6 +2854,19 @@
     "shotSpread": 7,
     "bulletCount": 1,
     "burstCount": 3,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 12,
+      "obstacleDamage": 1,
+      "falloff": 0.7,
+      "speed": 85,
+      "distance": 100,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "9mm",
+      "tracerWidth": 0.1,
+      "tracerLength": 0.7
+    },
     "headshotMult": 2,
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
@@ -2780,12 +2880,36 @@
       "tint": "2766875 | #2A381B"
     },
     "calculations": {
+      "damage": {
+        "pelletDamage": "12x3",
+        "bulletDamage": [12, 8.1, 6, 4.62, 4.08],
+        "bulletDamageObj": 12,
+        "bulletDamageHS": [24, 18, 14.4, 10.8, 7.2],
+        "burstDamage": [36, 24.3, 18, 13.86, 12.24],
+        "burstDamageObj": 36,
+        "burstDamageHS": [48, 36, 28.8, 21.6, 14.4],
+        "bulletsWHS": 6,
+        "bulletsREG": 34,
+        "magDMG": [552, 383, 290, 222, 182],
+        "susDPS": [95, 66, 50, 38, 31],
+        "burDPS": [221, 153, 116, 89, 73],
+        "htKill": [3, 4, 5, 7, 8],
+        "ttKill": [0.38, 0.57, 0.76, 1.13, 1.32],
+        "falloff": [
+          "95/87/80/73/67",
+          "66/60/55/51/46",
+          "50/46/42/38/35",
+          "38/35/32/29/27",
+          "31/29/26/24/22"
+        ]
+      },
       "firing": {
         "firePerMin": 1000,
         "firePerSec": 16,
         "burstPerMin": 333.33,
         "burstPerSec": 5.33,
         "burstPerMag": 13,
+        "distanceEffective": 66.57,
         "dumpTime": 2.5,
         "cycleTime": 5.8
       }
@@ -2884,6 +3008,19 @@
     "moveSpread": 16,
     "shotSpread": 18,
     "bulletCount": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 9,
+      "obstacleDamage": 1,
+      "falloff": 0.5,
+      "speed": 70,
+      "distance": 44,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "9mm",
+      "tracerWidth": 0.1,
+      "tracerLength": 0.7
+    },
     "headshotMult": 2,
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
@@ -2897,9 +3034,22 @@
       "tint": "1973790 | #1E1E1E"
     },
     "calculations": {
+      "damage": {
+        "bulletDamage": [9, 6.07, 4.5, 3.46, 3.06],
+        "bulletDamageObj": 9,
+        "bulletDamageHS": [18, 13.5, 10.8, 8.1, 5.4],
+        "bulletsWHS": 5.1,
+        "bulletsREG": 28.9,
+        "magDMG": [352, 244, 185, 141, 116],
+        "susDPS": [73, 51, 38, 29, 24],
+        "burDPS": [342, 237, 180, 137, 113],
+        "htKill": [10, 14, 19, 25, 30],
+        "ttKill": [0.27, 0.39, 0.55, 0.73, 0.88]
+      },
       "firing": {
         "firePerMin": 2000,
         "firePerSec": 33,
+        "distanceEffective": 17.5,
         "dumpTime": 1.03,
         "cycleTime": 4.83
       }
@@ -3005,6 +3155,19 @@
     "moveSpread": 2,
     "shotSpread": 3,
     "bulletCount": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 21,
+      "obstacleDamage": 1,
+      "falloff": 0.75,
+      "speed": 94,
+      "distance": 100,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "9mm",
+      "tracerWidth": 0.12,
+      "tracerLength": 0.8
+    },
     "headshotMult": 2,
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
@@ -3018,9 +3181,29 @@
       "tint": false
     },
     "calculations": {
+      "damage": {
+        "bulletDamage": [21, 14.18, 10.5, 8.09, 7.14],
+        "bulletDamageObj": 21,
+        "bulletDamageHS": [42, 31.5, 25.2, 18.9, 12.6],
+        "bulletsWHS": 4.5,
+        "bulletsREG": 25.5,
+        "magDMG": [725, 503, 381, 291, 239],
+        "susDPS": [135, 94, 71, 54, 44],
+        "burDPS": [266, 185, 140, 107, 88],
+        "htKill": [5, 6, 8, 11, 13],
+        "ttKill": [0.36, 0.46, 0.64, 0.91, 1.09],
+        "falloff": [
+          "135/125/117/109/101",
+          "94/87/81/75/70",
+          "71/66/61/57/53",
+          "54/50/47/44/41",
+          "44/41/38/36/33"
+        ]
+      },
       "firing": {
         "firePerMin": 666,
         "firePerSec": 11,
+        "distanceEffective": 73.31,
         "dumpTime": 2.73,
         "cycleTime": 5.38
       }
@@ -3126,6 +3309,19 @@
     "moveSpread": 4,
     "shotSpread": 1.75,
     "bulletCount": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 26,
+      "obstacleDamage": 1,
+      "falloff": 0.75,
+      "speed": 112,
+      "distance": 125,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "762mm",
+      "tracerWidth": 0.09,
+      "tracerLength": 0.8
+    },
     "headshotMult": 2,
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
@@ -3139,9 +3335,29 @@
       "tint": "7368816 | #707070"
     },
     "calculations": {
+      "damage": {
+        "bulletDamage": [26, 17.55, 13, 10.01, 8.84],
+        "bulletDamageObj": 26,
+        "bulletDamageHS": [52, 39, 31.2, 23.4, 15.6],
+        "bulletsWHS": 1.5,
+        "bulletsREG": 8.5,
+        "magDMG": [299, 208, 157, 120, 99],
+        "susDPS": [52, 36, 27, 21, 17],
+        "burDPS": [150, 104, 79, 60, 49],
+        "htKill": [4, 5, 7, 9, 11],
+        "ttKill": [0.6, 0.8, 1.2, 1.6, 2],
+        "falloff": [
+          "52/47/43/39/36",
+          "36/33/30/27/25",
+          "27/25/23/21/19",
+          "21/19/17/16/14",
+          "17/16/14/13/12"
+        ]
+      },
       "firing": {
         "firePerMin": 300,
         "firePerSec": 5,
+        "distanceEffective": 92.77,
         "dumpTime": 2,
         "cycleTime": 5.8
       }
@@ -3248,6 +3464,20 @@
     "moveSpread": 2.8,
     "shotSpread": 1.4,
     "bulletCount": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 32,
+      "obstacleDamage": 1,
+      "falloff": 0.77,
+      "speed": 115,
+      "distance": 135,
+      "variance": 0,
+      "shrapnel": false,
+      "suppressed": true,
+      "tracerColor": "762mm",
+      "tracerWidth": 0.1,
+      "tracerLength": 0.8
+    },
     "headshotMult": 2,
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
@@ -3261,9 +3491,29 @@
       "tint": false
     },
     "calculations": {
+      "damage": {
+        "bulletDamage": [32, 21.6, 16, 12.32, 10.88],
+        "bulletDamageObj": 32,
+        "bulletDamageHS": [64, 48, 38.4, 28.8, 19.2],
+        "bulletsWHS": 1.5,
+        "bulletsREG": 8.5,
+        "magDMG": [368, 256, 194, 148, 121],
+        "susDPS": [63, 44, 33, 26, 21],
+        "burDPS": [184, 128, 97, 74, 61],
+        "htKill": [3, 4, 6, 7, 9],
+        "ttKill": [0.42, 0.62, 1.02, 1.22, 1.62],
+        "falloff": [
+          "63/58/53/49/45",
+          "44/40/37/34/31",
+          "33/31/28/26/23",
+          "26/23/21/20/18",
+          "21/19/18/16/15"
+        ]
+      },
       "firing": {
         "firePerMin": 333,
         "firePerSec": 5,
+        "distanceEffective": 103.12,
         "dumpTime": 2,
         "cycleTime": 5.8
       }
@@ -3369,6 +3619,19 @@
     "moveSpread": 3,
     "shotSpread": 16,
     "bulletCount": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 29,
+      "obstacleDamage": 1,
+      "falloff": 0.7,
+      "speed": 106,
+      "distance": 110,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "45acp",
+      "tracerWidth": 0.09,
+      "tracerLength": 0.8
+    },
     "headshotMult": 1.5,
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
@@ -3382,9 +3645,29 @@
       "tint": "12895428 | #C4C4C4"
     },
     "calculations": {
+      "damage": {
+        "bulletDamage": [29, 19.57, 14.5, 11.16, 9.86],
+        "bulletDamageObj": 29,
+        "bulletDamageHS": [43.5, 32.63, 26.1, 19.57, 13.05],
+        "bulletsWHS": 1.8,
+        "bulletsREG": 10.2,
+        "magDMG": [374, 258, 195, 149, 124],
+        "susDPS": [55, 38, 29, 22, 18],
+        "burDPS": [218, 151, 114, 87, 72],
+        "htKill": [4, 5, 7, 9, 10],
+        "ttKill": [0.44, 0.58, 0.87, 1.16, 1.3],
+        "falloff": [
+          "55/50/45/41/37",
+          "38/34/31/28/26",
+          "29/26/24/21/19",
+          "22/20/18/16/15",
+          "18/17/15/14/12"
+        ]
+      },
       "firing": {
         "firePerMin": 461,
         "firePerSec": 7,
+        "distanceEffective": 69.16,
         "dumpTime": 1.71,
         "cycleTime": 6.81
       }
@@ -3490,6 +3773,19 @@
     "moveSpread": 8,
     "shotSpread": 9.5,
     "bulletCount": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 14,
+      "obstacleDamage": 1,
+      "falloff": 0.7,
+      "speed": 80,
+      "distance": 88,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "45acp",
+      "tracerWidth": 0.1,
+      "tracerLength": 0.7
+    },
     "headshotMult": 2,
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
@@ -3503,9 +3799,29 @@
       "tint": "9605778 | #929292"
     },
     "calculations": {
+      "damage": {
+        "bulletDamage": [14, 9.45, 7, 5.39, 4.76],
+        "bulletDamageObj": 14,
+        "bulletDamageHS": [28, 21, 16.8, 12.6, 8.4],
+        "bulletsWHS": 2.1,
+        "bulletsREG": 11.9,
+        "magDMG": [225, 157, 119, 91, 74],
+        "susDPS": [46, 32, 24, 19, 15],
+        "burDPS": [177, 123, 93, 71, 58],
+        "htKill": [7, 9, 12, 16, 19],
+        "ttKill": [0.55, 0.73, 1.01, 1.37, 1.64],
+        "falloff": [
+          "46/43/40/37/34",
+          "32/30/27/25/23",
+          "24/23/21/19/18",
+          "19/17/16/15/14",
+          "15/14/13/12/11"
+        ]
+      },
       "firing": {
         "firePerMin": 705,
         "firePerSec": 11,
+        "distanceEffective": 56.94,
         "dumpTime": 1.27,
         "cycleTime": 4.87
       }
@@ -3686,6 +4002,19 @@
     "moveSpread": 7.5,
     "shotSpread": 3.5,
     "bulletCount": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 35,
+      "obstacleDamage": 1,
+      "falloff": 0.75,
+      "speed": 115,
+      "distance": 120,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "50AE",
+      "tracerWidth": 0.12,
+      "tracerLength": 0.8
+    },
     "headshotMult": 2,
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
@@ -3699,9 +4028,29 @@
       "tint": "14791743 | #E1B43F"
     },
     "calculations": {
+      "damage": {
+        "bulletDamage": [35, 23.63, 17.5, 13.48, 11.9],
+        "bulletDamageObj": 35,
+        "bulletDamageHS": [70, 52.5, 42, 31.5, 21],
+        "bulletsWHS": 2.1,
+        "bulletsREG": 11.9,
+        "magDMG": [564, 391, 296, 227, 186],
+        "susDPS": [98, 68, 52, 39, 32],
+        "burDPS": [322, 224, 169, 129, 106],
+        "htKill": [3, 4, 5, 7, 8],
+        "ttKill": [0.26, 0.38, 0.51, 0.76, 0.88],
+        "falloff": [
+          "98/90/82/76/69",
+          "68/62/57/53/48",
+          "52/47/43/40/37",
+          "39/36/33/30/28",
+          "32/30/27/25/23"
+        ]
+      },
       "firing": {
         "firePerMin": 500,
         "firePerSec": 8,
+        "distanceEffective": 88.03,
         "dumpTime": 1.75,
         "cycleTime": 5.75
       }
@@ -3796,6 +4145,23 @@
     "moveSpread": 3,
     "shotSpread": 1.25,
     "bulletCount": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 0,
+      "obstacleDamage": 1,
+      "falloff": 10,
+      "distance": 16,
+      "speed": 4,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "flare",
+      "tracerWidth": 0.3,
+      "tracerLength": 1.2,
+      "flareColor": "16733184 | #FF5400",
+      "addFlare": true,
+      "maxFlareScale": 2,
+      "skipCollision": true
+    },
     "noSplinter": true,
     "headshotMult": 2,
     "speed": {"equip": 0, "attack": 0},
@@ -3813,6 +4179,7 @@
       "firing": {
         "firePerMin": 200,
         "firePerSec": 3,
+        "distanceEffective": 35,
         "dumpTime": 0.67,
         "cycleTime": 4.17
       }
