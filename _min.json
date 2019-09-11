@@ -5460,7 +5460,7 @@
       }
     },
     "m1911": {
-      "name": "M911",
+      "name": "M1911",
       "type": "gun",
       "quality": 0,
       "fireMode": "single",
@@ -5537,7 +5537,7 @@
       }
     },
     "m1911_dual": {
-      "name": "Dual M911",
+      "name": "Dual M1911",
       "type": "gun",
       "quality": 0,
       "fireMode": "single",
@@ -16955,7 +16955,7 @@
   },
   "info": {
     "version": 64,
-    "timestamp": 1567434510629,
-    "date": "02/09/2019 @ 2:28PM UTC"
+    "timestamp": 1568195181950,
+    "date": "11/09/2019 @ 9:46AM UTC"
   }
 }

@@ -3674,7 +3674,7 @@
     }
   },
   "m1911": {
-    "name": "M911",
+    "name": "M1911",
     "type": "gun",
     "quality": 0,
     "fireMode": "single",
@@ -3751,7 +3751,7 @@
     }
   },
   "m1911_dual": {
-    "name": "Dual M911",
+    "name": "Dual M1911",
     "type": "gun",
     "quality": 0,
     "fireMode": "single",
