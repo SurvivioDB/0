@@ -438,6 +438,82 @@
       }
     }
   },
+  "vss": {
+    "name": "VSS",
+    "type": "gun",
+    "quality": 1,
+    "fireMode": "single",
+    "caseTiming": "shoot",
+    "ammo": "9mm",
+    "ammoSpawnCount": 60,
+    "maxClip": 10,
+    "maxReload": 10,
+    "extendedClip": 20,
+    "extendedReload": 20,
+    "reloadTime": 2.3,
+    "fireDelay": 0.16,
+    "switchDelay": 0.75,
+    "barrelLength": 3.7,
+    "barrelOffset": 0,
+    "recoilTime": false,
+    "moveSpread": 3,
+    "shotSpread": 2,
+    "bulletCount": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 22,
+      "obstacleDamage": 1,
+      "falloff": 0.8,
+      "distance": 125,
+      "speed": 95,
+      "variance": 0,
+      "shrapnel": false,
+      "suppressed": true,
+      "tracerColor": "9mm",
+      "tracerWidth": 0.1,
+      "tracerLength": 0.8
+    },
+    "headshotMult": 2,
+    "speed": {"equip": 0, "attack": 0},
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-weapon-vss.svg",
+      "tint": "65280 | #00FF00",
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    },
+    "worldImg": {
+      "sprite": "https://surviv.io/img/guns/gun-vss-01.svg",
+      "tint": false
+    },
+    "calculations": {
+      "damage": {
+        "bulletDamage": [22, 14.85, 11, 8.47, 7.48],
+        "bulletDamageObj": 22,
+        "bulletDamageHS": [44, 33, 26.4, 19.8, 13.2],
+        "bulletsWHS": 1.5,
+        "bulletsREG": 8.5,
+        "magDMG": [253, 176, 133, 102, 83],
+        "susDPS": [64, 44, 34, 26, 21],
+        "burDPS": [152, 105, 80, 61, 50],
+        "htKill": [4, 6, 8, 10, 12],
+        "ttKill": [0.51, 0.84, 1.17, 1.51, 1.84],
+        "falloff": [
+          "64/59/55/52/48",
+          "44/41/39/36/33",
+          "34/31/29/27/25",
+          "26/24/22/21/19",
+          "21/20/18/17/16"
+        ]
+      },
+      "firing": {
+        "firePerMin": 375,
+        "firePerSec": 6,
+        "distanceEffective": 98.72,
+        "dumpTime": 1.67,
+        "cycleTime": 3.97
+      }
+    }
+  },
   "famas": {
     "name": "FAMAS",
     "type": "gun",
@@ -687,7 +763,7 @@
     "extendedClip": 30,
     "extendedReload": 30,
     "reloadTime": 2.4,
-    "fireDelay": 0.15,
+    "fireDelay": 0.18,
     "switchDelay": 0.75,
     "barrelLength": 3.5,
     "barrelOffset": 0,
@@ -697,7 +773,7 @@
     "bulletCount": 1,
     "bulletType": {
       "type": "bullet",
-      "damage": 19.5,
+      "damage": 22.5,
       "obstacleDamage": 1,
       "falloff": 0.9,
       "distance": 400,
@@ -722,30 +798,105 @@
     },
     "calculations": {
       "damage": {
-        "bulletDamage": [19.5, 13.16, 9.75, 7.51, 6.63],
-        "bulletDamageObj": 19.5,
-        "bulletDamageHS": [39, 29.25, 23.4, 17.55, 11.7],
+        "bulletDamage": [22.5, 15.19, 11.25, 8.66, 7.65],
+        "bulletDamageObj": 22.5,
+        "bulletDamageHS": [45, 33.75, 27, 20.25, 13.5],
         "bulletsWHS": 3,
         "bulletsREG": 17,
-        "magDMG": [449, 312, 236, 180, 148],
-        "susDPS": [78, 54, 41, 31, 26],
-        "burDPS": [135, 93, 71, 54, 44],
-        "htKill": [5, 7, 9, 12, 14],
-        "ttKill": [0.68, 1.02, 1.35, 1.85, 2.18],
+        "magDMG": [518, 359, 272, 208, 171],
+        "susDPS": [81, 56, 43, 33, 27],
+        "burDPS": [129, 90, 68, 52, 43],
+        "htKill": [4, 6, 8, 10, 12],
+        "ttKill": [0.62, 1.02, 1.42, 1.82, 2.22],
         "falloff": [
-          "78/70/63/57/51",
-          "54/49/44/40/36",
-          "41/37/33/30/27",
-          "31/28/25/23/21",
-          "26/23/21/19/17"
+          "81/73/65/59/53",
+          "56/51/45/41/37",
+          "43/38/34/31/28",
+          "33/29/26/24/21",
+          "27/24/22/19/17"
         ]
       },
       "firing": {
-        "firePerMin": 400,
-        "firePerSec": 6,
+        "firePerMin": 333,
+        "firePerSec": 5,
         "distanceEffective": 359.19,
-        "dumpTime": 3.33,
-        "cycleTime": 5.73
+        "dumpTime": 4,
+        "cycleTime": 6.4
+      }
+    }
+  },
+  "l86": {
+    "name": "L86A2",
+    "type": "gun",
+    "quality": 0,
+    "fireMode": "single",
+    "caseTiming": "shoot",
+    "ammo": "556mm",
+    "ammoSpawnCount": 90,
+    "maxClip": 30,
+    "maxReload": 30,
+    "extendedClip": 40,
+    "extendedReload": 40,
+    "reloadTime": 2.9,
+    "fireDelay": 0.19,
+    "switchDelay": 0.75,
+    "barrelLength": 3.25,
+    "barrelOffset": 0,
+    "recoilTime": false,
+    "moveSpread": 3.5,
+    "shotSpread": 1,
+    "bulletCount": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 26.5,
+      "obstacleDamage": 1,
+      "falloff": 0.9,
+      "distance": 425,
+      "speed": 134,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "556mm",
+      "tracerWidth": 0.1,
+      "tracerLength": 0.9
+    },
+    "headshotMult": 2,
+    "speed": {"equip": 0, "attack": 0},
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-weapon-l86.svg",
+      "tint": "65280 | #00FF00",
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    },
+    "worldImg": {
+      "sprite": "https://surviv.io/img/guns/gun-long-01.svg",
+      "tint": "14469287 | #DCC8A7"
+    },
+    "calculations": {
+      "damage": {
+        "bulletDamage": [26.5, 17.89, 13.25, 10.2, 9.01],
+        "bulletDamageObj": 26.5,
+        "bulletDamageHS": [53, 39.75, 31.8, 23.85, 15.9],
+        "bulletsWHS": 4.5,
+        "bulletsREG": 25.5,
+        "magDMG": [914, 635, 481, 367, 301],
+        "susDPS": [103, 71, 54, 41, 34],
+        "burDPS": [152, 106, 80, 61, 50],
+        "htKill": [4, 5, 7, 9, 10],
+        "ttKill": [0.61, 0.81, 1.21, 1.61, 1.81],
+        "falloff": [
+          "103/92/82/73/66",
+          "71/64/57/51/46",
+          "54/48/43/39/35",
+          "41/37/33/30/26",
+          "34/30/27/24/22"
+        ]
+      },
+      "firing": {
+        "firePerMin": 315,
+        "firePerSec": 5,
+        "distanceEffective": 381.69,
+        "dumpTime": 6,
+        "cycleTime": 8.9
       }
     }
   },
@@ -1124,6 +1275,82 @@
         "distanceEffective": 147.31,
         "dumpTime": 1.82,
         "cycleTime": 4.52
+      }
+    }
+  },
+  "scarssr": {
+    "name": "SCAR-SSR",
+    "type": "gun",
+    "quality": 0,
+    "fireMode": "single",
+    "caseTiming": "shoot",
+    "ammo": "308sub",
+    "ammoSpawnCount": 40,
+    "maxClip": 10,
+    "maxReload": 10,
+    "extendedClip": 20,
+    "extendedReload": 20,
+    "reloadTime": 2.7,
+    "fireDelay": 0.3,
+    "switchDelay": 0.75,
+    "barrelLength": 3.9,
+    "barrelOffset": 0,
+    "recoilTime": false,
+    "moveSpread": 5.5,
+    "shotSpread": 1.5,
+    "bulletCount": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 60,
+      "obstacleDamage": 1.5,
+      "falloff": 0.85,
+      "distance": 200,
+      "speed": 108,
+      "variance": 0,
+      "shrapnel": false,
+      "suppressed": true,
+      "tracerColor": "308sub",
+      "tracerWidth": 0.14,
+      "tracerLength": 1
+    },
+    "headshotMult": 1.5,
+    "speed": {"equip": 0, "attack": 0},
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-weapon-scarssr.svg",
+      "tint": "65280 | #00FF00",
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    },
+    "worldImg": {
+      "sprite": "https://surviv.io/img/guns/gun-scarssr-01.svg",
+      "tint": "10189640 | #9B7B48"
+    },
+    "calculations": {
+      "damage": {
+        "bulletDamage": [60, 40.5, 30, 23.1, 20.4],
+        "bulletDamageObj": 90,
+        "bulletDamageHS": [90, 67.5, 54, 40.5, 27],
+        "bulletsWHS": 1.5,
+        "bulletsREG": 8.5,
+        "magDMG": [645, 446, 336, 257, 214],
+        "susDPS": [107, 74, 56, 43, 35],
+        "burDPS": [194, 134, 101, 77, 64],
+        "htKill": [2, 3, 3, 4, 5],
+        "ttKill": [0.37, 0.7, 0.7, 1.03, 1.37],
+        "falloff": [
+          "107/99/91/84/77",
+          "74/68/63/58/53",
+          "56/51/47/44/40",
+          "43/39/36/33/31",
+          "35/33/30/28/26"
+        ]
+      },
+      "firing": {
+        "firePerMin": 200,
+        "firePerSec": 3,
+        "distanceEffective": 168.92,
+        "dumpTime": 3.33,
+        "cycleTime": 6.03
       }
     }
   },
@@ -1604,15 +1831,15 @@
     "maxReload": 1,
     "extendedClip": 8,
     "extendedReload": 1,
-    "reloadTime": 0.6,
-    "fireDelay": 0.75,
+    "reloadTime": 0.5,
+    "fireDelay": 0.7,
     "switchDelay": 1,
     "pullDelay": 1,
     "barrelLength": 3.7,
     "barrelOffset": 0,
     "recoilTime": false,
-    "moveSpread": 3.5,
-    "shotSpread": 2,
+    "moveSpread": 3,
+    "shotSpread": 1.5,
     "bulletCount": 1,
     "bulletType": {
       "type": "bullet",
@@ -1647,25 +1874,101 @@
         "bulletsWHS": 1.2,
         "bulletsREG": 6.8,
         "magDMG": [378, 261, 197, 151, 125],
-        "susDPS": [30, 20, 15, 12, 10],
+        "susDPS": [32, 22, 16, 13, 10],
         "burDPS": [47, 33, 25, 19, 16],
         "htKill": [3, 4, 5, 6, 7],
-        "ttKill": [2.25, 3.25, 4.25, 5.25, 6.25],
+        "ttKill": [2.3, 3.3, 4.3, 5.3, 6.3],
         "falloff": [
-          "30/26/23/20/18",
-          "20/18/16/14/12",
-          "15/14/12/11/9",
-          "12/10/9/8/7",
+          "32/28/25/22/19",
+          "22/19/17/15/13",
+          "16/14/13/11/10",
+          "13/11/10/9/8",
           "10/9/8/7/6"
         ]
       },
       "firing": {
-        "firePerMin": 80,
+        "firePerMin": 85,
         "firePerSec": 1,
-        "distanceEffective": 130.13,
+        "distanceEffective": 130.41,
         "dumpTime": 8,
-        "cycleTime": 12.8,
-        "cycleTimeSingle": 1.6
+        "cycleTime": 12,
+        "cycleTimeSingle": 1.5
+      }
+    }
+  },
+  "blr": {
+    "name": "BLR 81",
+    "type": "gun",
+    "quality": 0,
+    "fireMode": "single",
+    "caseTiming": "shoot",
+    "ammo": "762mm",
+    "ammoSpawnCount": 30,
+    "maxClip": 3,
+    "maxReload": 3,
+    "extendedClip": 5,
+    "extendedReload": 5,
+    "reloadTime": 1.7,
+    "fireDelay": 0.8,
+    "switchDelay": 1,
+    "pullDelay": 1,
+    "barrelLength": 3.8,
+    "barrelOffset": 0,
+    "recoilTime": false,
+    "moveSpread": 3,
+    "shotSpread": 1.5,
+    "bulletCount": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 56,
+      "obstacleDamage": 1,
+      "falloff": 0.9,
+      "distance": 400,
+      "speed": 160,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "762mm",
+      "tracerWidth": 0.14,
+      "tracerLength": 1
+    },
+    "headshotMult": 1.5,
+    "speed": {"equip": 0, "attack": 0},
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-weapon-blr.svg",
+      "tint": "65280 | #00FF00",
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    },
+    "worldImg": {
+      "sprite": "https://surviv.io/img/guns/gun-long-01.svg",
+      "tint": "4663046 | #472706"
+    },
+    "calculations": {
+      "damage": {
+        "bulletDamage": [56, 37.8, 28, 21.56, 19.04],
+        "bulletDamageObj": 56,
+        "bulletDamageHS": [84, 63, 50.4, 37.8, 25.2],
+        "bulletsWHS": 0.45,
+        "bulletsREG": 2.55,
+        "magDMG": [181, 125, 94, 72, 60],
+        "susDPS": [38, 27, 20, 15, 13],
+        "burDPS": [60, 42, 31, 24, 20],
+        "htKill": [2, 3, 4, 5, 6],
+        "ttKill": [1.2, 2.2, 3.2, 4.2, 5.2],
+        "falloff": [
+          "38/35/31/28/25",
+          "27/24/21/19/17",
+          "20/18/16/15/13",
+          "15/14/12/11/10",
+          "13/11/10/9/8"
+        ]
+      },
+      "firing": {
+        "firePerMin": 75,
+        "firePerSec": 1,
+        "distanceEffective": 358.78,
+        "dumpTime": 3,
+        "cycleTime": 4.7
       }
     }
   },
@@ -1915,7 +2218,7 @@
     "extendedClip": 30,
     "extendedReload": 30,
     "reloadTime": 2.5,
-    "fireDelay": 0.2,
+    "fireDelay": 0.23,
     "switchDelay": 0.75,
     "barrelLength": 3.5,
     "barrelOffset": 0,
@@ -1925,7 +2228,7 @@
     "bulletCount": 1,
     "bulletType": {
       "type": "bullet",
-      "damage": 24.5,
+      "damage": 27,
       "obstacleDamage": 1,
       "falloff": 0.9,
       "distance": 400,
@@ -1950,30 +2253,105 @@
     },
     "calculations": {
       "damage": {
-        "bulletDamage": [24.5, 16.54, 12.25, 9.43, 8.33],
-        "bulletDamageObj": 24.5,
-        "bulletDamageHS": [49, 36.75, 29.4, 22.05, 14.7],
+        "bulletDamage": [27, 18.23, 13.5, 10.39, 9.18],
+        "bulletDamageObj": 27,
+        "bulletDamageHS": [54, 40.5, 32.4, 24.3, 16.2],
         "bulletsWHS": 3,
         "bulletsREG": 17,
-        "magDMG": [564, 391, 296, 227, 186],
-        "susDPS": [87, 60, 46, 35, 29],
-        "burDPS": [141, 98, 74, 57, 46],
-        "htKill": [4, 6, 7, 9, 11],
-        "ttKill": [0.6, 1, 1.2, 1.6, 2],
+        "magDMG": [621, 431, 327, 250, 205],
+        "susDPS": [83, 58, 44, 33, 27],
+        "burDPS": [124, 86, 65, 50, 41],
+        "htKill": [4, 5, 7, 9, 10],
+        "ttKill": [0.77, 1.02, 1.52, 2.02, 2.27],
         "falloff": [
-          "87/78/70/63/57",
-          "60/54/49/44/40",
-          "46/41/37/33/30",
-          "35/31/28/25/23",
-          "29/26/23/21/19"
+          "83/75/67/60/54",
+          "58/52/47/42/38",
+          "44/39/35/32/29",
+          "33/30/27/24/22",
+          "27/25/22/20/18"
         ]
       },
       "firing": {
-        "firePerMin": 300,
-        "firePerSec": 5,
+        "firePerMin": 260,
+        "firePerSec": 4,
         "distanceEffective": 359.19,
-        "dumpTime": 4,
-        "cycleTime": 6.5
+        "dumpTime": 5,
+        "cycleTime": 7.5
+      }
+    }
+  },
+  "svd": {
+    "name": "SVD-63",
+    "type": "gun",
+    "quality": 0,
+    "fireMode": "single",
+    "caseTiming": "shoot",
+    "ammo": "762mm",
+    "ammoSpawnCount": 60,
+    "maxClip": 10,
+    "maxReload": 10,
+    "extendedClip": 20,
+    "extendedReload": 20,
+    "reloadTime": 2.5,
+    "fireDelay": 0.25,
+    "switchDelay": 0.75,
+    "barrelLength": 4,
+    "barrelOffset": 0,
+    "recoilTime": false,
+    "moveSpread": 4.5,
+    "shotSpread": 1,
+    "bulletCount": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 36,
+      "obstacleDamage": 1,
+      "falloff": 0.9,
+      "distance": 425,
+      "speed": 127,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "762mm",
+      "tracerWidth": 0.1,
+      "tracerLength": 0.9
+    },
+    "headshotMult": 2,
+    "speed": {"equip": 0, "attack": 0},
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-weapon-svd.svg",
+      "tint": "65280 | #00FF00",
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    },
+    "worldImg": {
+      "sprite": "https://surviv.io/img/guns/gun-long-01.svg",
+      "tint": "1842204 | #1C1C1C"
+    },
+    "calculations": {
+      "damage": {
+        "bulletDamage": [36, 24.3, 18, 13.86, 12.24],
+        "bulletDamageObj": 36,
+        "bulletDamageHS": [72, 54, 43.2, 32.4, 21.6],
+        "bulletsWHS": 1.5,
+        "bulletsREG": 8.5,
+        "magDMG": [414, 288, 218, 166, 136],
+        "susDPS": [83, 58, 44, 33, 27],
+        "burDPS": [166, 115, 87, 67, 55],
+        "htKill": [3, 4, 5, 7, 8],
+        "ttKill": [0.5, 0.75, 1, 1.5, 1.75],
+        "falloff": [
+          "83/74/66/59/53",
+          "58/51/46/41/37",
+          "44/39/35/31/28",
+          "33/30/27/24/21",
+          "27/24/22/20/17"
+        ]
+      },
+      "firing": {
+        "firePerMin": 240,
+        "firePerSec": 4,
+        "distanceEffective": 381.69,
+        "dumpTime": 2.5,
+        "cycleTime": 5
       }
     }
   },
@@ -1990,7 +2368,7 @@
     "extendedClip": 8,
     "extendedReload": 8,
     "reloadTime": 2.1,
-    "fireDelay": 0.2,
+    "fireDelay": 0.23,
     "switchDelay": 0.75,
     "barrelLength": 3.6,
     "barrelOffset": 0,
@@ -2000,7 +2378,7 @@
     "bulletCount": 1,
     "bulletType": {
       "type": "bullet",
-      "damage": 32,
+      "damage": 35,
       "obstacleDamage": 1,
       "falloff": 0.9,
       "distance": 400,
@@ -2025,30 +2403,30 @@
     },
     "calculations": {
       "damage": {
-        "bulletDamage": [32, 21.6, 16, 12.32, 10.88],
-        "bulletDamageObj": 32,
-        "bulletDamageHS": [64, 48, 38.4, 28.8, 19.2],
+        "bulletDamage": [35, 23.63, 17.5, 13.48, 11.9],
+        "bulletDamageObj": 35,
+        "bulletDamageHS": [70, 52.5, 42, 31.5, 21],
         "bulletsWHS": 1.2,
         "bulletsREG": 6.8,
-        "magDMG": [294, 204, 155, 118, 97],
-        "susDPS": [80, 55, 42, 32, 26],
-        "burDPS": [184, 128, 97, 74, 61],
-        "htKill": [3, 4, 6, 7, 9],
-        "ttKill": [0.4, 0.6, 1, 1.2, 1.6],
+        "magDMG": [322, 224, 169, 129, 106],
+        "susDPS": [79, 55, 41, 32, 26],
+        "burDPS": [161, 112, 85, 65, 53],
+        "htKill": [3, 4, 5, 7, 8],
+        "ttKill": [0.52, 0.77, 1.02, 1.52, 1.77],
         "falloff": [
-          "80/72/64/58/52",
-          "55/50/45/40/36",
-          "42/38/34/31/27",
-          "32/29/26/23/21",
-          "26/24/21/19/17"
+          "79/71/64/57/52",
+          "55/49/44/40/36",
+          "41/37/33/30/27",
+          "32/28/26/23/21",
+          "26/23/21/19/17"
         ]
       },
       "firing": {
-        "firePerMin": 300,
-        "firePerSec": 5,
+        "firePerMin": 260,
+        "firePerSec": 4,
         "distanceEffective": 359.19,
-        "dumpTime": 1.6,
-        "cycleTime": 3.7
+        "dumpTime": 2,
+        "cycleTime": 4.1
       }
     }
   },
@@ -4996,6 +5374,73 @@
     },
     "worldImg": {
       "sprite": "https://surviv.io/img/projectiles/proj-mirv-mini-01.svg",
+      "tint": false
+    },
+    "useThrowParticles": true,
+    "calculations": {
+      "damage": {
+        "blastDamage": [75, 50.63, 37.5, 28.88, 25.5],
+        "blastDamageObj": 82.5,
+        "shrapDamage": [42, 28.35, 21, 16.17, 14.28],
+        "shrapDamageObj": 42,
+        "maxDamage": [117, 78.97, 58.5, 45.05, 39.78],
+        "maxDamageObj": 124.5
+      },
+      "firing": {"firePerMin": 200, "firePerSec": 3}
+    }
+  },
+  "martyr_nade": {
+    "name": "Martyrdom",
+    "type": "throwable",
+    "quality": 0,
+    "explosionType": {
+      "type": "explosion",
+      "damage": 75,
+      "obstacleDamage": 1.1,
+      "rad": {"min": 4, "max": 8},
+      "shrapnelCount": 7,
+      "shrapnelType": {
+        "type": "bullet",
+        "damage": 6,
+        "obstacleDamage": 1,
+        "falloff": 1,
+        "speed": 20,
+        "distance": 5,
+        "variance": 1.3,
+        "shrapnel": true,
+        "tracerColor": "shrapnel",
+        "tracerWidth": 0.1,
+        "tracerLength": 0.5
+      },
+      "explosionEffectType": "martyr_nade",
+      "decalType": "decal_frag_small_explosion"
+    },
+    "inventoryOrder": 99,
+    "cookable": true,
+    "noPotatoSwap": true,
+    "explodeOnImpact": false,
+    "playerCollision": false,
+    "fuseTime": 3,
+    "fuseVariance": 0.3,
+    "aimDistance": 0,
+    "rad": 1,
+    "throwPhysics": {
+      "playerVelMult": 0.6,
+      "velZ": 5,
+      "speed": 20,
+      "spinVel": 31.42,
+      "spinDrag": 1,
+      "distance": 20
+    },
+    "speed": {"equip": 0, "attack": 0},
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-throwable-frag.svg",
+      "tint": "65280 | #00FF00",
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    },
+    "worldImg": {
+      "sprite": "https://surviv.io/img/projectiles/proj-martyrdom-01.svg",
       "tint": false
     },
     "useThrowParticles": true,

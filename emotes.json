@@ -1229,7 +1229,7 @@
     "teamOnly": false,
     "category": "Flags"
   },
-  "emote_flagmazerbaijan": {
+  "emote_flagazerbaijan": {
     "type": "emote",
     "name": "Flag Azerbaijan",
     "rarity": 1,
@@ -1238,7 +1238,7 @@
     "teamOnly": false,
     "category": "Flags"
   },
-  "emote_flagmalbania": {
+  "emote_flagalbania": {
     "type": "emote",
     "name": "Flag Albania",
     "rarity": 1,

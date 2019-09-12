@@ -1,6 +1,6 @@
 {
   "map": {
-    "protocolVersion": 64,
+    "protocolVersion": 65,
     "DamageType": {
       "Player": 0,
       "Bleeding": 1,
@@ -68,42 +68,50 @@
       "9mm": {
         "regular": "16704198 | #FEE2C6",
         "saturated": "16767411 | #FFD9B3",
+        "chambered": "16744192 | #FF7F00",
         "alphaRate": 0.92,
         "alphaMin": 0.14
       },
       "762mm": {
         "regular": "12965630 | #C5D6FE",
         "saturated": "11257087 | #ABC4FF",
+        "chambered": "19711 | #004CFF",
         "alphaRate": 0.94,
         "alphaMin": 0.2
       },
       "12gauge": {
         "regular": "16702684 | #FEDCDC",
-        "saturated": "16702684 | #FEDCDC"
+        "saturated": "16702684 | #FEDCDC",
+        "chambered": "16711680 | #FF0000"
       },
       "556mm": {
         "regular": "11141010 | #A9FF92",
         "saturated": "11141010 | #A9FF92",
+        "chambered": "3604224 | #36FF00",
         "alphaRate": 0.92,
         "alphaMin": 0.14
       },
       "50AE": {
         "regular": "16773256 | #FFF088",
-        "saturated": "16773256 | #FFF088"
+        "saturated": "16773256 | #FFF088",
+        "chambered": "16768768 | #FFDF00"
       },
       "308sub": {
         "regular": "2435840 | #252B00",
         "saturated": "4608000 | #465000",
+        "chambered": "1250816 | #131600",
         "alphaRate": 0.92,
         "alphaMin": 0.07
       },
       "flare": {
         "regular": "14869218 | #E2E2E2",
-        "saturated": "14869218 | #E2E2E2"
+        "saturated": "14869218 | #E2E2E2",
+        "chambered": "12895428 | #C4C4C4"
       },
       "45acp": {
         "regular": "15515391 | #ECBEFF",
-        "saturated": "15183103 | #E7ACFF"
+        "saturated": "15183103 | #E7ACFF",
+        "chambered": "11862271 | #B500FF"
       },
       "shrapnel": {
         "regular": "3355443 | #333333",
@@ -113,7 +121,7 @@
         "regular": "13303808 | #CB0000",
         "saturated": "13303808 | #CB0000"
       },
-      "potato": {"regular": 0, "saturated": 0}
+      "potato": {"regular": 0, "saturated": 0, "chambered": 0}
     },
     "scopeZoomRadius": {
       "desktop": {
@@ -797,81 +805,9 @@
         "tint": false
       }
     },
-    "outfitDarkGhillie": {
-      "name": "Incursion Ghillie",
-      "camo": true,
-      "skinImg": {
-        "baseTint": "5005348 | #4C6024",
-        "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
-        "handTint": "5005348 | #4C6024",
-        "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
-        "footTint": "5005348 | #4C6024",
-        "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
-        "backpackTint": "6697728 | #663300",
-        "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
-      },
-      "lootImg": {
-        "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
-        "tint": "5005348 | #4C6024"
-      }
-    },
-    "outfitDesertGhillie": {
-      "name": "Desert Ghillie",
-      "camo": true,
-      "skinImg": {
-        "baseTint": "14657377 | #DFA761",
-        "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
-        "handTint": "14657377 | #DFA761",
-        "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
-        "footTint": "14657377 | #DFA761",
-        "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
-        "backpackTint": "6697728 | #663300",
-        "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
-      },
-      "lootImg": {
-        "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
-        "tint": "14657377 | #DFA761"
-      }
-    },
-    "outfitSummerGhillie": {
-      "name": "Ghillie Suit",
-      "camo": true,
-      "skinImg": {
-        "baseTint": "6658085 | #659825",
-        "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
-        "handTint": "6658085 | #659825",
-        "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
-        "footTint": "6658085 | #659825",
-        "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
-        "backpackTint": "6697728 | #663300",
-        "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
-      },
-      "lootImg": {
-        "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
-        "tint": "6658085 | #659825"
-      }
-    },
-    "outfitSpringGhillie": {
-      "name": "Ghillie Suit",
-      "camo": true,
-      "skinImg": {
-        "baseTint": "4285194 | #41630A",
-        "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
-        "handTint": "4285194 | #41630A",
-        "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
-        "footTint": "4285194 | #41630A",
-        "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
-        "backpackTint": "6697728 | #663300",
-        "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
-      },
-      "lootImg": {
-        "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
-        "tint": "4285194 | #41630A"
-      }
-    },
     "outfitGhillie": {
       "name": "Ghillie Suit",
-      "camo": true,
+      "ghillie": true,
       "skinImg": {
         "baseTint": "8630096 | #83AF50",
         "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
@@ -1164,6 +1100,19 @@
       "tracerWidth": 0.12,
       "tracerLength": 1
     },
+    "bullet_blr": {
+      "type": "bullet",
+      "damage": 56,
+      "obstacleDamage": 1,
+      "falloff": 0.9,
+      "distance": 400,
+      "speed": 160,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "762mm",
+      "tracerWidth": 0.14,
+      "tracerLength": 1
+    },
     "bullet_mosin": {
       "type": "bullet",
       "damage": 72,
@@ -1204,9 +1153,23 @@
       "tracerWidth": 0.2,
       "tracerLength": 1
     },
+    "bullet_scarssr": {
+      "type": "bullet",
+      "damage": 60,
+      "obstacleDamage": 1.5,
+      "falloff": 0.85,
+      "distance": 200,
+      "speed": 108,
+      "variance": 0,
+      "shrapnel": false,
+      "suppressed": true,
+      "tracerColor": "308sub",
+      "tracerWidth": 0.14,
+      "tracerLength": 1
+    },
     "bullet_m39": {
       "type": "bullet",
-      "damage": 24.5,
+      "damage": 27,
       "obstacleDamage": 1,
       "falloff": 0.9,
       "distance": 400,
@@ -1217,9 +1180,22 @@
       "tracerWidth": 0.1,
       "tracerLength": 0.9
     },
+    "bullet_svd": {
+      "type": "bullet",
+      "damage": 36,
+      "obstacleDamage": 1,
+      "falloff": 0.9,
+      "distance": 425,
+      "speed": 127,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "762mm",
+      "tracerWidth": 0.1,
+      "tracerLength": 0.9
+    },
     "bullet_garand": {
       "type": "bullet",
-      "damage": 32,
+      "damage": 35,
       "obstacleDamage": 1,
       "falloff": 0.9,
       "distance": 400,
@@ -1501,6 +1477,20 @@
       "tracerWidth": 0.1,
       "tracerLength": 0.7
     },
+    "bullet_vss": {
+      "type": "bullet",
+      "damage": 22,
+      "obstacleDamage": 1,
+      "falloff": 0.8,
+      "distance": 125,
+      "speed": 95,
+      "variance": 0,
+      "shrapnel": false,
+      "suppressed": true,
+      "tracerColor": "9mm",
+      "tracerWidth": 0.1,
+      "tracerLength": 0.8
+    },
     "bullet_dp28": {
       "type": "bullet",
       "damage": 14,
@@ -1595,11 +1585,24 @@
     },
     "bullet_mk12": {
       "type": "bullet",
-      "damage": 19.5,
+      "damage": 22.5,
       "obstacleDamage": 1,
       "falloff": 0.9,
       "distance": 400,
       "speed": 132,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "556mm",
+      "tracerWidth": 0.1,
+      "tracerLength": 0.9
+    },
+    "bullet_l86": {
+      "type": "bullet",
+      "damage": 26.5,
+      "obstacleDamage": 1,
+      "falloff": 0.9,
+      "distance": 425,
+      "speed": 134,
       "variance": 0,
       "shrapnel": false,
       "tracerColor": "556mm",
@@ -2224,6 +2227,82 @@
         }
       }
     },
+    "vss": {
+      "name": "VSS",
+      "type": "gun",
+      "quality": 1,
+      "fireMode": "single",
+      "caseTiming": "shoot",
+      "ammo": "9mm",
+      "ammoSpawnCount": 60,
+      "maxClip": 10,
+      "maxReload": 10,
+      "extendedClip": 20,
+      "extendedReload": 20,
+      "reloadTime": 2.3,
+      "fireDelay": 0.16,
+      "switchDelay": 0.75,
+      "barrelLength": 3.7,
+      "barrelOffset": 0,
+      "recoilTime": false,
+      "moveSpread": 3,
+      "shotSpread": 2,
+      "bulletCount": 1,
+      "bulletType": {
+        "type": "bullet",
+        "damage": 22,
+        "obstacleDamage": 1,
+        "falloff": 0.8,
+        "distance": 125,
+        "speed": 95,
+        "variance": 0,
+        "shrapnel": false,
+        "suppressed": true,
+        "tracerColor": "9mm",
+        "tracerWidth": 0.1,
+        "tracerLength": 0.8
+      },
+      "headshotMult": 2,
+      "speed": {"equip": 0, "attack": 0},
+      "lootImg": {
+        "sprite": "https://surviv.io/img/loot/loot-weapon-vss.svg",
+        "tint": "65280 | #00FF00",
+        "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+        "borderTint": false
+      },
+      "worldImg": {
+        "sprite": "https://surviv.io/img/guns/gun-vss-01.svg",
+        "tint": false
+      },
+      "calculations": {
+        "damage": {
+          "bulletDamage": [22, 14.85, 11, 8.47, 7.48],
+          "bulletDamageObj": 22,
+          "bulletDamageHS": [44, 33, 26.4, 19.8, 13.2],
+          "bulletsWHS": 1.5,
+          "bulletsREG": 8.5,
+          "magDMG": [253, 176, 133, 102, 83],
+          "susDPS": [64, 44, 34, 26, 21],
+          "burDPS": [152, 105, 80, 61, 50],
+          "htKill": [4, 6, 8, 10, 12],
+          "ttKill": [0.51, 0.84, 1.17, 1.51, 1.84],
+          "falloff": [
+            "64/59/55/52/48",
+            "44/41/39/36/33",
+            "34/31/29/27/25",
+            "26/24/22/21/19",
+            "21/20/18/17/16"
+          ]
+        },
+        "firing": {
+          "firePerMin": 375,
+          "firePerSec": 6,
+          "distanceEffective": 98.72,
+          "dumpTime": 1.67,
+          "cycleTime": 3.97
+        }
+      }
+    },
     "famas": {
       "name": "FAMAS",
       "type": "gun",
@@ -2473,7 +2552,7 @@
       "extendedClip": 30,
       "extendedReload": 30,
       "reloadTime": 2.4,
-      "fireDelay": 0.15,
+      "fireDelay": 0.18,
       "switchDelay": 0.75,
       "barrelLength": 3.5,
       "barrelOffset": 0,
@@ -2483,7 +2562,7 @@
       "bulletCount": 1,
       "bulletType": {
         "type": "bullet",
-        "damage": 19.5,
+        "damage": 22.5,
         "obstacleDamage": 1,
         "falloff": 0.9,
         "distance": 400,
@@ -2508,30 +2587,105 @@
       },
       "calculations": {
         "damage": {
-          "bulletDamage": [19.5, 13.16, 9.75, 7.51, 6.63],
-          "bulletDamageObj": 19.5,
-          "bulletDamageHS": [39, 29.25, 23.4, 17.55, 11.7],
+          "bulletDamage": [22.5, 15.19, 11.25, 8.66, 7.65],
+          "bulletDamageObj": 22.5,
+          "bulletDamageHS": [45, 33.75, 27, 20.25, 13.5],
           "bulletsWHS": 3,
           "bulletsREG": 17,
-          "magDMG": [449, 312, 236, 180, 148],
-          "susDPS": [78, 54, 41, 31, 26],
-          "burDPS": [135, 93, 71, 54, 44],
-          "htKill": [5, 7, 9, 12, 14],
-          "ttKill": [0.68, 1.02, 1.35, 1.85, 2.18],
+          "magDMG": [518, 359, 272, 208, 171],
+          "susDPS": [81, 56, 43, 33, 27],
+          "burDPS": [129, 90, 68, 52, 43],
+          "htKill": [4, 6, 8, 10, 12],
+          "ttKill": [0.62, 1.02, 1.42, 1.82, 2.22],
           "falloff": [
-            "78/70/63/57/51",
-            "54/49/44/40/36",
-            "41/37/33/30/27",
-            "31/28/25/23/21",
-            "26/23/21/19/17"
+            "81/73/65/59/53",
+            "56/51/45/41/37",
+            "43/38/34/31/28",
+            "33/29/26/24/21",
+            "27/24/22/19/17"
           ]
         },
         "firing": {
-          "firePerMin": 400,
-          "firePerSec": 6,
+          "firePerMin": 333,
+          "firePerSec": 5,
           "distanceEffective": 359.19,
-          "dumpTime": 3.33,
-          "cycleTime": 5.73
+          "dumpTime": 4,
+          "cycleTime": 6.4
+        }
+      }
+    },
+    "l86": {
+      "name": "L86A2",
+      "type": "gun",
+      "quality": 0,
+      "fireMode": "single",
+      "caseTiming": "shoot",
+      "ammo": "556mm",
+      "ammoSpawnCount": 90,
+      "maxClip": 30,
+      "maxReload": 30,
+      "extendedClip": 40,
+      "extendedReload": 40,
+      "reloadTime": 2.9,
+      "fireDelay": 0.19,
+      "switchDelay": 0.75,
+      "barrelLength": 3.25,
+      "barrelOffset": 0,
+      "recoilTime": false,
+      "moveSpread": 3.5,
+      "shotSpread": 1,
+      "bulletCount": 1,
+      "bulletType": {
+        "type": "bullet",
+        "damage": 26.5,
+        "obstacleDamage": 1,
+        "falloff": 0.9,
+        "distance": 425,
+        "speed": 134,
+        "variance": 0,
+        "shrapnel": false,
+        "tracerColor": "556mm",
+        "tracerWidth": 0.1,
+        "tracerLength": 0.9
+      },
+      "headshotMult": 2,
+      "speed": {"equip": 0, "attack": 0},
+      "lootImg": {
+        "sprite": "https://surviv.io/img/loot/loot-weapon-l86.svg",
+        "tint": "65280 | #00FF00",
+        "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+        "borderTint": false
+      },
+      "worldImg": {
+        "sprite": "https://surviv.io/img/guns/gun-long-01.svg",
+        "tint": "14469287 | #DCC8A7"
+      },
+      "calculations": {
+        "damage": {
+          "bulletDamage": [26.5, 17.89, 13.25, 10.2, 9.01],
+          "bulletDamageObj": 26.5,
+          "bulletDamageHS": [53, 39.75, 31.8, 23.85, 15.9],
+          "bulletsWHS": 4.5,
+          "bulletsREG": 25.5,
+          "magDMG": [914, 635, 481, 367, 301],
+          "susDPS": [103, 71, 54, 41, 34],
+          "burDPS": [152, 106, 80, 61, 50],
+          "htKill": [4, 5, 7, 9, 10],
+          "ttKill": [0.61, 0.81, 1.21, 1.61, 1.81],
+          "falloff": [
+            "103/92/82/73/66",
+            "71/64/57/51/46",
+            "54/48/43/39/35",
+            "41/37/33/30/26",
+            "34/30/27/24/22"
+          ]
+        },
+        "firing": {
+          "firePerMin": 315,
+          "firePerSec": 5,
+          "distanceEffective": 381.69,
+          "dumpTime": 6,
+          "cycleTime": 8.9
         }
       }
     },
@@ -2910,6 +3064,82 @@
           "distanceEffective": 147.31,
           "dumpTime": 1.82,
           "cycleTime": 4.52
+        }
+      }
+    },
+    "scarssr": {
+      "name": "SCAR-SSR",
+      "type": "gun",
+      "quality": 0,
+      "fireMode": "single",
+      "caseTiming": "shoot",
+      "ammo": "308sub",
+      "ammoSpawnCount": 40,
+      "maxClip": 10,
+      "maxReload": 10,
+      "extendedClip": 20,
+      "extendedReload": 20,
+      "reloadTime": 2.7,
+      "fireDelay": 0.3,
+      "switchDelay": 0.75,
+      "barrelLength": 3.9,
+      "barrelOffset": 0,
+      "recoilTime": false,
+      "moveSpread": 5.5,
+      "shotSpread": 1.5,
+      "bulletCount": 1,
+      "bulletType": {
+        "type": "bullet",
+        "damage": 60,
+        "obstacleDamage": 1.5,
+        "falloff": 0.85,
+        "distance": 200,
+        "speed": 108,
+        "variance": 0,
+        "shrapnel": false,
+        "suppressed": true,
+        "tracerColor": "308sub",
+        "tracerWidth": 0.14,
+        "tracerLength": 1
+      },
+      "headshotMult": 1.5,
+      "speed": {"equip": 0, "attack": 0},
+      "lootImg": {
+        "sprite": "https://surviv.io/img/loot/loot-weapon-scarssr.svg",
+        "tint": "65280 | #00FF00",
+        "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+        "borderTint": false
+      },
+      "worldImg": {
+        "sprite": "https://surviv.io/img/guns/gun-scarssr-01.svg",
+        "tint": "10189640 | #9B7B48"
+      },
+      "calculations": {
+        "damage": {
+          "bulletDamage": [60, 40.5, 30, 23.1, 20.4],
+          "bulletDamageObj": 90,
+          "bulletDamageHS": [90, 67.5, 54, 40.5, 27],
+          "bulletsWHS": 1.5,
+          "bulletsREG": 8.5,
+          "magDMG": [645, 446, 336, 257, 214],
+          "susDPS": [107, 74, 56, 43, 35],
+          "burDPS": [194, 134, 101, 77, 64],
+          "htKill": [2, 3, 3, 4, 5],
+          "ttKill": [0.37, 0.7, 0.7, 1.03, 1.37],
+          "falloff": [
+            "107/99/91/84/77",
+            "74/68/63/58/53",
+            "56/51/47/44/40",
+            "43/39/36/33/31",
+            "35/33/30/28/26"
+          ]
+        },
+        "firing": {
+          "firePerMin": 200,
+          "firePerSec": 3,
+          "distanceEffective": 168.92,
+          "dumpTime": 3.33,
+          "cycleTime": 6.03
         }
       }
     },
@@ -3390,15 +3620,15 @@
       "maxReload": 1,
       "extendedClip": 8,
       "extendedReload": 1,
-      "reloadTime": 0.6,
-      "fireDelay": 0.75,
+      "reloadTime": 0.5,
+      "fireDelay": 0.7,
       "switchDelay": 1,
       "pullDelay": 1,
       "barrelLength": 3.7,
       "barrelOffset": 0,
       "recoilTime": false,
-      "moveSpread": 3.5,
-      "shotSpread": 2,
+      "moveSpread": 3,
+      "shotSpread": 1.5,
       "bulletCount": 1,
       "bulletType": {
         "type": "bullet",
@@ -3433,25 +3663,101 @@
           "bulletsWHS": 1.2,
           "bulletsREG": 6.8,
           "magDMG": [378, 261, 197, 151, 125],
-          "susDPS": [30, 20, 15, 12, 10],
+          "susDPS": [32, 22, 16, 13, 10],
           "burDPS": [47, 33, 25, 19, 16],
           "htKill": [3, 4, 5, 6, 7],
-          "ttKill": [2.25, 3.25, 4.25, 5.25, 6.25],
+          "ttKill": [2.3, 3.3, 4.3, 5.3, 6.3],
           "falloff": [
-            "30/26/23/20/18",
-            "20/18/16/14/12",
-            "15/14/12/11/9",
-            "12/10/9/8/7",
+            "32/28/25/22/19",
+            "22/19/17/15/13",
+            "16/14/13/11/10",
+            "13/11/10/9/8",
             "10/9/8/7/6"
           ]
         },
         "firing": {
-          "firePerMin": 80,
+          "firePerMin": 85,
           "firePerSec": 1,
-          "distanceEffective": 130.13,
+          "distanceEffective": 130.41,
           "dumpTime": 8,
-          "cycleTime": 12.8,
-          "cycleTimeSingle": 1.6
+          "cycleTime": 12,
+          "cycleTimeSingle": 1.5
+        }
+      }
+    },
+    "blr": {
+      "name": "BLR 81",
+      "type": "gun",
+      "quality": 0,
+      "fireMode": "single",
+      "caseTiming": "shoot",
+      "ammo": "762mm",
+      "ammoSpawnCount": 30,
+      "maxClip": 3,
+      "maxReload": 3,
+      "extendedClip": 5,
+      "extendedReload": 5,
+      "reloadTime": 1.7,
+      "fireDelay": 0.8,
+      "switchDelay": 1,
+      "pullDelay": 1,
+      "barrelLength": 3.8,
+      "barrelOffset": 0,
+      "recoilTime": false,
+      "moveSpread": 3,
+      "shotSpread": 1.5,
+      "bulletCount": 1,
+      "bulletType": {
+        "type": "bullet",
+        "damage": 56,
+        "obstacleDamage": 1,
+        "falloff": 0.9,
+        "distance": 400,
+        "speed": 160,
+        "variance": 0,
+        "shrapnel": false,
+        "tracerColor": "762mm",
+        "tracerWidth": 0.14,
+        "tracerLength": 1
+      },
+      "headshotMult": 1.5,
+      "speed": {"equip": 0, "attack": 0},
+      "lootImg": {
+        "sprite": "https://surviv.io/img/loot/loot-weapon-blr.svg",
+        "tint": "65280 | #00FF00",
+        "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+        "borderTint": false
+      },
+      "worldImg": {
+        "sprite": "https://surviv.io/img/guns/gun-long-01.svg",
+        "tint": "4663046 | #472706"
+      },
+      "calculations": {
+        "damage": {
+          "bulletDamage": [56, 37.8, 28, 21.56, 19.04],
+          "bulletDamageObj": 56,
+          "bulletDamageHS": [84, 63, 50.4, 37.8, 25.2],
+          "bulletsWHS": 0.45,
+          "bulletsREG": 2.55,
+          "magDMG": [181, 125, 94, 72, 60],
+          "susDPS": [38, 27, 20, 15, 13],
+          "burDPS": [60, 42, 31, 24, 20],
+          "htKill": [2, 3, 4, 5, 6],
+          "ttKill": [1.2, 2.2, 3.2, 4.2, 5.2],
+          "falloff": [
+            "38/35/31/28/25",
+            "27/24/21/19/17",
+            "20/18/16/15/13",
+            "15/14/12/11/10",
+            "13/11/10/9/8"
+          ]
+        },
+        "firing": {
+          "firePerMin": 75,
+          "firePerSec": 1,
+          "distanceEffective": 358.78,
+          "dumpTime": 3,
+          "cycleTime": 4.7
         }
       }
     },
@@ -3701,7 +4007,7 @@
       "extendedClip": 30,
       "extendedReload": 30,
       "reloadTime": 2.5,
-      "fireDelay": 0.2,
+      "fireDelay": 0.23,
       "switchDelay": 0.75,
       "barrelLength": 3.5,
       "barrelOffset": 0,
@@ -3711,7 +4017,7 @@
       "bulletCount": 1,
       "bulletType": {
         "type": "bullet",
-        "damage": 24.5,
+        "damage": 27,
         "obstacleDamage": 1,
         "falloff": 0.9,
         "distance": 400,
@@ -3736,30 +4042,105 @@
       },
       "calculations": {
         "damage": {
-          "bulletDamage": [24.5, 16.54, 12.25, 9.43, 8.33],
-          "bulletDamageObj": 24.5,
-          "bulletDamageHS": [49, 36.75, 29.4, 22.05, 14.7],
+          "bulletDamage": [27, 18.23, 13.5, 10.39, 9.18],
+          "bulletDamageObj": 27,
+          "bulletDamageHS": [54, 40.5, 32.4, 24.3, 16.2],
           "bulletsWHS": 3,
           "bulletsREG": 17,
-          "magDMG": [564, 391, 296, 227, 186],
-          "susDPS": [87, 60, 46, 35, 29],
-          "burDPS": [141, 98, 74, 57, 46],
-          "htKill": [4, 6, 7, 9, 11],
-          "ttKill": [0.6, 1, 1.2, 1.6, 2],
+          "magDMG": [621, 431, 327, 250, 205],
+          "susDPS": [83, 58, 44, 33, 27],
+          "burDPS": [124, 86, 65, 50, 41],
+          "htKill": [4, 5, 7, 9, 10],
+          "ttKill": [0.77, 1.02, 1.52, 2.02, 2.27],
           "falloff": [
-            "87/78/70/63/57",
-            "60/54/49/44/40",
-            "46/41/37/33/30",
-            "35/31/28/25/23",
-            "29/26/23/21/19"
+            "83/75/67/60/54",
+            "58/52/47/42/38",
+            "44/39/35/32/29",
+            "33/30/27/24/22",
+            "27/25/22/20/18"
           ]
         },
         "firing": {
-          "firePerMin": 300,
-          "firePerSec": 5,
+          "firePerMin": 260,
+          "firePerSec": 4,
           "distanceEffective": 359.19,
-          "dumpTime": 4,
-          "cycleTime": 6.5
+          "dumpTime": 5,
+          "cycleTime": 7.5
+        }
+      }
+    },
+    "svd": {
+      "name": "SVD-63",
+      "type": "gun",
+      "quality": 0,
+      "fireMode": "single",
+      "caseTiming": "shoot",
+      "ammo": "762mm",
+      "ammoSpawnCount": 60,
+      "maxClip": 10,
+      "maxReload": 10,
+      "extendedClip": 20,
+      "extendedReload": 20,
+      "reloadTime": 2.5,
+      "fireDelay": 0.25,
+      "switchDelay": 0.75,
+      "barrelLength": 4,
+      "barrelOffset": 0,
+      "recoilTime": false,
+      "moveSpread": 4.5,
+      "shotSpread": 1,
+      "bulletCount": 1,
+      "bulletType": {
+        "type": "bullet",
+        "damage": 36,
+        "obstacleDamage": 1,
+        "falloff": 0.9,
+        "distance": 425,
+        "speed": 127,
+        "variance": 0,
+        "shrapnel": false,
+        "tracerColor": "762mm",
+        "tracerWidth": 0.1,
+        "tracerLength": 0.9
+      },
+      "headshotMult": 2,
+      "speed": {"equip": 0, "attack": 0},
+      "lootImg": {
+        "sprite": "https://surviv.io/img/loot/loot-weapon-svd.svg",
+        "tint": "65280 | #00FF00",
+        "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+        "borderTint": false
+      },
+      "worldImg": {
+        "sprite": "https://surviv.io/img/guns/gun-long-01.svg",
+        "tint": "1842204 | #1C1C1C"
+      },
+      "calculations": {
+        "damage": {
+          "bulletDamage": [36, 24.3, 18, 13.86, 12.24],
+          "bulletDamageObj": 36,
+          "bulletDamageHS": [72, 54, 43.2, 32.4, 21.6],
+          "bulletsWHS": 1.5,
+          "bulletsREG": 8.5,
+          "magDMG": [414, 288, 218, 166, 136],
+          "susDPS": [83, 58, 44, 33, 27],
+          "burDPS": [166, 115, 87, 67, 55],
+          "htKill": [3, 4, 5, 7, 8],
+          "ttKill": [0.5, 0.75, 1, 1.5, 1.75],
+          "falloff": [
+            "83/74/66/59/53",
+            "58/51/46/41/37",
+            "44/39/35/31/28",
+            "33/30/27/24/21",
+            "27/24/22/20/17"
+          ]
+        },
+        "firing": {
+          "firePerMin": 240,
+          "firePerSec": 4,
+          "distanceEffective": 381.69,
+          "dumpTime": 2.5,
+          "cycleTime": 5
         }
       }
     },
@@ -3776,7 +4157,7 @@
       "extendedClip": 8,
       "extendedReload": 8,
       "reloadTime": 2.1,
-      "fireDelay": 0.2,
+      "fireDelay": 0.23,
       "switchDelay": 0.75,
       "barrelLength": 3.6,
       "barrelOffset": 0,
@@ -3786,7 +4167,7 @@
       "bulletCount": 1,
       "bulletType": {
         "type": "bullet",
-        "damage": 32,
+        "damage": 35,
         "obstacleDamage": 1,
         "falloff": 0.9,
         "distance": 400,
@@ -3811,30 +4192,30 @@
       },
       "calculations": {
         "damage": {
-          "bulletDamage": [32, 21.6, 16, 12.32, 10.88],
-          "bulletDamageObj": 32,
-          "bulletDamageHS": [64, 48, 38.4, 28.8, 19.2],
+          "bulletDamage": [35, 23.63, 17.5, 13.48, 11.9],
+          "bulletDamageObj": 35,
+          "bulletDamageHS": [70, 52.5, 42, 31.5, 21],
           "bulletsWHS": 1.2,
           "bulletsREG": 6.8,
-          "magDMG": [294, 204, 155, 118, 97],
-          "susDPS": [80, 55, 42, 32, 26],
-          "burDPS": [184, 128, 97, 74, 61],
-          "htKill": [3, 4, 6, 7, 9],
-          "ttKill": [0.4, 0.6, 1, 1.2, 1.6],
+          "magDMG": [322, 224, 169, 129, 106],
+          "susDPS": [79, 55, 41, 32, 26],
+          "burDPS": [161, 112, 85, 65, 53],
+          "htKill": [3, 4, 5, 7, 8],
+          "ttKill": [0.52, 0.77, 1.02, 1.52, 1.77],
           "falloff": [
-            "80/72/64/58/52",
-            "55/50/45/40/36",
-            "42/38/34/31/27",
-            "32/29/26/23/21",
-            "26/24/21/19/17"
+            "79/71/64/57/52",
+            "55/49/44/40/36",
+            "41/37/33/30/27",
+            "32/28/26/23/21",
+            "26/23/21/19/17"
           ]
         },
         "firing": {
-          "firePerMin": 300,
-          "firePerSec": 5,
+          "firePerMin": 260,
+          "firePerSec": 4,
           "distanceEffective": 359.19,
-          "dumpTime": 1.6,
-          "cycleTime": 3.7
+          "dumpTime": 2,
+          "cycleTime": 4.1
         }
       }
     },
@@ -6801,6 +7182,73 @@
         "firing": {"firePerMin": 200, "firePerSec": 3}
       }
     },
+    "martyr_nade": {
+      "name": "Martyrdom",
+      "type": "throwable",
+      "quality": 0,
+      "explosionType": {
+        "type": "explosion",
+        "damage": 75,
+        "obstacleDamage": 1.1,
+        "rad": {"min": 4, "max": 8},
+        "shrapnelCount": 7,
+        "shrapnelType": {
+          "type": "bullet",
+          "damage": 6,
+          "obstacleDamage": 1,
+          "falloff": 1,
+          "speed": 20,
+          "distance": 5,
+          "variance": 1.3,
+          "shrapnel": true,
+          "tracerColor": "shrapnel",
+          "tracerWidth": 0.1,
+          "tracerLength": 0.5
+        },
+        "explosionEffectType": "martyr_nade",
+        "decalType": "decal_frag_small_explosion"
+      },
+      "inventoryOrder": 99,
+      "cookable": true,
+      "noPotatoSwap": true,
+      "explodeOnImpact": false,
+      "playerCollision": false,
+      "fuseTime": 3,
+      "fuseVariance": 0.3,
+      "aimDistance": 0,
+      "rad": 1,
+      "throwPhysics": {
+        "playerVelMult": 0.6,
+        "velZ": 5,
+        "speed": 20,
+        "spinVel": 31.42,
+        "spinDrag": 1,
+        "distance": 20
+      },
+      "speed": {"equip": 0, "attack": 0},
+      "lootImg": {
+        "sprite": "https://surviv.io/img/loot/loot-throwable-frag.svg",
+        "tint": "65280 | #00FF00",
+        "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+        "borderTint": false
+      },
+      "worldImg": {
+        "sprite": "https://surviv.io/img/projectiles/proj-martyrdom-01.svg",
+        "tint": false
+      },
+      "useThrowParticles": true,
+      "calculations": {
+        "damage": {
+          "blastDamage": [75, 50.63, 37.5, 28.88, 25.5],
+          "blastDamageObj": 82.5,
+          "shrapDamage": [42, 28.35, 21, 16.17, 14.28],
+          "shrapDamageObj": 42,
+          "maxDamage": [117, 78.97, 58.5, 45.05, 39.78],
+          "maxDamageObj": 124.5
+        },
+        "firing": {"firePerMin": 200, "firePerSec": 3}
+      }
+    },
     "smoke": {
       "name": "Smoke Grenade",
       "type": "throwable",
@@ -8970,7 +9418,7 @@
       "teamOnly": false,
       "category": "Flags"
     },
-    "emote_flagmazerbaijan": {
+    "emote_flagazerbaijan": {
       "type": "emote",
       "name": "Flag Azerbaijan",
       "rarity": 1,
@@ -8979,7 +9427,7 @@
       "teamOnly": false,
       "category": "Flags"
     },
-    "emote_flagmalbania": {
+    "emote_flagalbania": {
       "type": "emote",
       "name": "Flag Albania",
       "rarity": 1,
@@ -9041,7 +9489,7 @@
       "lootImg": {
         "sprite": "https://surviv.io/img/loot/loot-perk-leadership.svg",
         "tint": false,
-        "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+        "border": "https://surviv.io/img/loot/loot-circle-outer-03.svg",
         "borderTint": false
       }
     },
@@ -9051,7 +9499,7 @@
       "lootImg": {
         "sprite": "https://surviv.io/img/loot/loot-perk-firepower.svg",
         "tint": false,
-        "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+        "border": "https://surviv.io/img/loot/loot-circle-outer-03.svg",
         "borderTint": false
       }
     },
@@ -9061,7 +9509,7 @@
       "lootImg": {
         "sprite": "https://surviv.io/img/loot/loot-perk-gotw.svg",
         "tint": false,
-        "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+        "border": "https://surviv.io/img/loot/loot-circle-outer-03.svg",
         "borderTint": false
       }
     },
@@ -9071,7 +9519,7 @@
       "lootImg": {
         "sprite": "https://surviv.io/img/loot/loot-perk-windwalk.svg",
         "tint": false,
-        "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+        "border": "https://surviv.io/img/loot/loot-circle-outer-03.svg",
         "borderTint": false
       }
     },
@@ -9081,7 +9529,7 @@
       "lootImg": {
         "sprite": "https://surviv.io/img/loot/loot-perk-rare-potato.svg",
         "tint": false,
-        "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+        "border": "https://surviv.io/img/loot/loot-circle-outer-03.svg",
         "borderTint": false
       }
     },
@@ -9091,7 +9539,7 @@
       "lootImg": {
         "sprite": "https://surviv.io/img/loot/loot-perk-aoe-heal.svg",
         "tint": false,
-        "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+        "border": "https://surviv.io/img/loot/loot-circle-outer-03.svg",
         "borderTint": false
       }
     },
@@ -9101,7 +9549,17 @@
       "lootImg": {
         "sprite": "https://surviv.io/img/loot/loot-perk-endless-ammo.svg",
         "tint": false,
-        "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+        "border": "https://surviv.io/img/loot/loot-circle-outer-03.svg",
+        "borderTint": false
+      }
+    },
+    "steelskin": {
+      "name": "Steelskin",
+      "type": "perk",
+      "lootImg": {
+        "sprite": "https://surviv.io/img/loot/loot-perk-steelskin.svg",
+        "tint": false,
+        "border": "https://surviv.io/img/loot/loot-circle-outer-03.svg",
         "borderTint": false
       }
     },
@@ -9111,7 +9569,7 @@
       "lootImg": {
         "sprite": "https://surviv.io/img/loot/loot-perk-splinter.svg",
         "tint": false,
-        "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+        "border": "https://surviv.io/img/loot/loot-circle-outer-03.svg",
         "borderTint": false
       }
     },
@@ -9121,7 +9579,77 @@
       "lootImg": {
         "sprite": "https://surviv.io/img/loot/loot-perk-small-arms.svg",
         "tint": false,
-        "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+        "border": "https://surviv.io/img/loot/loot-circle-outer-03.svg",
+        "borderTint": false
+      }
+    },
+    "takedown": {
+      "name": "Takedown",
+      "type": "perk",
+      "lootImg": {
+        "sprite": "https://surviv.io/img/loot/loot-perk-takedown.svg",
+        "tint": false,
+        "border": "https://surviv.io/img/loot/loot-circle-outer-03.svg",
+        "borderTint": false
+      }
+    },
+    "field_medic": {
+      "name": "Field Medic",
+      "type": "perk",
+      "lootImg": {
+        "sprite": "https://surviv.io/img/loot/loot-perk-field-medic.svg",
+        "tint": false,
+        "border": "https://surviv.io/img/loot/loot-circle-outer-03.svg",
+        "borderTint": false
+      }
+    },
+    "tree_climbing": {
+      "name": "Tree Climbing",
+      "type": "perk",
+      "lootImg": {
+        "sprite": "https://surviv.io/img/loot/loot-perk-tree-climbing.svg",
+        "tint": false,
+        "border": "https://surviv.io/img/loot/loot-circle-outer-03.svg",
+        "borderTint": false
+      }
+    },
+    "scavenger": {
+      "name": "Scavenger",
+      "type": "perk",
+      "lootImg": {
+        "sprite": "https://surviv.io/img/loot/loot-perk-scavenger.svg",
+        "tint": false,
+        "border": "https://surviv.io/img/loot/loot-circle-outer-03.svg",
+        "borderTint": false
+      }
+    },
+    "hunted": {
+      "name": "The Hunted",
+      "type": "perk",
+      "lootImg": {
+        "sprite": "https://surviv.io/img/loot/loot-perk-hunted.svg",
+        "tint": false,
+        "border": "https://surviv.io/img/loot/loot-circle-outer-03.svg",
+        "borderTint": false
+      }
+    },
+    "chambered": {
+      "name": "One In The Chamber",
+      "type": "perk",
+      "lootImg": {
+        "sprite": "https://surviv.io/img/loot/loot-perk-chambered.svg",
+        "tint": false,
+        "border": "https://surviv.io/img/loot/loot-circle-outer-03.svg",
+        "borderTint": false
+      }
+    },
+    "martyrdom": {
+      "name": "Martyrdom",
+      "type": "perk",
+      "lootImg": {
+        "sprite": "https://surviv.io/img/loot/loot-perk-martyrdom.svg",
+        "tint": false,
+        "border": "https://surviv.io/img/loot/loot-circle-outer-03.svg",
         "borderTint": false
       }
     }
@@ -9207,6 +9735,7 @@
       "scar_01": "https://surviv.io/audio/guns/scar_01.mp3",
       "scar_reload_01": "https://surviv.io/audio/guns/scar_reload_01.mp3",
       "scar_switch_01": "https://surviv.io/audio/guns/scar_switch_01.mp3",
+      "scarssr_01": "https://surviv.io/audio/guns/scarssr_01.mp3",
       "dp28_01": "https://surviv.io/audio/guns/dp28_01.mp3",
       "dp28_reload_01": "https://surviv.io/audio/guns/dp28_reload_01.mp3",
       "dp28_switch_01": "https://surviv.io/audio/guns/dp28_switch_01.mp3",
@@ -9242,6 +9771,9 @@
       "m39_01": "https://surviv.io/audio/guns/m39_01.mp3",
       "m39_reload_01": "https://surviv.io/audio/guns/m39_reload_01.mp3",
       "m39_switch_01": "https://surviv.io/audio/guns/m39_switch_01.mp3",
+      "svd_01": "https://surviv.io/audio/guns/svd_01.mp3",
+      "svd_reload_01": "https://surviv.io/audio/guns/svd_reload_01.mp3",
+      "svd_switch_01": "https://surviv.io/audio/guns/svd_switch_01.mp3",
       "garand_01": "https://surviv.io/audio/guns/garand_01.mp3",
       "garand_02": "https://surviv.io/audio/guns/garand_02.mp3",
       "garand_reload_01": "https://surviv.io/audio/guns/garand_reload_01.mp3",
@@ -9265,6 +9797,9 @@
       "scorpion_01": "https://surviv.io/audio/guns/scorpion_01.mp3",
       "scorpion_reload_01": "https://surviv.io/audio/guns/scorpion_reload_01.mp3",
       "scorpion_switch_01": "https://surviv.io/audio/guns/scorpion_switch_01.mp3",
+      "vss_01": "https://surviv.io/audio/guns/vss_01.mp3",
+      "vss_reload_01": "https://surviv.io/audio/guns/vss_reload_01.mp3",
+      "vss_switch_01": "https://surviv.io/audio/guns/vss_switch_01.mp3",
       "famas_01": "https://surviv.io/audio/guns/famas_01.mp3",
       "famas_reload_01": "https://surviv.io/audio/guns/famas_reload_01.mp3",
       "famas_switch_01": "https://surviv.io/audio/guns/famas_switch_01.mp3",
@@ -9277,6 +9812,9 @@
       "mk12_01": "https://surviv.io/audio/guns/mk12_01.mp3",
       "mk12_reload_01": "https://surviv.io/audio/guns/mk12_reload_01.mp3",
       "mk12_switch_01": "https://surviv.io/audio/guns/mk12_switch_01.mp3",
+      "l86_01": "https://surviv.io/audio/guns/l86_01.mp3",
+      "l86_reload_01": "https://surviv.io/audio/guns/l86_reload_01.mp3",
+      "l86_switch_01": "https://surviv.io/audio/guns/l86_switch_01.mp3",
       "m249_01": "https://surviv.io/audio/guns/m249_01.mp3",
       "m249_reload_01": "https://surviv.io/audio/guns/m249_reload_01.mp3",
       "m249_switch_01": "https://surviv.io/audio/guns/m249_switch_01.mp3",
@@ -9290,6 +9828,9 @@
       "model94_01": "https://surviv.io/audio/guns/model94_01.mp3",
       "model94_reload_01": "https://surviv.io/audio/guns/model94_reload_01.mp3",
       "model94_cycle_01": "https://surviv.io/audio/guns/model94_cycle_01.mp3",
+      "blr_01": "https://surviv.io/audio/guns/blr_01.mp3",
+      "blr_reload_01": "https://surviv.io/audio/guns/blr_reload_01.mp3",
+      "blr_cycle_01": "https://surviv.io/audio/guns/blr_cycle_01.mp3",
       "mosin_01": "https://surviv.io/audio/guns/mosin_01.mp3",
       "mosin_reload_01": "https://surviv.io/audio/guns/mosin_reload_01.mp3",
       "mosin_reload_02": "https://surviv.io/audio/guns/mosin_reload_02.mp3",
@@ -9488,6 +10029,7 @@
       "potato_pickup_01": "https://surviv.io/audio/ui/potato_pickup_01.mp3",
       "heavy_pickup_01": "https://surviv.io/audio/ui/heavy_pickup_01.mp3",
       "pan_pickup_01": "https://surviv.io/audio/ui/pan_pickup_01.mp3",
+      "perk_pickup_01": "https://surviv.io/audio/ui/perk_pickup_01.mp3",
       "ping_danger_01": "https://surviv.io/audio/ui/ping_danger_01.mp3",
       "ping_coming_01": "https://surviv.io/audio/ui/ping_coming_01.mp3",
       "ping_help_01": "https://surviv.io/audio/ui/ping_help_01.mp3",
@@ -9711,6 +10253,11 @@
         "residue": "https://surviv.io/img/map/map-barrel-res-03.svg"
       }
     },
+    "propane_01": {
+      "health": 50,
+      "map": {"display": true, "color": "24516 | #005FC4"},
+      "img": {"sprite": "https://surviv.io/img/map/map-propane-01.svg"}
+    },
     "bed_sm_01": {
       "img": {"sprite": "https://surviv.io/img/map/map-bed-01.svg"}
     },
@@ -9754,6 +10301,26 @@
       "img": {
         "sprite": "https://surviv.io/img/map/map-bush-01sv.svg",
         "residue": "https://surviv.io/img/map/map-bush-res-01sv.svg"
+      },
+      "map": {"color": "7569455 | #73802F"}
+    },
+    "brush_01sv": {
+      "health": 150,
+      "hitParticle": "leaf",
+      "explodeParticle": "leaf",
+      "img": {
+        "sprite": "https://surviv.io/img/map/map-brush-01sv.svg",
+        "residue": "https://surviv.io/img/map/map-brush-res-02sv.svg"
+      },
+      "map": {"color": "5207588 | #4F7624"}
+    },
+    "brush_02sv": {
+      "health": 150,
+      "hitParticle": "leaf",
+      "explodeParticle": "leaf",
+      "img": {
+        "sprite": "https://surviv.io/img/map/map-brush-02sv.svg",
+        "residue": "https://surviv.io/img/map/map-brush-res-02sv.svg"
       },
       "map": {"color": "5207588 | #4F7624"}
     },
@@ -9975,6 +10542,20 @@
       "terrain": {"grass": true, "beach": false},
       "img": {"sprite": "https://surviv.io/img/map/map-crate-02.svg"}
     },
+    "crate_02sv": {
+      "health": 140,
+      "loot": ["tier_soviet", "tier_world"],
+      "map": {"display": true, "color": "16760832 | #FFC000"},
+      "terrain": {"grass": true, "beach": false},
+      "img": {"sprite": "https://surviv.io/img/map/map-crate-02sv.svg"}
+    },
+    "crate_02sv_lake": {
+      "health": 140,
+      "loot": ["tier_soviet"],
+      "map": {"display": true, "color": "16760832 | #FFC000"},
+      "terrain": {"lakeCenter": true},
+      "img": {"sprite": "https://surviv.io/img/map/map-crate-02sv.svg"}
+    },
     "crate_02x": {
       "health": 140,
       "loot": ["tier_soviet"],
@@ -10072,6 +10653,21 @@
       ],
       "img": {"sprite": "https://surviv.io/img/map/map-crate-07.svg"}
     },
+    "crate_07sv": {
+      "health": 140,
+      "loot": [
+        "tier_surviv",
+        "svd",
+        "svd",
+        "blr",
+        "blr",
+        "outfitKhaki",
+        "outfitKhaki",
+        "outfitKhaki",
+        "outfitKhaki"
+      ],
+      "img": {"sprite": "https://surviv.io/img/map/map-crate-07.svg"}
+    },
     "crate_08": {
       "health": 140,
       "loot": ["tier_surviv"],
@@ -10116,6 +10712,46 @@
         "tier_airdrop_melee",
         "tier_airdrop_ammo",
         "tier_airdrop_throwables"
+      ],
+      "map": {"display": false},
+      "terrain": {"grass": true, "beach": false},
+      "img": {
+        "sprite": "https://surviv.io/img/map/map-crate-11.svg",
+        "residue": "https://surviv.io/img/map/map-crate-res-03.svg"
+      }
+    },
+    "crate_10sv": {
+      "health": 200,
+      "loot": [
+        "tier_airdrop_uncommon",
+        "tier_airdrop_armor",
+        "tier_medical",
+        "tier_airdrop_scopes",
+        "tier_airdrop_outfits",
+        "tier_airdrop_melee",
+        "tier_airdrop_ammo",
+        "tier_airdrop_throwables",
+        "tier_perks"
+      ],
+      "map": {"display": false},
+      "terrain": {"grass": true, "beach": false},
+      "img": {
+        "sprite": "https://surviv.io/img/map/map-crate-10.svg",
+        "residue": "https://surviv.io/img/map/map-crate-res-03.svg"
+      }
+    },
+    "crate_11sv": {
+      "health": 200,
+      "loot": [
+        "tier_airdrop_rare",
+        "tier_airdrop_armor",
+        "tier_medical",
+        "tier_airdrop_scopes",
+        "tier_airdrop_outfits",
+        "tier_airdrop_melee",
+        "tier_airdrop_ammo",
+        "tier_airdrop_throwables",
+        "tier_perks"
       ],
       "map": {"display": false},
       "terrain": {"grass": true, "beach": false},
@@ -10218,8 +10854,15 @@
     },
     "crate_21": {
       "health": 140,
-      "loot": ["tier_cloud_01", "tier_cloud_02", "tier_dm_helmet_03"],
-      "map": {"display": true, "color": "10066329 | #999999"},
+      "loot": ["tier_guns", "tier_snipers", "tier_cloud_02", "tier_perks"],
+      "map": {"display": true, "color": "18799 | #00496F"},
+      "terrain": {"grass": true, "beach": false},
+      "img": {"sprite": "https://surviv.io/img/map/map-crate-21.svg"}
+    },
+    "crate_21b": {
+      "health": 140,
+      "loot": ["tier_guns", "tier_snipers", "tier_cloud_02", "tier_perks"],
+      "map": {"display": false, "color": "18799 | #00496F"},
       "terrain": {"grass": true, "beach": false},
       "img": {"sprite": "https://surviv.io/img/map/map-crate-21.svg"}
     },
@@ -10274,6 +10917,22 @@
       "destroyType": "crate_13",
       "explodeParticle": "airdropCrate04"
     },
+    "airdrop_crate_01sv": {
+      "img": {
+        "sprite": "https://surviv.io/img/map/map-airdrop-01.svg",
+        "use": "https://surviv.io/img/map/map-airdrop-02.svg"
+      },
+      "destroyType": "crate_10sv",
+      "explodeParticle": "airdropCrate02"
+    },
+    "airdrop_crate_02sv": {
+      "img": {
+        "sprite": "https://surviv.io/img/map/map-airdrop-01.svg",
+        "use": "https://surviv.io/img/map/map-airdrop-02.svg"
+      },
+      "destroyType": "crate_11sv",
+      "explodeParticle": "airdropCrate02"
+    },
     "airdrop_crate_01x": {
       "img": {
         "sprite": "https://surviv.io/img/map/map-airdrop-01x.svg",
@@ -10317,6 +10976,13 @@
       "map": {"display": false},
       "terrain": {"grass": true, "beach": true},
       "img": {"sprite": "https://surviv.io/img/map/map-crate-mil-04.svg"}
+    },
+    "mil_crate_05": {
+      "health": 100,
+      "loot": ["tier_guns", "tier_snipers"],
+      "map": {"display": true, "color": "3622438 | #374626"},
+      "terrain": {"grass": true, "beach": true},
+      "img": {"sprite": "https://surviv.io/img/map/map-crate-mil-05.svg"}
     },
     "bottle_01": {
       "health": 12,
@@ -10643,6 +11309,7 @@
       "img": {"residue": "https://surviv.io/img/map/map-stone-res-01b.svg"}
     },
     "stone_01f": {"map": {"display": true, "color": "8224125 | #7D7D7D"}},
+    "stone_01sv": {},
     "stone_01x": {
       "map": {"display": true, "color": "6052956 | #5C5C5C"},
       "img": {
@@ -10652,7 +11319,11 @@
     },
     "stone_02": {
       "img": {"tint": "15066597 | #E5E5E5"},
-      "loot": ["tier_surviv", "ak47", "outfitKhaki"]
+      "loot": ["tier_surviv", "ak47", "outfitKhaki", "tier_perks"]
+    },
+    "stone_02sv": {
+      "img": {"tint": "15066597 | #E5E5E5"},
+      "loot": ["tier_surviv", "m39", "outfitKhaki", "tier_perks"]
     },
     "stone_03": {
       "img": {"sprite": "https://surviv.io/img/map/map-stone-03.svg"}
@@ -10709,6 +11380,16 @@
         "residue": "https://surviv.io/img/map/map-stone-res-06.svg"
       }
     },
+    "stone_07": {
+      "health": 500,
+      "map": {"display": true, "color": "9931908 | #978C84"},
+      "terrain": {"grass": true, "beach": false},
+      "img": {
+        "sprite": "https://surviv.io/img/map/map-stone-07.svg",
+        "residue": "https://surviv.io/img/map/map-stone-res-07.svg",
+        "tint": false
+      }
+    },
     "stove_01": {
       "disableBuildingOccupied": true,
       "damageCeiling": true,
@@ -10763,294 +11444,19 @@
         "tint": false
       }
     },
-    "toilet_01": {
-      "img": {"sprite": "https://surviv.io/img/map/map-toilet-01.svg"},
-      "loot": ["tier_toilet"]
-    },
-    "toilet_02": {
-      "img": {"sprite": "https://surviv.io/img/map/map-toilet-02.svg"},
-      "loot": ["tier_soviet"]
-    },
-    "toilet_02b": {
-      "img": {
-        "sprite": "https://surviv.io/img/map/map-toilet-02.svg",
-        "tint": "11842740 | #B4B4B4"
-      },
-      "loot": ["fireaxe"]
-    },
-    "toilet_03": {
-      "reflectBullets": true,
-      "hitParticle": "barrelChip",
-      "explodeParticle": "toiletMetalBreak",
-      "img": {
-        "sprite": "https://surviv.io/img/map/map-toilet-03.svg",
-        "residue": "https://surviv.io/img/map/map-toilet-res-02.svg"
-      },
-      "loot": ["tier_world"]
-    },
-    "toilet_04": {
-      "reflectBullets": true,
-      "hitParticle": "barrelChip",
-      "explodeParticle": "toiletMetalBreak",
-      "img": {
-        "sprite": "https://surviv.io/img/map/map-toilet-04.svg",
-        "residue": "https://surviv.io/img/map/map-toilet-res-02.svg"
-      },
-      "loot": ["tier_soviet"]
-    },
-    "towelrack_01": {
-      "img": {"sprite": "https://surviv.io/img/map/map-towelrack-01.svg"},
-      "explodeParticle": ["woodPlank", "clothBreak"]
-    },
-    "tree_01": {},
-    "tree_01sv": {
-      "map": {"color": "4411673 | #435119"},
-      "img": {"sprite": "https://surviv.io/img/map/map-tree-03sv.svg"}
-    },
-    "tree_interior_01": {},
-    "tree_01x": {},
-    "tree_02": {
-      "health": 120,
-      "aabb": {},
-      "height": 0.5,
-      "loot": ["woodaxe"],
-      "map": {"display": false},
-      "terrain": {"grass": true, "beach": false},
-      "img": {"sprite": "https://surviv.io/img/map/map-tree-04.svg"}
-    },
-    "tree_03": {
-      "img": {
-        "tint": "11645361 | #B1B1B1",
-        "sprite": "https://surviv.io/img/map/map-tree-03.svg"
-      },
-      "loot": ["tier_surviv", "mosin", "outfitWoodland"]
-    },
-    "tree_05": {
-      "aabb": {},
-      "health": 400,
-      "map": {"color": "5911831 | #5A3517"},
-      "img": {
-        "sprite": "https://surviv.io/img/map/map-tree-05.svg",
-        "residue": "https://surviv.io/img/map/map-tree-res-02.svg",
-        "tint": false
-      }
-    },
-    "tree_05b": {
-      "aabb": {},
-      "health": 500,
-      "loot": ["tier_shotguns", "tier_lmgs", "outfitTreeSpooky"],
-      "map": {"color": "5911831 | #5A3517"},
-      "img": {
-        "sprite": "https://surviv.io/img/map/map-tree-05.svg",
-        "residue": "https://surviv.io/img/map/map-tree-res-02.svg",
-        "tint": false
-      }
-    },
-    "tree_05c": {
-      "aabb": {},
-      "health": 200,
-      "map": {"color": "9064739 | #8A5123"},
-      "img": {
-        "sprite": "https://surviv.io/img/map/map-tree-05c.svg",
-        "residue": "https://surviv.io/img/map/map-tree-res-02.svg",
-        "tint": false
-      }
-    },
-    "tree_06": {
-      "img": {"sprite": "https://surviv.io/img/map/map-tree-06.svg"},
-      "map": {"color": "7700520 | #758028"}
-    },
-    "tree_07": {
-      "map": {"color": "5199637 | #4F5715"},
-      "img": {"sprite": "https://surviv.io/img/map/map-tree-07.svg"}
-    },
-    "tree_07sp": {
-      "map": {"color": "16697057 | #FEC6E1"},
-      "img": {"sprite": "https://surviv.io/img/map/map-tree-07sp.svg"},
-      "terrain": {"grass": true, "beach": false, "riverShore": true}
-    },
-    "tree_07spr": {
-      "map": {"color": "16697057 | #FEC6E1"},
-      "img": {"sprite": "https://surviv.io/img/map/map-tree-07sp.svg"},
-      "terrain": {"grass": false, "beach": false, "riverShore": true}
-    },
-    "tree_07su": {
-      "map": {"color": "2185478 | #215906"},
-      "img": {"sprite": "https://surviv.io/img/map/map-tree-07su.svg"}
-    },
-    "tree_08": {
-      "health": 225,
-      "map": {"color": "11033868 | #A85D0C"},
-      "img": {
-        "sprite": "https://surviv.io/img/map/map-tree-08.svg",
-        "residue": "https://surviv.io/img/map/map-tree-res-02.svg"
-      }
-    },
-    "tree_08b": {
-      "health": 300,
-      "map": {"color": "9647632 | #933610"},
-      "img": {
-        "sprite": "https://surviv.io/img/map/map-tree-08.svg",
-        "residue": "https://surviv.io/img/map/map-tree-res-02.svg",
-        "tint": "14383224 | #DB7878"
-      }
-    },
-    "tree_08c": {
-      "health": 500,
-      "loot": ["tier_shotguns", "tier_lmgs", "outfitWoodland"],
-      "map": {"color": "7817749 | #774A15"},
-      "img": {
-        "sprite": "https://surviv.io/img/map/map-tree-08.svg",
-        "residue": "https://surviv.io/img/map/map-tree-res-02.svg",
-        "tint": "11645361 | #B1B1B1"
-      }
-    },
-    "tree_08f": {
-      "health": 200,
-      "map": {"color": "995844 | #0F3204"},
-      "img": {
-        "sprite": "https://surviv.io/img/map/map-tree-08f.svg",
-        "residue": "https://surviv.io/img/map/map-tree-res-01.svg"
-      }
-    },
-    "tree_08sp": {
-      "health": 225,
-      "map": {"color": "16746936 | #FF89B8"},
-      "img": {
-        "sprite": "https://surviv.io/img/map/map-tree-08sp.svg",
-        "residue": "https://surviv.io/img/map/map-tree-res-02.svg"
-      },
-      "terrain": {"grass": true, "beach": false, "riverShore": true}
-    },
-    "tree_08spb": {
-      "health": 300,
-      "map": {"color": "16734619 | #FF599B"},
-      "img": {
-        "sprite": "https://surviv.io/img/map/map-tree-08sp.svg",
-        "residue": "https://surviv.io/img/map/map-tree-res-02.svg",
-        "tint": "14383224 | #DB7878"
-      },
-      "terrain": {"grass": true, "beach": false, "riverShore": true}
-    },
-    "tree_08spc": {
-      "health": 500,
-      "loot": ["tier_shotguns", "tier_lmgs", "outfitWoodland"],
-      "map": {"color": "8268107 | #7E294B"},
-      "img": {
-        "sprite": "https://surviv.io/img/map/map-tree-08sp.svg",
-        "residue": "https://surviv.io/img/map/map-tree-res-02.svg",
-        "tint": "11645361 | #B1B1B1"
-      }
-    },
-    "tree_08spr": {
-      "health": 225,
-      "map": {"color": "16746936 | #FF89B8"},
-      "img": {
-        "sprite": "https://surviv.io/img/map/map-tree-08sp.svg",
-        "residue": "https://surviv.io/img/map/map-tree-res-02.svg"
-      },
-      "terrain": {"grass": false, "beach": false, "riverShore": true}
-    },
-    "tree_08su": {
-      "health": 225,
-      "map": {"color": "2183181 | #21500D"},
-      "img": {
-        "sprite": "https://surviv.io/img/map/map-tree-08su.svg",
-        "residue": "https://surviv.io/img/map/map-tree-res-01.svg"
-      }
-    },
-    "tree_08sub": {
-      "health": 300,
-      "map": {"color": "1785864 | #1B4008"},
-      "img": {
-        "sprite": "https://surviv.io/img/map/map-tree-08su.svg",
-        "residue": "https://surviv.io/img/map/map-tree-res-02.svg",
-        "tint": "9211210 | #8C8D4A"
-      },
-      "terrain": {"grass": true, "beach": false, "riverShore": true}
-    },
-    "tree_09": {
-      "health": 120,
-      "aabb": {},
-      "height": 0.5,
-      "map": {"display": true, "color": "8602624 | #834400"},
-      "terrain": {"grass": true, "beach": false},
-      "img": {"sprite": "https://surviv.io/img/map/map-tree-09.svg"}
-    },
-    "tree_10": {
-      "map": {"color": "7571807 | #73895F"},
-      "img": {"sprite": "https://surviv.io/img/map/map-tree-10.svg"}
-    },
-    "tree_11": {"img": {"sprite": "https://surviv.io/img/map/map-tree-11.svg"}},
-    "tree_12": {
-      "map": {"color": "8032292 | #7A9024"},
-      "img": {
-        "sprite": "https://surviv.io/img/map/map-tree-12.svg",
-        "tint": false
-      }
-    },
-    "tree_switch_01": {
-      "img": {"sprite": "https://surviv.io/img/map/map-tree-switch-01.svg"}
-    },
-    "tree_switch_02": {
-      "img": {"sprite": "https://surviv.io/img/map/map-tree-switch-02.svg"}
-    },
-    "tree_switch_03": {
-      "img": {"sprite": "https://surviv.io/img/map/map-tree-switch-03.svg"}
-    },
-    "vat_01": {
+    "tire_01": {
       "type": "obstacle",
       "height": 0.5,
       "collidable": true,
       "destructible": true,
-      "health": 250,
+      "health": 1500,
+      "hitParticle": "blackChip",
+      "explodeParticle": "barrelBreak",
       "reflectBullets": false,
-      "hitParticle": "glassChip",
-      "explodeParticle": "windowBreak",
       "loot": [],
-      "map": {"display": true, "color": "11776947 | #B3B3B3"},
-      "terrain": {"grass": false, "beach": false},
-      "img": {
-        "sprite": "https://surviv.io/img/map/map-vat-01.svg",
-        "residue": "https://surviv.io/img/map/map-vat-res.svg",
-        "tint": false
-      }
-    },
-    "vat_02": {
-      "type": "obstacle",
-      "height": 0.5,
-      "collidable": true,
-      "destructible": false,
-      "health": 1000,
-      "reflectBullets": false,
-      "hitParticle": "glassChip",
-      "explodeParticle": "windowBreak",
-      "loot": [],
-      "map": {"display": true, "color": "11776947 | #B3B3B3"},
-      "terrain": {"grass": true, "beach": false},
-      "img": {
-        "sprite": "https://surviv.io/img/map/map-vat-02.svg",
-        "residue": "https://surviv.io/img/map/map-vat-res.svg",
-        "tint": false
-      }
-    },
-    "vending_01": {
-      "type": "obstacle",
-      "height": 0.5,
-      "collidable": true,
-      "destructible": true,
-      "health": 150,
-      "hitParticle": "blueChip",
-      "explodeParticle": ["windowBreak", "lockerBreak"],
-      "reflectBullets": true,
-      "loot": ["tier_vending_soda", "soda"],
-      "map": {"display": false, "color": "10925 | #002AAD"},
+      "map": {"display": true, "color": "6708838 | #665E66"},
       "terrain": {"grass": true, "beach": true},
-      "img": {
-        "sprite": "https://surviv.io/img/map/map-vending-soda-01.svg",
-        "residue": "https://surviv.io/img/map/map-vending-res.svg",
-        "tint": false
-      }
+      "img": {"tint": false}
     }
   },
   "translation": {
@@ -12020,16 +12426,12 @@
       "game-outfitPineapple": "Valiant Pineapple",
       "game-outfitTarkhany": "Tarkhany Regal",
       "game-outfitDesertCamo": "Desert Camo",
-      "game-outfitDesertGhillie": "Desert Ghillie",
       "game-outfitElf": "Tallow's Little Helper",
       "game-outfitSpetsnaz": "Siberian Assault",
-      "game-outfitDarkGhillie": "Incursion Ghillie",
       "game-outfitRedLeaderAged": "Red Victorious",
       "game-outfitBlueLeaderAged": "Stifled Blue",
       "game-outfitWoodsCloak": "Greencloak",
-      "game-outfitSpringGhillie": "Vernal Ghillie",
       "game-outfitNoir": "Neo Noir",
-      "game-outfitSummerGhillie": "Verdant Ghillie",
       "game-outfitWheat": "Splintered Wheat",
       "game-fists": "Poings",
       "game-knuckles_rusted": "Knuckles Rusted",
@@ -13901,16 +14303,12 @@
       "game-outfitPineapple": "Valiant Pineapple",
       "game-outfitTarkhany": "Tarkhany Regal",
       "game-outfitDesertCamo": "Desert Camo",
-      "game-outfitDesertGhillie": "Desert Ghillie",
       "game-outfitElf": "Tallow's Little Helper",
       "game-outfitSpetsnaz": "Siberian Assault",
-      "game-outfitDarkGhillie": "Incursion Ghillie",
       "game-outfitRedLeaderAged": "Red Victorious",
       "game-outfitBlueLeaderAged": "Stifled Blue",
       "game-outfitWoodsCloak": "Greencloak",
-      "game-outfitSpringGhillie": "Vernal Ghillie",
       "game-outfitNoir": "Neo Noir",
-      "game-outfitSummerGhillie": "Verdant Ghillie",
       "game-outfitWheat": "Splintered Wheat",
       "game-outfitDev": "Developer Swag",
       "game-outfitMod": "Discord Moderatr",
@@ -13965,12 +14363,15 @@
       "game-sv98": "SV-98",
       "game-m39": "M39 EMR",
       "game-garand": "M1 Garand",
+      "game-svd": "SVD-63",
+      "game-blr": "BLR 81",
       "game-mp5": "MP5",
       "game-mac10": "MAC-10",
       "game-ump9": "UMP9",
       "game-vector": "Vector",
       "game-vector45": "Vector",
       "game-scorpion": "CZ-3A1",
+      "game-vss": "VSS",
       "game-m870": "M870",
       "game-m1100": "M1100",
       "game-m1014": "Super 90",
@@ -14008,7 +14409,9 @@
       "game-m249": "M249",
       "game-qbb97": "QBB-97",
       "game-scout": "Scout Elite",
+      "game-l86": "L86A2",
       "game-awc": "AWM-S",
+      "game-scarssr": "Mk 20 SSR",
       "game-model94": "Model 94",
       "game-colt45": "Peacemaker",
       "game-colt45_dual": "Dual Peacemaker",
@@ -14050,12 +14453,14 @@
       "game-airdrop_crate_02": "Air Drop",
       "game-stove_01": "a stove",
       "game-grill_01": "a grill",
+      "game-propane_01": "a propane tank",
       "index-play-50v50": "Play 50v50",
       "index-50v50": "50v50",
       "game-red-team": "Red Team",
       "game-blue-team": "Blue Team",
       "game-red-leader": "Red Leader",
       "game-blue-leader": "Blue Leader",
+      "game-kill-leader": "Kill Leader",
       "game-leader": "Leader",
       "game-lieutenant": "Lieutenant",
       "game-medic": "Medic",
@@ -14078,10 +14483,26 @@
       "game-aoe_heal-desc": "Reviving and using medical items affects all nearby players.",
       "game-endless_ammo": "Endless Ammo",
       "game-endless_ammo-desc": "Guns always reload to full.",
+      "game-steelskin": "Cast Ironskin",
+      "game-steelskin-desc": "Take reduced damage and reflect enemy bullets.</br>Increased size.",
       "game-splinter": "Splinter Rounds",
       "game-splinter-desc": "Rounds fragment into three less powerful bullets.",
       "game-small_arms": "Small Arms",
-      "game-small_arms-desc": "Move faster with weapons deployed.</br>Decreased size."
+      "game-small_arms-desc": "Move faster with weapons deployed.</br>Decreased size.",
+      "game-takedown": "Takedown",
+      "game-takedown-desc": "Kills grant health, boost and a short burst of speed.",
+      "game-field_medic": "Combat Medic",
+      "game-field_medic-desc": "Move quickly while healing.",
+      "game-tree_climbing": "One With Nature",
+      "game-tree_climbing-desc": "Move through trees. Move faster in water.",
+      "game-scavenger": "Scavenger",
+      "game-scavenger-desc": "Obstacles can drop additional items when destroyed.",
+      "game-hunted": "The Hunted",
+      "game-hunted-desc": "Your location is revealed to all enemies.",
+      "game-chambered": "One In The Chamber",
+      "game-chambered-desc": "First and last round in each magazine deal extra damage.",
+      "game-martyrdom": "Martyrdom",
+      "game-martyrdom-desc": "Release several live grenades upon death."
     },
     "vn": {
       "updated": "2018-05-13",
@@ -14466,28 +14887,46 @@
       "index-play-solo": "Tekli oyna",
       "index-play-duo": "İkili oyna",
       "index-play-squad": "Takım oyna",
+      "index-join-team": "Join Team",
       "index-create-team": "Takım Oluştur",
       "index-leave-team": "Takımdan Çık",
       "index-joining-team": "Takıma Katılınıyor",
       "index-creating-team": "Takım Oluşturuluyor",
       "index-invite-link": "Davet linki",
+      "index-invite-code": "Invite code",
+      "index-join-team-help": "Got a team link or code? Paste it here:",
       "index-solo": "Tekli",
       "index-duo": "İkili",
       "index-squad": "Takım",
       "index-auto-fill": "Otomatik Oyuncu Seç",
       "index-no-fill": "Otomatik Oyuncu Seçme",
       "index-waiting-for-leader": "Liderin oyunu başlatması bekleniyor",
+      "index-joining-game": "Joining game",
+      "index-game-in-progress": "Game in progress",
       "index-play": "Oyna",
+      "index-customize-loadout": "Customize Emotes",
+      "index-twitter-follow": "Twitter Follow",
+      "index-youtube-subscribe": "YouTube Subscribe",
+      "index-facebook-like": "Facebook Like",
       "index-featured-youtuber": "Önerilen Youtuber",
+      "index-streaming-live": "Streaming Live!",
+      "index-viewer": "viewer",
+      "index-viewers": "viewers",
       "index-settings": "Ayarlar",
       "index-high-resolution": "Yüksek Çözünürlük görsel kaliteyi artırmak için seç",
       "index-screen-shake": "Ekran sallanması",
+      "index-anon-player-names": "Anonymize player names",
       "index-master-volume": "Ana Ses",
       "index-sfx-volume": "Ses Efekti Düzeyi",
       "index-music-volume": "Müzik Sesi",
       "index-mobile-announce": "Şimdi mobilde!",
       "index-mobile-tooltip": "Cihazınızdan <span>surviv.io</span> web sitesine girin!",
+      "index-version": "ver",
+      "index-privacy": "privacy",
+      "index-attributions": "attributions",
+      "index-proxy-sites": "proxy sites",
       "index-team-is-full": "Takım dolu!",
+      "index-team-kicked": "You were kicked from the team!",
       "index-failed-joining-team": "Takıma katılım başarısız oldu.",
       "index-failed-creating-team": "Takım oluşturma başarısız oldu.",
       "index-failed-finding-game": "Oyun bulma başarısız oldu.",
@@ -14501,8 +14940,9 @@
       "index-total-kills": "Tüm Öldürmeler",
       "index-total-wins": "Tüm Galibiyetler",
       "index-top-5-percent": "En Üst Yüzde 5",
-      "index-for": "için",
       "index-kill-death-ratio": "Öldürme-Ölüm oranı",
+      "index-mode": "Mode",
+      "index-for": "için",
       "index-today": "Bugün",
       "index-this-week": "Bu Hafta",
       "index-all-time": "Tüm Zamanlar",
@@ -14524,6 +14964,8 @@
       "index-stow-weapons-ctrl": "3 veya E",
       "index-swap-weapons": "Önceki Silaha Geç",
       "index-swap-weapons-ctrl": "Q",
+      "index-swap-weapon-slots": "Switch Gun Slots",
+      "index-swap-weapon-slots-ctrl": "T or drag gun to other slot",
       "index-reload": "Yeniden Doldur",
       "index-reload-ctrl": "R",
       "index-scope-zoom": "Yakınlaştırma",
@@ -14554,6 +14996,19 @@
       "index-tips-3-desc": "Oyuna basit bir sırt çantası dışında hiçbir öğeyle başlamayacaksın. Ganimet bulmak için haritanın etrafında dolaş: silahlar, cephane, kapsüller ve tıbbi ürünler. Diğer oyuncuları ele ve onların ganimetlerini alabilirsin!",
       "index-tips-4": "Kırmızı = Kötü!",
       "index-tips-4-desc": "Seni incitebilecek tek şey oyuncular değil. Ölümcül kırmızı bölge harita kenarlarından içeri ilerler eğer içene girerseniz giderek daha fazla zarar görürsünüz. Haritaya bakmayı unutma ve güvende kal.",
+      "index-movement-ctrl-touch": "Left stick",
+      "index-aim-ctrl-touch": "Right stick",
+      "index-shoot-ctrl-touch": "Drag right stick outside stick border",
+      "index-change-weapons-ctrl-touch": "Tap weapon slot",
+      "index-reload-ctrl-touch": "Tap equipped ammo counter",
+      "index-scope-zoom-ctrl-touch": "Tap zoom item",
+      "index-pickup-ctrl-touch": "Tap interaction button or loot name",
+      "index-use-medical-ctrl-touch": "Tap medical item",
+      "index-drop-item-ctrl-touch": "Touch and hold item",
+      "index-cancel-action-ctrl-touch": "Tap interaction button",
+      "index-view-map-ctrl-touch": "Tap minimap",
+      "index-use-ping-ctrl-touch": "View map and tap anywhere on map",
+      "index-use-emote-ctrl-touch": "Tap surviv icon",
       "index-loadout": "Özelleştirmek",
       "loadout-title-emote": "Emotes",
       "loadout-title-crosshair": "Crosshair",
@@ -14565,6 +15020,10 @@
       "loadout-stroked": "Stroked",
       "loadout-stock": "Stock",
       "loadout-common": "Common",
+      "loadout-uncommon": "Uncommon",
+      "loadout-rare": "Rare",
+      "loadout-epic": "Epic",
+      "loadout-mythic": "Mythic",
       "loadout-acquired": "Acquired",
       "loadout-category": "Category",
       "loadout-standard-issue": "Standard Issue",
@@ -14574,6 +15033,7 @@
       "loadout-new-account": "Account Created",
       "game-alive": "Hayatta",
       "game-reloading": "Yeniden Dolduruluyor",
+      "game-use": "Use",
       "game-using": "Kullanılıyor",
       "game-reviving": "İyileştiriliyor",
       "game-revive-teammate": "Takım Arkadaşını İyileştir",
@@ -14581,6 +15041,7 @@
       "game-cancel": "İptal et",
       "game-open-door": "Kapıyı aç",
       "game-close-door": "Kapıyı kapat",
+      "game-unlock": "Unlock",
       "game-You": "Sen",
       "game-you": "sen",
       "game-themselves": "kendisini",
@@ -14594,6 +15055,10 @@
       "game-finally-bled-out": "sonunda kan kaybederek öldü",
       "game-died-outside": "güvenli bölgenin dışında öldü",
       "game-the-red-zone": "Kırmızı alan",
+      "game-crushed": "crushed",
+      "game-the-air-drop": "The air drop",
+      "game-the-air-strike": "The air strike",
+      "game-an-air-strike": "an air strike",
       "game-waiting-for-players": "Oyuncular bekleniyor",
       "game-spectating": "İzleniyor",
       "game-red-zone-advances": "Kırmızı alan içinde geliyor",
@@ -14607,9 +15072,11 @@
       "game-item-already-owned": "Eşyaya zaten sahipsin!",
       "game-item-already-equipped": "Eşya zaten kuşanılmış!",
       "game-better-item-equipped": "Daha iyi eşya kuşanıldı!",
+      "game-gun-cannot-fire": "Gun cannot be fired here!",
       "game-play-new-game": "Yeni Oyun Oyna",
       "game-spectate": "Seyret",
       "game-full-screen": "Tam Ekran",
+      "game-aim-line": "Aim Line",
       "game-sound": "Ses",
       "game-quit-game": "Oyundan Çık",
       "game-return-to-game": "Oyuna Geri Dön",
@@ -14624,6 +15091,9 @@
       "game-chicken": "Hadi yine iyisin akşama tavuk var!",
       "game-won-the-game": "oyunu kazandı",
       "game-team-eliminated": "Takımınız yenildi.",
+      "game-solo-rank": "Solo Rank",
+      "game-duo-rank": "Duo Rank",
+      "game-squad-rank": "Squad Rank",
       "game-rank": "Sıralama",
       "game-team-rank": "Takım Sırası",
       "game-team-kills": "Takım Öldürmeleri",
@@ -14668,6 +15138,15 @@
       "game-helmet01": "Seviye 1 Kask",
       "game-helmet02": "Seviye 2 Kask",
       "game-helmet03": "Seviye 3 Kask",
+      "game-helmet03_leader": "Leader Helmet",
+      "game-helmet03_forest": "Shishigami no Kabuto",
+      "game-helmet03_moon": "Tsukuyomi no Kabuto",
+      "game-helmet03_lt": "Lieutenant Helmet",
+      "game-helmet03_lt_aged": "Lieutenant Helmet",
+      "game-helmet03_potato": "K-pot-ato",
+      "game-helmet03_dm01": "Marksman Helmet",
+      "game-helmet03_dm02": "Marksman Helmet",
+      "game-helmet04_leader": "Leader Helmet",
       "game-1xscope": "1x Dürbün",
       "game-2xscope": "2x Dürbün",
       "game-4xscope": "4x Dürbün",
@@ -14688,6 +15167,31 @@
       "game-outfitCamo": "Kamuflaj",
       "game-outfitRed": "Atış Talimi",
       "game-outfitWhite": "Buzul Yenilmezi",
+      "game-outfitJester": "Jester's Folly",
+      "game-outfitPrisoner": "The New Black",
+      "game-outfitCasanova": "Casanova Silks",
+      "game-outfitKhaki": "The Initiative",
+      "game-outfitCoral": "Coral Guise",
+      "game-outfitAqua": "Aquatic Avenger",
+      "game-outfitIslander": "Island Time",
+      "game-outfitMeteor": "Falling Star",
+      "game-outfitHeaven": "Celestial Garb",
+      "game-outfitWaterElem": "Water Elemental",
+      "game-outfitVerde": "Poncho Verde",
+      "game-outfitLumber": "Woodcutter's Wrap",
+      "game-outfitImperial": "Imperial Seal",
+      "game-outfitPineapple": "Valiant Pineapple",
+      "game-outfitTarkhany": "Tarkhany Regal",
+      "game-outfitDesertCamo": "Desert Camo",
+      "game-outfitElf": "Tallow's Little Helper",
+      "game-outfitSpetsnaz": "Siberian Assault",
+      "game-outfitRedLeaderAged": "Red Victorious",
+      "game-outfitBlueLeaderAged": "Stifled Blue",
+      "game-outfitWoodsCloak": "Greencloak",
+      "game-outfitNoir": "Neo Noir",
+      "game-outfitWheat": "Splintered Wheat",
+      "game-outfitDev": "Developer Swag",
+      "game-outfitMod": "Discord Moderatr",
       "game-fists": "Yumruk",
       "game-ak47": "AK-47",
       "game-dp28": "DP-28",
@@ -14713,19 +15217,60 @@
       "game-potato": "Patates",
       "game-hud-potato": "Patates",
       "game-potato_heavy": "Patates",
+      "game-machete_taiga": "Machete Taiga",
+      "game-hud-machete_taiga": "Machete",
+      "game-kukri_trad": "Tallow's Kukri",
+      "game-hud-kukri_trad": "Kukri",
+      "game-bonesaw_rusted": "Bonesaw Rusted",
+      "game-hud-bonesaw_rusted": "Bonesaw",
+      "game-stonehammer": "Stone Hammer",
+      "game-sledgehammer": "Sledgehammer",
+      "game-hook": "Hook",
+      "game-pan": "Pan",
       "game-barrel_01": "Varil",
+      "game-barrel_01b": "Varil",
       "game-silo_01": "Ambar",
       "game-oven_01": "ocak",
+      "game-control_panel_01": "Control Panel",
+      "game-control_panel_02": "Control Panel",
+      "game-control_panel_03": "a computer terminal",
+      "game-control_panel_04": "a computer terminal",
+      "game-control_panel_06": "a computer terminal",
+      "game-power_box_01": "a power box",
+      "game-airdrop_crate_01": "Air Drop",
+      "game-airdrop_crate_02": "Air Drop",
+      "game-stove_01": "a stove",
+      "game-grill_01": "a grill",
       "index-play-50v50": "50v50 oyna",
       "index-50v50": "50v50",
       "game-red-team": "Red Team",
       "game-blue-team": "Blue Team",
       "game-red-leader": "Red Leader",
       "game-blue-leader": "Blue Leader",
+      "game-leader": "Leader",
+      "game-lieutenant": "Lieutenant",
+      "game-medic": "Medic",
       "game-is-down": "is down",
       "game-is-dead": "is dead",
       "game-promoted-to": "promoted to",
-      "game-youve-been-promoted-to": "You've been promoted to"
+      "game-youve-been-promoted-to": "You've been promoted to",
+      "game-woods_king": "The Woods King",
+      "game-leadership": "Leadership",
+      "game-leadership-desc": "Max adrenaline.</br>Increased size.",
+      "game-firepower": "Firepower",
+      "game-firepower-desc": "High-capacity magazines.",
+      "game-gotw": "Gift of the Woods",
+      "game-gotw-desc": "Restore health over time.</br>Increased size.",
+      "game-windwalk": "Windwalk",
+      "game-windwalk-desc": "When taking fire, gain a short burst of speed.",
+      "game-rare_potato": "Rare Potato",
+      "game-rare_potato-desc": "Always rotate to a high quality weapon.",
+      "game-aoe_heal": "Mass Medicate",
+      "game-aoe_heal-desc": "Reviving and using medical items affects all nearby players.",
+      "game-endless_ammo": "Endless Ammo",
+      "game-endless_ammo-desc": "Guns always reload to full.",
+      "game-splinter": "Splinter Rounds",
+      "game-splinter-desc": "Rounds fragment into three less powerful bullets."
     },
     "da": {
       "updated": "2018-03-17",
@@ -15886,7 +16431,6 @@
       "game-outfitCamo": "Camuflaje de Bosque",
       "game-outfitRed": "Práctica de Tiro",
       "game-outfitWhite": "Vengador del Ártico",
-      "game-outfitDesertGhillie": "Ghillie de Desierto",
       "game-outfitDesertCamo": "Camuflaje de Desierto",
       "game-fists": "Puños",
       "game-knuckles_rusted": "Nudillos oxidados",
@@ -15984,9 +16528,9 @@
       "game-leadership-desc": "Adrenalina maxima.</br>Aumento de tamaño.",
       "game-firepower": "Bandolera",
       "game-firepower-desc": "Cargadores extendidos.",
-      "game-gotw": "Don de los Bosques",
+      "game-gotw": "Don de los bosques",
       "game-gotw-desc": "Pasivamente regenera su vida.</br>Aumento de tamaño.",
-      "game-windwalk": "Viento Viajando",
+      "game-windwalk": "Viento viajando",
       "game-windwalk-desc": "Si recibes disparos mientras corres, te moverás más rápido.",
       "game-rare_potato": "Papa rara",
       "game-rare_potato-desc": "Siempre rotaras a un arma buena.",
@@ -15996,8 +16540,24 @@
       "game-endless_ammo-desc": "Las armas siempre tendran balas para recargar.",
       "game-splinter": "Astillas de balas",
       "game-splinter-desc": "Las balas se fragmentan en tres balas mas débiles.",
-      "game-small_arms": "Armas Pequeñas",
-      "game-small_arms-desc": "Muévete más rápido con las armas desplegadas.</br>Tamaño disminuido."
+      "game-small_arms": "Armas pequeñas",
+      "game-small_arms-desc": "Muévete más rápido con las armas desplegadas.</br>Tamaño disminuido.",
+      "game-steelskin": "Piel de hierro fundido",
+      "game-steelskin-desc": "Toma daño reducido y refleja las balas enemigas.</br>Aumento de tamaño.",
+      "game-takedown": "Derribar",
+      "game-takedown-desc": "Las muertes otorgan salud, impulso y un breve estallido de velocidad.",
+      "game-field_medic": "Medico de combate",
+      "game-field_medic-desc": "Muévase rápidamente mientras sana.",
+      "game-tree_climbing": "Uno con la naturaleza",
+      "game-tree_climbing-desc": "Move through trees. Move faster in water.",
+      "game-scavenger": "Carroñero",
+      "game-scavenger-desc": "Los obstáculos pueden dejar caer elementos adicionales cuando se destruyen.",
+      "game-hunted": "La cacería",
+      "game-hunted-desc": "Tu ubicación se revela a todos los enemigos.",
+      "game-chambered": "Una en la recámara",
+      "game-chambered-desc": "La primera y última ronda de cada revista infligen daño adicional.",
+      "game-martyrdom": "Martirio",
+      "game-martyrdom-desc": "Desata varias granadas vivas al morir."
     },
     "nl": {
       "updated": "2018-02-12",
@@ -16954,8 +17514,8 @@
     }
   },
   "info": {
-    "version": 64,
-    "timestamp": 1568195181950,
-    "date": "11/09/2019 @ 9:46AM UTC"
+    "version": 65,
+    "timestamp": 1568261934571,
+    "date": "12/09/2019 @ 4:18AM UTC"
   }
 }

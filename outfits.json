@@ -624,81 +624,9 @@
       "tint": false
     }
   },
-  "outfitDarkGhillie": {
-    "name": "Incursion Ghillie",
-    "camo": true,
-    "skinImg": {
-      "baseTint": "5005348 | #4C6024",
-      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
-      "handTint": "5005348 | #4C6024",
-      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
-      "footTint": "5005348 | #4C6024",
-      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
-      "backpackTint": "6697728 | #663300",
-      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
-    },
-    "lootImg": {
-      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
-      "tint": "5005348 | #4C6024"
-    }
-  },
-  "outfitDesertGhillie": {
-    "name": "Desert Ghillie",
-    "camo": true,
-    "skinImg": {
-      "baseTint": "14657377 | #DFA761",
-      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
-      "handTint": "14657377 | #DFA761",
-      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
-      "footTint": "14657377 | #DFA761",
-      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
-      "backpackTint": "6697728 | #663300",
-      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
-    },
-    "lootImg": {
-      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
-      "tint": "14657377 | #DFA761"
-    }
-  },
-  "outfitSummerGhillie": {
-    "name": "Ghillie Suit",
-    "camo": true,
-    "skinImg": {
-      "baseTint": "6658085 | #659825",
-      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
-      "handTint": "6658085 | #659825",
-      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
-      "footTint": "6658085 | #659825",
-      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
-      "backpackTint": "6697728 | #663300",
-      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
-    },
-    "lootImg": {
-      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
-      "tint": "6658085 | #659825"
-    }
-  },
-  "outfitSpringGhillie": {
-    "name": "Ghillie Suit",
-    "camo": true,
-    "skinImg": {
-      "baseTint": "4285194 | #41630A",
-      "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
-      "handTint": "4285194 | #41630A",
-      "handSprite": "https://surviv.io/img/player/player-hands-01.svg",
-      "footTint": "4285194 | #41630A",
-      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
-      "backpackTint": "6697728 | #663300",
-      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
-    },
-    "lootImg": {
-      "sprite": "https://surviv.io/img/loot/loot-shirt-01.svg",
-      "tint": "4285194 | #41630A"
-    }
-  },
   "outfitGhillie": {
     "name": "Ghillie Suit",
-    "camo": true,
+    "ghillie": true,
     "skinImg": {
       "baseTint": "8630096 | #83AF50",
       "baseSprite": "https://surviv.io/img/player/player-base-01.svg",
