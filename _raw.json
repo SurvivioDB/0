@@ -1,6 +1,6 @@
 {
   "map": {
-    "protocolVersion": 64,
+    "protocolVersion": 65,
     "Input": {
       "MoveLeft": 0,
       "MoveRight": 1,
@@ -148,34 +148,54 @@
       "9mm": {
         "regular": 16704198,
         "saturated": 16767411,
+        "chambered": 16744192,
         "alphaRate": 0.92,
         "alphaMin": 0.14
       },
       "762mm": {
         "regular": 12965630,
         "saturated": 11257087,
+        "chambered": 19711,
         "alphaRate": 0.94,
         "alphaMin": 0.2
       },
-      "12gauge": {"regular": 16702684, "saturated": 16702684},
+      "12gauge": {
+        "regular": 16702684,
+        "saturated": 16702684,
+        "chambered": 16711680
+      },
       "556mm": {
         "regular": 11141010,
         "saturated": 11141010,
+        "chambered": 3604224,
         "alphaRate": 0.92,
         "alphaMin": 0.14
       },
-      "50AE": {"regular": 16773256, "saturated": 16773256},
+      "50AE": {
+        "regular": 16773256,
+        "saturated": 16773256,
+        "chambered": 16768768
+      },
       "308sub": {
         "regular": 2435840,
         "saturated": 4608000,
+        "chambered": 1250816,
         "alphaRate": 0.92,
         "alphaMin": 0.07
       },
-      "flare": {"regular": 14869218, "saturated": 14869218},
-      "45acp": {"regular": 15515391, "saturated": 15183103},
+      "flare": {
+        "regular": 14869218,
+        "saturated": 14869218,
+        "chambered": 12895428
+      },
+      "45acp": {
+        "regular": 15515391,
+        "saturated": 15183103,
+        "chambered": 11862271
+      },
       "shrapnel": {"regular": 3355443, "saturated": 3355443},
       "frag": {"regular": 13303808, "saturated": 13303808},
-      "potato": {"regular": 0, "saturated": 0}
+      "potato": {"regular": 0, "saturated": 0, "chambered": 0}
     },
     "scopeZoomRadius": {
       "desktop": {
@@ -768,69 +788,9 @@
       },
       "lootImg": {"sprite": "loot-shirt-outfitDarkShirt.img", "tint": 16777215}
     },
-    "outfitDarkGhillie": {
-      "name": "Incursion Ghillie",
-      "camo": true,
-      "skinImg": {
-        "baseTint": 5005348,
-        "baseSprite": "player-base-01.img",
-        "handTint": 5005348,
-        "handSprite": "player-hands-01.img",
-        "footTint": 5005348,
-        "footSprite": "player-feet-01.img",
-        "backpackTint": 6697728,
-        "backpackSprite": "player-circle-base-01.img"
-      },
-      "lootImg": {"sprite": "loot-shirt-01.img", "tint": 5005348}
-    },
-    "outfitDesertGhillie": {
-      "name": "Desert Ghillie",
-      "camo": true,
-      "skinImg": {
-        "baseTint": 14657377,
-        "baseSprite": "player-base-01.img",
-        "handTint": 14657377,
-        "handSprite": "player-hands-01.img",
-        "footTint": 14657377,
-        "footSprite": "player-feet-01.img",
-        "backpackTint": 6697728,
-        "backpackSprite": "player-circle-base-01.img"
-      },
-      "lootImg": {"sprite": "loot-shirt-01.img", "tint": 14657377}
-    },
-    "outfitSummerGhillie": {
-      "name": "Ghillie Suit",
-      "camo": true,
-      "skinImg": {
-        "baseTint": 6658085,
-        "baseSprite": "player-base-01.img",
-        "handTint": 6658085,
-        "handSprite": "player-hands-01.img",
-        "footTint": 6658085,
-        "footSprite": "player-feet-01.img",
-        "backpackTint": 6697728,
-        "backpackSprite": "player-circle-base-01.img"
-      },
-      "lootImg": {"sprite": "loot-shirt-01.img", "tint": 6658085}
-    },
-    "outfitSpringGhillie": {
-      "name": "Ghillie Suit",
-      "camo": true,
-      "skinImg": {
-        "baseTint": 4285194,
-        "baseSprite": "player-base-01.img",
-        "handTint": 4285194,
-        "handSprite": "player-hands-01.img",
-        "footTint": 4285194,
-        "footSprite": "player-feet-01.img",
-        "backpackTint": 6697728,
-        "backpackSprite": "player-circle-base-01.img"
-      },
-      "lootImg": {"sprite": "loot-shirt-01.img", "tint": 4285194}
-    },
     "outfitGhillie": {
       "name": "Ghillie Suit",
-      "camo": true,
+      "ghillie": true,
       "skinImg": {
         "baseTint": 8630096,
         "baseSprite": "player-base-01.img",
@@ -1108,6 +1068,19 @@
       "tracerWidth": 0.12,
       "tracerLength": 1
     },
+    "bullet_blr": {
+      "type": "bullet",
+      "damage": 56,
+      "obstacleDamage": 1,
+      "falloff": 0.9,
+      "distance": 400,
+      "speed": 160,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "762mm",
+      "tracerWidth": 0.14,
+      "tracerLength": 1
+    },
     "bullet_mosin": {
       "type": "bullet",
       "damage": 72,
@@ -1148,9 +1121,23 @@
       "tracerWidth": 0.2,
       "tracerLength": 1
     },
+    "bullet_scarssr": {
+      "type": "bullet",
+      "damage": 60,
+      "obstacleDamage": 1.5,
+      "falloff": 0.85,
+      "distance": 200,
+      "speed": 108,
+      "variance": 0,
+      "shrapnel": false,
+      "suppressed": true,
+      "tracerColor": "308sub",
+      "tracerWidth": 0.14,
+      "tracerLength": 1
+    },
     "bullet_m39": {
       "type": "bullet",
-      "damage": 24.5,
+      "damage": 27,
       "obstacleDamage": 1,
       "falloff": 0.9,
       "distance": 400,
@@ -1161,9 +1148,22 @@
       "tracerWidth": 0.1,
       "tracerLength": 0.9
     },
+    "bullet_svd": {
+      "type": "bullet",
+      "damage": 36,
+      "obstacleDamage": 1,
+      "falloff": 0.9,
+      "distance": 425,
+      "speed": 127,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "762mm",
+      "tracerWidth": 0.1,
+      "tracerLength": 0.9
+    },
     "bullet_garand": {
       "type": "bullet",
-      "damage": 32,
+      "damage": 35,
       "obstacleDamage": 1,
       "falloff": 0.9,
       "distance": 400,
@@ -1424,6 +1424,20 @@
       "tracerWidth": 0.1,
       "tracerLength": 0.7
     },
+    "bullet_vss": {
+      "type": "bullet",
+      "damage": 22,
+      "obstacleDamage": 1,
+      "falloff": 0.8,
+      "distance": 125,
+      "speed": 95,
+      "variance": 0,
+      "shrapnel": false,
+      "suppressed": true,
+      "tracerColor": "9mm",
+      "tracerWidth": 0.1,
+      "tracerLength": 0.8
+    },
     "bullet_dp28": {
       "type": "bullet",
       "damage": 14,
@@ -1518,11 +1532,24 @@
     },
     "bullet_mk12": {
       "type": "bullet",
-      "damage": 19.5,
+      "damage": 22.5,
       "obstacleDamage": 1,
       "falloff": 0.9,
       "distance": 400,
       "speed": 132,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "556mm",
+      "tracerWidth": 0.1,
+      "tracerLength": 0.9
+    },
+    "bullet_l86": {
+      "type": "bullet",
+      "damage": 26.5,
+      "obstacleDamage": 1,
+      "falloff": 0.9,
+      "distance": 425,
+      "speed": 134,
       "variance": 0,
       "shrapnel": false,
       "tracerColor": "556mm",
@@ -1777,6 +1804,16 @@
       "shrapnelCount": 7,
       "shrapnelType": "shrapnel_mirv_mini",
       "explosionEffectType": "mirv_mini",
+      "decalType": "decal_frag_small_explosion"
+    },
+    "explosion_martyr_nade": {
+      "type": "explosion",
+      "damage": 75,
+      "obstacleDamage": 1.1,
+      "rad": {"min": 4, "max": 8},
+      "shrapnelCount": 7,
+      "shrapnelType": "shrapnel_mirv_mini",
+      "explosionEffectType": "martyr_nade",
       "decalType": "decal_frag_small_explosion"
     },
     "explosion_snowball": {
@@ -2128,6 +2165,53 @@
         "deploy": "scorpion_switch_01"
       }
     },
+    "vss": {
+      "name": "VSS",
+      "type": "gun",
+      "quality": 1,
+      "fireMode": "single",
+      "caseTiming": "shoot",
+      "ammo": "9mm",
+      "ammoSpawnCount": 60,
+      "maxClip": 10,
+      "maxReload": 10,
+      "extendedClip": 20,
+      "extendedReload": 20,
+      "reloadTime": 2.3,
+      "fireDelay": 0.16,
+      "switchDelay": 0.75,
+      "barrelLength": 3.7,
+      "barrelOffset": 0,
+      "recoilTime": 10000000000,
+      "moveSpread": 3,
+      "shotSpread": 2,
+      "bulletCount": 1,
+      "bulletType": "bullet_vss",
+      "headshotMult": 2,
+      "speed": {"equip": 0, "attack": 0},
+      "lootImg": {
+        "sprite": "loot-weapon-vss.img",
+        "tint": 65280,
+        "border": "loot-circle-outer-01.img",
+        "borderTint": 0,
+        "scale": 0.3
+      },
+      "worldImg": {
+        "sprite": "gun-vss-01.img",
+        "scale": {"x": 0.5, "y": 0.5},
+        "tint": 16777215,
+        "leftHandOffset": {"x": 9, "y": 0},
+        "recoil": 1
+      },
+      "particle": {"shellScale": 1, "shellOffset": 0.375},
+      "sound": {
+        "shoot": "vss_01",
+        "reload": "vss_reload_01",
+        "pickup": "gun_pickup_01",
+        "empty": "empty_fire_01",
+        "deploy": "vss_switch_01"
+      }
+    },
     "famas": {
       "name": "FAMAS",
       "type": "gun",
@@ -2287,7 +2371,7 @@
       "extendedClip": 30,
       "extendedReload": 30,
       "reloadTime": 2.4,
-      "fireDelay": 0.15,
+      "fireDelay": 0.18,
       "switchDelay": 0.75,
       "barrelLength": 3.5,
       "barrelOffset": 0,
@@ -2319,6 +2403,53 @@
         "pickup": "gun_pickup_01",
         "empty": "empty_fire_02",
         "deploy": "mk12_switch_01"
+      }
+    },
+    "l86": {
+      "name": "L86A2",
+      "type": "gun",
+      "quality": 0,
+      "fireMode": "single",
+      "caseTiming": "shoot",
+      "ammo": "556mm",
+      "ammoSpawnCount": 90,
+      "maxClip": 30,
+      "maxReload": 30,
+      "extendedClip": 40,
+      "extendedReload": 40,
+      "reloadTime": 2.9,
+      "fireDelay": 0.19,
+      "switchDelay": 0.75,
+      "barrelLength": 3.25,
+      "barrelOffset": 0,
+      "recoilTime": 10000000000,
+      "moveSpread": 3.5,
+      "shotSpread": 1,
+      "bulletCount": 1,
+      "bulletType": "bullet_l86",
+      "headshotMult": 2,
+      "speed": {"equip": 0, "attack": 0},
+      "lootImg": {
+        "sprite": "loot-weapon-l86.img",
+        "tint": 65280,
+        "border": "loot-circle-outer-01.img",
+        "borderTint": 0,
+        "scale": 0.3
+      },
+      "worldImg": {
+        "sprite": "gun-long-01.img",
+        "scale": {"x": 0.5, "y": 0.46},
+        "tint": 14469287,
+        "leftHandOffset": {"x": -3, "y": 0},
+        "recoil": 1.66
+      },
+      "particle": {"shellScale": 1.3, "shellOffset": 0.55},
+      "sound": {
+        "shoot": "l86_01",
+        "reload": "l86_reload_01",
+        "pickup": "gun_pickup_01",
+        "empty": "empty_fire_02",
+        "deploy": "l86_switch_01"
       }
     },
     "m249": {
@@ -2558,6 +2689,53 @@
       "particle": {"shellScale": 1, "shellOffset": 0.45},
       "sound": {
         "shoot": "scar_01",
+        "reload": "scar_reload_01",
+        "pickup": "gun_pickup_01",
+        "empty": "empty_fire_02",
+        "deploy": "scar_switch_01"
+      }
+    },
+    "scarssr": {
+      "name": "SCAR-SSR",
+      "type": "gun",
+      "quality": 0,
+      "fireMode": "single",
+      "caseTiming": "shoot",
+      "ammo": "308sub",
+      "ammoSpawnCount": 40,
+      "maxClip": 10,
+      "maxReload": 10,
+      "extendedClip": 20,
+      "extendedReload": 20,
+      "reloadTime": 2.7,
+      "fireDelay": 0.3,
+      "switchDelay": 0.75,
+      "barrelLength": 3.9,
+      "barrelOffset": 0,
+      "recoilTime": 10000000000,
+      "moveSpread": 5.5,
+      "shotSpread": 1.5,
+      "bulletCount": 1,
+      "bulletType": "bullet_scarssr",
+      "headshotMult": 1.5,
+      "speed": {"equip": 0, "attack": 0},
+      "lootImg": {
+        "sprite": "loot-weapon-scarssr.img",
+        "tint": 65280,
+        "border": "loot-circle-outer-01.img",
+        "borderTint": 0,
+        "scale": 0.3
+      },
+      "worldImg": {
+        "sprite": "gun-scarssr-01.img",
+        "scale": {"x": 0.5, "y": 0.5},
+        "tint": 10189640,
+        "leftHandOffset": {"x": 6, "y": 0},
+        "recoil": 1.33
+      },
+      "particle": {"shellScale": 1, "shellOffset": 0.45},
+      "sound": {
+        "shoot": "scarssr_01",
         "reload": "scar_reload_01",
         "pickup": "gun_pickup_01",
         "empty": "empty_fire_02",
@@ -2875,15 +3053,15 @@
       "maxReload": 1,
       "extendedClip": 8,
       "extendedReload": 1,
-      "reloadTime": 0.6,
-      "fireDelay": 0.75,
+      "reloadTime": 0.5,
+      "fireDelay": 0.7,
       "switchDelay": 1,
       "pullDelay": 1,
       "barrelLength": 3.7,
       "barrelOffset": 0,
       "recoilTime": 10000000000,
-      "moveSpread": 3.5,
-      "shotSpread": 2,
+      "moveSpread": 3,
+      "shotSpread": 1.5,
       "bulletCount": 1,
       "bulletType": "bullet_model94",
       "headshotMult": 1.5,
@@ -2899,7 +3077,7 @@
         "sprite": "gun-long-01.img",
         "scale": {"x": 0.5, "y": 0.5175},
         "tint": 10510624,
-        "leftHandOffset": {"x": 2.8, "y": 0},
+        "leftHandOffset": {"x": 3.2, "y": 0},
         "recoil": 2.33
       },
       "particle": {"shellScale": 1.4, "shellOffset": 0.6},
@@ -2911,6 +3089,56 @@
         "pickup": "gun_pickup_01",
         "empty": "empty_fire_02",
         "deploy": "model94_cycle_01"
+      }
+    },
+    "blr": {
+      "name": "BLR 81",
+      "type": "gun",
+      "quality": 0,
+      "fireMode": "single",
+      "caseTiming": "shoot",
+      "ammo": "762mm",
+      "ammoSpawnCount": 30,
+      "maxClip": 3,
+      "maxReload": 3,
+      "extendedClip": 5,
+      "extendedReload": 5,
+      "reloadTime": 1.7,
+      "fireDelay": 0.8,
+      "switchDelay": 1,
+      "pullDelay": 1,
+      "barrelLength": 3.8,
+      "barrelOffset": 0,
+      "recoilTime": 10000000000,
+      "moveSpread": 3,
+      "shotSpread": 1.5,
+      "bulletCount": 1,
+      "bulletType": "bullet_blr",
+      "headshotMult": 1.5,
+      "speed": {"equip": 0, "attack": 0},
+      "lootImg": {
+        "sprite": "loot-weapon-blr.img",
+        "tint": 65280,
+        "border": "loot-circle-outer-01.img",
+        "borderTint": 0,
+        "scale": 0.3
+      },
+      "worldImg": {
+        "sprite": "gun-long-01.img",
+        "scale": {"x": 0.5, "y": 0.53},
+        "tint": 4663046,
+        "leftHandOffset": {"x": 6.4, "y": 0},
+        "recoil": 2.75
+      },
+      "particle": {"shellScale": 1.4, "shellOffset": 0.6},
+      "sound": {
+        "shoot": "blr_01",
+        "reload": "blr_reload_01",
+        "cycle": "blr_cycle_01",
+        "pull": "blr_cycle_01",
+        "pickup": "gun_pickup_01",
+        "empty": "empty_fire_02",
+        "deploy": "blr_cycle_01"
       }
     },
     "mosin": {
@@ -3084,7 +3312,7 @@
       "extendedClip": 30,
       "extendedReload": 30,
       "reloadTime": 2.5,
-      "fireDelay": 0.2,
+      "fireDelay": 0.23,
       "switchDelay": 0.75,
       "barrelLength": 3.5,
       "barrelOffset": 0,
@@ -3118,6 +3346,53 @@
         "deploy": "m39_switch_01"
       }
     },
+    "svd": {
+      "name": "SVD-63",
+      "type": "gun",
+      "quality": 0,
+      "fireMode": "single",
+      "caseTiming": "shoot",
+      "ammo": "762mm",
+      "ammoSpawnCount": 60,
+      "maxClip": 10,
+      "maxReload": 10,
+      "extendedClip": 20,
+      "extendedReload": 20,
+      "reloadTime": 2.5,
+      "fireDelay": 0.25,
+      "switchDelay": 0.75,
+      "barrelLength": 4,
+      "barrelOffset": 0,
+      "recoilTime": 10000000000,
+      "moveSpread": 4.5,
+      "shotSpread": 1,
+      "bulletCount": 1,
+      "bulletType": "bullet_svd",
+      "headshotMult": 2,
+      "speed": {"equip": 0, "attack": 0},
+      "lootImg": {
+        "sprite": "loot-weapon-svd.img",
+        "tint": 65280,
+        "border": "loot-circle-outer-01.img",
+        "borderTint": 0,
+        "scale": 0.3
+      },
+      "worldImg": {
+        "sprite": "gun-long-01.img",
+        "scale": {"x": 0.5, "y": 0.56},
+        "tint": 1842204,
+        "leftHandOffset": {"x": 8, "y": 0},
+        "recoil": 2
+      },
+      "particle": {"shellScale": 1.3, "shellOffset": 0.575},
+      "sound": {
+        "shoot": "svd_01",
+        "reload": "svd_reload_01",
+        "pickup": "gun_pickup_01",
+        "empty": "empty_fire_02",
+        "deploy": "svd_switch_01"
+      }
+    },
     "garand": {
       "name": "M1 Garand",
       "type": "gun",
@@ -3131,7 +3406,7 @@
       "extendedClip": 8,
       "extendedReload": 8,
       "reloadTime": 2.1,
-      "fireDelay": 0.2,
+      "fireDelay": 0.23,
       "switchDelay": 0.75,
       "barrelLength": 3.6,
       "barrelOffset": 0,
@@ -5413,6 +5688,48 @@
         "deploy": "frag_deploy_01"
       }
     },
+    "martyr_nade": {
+      "name": "Martyrdom",
+      "type": "throwable",
+      "quality": 0,
+      "explosionType": "explosion_martyr_nade",
+      "inventoryOrder": 99,
+      "cookable": true,
+      "noPotatoSwap": true,
+      "explodeOnImpact": false,
+      "playerCollision": false,
+      "fuseTime": 3,
+      "fuseVariance": 0.3,
+      "aimDistance": 0,
+      "rad": 1,
+      "throwPhysics": {
+        "playerVelMult": 0.6,
+        "velZ": 5,
+        "speed": 20,
+        "spinVel": "10*Math.PI",
+        "spinDrag": 1
+      },
+      "speed": {"equip": 0, "attack": 0},
+      "lootImg": {
+        "sprite": "loot-throwable-frag.img",
+        "tint": 65280,
+        "border": "loot-circle-outer-01.img",
+        "borderTint": 0,
+        "scale": 0.2
+      },
+      "worldImg": {
+        "sprite": "proj-martyrdom-01.img",
+        "scale": 0.12,
+        "tint": 16777215
+      },
+      "useThrowParticles": true,
+      "sound": {
+        "pullPin": "frag_pin_01",
+        "throwing": "frag_throw_01",
+        "pickup": "frag_pickup_01",
+        "deploy": "frag_deploy_01"
+      }
+    },
     "smoke": {
       "name": "Smoke Grenade",
       "type": "throwable",
@@ -5969,7 +6286,8 @@
         "scale": 0.2
       },
       "sound": {"pickup": "bandage_pickup_01", "use": "bandage_use_01"},
-      "emitter": "heal"
+      "emitter": "heal",
+      "aura": {"sprite": "part-aura-circle-01.img", "tint": 16711680}
     },
     "healthkit": {
       "name": "Med Kit",
@@ -5985,7 +6303,8 @@
         "scale": 0.2
       },
       "sound": {"pickup": "healthkit_pickup_01", "use": "healthkit_use_01"},
-      "emitter": "heal"
+      "emitter": "heal",
+      "aura": {"sprite": "part-aura-circle-01.img", "tint": 16711680}
     },
     "soda": {
       "name": "Soda",
@@ -6000,7 +6319,8 @@
         "scale": 0.2
       },
       "sound": {"pickup": "soda_pickup_01", "use": "soda_use_01"},
-      "emitter": "boost"
+      "emitter": "boost",
+      "aura": {"sprite": "part-aura-circle-01.img", "tint": 1676544}
     },
     "painkiller": {
       "name": "Pills",
@@ -6015,7 +6335,8 @@
         "scale": 0.2
       },
       "sound": {"pickup": "pills_pickup_01", "use": "pills_use_01"},
-      "emitter": "boost"
+      "emitter": "boost",
+      "aura": {"sprite": "part-aura-circle-01.img", "tint": 1676544}
     },
     "1xscope": {
       "name": "1x Scope",
@@ -7812,7 +8133,7 @@
       "teamOnly": false,
       "category": "Flags"
     },
-    "emote_flagmazerbaijan": {
+    "emote_flagazerbaijan": {
       "type": "emote",
       "name": "Flag Azerbaijan",
       "rarity": 1,
@@ -7822,7 +8143,7 @@
       "teamOnly": false,
       "category": "Flags"
     },
-    "emote_flagmalbania": {
+    "emote_flagalbania": {
       "type": "emote",
       "name": "Flag Albania",
       "rarity": 1,
@@ -7890,11 +8211,11 @@
       "lootImg": {
         "sprite": "loot-perk-leadership.img",
         "tint": 16777215,
-        "border": "loot-circle-outer-01.img",
-        "borderTint": 0,
-        "scale": 0.2
+        "border": "loot-circle-outer-03.img",
+        "borderTint": 16777215,
+        "scale": 0.275
       },
-      "sound": {"pickup": "soda_pickup_01"}
+      "sound": {"pickup": "perk_pickup_01"}
     },
     "firepower": {
       "name": "Firepower",
@@ -7902,11 +8223,11 @@
       "lootImg": {
         "sprite": "loot-perk-firepower.img",
         "tint": 16777215,
-        "border": "loot-circle-outer-01.img",
-        "borderTint": 0,
-        "scale": 0.2
+        "border": "loot-circle-outer-03.img",
+        "borderTint": 16777215,
+        "scale": 0.275
       },
-      "sound": {"pickup": "soda_pickup_01"}
+      "sound": {"pickup": "perk_pickup_01"}
     },
     "gotw": {
       "name": "Gift of the Wild",
@@ -7914,11 +8235,11 @@
       "lootImg": {
         "sprite": "loot-perk-gotw.img",
         "tint": 16777215,
-        "border": "loot-circle-outer-01.img",
-        "borderTint": 0,
-        "scale": 0.2
+        "border": "loot-circle-outer-03.img",
+        "borderTint": 16777215,
+        "scale": 0.275
       },
-      "sound": {"pickup": "soda_pickup_01"}
+      "sound": {"pickup": "perk_pickup_01"}
     },
     "windwalk": {
       "name": "Windwalk",
@@ -7926,11 +8247,11 @@
       "lootImg": {
         "sprite": "loot-perk-windwalk.img",
         "tint": 16777215,
-        "border": "loot-circle-outer-01.img",
-        "borderTint": 0,
-        "scale": 0.2
+        "border": "loot-circle-outer-03.img",
+        "borderTint": 16777215,
+        "scale": 0.275
       },
-      "sound": {"pickup": "soda_pickup_01"}
+      "sound": {"pickup": "perk_pickup_01"}
     },
     "rare_potato": {
       "name": "Rare Potato",
@@ -7938,11 +8259,11 @@
       "lootImg": {
         "sprite": "loot-perk-rare-potato.img",
         "tint": 16777215,
-        "border": "loot-circle-outer-01.img",
-        "borderTint": 0,
-        "scale": 0.2
+        "border": "loot-circle-outer-03.img",
+        "borderTint": 16777215,
+        "scale": 0.275
       },
-      "sound": {"pickup": "soda_pickup_01"}
+      "sound": {"pickup": "perk_pickup_01"}
     },
     "aoe_heal": {
       "name": "Mass Medicate",
@@ -7950,11 +8271,11 @@
       "lootImg": {
         "sprite": "loot-perk-aoe-heal.img",
         "tint": 16777215,
-        "border": "loot-circle-outer-01.img",
-        "borderTint": 0,
-        "scale": 0.2
+        "border": "loot-circle-outer-03.img",
+        "borderTint": 16777215,
+        "scale": 0.275
       },
-      "sound": {"pickup": "soda_pickup_01"}
+      "sound": {"pickup": "perk_pickup_01"}
     },
     "endless_ammo": {
       "name": "Endless Ammo",
@@ -7962,11 +8283,23 @@
       "lootImg": {
         "sprite": "loot-perk-endless-ammo.img",
         "tint": 16777215,
-        "border": "loot-circle-outer-01.img",
-        "borderTint": 0,
-        "scale": 0.2
+        "border": "loot-circle-outer-03.img",
+        "borderTint": 16777215,
+        "scale": 0.275
       },
-      "sound": {"pickup": "soda_pickup_01"}
+      "sound": {"pickup": "perk_pickup_01"}
+    },
+    "steelskin": {
+      "name": "Steelskin",
+      "type": "perk",
+      "lootImg": {
+        "sprite": "loot-perk-steelskin.img",
+        "tint": 16777215,
+        "border": "loot-circle-outer-03.img",
+        "borderTint": 16777215,
+        "scale": 0.275
+      },
+      "sound": {"pickup": "perk_pickup_01"}
     },
     "splinter": {
       "name": "Splinter Rounds",
@@ -7974,11 +8307,11 @@
       "lootImg": {
         "sprite": "loot-perk-splinter.img",
         "tint": 16777215,
-        "border": "loot-circle-outer-01.img",
-        "borderTint": 0,
-        "scale": 0.2
+        "border": "loot-circle-outer-03.img",
+        "borderTint": 16777215,
+        "scale": 0.275
       },
-      "sound": {"pickup": "soda_pickup_01"}
+      "sound": {"pickup": "perk_pickup_01"}
     },
     "small_arms": {
       "name": "Small Arms",
@@ -7986,11 +8319,95 @@
       "lootImg": {
         "sprite": "loot-perk-small-arms.img",
         "tint": 16777215,
-        "border": "loot-circle-outer-01.img",
-        "borderTint": 0,
-        "scale": 0.2
+        "border": "loot-circle-outer-03.img",
+        "borderTint": 16777215,
+        "scale": 0.275
       },
-      "sound": {"pickup": "soda_pickup_01"}
+      "sound": {"pickup": "perk_pickup_01"}
+    },
+    "takedown": {
+      "name": "Takedown",
+      "type": "perk",
+      "lootImg": {
+        "sprite": "loot-perk-takedown.img",
+        "tint": 16777215,
+        "border": "loot-circle-outer-03.img",
+        "borderTint": 16777215,
+        "scale": 0.275
+      },
+      "sound": {"pickup": "perk_pickup_01"}
+    },
+    "field_medic": {
+      "name": "Field Medic",
+      "type": "perk",
+      "lootImg": {
+        "sprite": "loot-perk-field-medic.img",
+        "tint": 16777215,
+        "border": "loot-circle-outer-03.img",
+        "borderTint": 16777215,
+        "scale": 0.275
+      },
+      "sound": {"pickup": "perk_pickup_01"}
+    },
+    "tree_climbing": {
+      "name": "Tree Climbing",
+      "type": "perk",
+      "lootImg": {
+        "sprite": "loot-perk-tree-climbing.img",
+        "tint": 16777215,
+        "border": "loot-circle-outer-03.img",
+        "borderTint": 16777215,
+        "scale": 0.275
+      },
+      "sound": {"pickup": "perk_pickup_01"}
+    },
+    "scavenger": {
+      "name": "Scavenger",
+      "type": "perk",
+      "lootImg": {
+        "sprite": "loot-perk-scavenger.img",
+        "tint": 16777215,
+        "border": "loot-circle-outer-03.img",
+        "borderTint": 16777215,
+        "scale": 0.275
+      },
+      "sound": {"pickup": "perk_pickup_01"}
+    },
+    "hunted": {
+      "name": "The Hunted",
+      "type": "perk",
+      "lootImg": {
+        "sprite": "loot-perk-hunted.img",
+        "tint": 16777215,
+        "border": "loot-circle-outer-03.img",
+        "borderTint": 16777215,
+        "scale": 0.275
+      },
+      "sound": {"pickup": "perk_pickup_01"}
+    },
+    "chambered": {
+      "name": "One In The Chamber",
+      "type": "perk",
+      "lootImg": {
+        "sprite": "loot-perk-chambered.img",
+        "tint": 16777215,
+        "border": "loot-circle-outer-03.img",
+        "borderTint": 16777215,
+        "scale": 0.275
+      },
+      "sound": {"pickup": "perk_pickup_01"}
+    },
+    "martyrdom": {
+      "name": "Martyrdom",
+      "type": "perk",
+      "lootImg": {
+        "sprite": "loot-perk-martyrdom.img",
+        "tint": 16777215,
+        "border": "loot-circle-outer-03.img",
+        "borderTint": 16777215,
+        "scale": 0.275
+      },
+      "sound": {"pickup": "perk_pickup_01"}
     }
   },
   "emitter": {
@@ -8183,6 +8600,11 @@
       },
       "scar_reload_01": {"path": "audio/guns/scar_reload_01.mp3", "volume": 1},
       "scar_switch_01": {"path": "audio/guns/scar_switch_01.mp3", "volume": 1},
+      "scarssr_01": {
+        "path": "audio/guns/scarssr_01.mp3",
+        "volume": 1,
+        "maxInstances": 5
+      },
       "dp28_01": {
         "path": "audio/guns/dp28_01.mp3",
         "volume": 1,
@@ -8292,6 +8714,13 @@
       },
       "m39_reload_01": {"path": "audio/guns/m39_reload_01.mp3", "volume": 1},
       "m39_switch_01": {"path": "audio/guns/m39_switch_01.mp3", "volume": 1},
+      "svd_01": {
+        "path": "audio/guns/svd_01.mp3",
+        "volume": 1,
+        "maxInstances": 5
+      },
+      "svd_reload_01": {"path": "audio/guns/svd_reload_01.mp3", "volume": 1},
+      "svd_switch_01": {"path": "audio/guns/svd_switch_01.mp3", "volume": 1},
       "garand_01": {
         "path": "audio/guns/garand_01.mp3",
         "volume": 1,
@@ -8375,6 +8804,13 @@
         "path": "audio/guns/scorpion_switch_01.mp3",
         "volume": 1
       },
+      "vss_01": {
+        "path": "audio/guns/vss_01.mp3",
+        "volume": 1,
+        "maxInstances": 5
+      },
+      "vss_reload_01": {"path": "audio/guns/vss_reload_01.mp3", "volume": 1},
+      "vss_switch_01": {"path": "audio/guns/vss_switch_01.mp3", "volume": 1},
       "famas_01": {
         "path": "audio/guns/famas_01.mp3",
         "volume": 1,
@@ -8415,6 +8851,13 @@
       },
       "mk12_reload_01": {"path": "audio/guns/mk12_reload_01.mp3", "volume": 1},
       "mk12_switch_01": {"path": "audio/guns/mk12_switch_01.mp3", "volume": 1},
+      "l86_01": {
+        "path": "audio/guns/l86_01.mp3",
+        "volume": 1,
+        "maxInstances": 5
+      },
+      "l86_reload_01": {"path": "audio/guns/l86_reload_01.mp3", "volume": 1},
+      "l86_switch_01": {"path": "audio/guns/l86_switch_01.mp3", "volume": 1},
       "m249_01": {
         "path": "audio/guns/m249_01.mp3",
         "volume": 1,
@@ -8468,6 +8911,13 @@
         "path": "audio/guns/model94_cycle_01.mp3",
         "volume": 1
       },
+      "blr_01": {
+        "path": "audio/guns/blr_01.mp3",
+        "volume": 1.5,
+        "maxInstances": 5
+      },
+      "blr_reload_01": {"path": "audio/guns/blr_reload_01.mp3", "volume": 1},
+      "blr_cycle_01": {"path": "audio/guns/blr_cycle_01.mp3", "volume": 1},
       "mosin_01": {
         "path": "audio/guns/mosin_01.mp3",
         "volume": 1,
@@ -9054,6 +9504,7 @@
       },
       "heavy_pickup_01": {"path": "audio/ui/heavy_pickup_01.mp3", "volume": 1},
       "pan_pickup_01": {"path": "audio/ui/pan_pickup_01.mp3", "volume": 1},
+      "perk_pickup_01": {"path": "audio/ui/perk_pickup_01.mp3", "volume": 1},
       "ping_danger_01": {"path": "audio/ui/ping_danger_01.mp3", "volume": 1},
       "ping_coming_01": {"path": "audio/ui/ping_coming_01.mp3", "volume": 1},
       "ping_help_01": {"path": "audio/ui/ping_help_01.mp3", "volume": 1},
@@ -9316,6 +9767,12 @@
         "scale": 0.45
       }
     },
+    "propane_01": {
+      "collision": {},
+      "health": 50,
+      "map": {"display": true, "color": 24516, "scale": 1},
+      "img": {"sprite": "map-propane-01.img", "scale": 0.4}
+    },
     "bed_sm_01": {"collision": {}, "img": {"sprite": "map-bed-01.img"}},
     "bed_lg_01": {"img": {"residue": "map-bed-res-02.img"}},
     "bollard_01": {
@@ -9366,6 +9823,30 @@
       "img": {
         "sprite": "map-bush-01sv.img",
         "residue": "map-bush-res-01sv.img"
+      },
+      "map": {"color": 7569455}
+    },
+    "brush_01sv": {
+      "scale": {"createMin": 1.5, "createMax": 1.75, "destroy": 0.75},
+      "health": 150,
+      "collision": {},
+      "hitParticle": "leaf",
+      "explodeParticle": "leaf",
+      "img": {
+        "sprite": "map-brush-01sv.img",
+        "residue": "map-brush-res-02sv.img"
+      },
+      "map": {"color": 5207588}
+    },
+    "brush_02sv": {
+      "scale": {"createMin": 1.5, "createMax": 1.75, "destroy": 0.75},
+      "health": 150,
+      "collision": {},
+      "hitParticle": "leaf",
+      "explodeParticle": "leaf",
+      "img": {
+        "sprite": "map-brush-02sv.img",
+        "residue": "map-brush-res-02sv.img"
       },
       "map": {"color": 5207588}
     },
@@ -9620,6 +10101,22 @@
       "img": {"sprite": "map-crate-02.img"},
       "sound": {"explode": "crate_break_01"}
     },
+    "crate_02sv": {
+      "health": 140,
+      "loot": ["tier_soviet", "tier_world"],
+      "map": {"display": true, "color": 16760832},
+      "terrain": {"grass": true, "beach": false},
+      "img": {"sprite": "map-crate-02sv.img"},
+      "sound": {"explode": "crate_break_01"}
+    },
+    "crate_02sv_lake": {
+      "health": 140,
+      "loot": ["tier_soviet"],
+      "map": {"display": true, "color": 16760832},
+      "terrain": {"lakeCenter": true},
+      "img": {"sprite": "map-crate-02sv.img"},
+      "sound": {"explode": "crate_break_01"}
+    },
     "crate_02x": {
       "health": 140,
       "loot": ["tier_soviet"],
@@ -9735,6 +10232,22 @@
       "img": {"sprite": "map-crate-07.img"},
       "sound": {"explode": "crate_break_01"}
     },
+    "crate_07sv": {
+      "health": 140,
+      "loot": [
+        "tier_surviv",
+        "svd",
+        "svd",
+        "blr",
+        "blr",
+        "outfitKhaki",
+        "outfitKhaki",
+        "outfitKhaki",
+        "outfitKhaki"
+      ],
+      "img": {"sprite": "map-crate-07.img"},
+      "sound": {"explode": "crate_break_01"}
+    },
     "crate_08": {
       "health": 140,
       "loot": ["tier_surviv"],
@@ -9782,6 +10295,45 @@
         "tier_airdrop_melee",
         "tier_airdrop_ammo",
         "tier_airdrop_throwables"
+      ],
+      "map": {"display": false},
+      "terrain": {"grass": true, "beach": false},
+      "img": {"sprite": "map-crate-11.img", "residue": "map-crate-res-03.img"},
+      "sound": {"explode": "crate_break_01"}
+    },
+    "crate_10sv": {
+      "health": 200,
+      "scale": {"destroy": 0.75},
+      "loot": [
+        "tier_airdrop_uncommon",
+        "tier_airdrop_armor",
+        "tier_medical",
+        "tier_airdrop_scopes",
+        "tier_airdrop_outfits",
+        "tier_airdrop_melee",
+        "tier_airdrop_ammo",
+        "tier_airdrop_throwables",
+        "tier_perks"
+      ],
+      "map": {"display": false},
+      "terrain": {"grass": true, "beach": false},
+      "img": {"sprite": "map-crate-10.img", "residue": "map-crate-res-03.img"},
+      "sound": {"explode": "crate_break_01"}
+    },
+    "crate_11sv": {
+      "collision": {},
+      "scale": {"destroy": 0.75},
+      "health": 200,
+      "loot": [
+        "tier_airdrop_rare",
+        "tier_airdrop_armor",
+        "tier_medical",
+        "tier_airdrop_scopes",
+        "tier_airdrop_outfits",
+        "tier_airdrop_melee",
+        "tier_airdrop_ammo",
+        "tier_airdrop_throwables",
+        "tier_perks"
       ],
       "map": {"display": false},
       "terrain": {"grass": true, "beach": false},
@@ -9892,8 +10444,16 @@
     },
     "crate_21": {
       "health": 140,
-      "loot": ["tier_cloud_01", "tier_cloud_02", "tier_dm_helmet_03"],
-      "map": {"display": true, "color": 10066329, "scale": 0.875},
+      "loot": ["tier_guns", "tier_snipers", "tier_cloud_02", "tier_perks"],
+      "map": {"display": true, "color": 18799, "scale": 0.875},
+      "terrain": {"grass": true, "beach": false},
+      "img": {"sprite": "map-crate-21.img"},
+      "sound": {"explode": "crate_break_01"}
+    },
+    "crate_21b": {
+      "health": 140,
+      "loot": ["tier_guns", "tier_snipers", "tier_cloud_02", "tier_perks"],
+      "map": {"display": false, "color": 18799, "scale": 0.875},
       "terrain": {"grass": true, "beach": false},
       "img": {"sprite": "map-crate-21.img"},
       "sound": {"explode": "crate_break_01"}
@@ -9963,6 +10523,28 @@
       "destroyType": "crate_13",
       "explodeParticle": "airdropCrate04"
     },
+    "airdrop_crate_01sv": {
+      "collision": {},
+      "button": {
+        "useImg": "map-airdrop-02.img",
+        "useParticle": "airdropCrate01",
+        "sound": {"on": "airdrop_open_01", "off": ""}
+      },
+      "img": {"sprite": "map-airdrop-01.img", "residue": "none"},
+      "destroyType": "crate_10sv",
+      "explodeParticle": "airdropCrate02"
+    },
+    "airdrop_crate_02sv": {
+      "collision": {},
+      "button": {
+        "useImg": "map-airdrop-02.img",
+        "useParticle": "airdropCrate01",
+        "sound": {"on": "airdrop_open_01", "off": ""}
+      },
+      "img": {"sprite": "map-airdrop-01.img", "residue": "none"},
+      "destroyType": "crate_11sv",
+      "explodeParticle": "airdropCrate02"
+    },
     "airdrop_crate_01x": {
       "collision": {},
       "button": {
@@ -10019,6 +10601,15 @@
       "map": {"display": false},
       "terrain": {"grass": true, "beach": true},
       "img": {"sprite": "map-crate-mil-04.img"},
+      "sound": {"explode": "crate_break_01"}
+    },
+    "mil_crate_05": {
+      "collision": {},
+      "health": 100,
+      "loot": ["tier_guns", "tier_snipers"],
+      "map": {"display": true, "color": 3622438},
+      "terrain": {"grass": true, "beach": true},
+      "img": {"sprite": "map-crate-mil-05.img"},
       "sound": {"explode": "crate_break_01"}
     },
     "bottle_01": {
@@ -10419,13 +11010,20 @@
     "stone_01": {},
     "stone_01b": {"img": {"residue": "map-stone-res-01b.img"}},
     "stone_01f": {"map": {"display": true, "color": 8224125, "scale": 1}},
+    "stone_01sv": {
+      "scale": {"createMin": 1.2, "createMax": 1.5, "destroy": 0.5}
+    },
     "stone_01x": {
       "map": {"display": true, "color": 6052956, "scale": 1},
       "img": {"sprite": "map-stone-01x.img", "residue": "map-stone-res-01x.img"}
     },
     "stone_02": {
       "img": {"tint": 15066597},
-      "loot": ["tier_surviv", "ak47", "outfitKhaki"]
+      "loot": ["tier_surviv", "ak47", "outfitKhaki", "tier_perks"]
+    },
+    "stone_02sv": {
+      "img": {"tint": 15066597},
+      "loot": ["tier_surviv", "m39", "outfitKhaki", "tier_perks"]
     },
     "stone_03": {},
     "stone_03b": {
@@ -10469,6 +11067,21 @@
         "sprite": "map-stone-06.img",
         "scale": 0.5,
         "residue": "map-stone-res-06.img"
+      }
+    },
+    "stone_07": {
+      "scale": {"createMin": 1, "createMax": 1, "destroy": 0.8},
+      "collision": {},
+      "health": 500,
+      "map": {"display": true, "color": 9931908, "scale": 1},
+      "terrain": {"grass": true, "beach": false},
+      "img": {
+        "sprite": "map-stone-07.img",
+        "residue": "map-stone-res-07.img",
+        "scale": 0.5,
+        "alpha": 1,
+        "tint": 16777215,
+        "zIdx": 10
       }
     },
     "stove_01": {
@@ -10552,379 +11165,31 @@
         "zIdx": 60
       }
     },
-    "toilet_01": {
-      "img": {"sprite": "map-toilet-01.img"},
-      "loot": ["tier_toilet"]
-    },
-    "toilet_02": {
-      "img": {"sprite": "map-toilet-02.img"},
-      "loot": ["tier_soviet"]
-    },
-    "toilet_02b": {
-      "img": {"sprite": "map-toilet-02.img", "tint": 11842740},
-      "loot": ["fireaxe"]
-    },
-    "toilet_03": {
-      "reflectBullets": true,
-      "hitParticle": "barrelChip",
-      "explodeParticle": "toiletMetalBreak",
-      "img": {
-        "sprite": "map-toilet-03.img",
-        "residue": "map-toilet-res-02.img"
-      },
-      "loot": ["tier_world"],
-      "sound": {
-        "bullet": "toilet_metal_bullet",
-        "punch": "toilet_metal_bullet",
-        "explode": "toilet_break_02"
-      }
-    },
-    "toilet_04": {
-      "reflectBullets": true,
-      "hitParticle": "barrelChip",
-      "explodeParticle": "toiletMetalBreak",
-      "img": {
-        "sprite": "map-toilet-04.img",
-        "residue": "map-toilet-res-02.img"
-      },
-      "loot": ["tier_soviet"],
-      "sound": {
-        "bullet": "toilet_metal_bullet",
-        "punch": "toilet_metal_bullet",
-        "explode": "toilet_break_02"
-      }
-    },
-    "towelrack_01": {
-      "collision": {},
-      "img": {"sprite": "map-towelrack-01.img"},
-      "explodeParticle": ["woodPlank", "clothBreak"]
-    },
-    "tree_01": "H",
-    "tree_01sv": {
-      "map": {"color": 4411673},
-      "img": {"sprite": "map-tree-03sv.img"}
-    },
-    "tree_interior_01": {"img": {"zIdx": 200}},
-    "tree_01x": {"img": {"sprite": "map-tree-01x.img"}},
-    "tree_02": {
-      "health": 120,
-      "collision": {},
-      "aabb": {},
-      "height": 0.5,
-      "loot": ["woodaxe"],
-      "map": {"display": false},
-      "scale": {"createMin": 1, "createMax": 1, "destroy": 0.9},
-      "terrain": {"grass": true, "beach": false},
-      "img": {"sprite": "map-tree-04.img", "scale": 0.5, "zIdx": 10}
-    },
-    "tree_03": {
-      "img": {"tint": 11645361},
-      "loot": ["tier_surviv", "mosin", "outfitWoodland"]
-    },
-    "tree_05": {
-      "collision": {},
-      "aabb": {},
-      "scale": {"createMin": 1.2, "createMax": 1.3},
-      "health": 400,
-      "map": {"color": 5911831, "scale": 3},
-      "img": {
-        "sprite": "map-tree-05.img",
-        "residue": "map-tree-res-02.img",
-        "tint": 16777215,
-        "scale": 0.7,
-        "zIdx": 801
-      }
-    },
-    "tree_05b": {
-      "collision": {},
-      "aabb": {},
-      "scale": {"createMin": 1, "createMax": 1},
-      "health": 500,
-      "loot": ["tier_shotguns", "tier_lmgs", "outfitTreeSpooky"],
-      "map": {"color": 5911831, "scale": 3},
-      "img": {
-        "sprite": "map-tree-05.img",
-        "residue": "map-tree-res-02.img",
-        "tint": 16777215,
-        "scale": 0.7,
-        "zIdx": 801
-      }
-    },
-    "tree_05c": {
-      "collision": {},
-      "aabb": {},
-      "scale": {"createMin": 1.6, "createMax": 1.6},
-      "health": 200,
-      "map": {"color": 9064739, "scale": 3},
-      "img": {
-        "sprite": "map-tree-05c.img",
-        "residue": "map-tree-res-02.img",
-        "tint": 16777215,
-        "scale": 0.35,
-        "zIdx": 801
-      }
-    },
-    "tree_06": {
-      "img": {"sprite": "map-tree-06.img"},
-      "map": {"color": 7700520}
-    },
-    "tree_07": {
-      "scale": {"createMin": 1, "createMax": 1.2},
-      "map": {"color": 5199637, "scale": 2.5},
-      "img": {"sprite": "map-tree-07.img"}
-    },
-    "tree_07sp": {
-      "scale": {"createMin": 1, "createMax": 1.2},
-      "map": {"color": 16697057, "scale": 2.5},
-      "img": {"sprite": "map-tree-07sp.img"},
-      "terrain": {"grass": true, "beach": false, "riverShore": true}
-    },
-    "tree_07spr": {
-      "scale": {"createMin": 1, "createMax": 1.2},
-      "map": {"color": 16697057, "scale": 2.5},
-      "img": {"sprite": "map-tree-07sp.img"},
-      "terrain": {"grass": false, "beach": false, "riverShore": true}
-    },
-    "tree_07su": {
-      "scale": {"createMin": 1, "createMax": 1.2},
-      "map": {"color": 2185478, "scale": 2.5},
-      "img": {"sprite": "map-tree-07su.img"}
-    },
-    "tree_08": {
-      "scale": {"createMin": 1.2, "createMax": 1.4},
-      "health": 225,
-      "map": {"color": 11033868, "scale": 2.5},
-      "img": {
-        "sprite": "map-tree-08.img",
-        "residue": "map-tree-res-02.img",
-        "scale": 0.35
-      }
-    },
-    "tree_08b": {
-      "scale": {"createMin": 1.75, "createMax": 2},
-      "health": 300,
-      "map": {"color": 9647632, "scale": 3},
-      "img": {
-        "sprite": "map-tree-08.img",
-        "residue": "map-tree-res-02.img",
-        "tint": 14383224,
-        "scale": 0.35,
-        "zIdx": 801
-      }
-    },
-    "tree_08c": {
-      "scale": {"createMin": 1.75, "createMax": 2},
-      "health": 500,
-      "loot": ["tier_shotguns", "tier_lmgs", "outfitWoodland"],
-      "map": {"color": 7817749, "scale": 3},
-      "img": {
-        "sprite": "map-tree-08.img",
-        "residue": "map-tree-res-02.img",
-        "tint": 11645361,
-        "scale": 0.35,
-        "zIdx": 801
-      }
-    },
-    "tree_08f": {
-      "scale": {"createMin": 1.2, "createMax": 1.6},
-      "health": 200,
-      "map": {"color": 995844, "scale": 3},
-      "img": {
-        "sprite": "map-tree-08f.img",
-        "residue": "map-tree-res-01.img",
-        "scale": 0.35,
-        "zIdx": 801
-      }
-    },
-    "tree_08sp": {
-      "scale": {"createMin": 1.2, "createMax": 1.4},
-      "health": 225,
-      "map": {"color": 16746936, "scale": 2.5},
-      "img": {
-        "sprite": "map-tree-08sp.img",
-        "residue": "map-tree-res-02.img",
-        "scale": 0.35
-      },
-      "terrain": {"grass": true, "beach": false, "riverShore": true}
-    },
-    "tree_08spb": {
-      "scale": {"createMin": 1.75, "createMax": 2},
-      "health": 300,
-      "map": {"color": 16734619, "scale": 3},
-      "img": {
-        "sprite": "map-tree-08sp.img",
-        "residue": "map-tree-res-02.img",
-        "tint": 14383224,
-        "scale": 0.35,
-        "zIdx": 801
-      },
-      "terrain": {"grass": true, "beach": false, "riverShore": true}
-    },
-    "tree_08spc": {
-      "scale": {"createMin": 1.75, "createMax": 2},
-      "health": 500,
-      "loot": ["tier_shotguns", "tier_lmgs", "outfitWoodland"],
-      "map": {"color": 8268107, "scale": 3},
-      "img": {
-        "sprite": "map-tree-08sp.img",
-        "residue": "map-tree-res-02.img",
-        "tint": 11645361,
-        "scale": 0.35,
-        "zIdx": 801
-      }
-    },
-    "tree_08spr": {
-      "scale": {"createMin": 1.2, "createMax": 1.4},
-      "health": 225,
-      "map": {"color": 16746936, "scale": 2.5},
-      "img": {
-        "sprite": "map-tree-08sp.img",
-        "residue": "map-tree-res-02.img",
-        "scale": 0.35
-      },
-      "terrain": {"grass": false, "beach": false, "riverShore": true}
-    },
-    "tree_08su": {
-      "scale": {"createMin": 1.2, "createMax": 1.4},
-      "health": 225,
-      "map": {"color": 2183181, "scale": 2.5},
-      "img": {
-        "sprite": "map-tree-08su.img",
-        "residue": "map-tree-res-01.img",
-        "scale": 0.35,
-        "zIdx": 801
-      }
-    },
-    "tree_08sub": {
-      "scale": {"createMin": 1.75, "createMax": 2},
-      "health": 300,
-      "map": {"color": 1785864, "scale": 3},
-      "img": {
-        "sprite": "map-tree-08su.img",
-        "residue": "map-tree-res-02.img",
-        "tint": 9211210,
-        "scale": 0.35,
-        "zIdx": 801
-      },
-      "terrain": {"grass": true, "beach": false, "riverShore": true}
-    },
-    "tree_09": {
-      "health": 120,
-      "collision": {},
-      "aabb": {},
-      "height": 0.5,
-      "map": {"display": true, "color": 8602624, "scale": 1},
-      "scale": {"createMin": 1, "createMax": 1, "destroy": 0.75},
-      "terrain": {"grass": true, "beach": false},
-      "img": {"sprite": "map-tree-09.img", "scale": 0.5, "zIdx": 10}
-    },
-    "tree_10": {
-      "collision": {},
-      "scale": {"createMin": 0.9, "createMax": 1.1},
-      "map": {"color": 7571807, "scale": 2.5},
-      "img": {"sprite": "map-tree-10.img"}
-    },
-    "tree_11": {
-      "collision": {},
-      "scale": {"createMin": 1, "createMax": 1},
-      "img": {
-        "sprite": "map-tree-11.img",
-        "scale": 0.5,
-        "alpha": 0.92,
-        "zIdx": 201
-      }
-    },
-    "tree_12": {
-      "map": {"color": 8032292, "scale": 7},
-      "img": {"sprite": "map-tree-12.img", "tint": 16777215, "zIdx": 801}
-    },
-    "tree_switch_01": {"img": {"sprite": "map-tree-switch-01.img"}},
-    "tree_switch_02": {"img": {"sprite": "map-tree-switch-02.img"}},
-    "tree_switch_03": {"img": {"sprite": "map-tree-switch-03.img"}},
-    "vat_01": {
+    "tire_01": {
       "type": "obstacle",
-      "scale": {"createMin": 1, "createMax": 1, "destroy": 0.9},
+      "scale": {"createMin": 1, "createMax": 1, "destroy": 0.8},
       "collision": {},
       "height": 0.5,
       "collidable": true,
       "destructible": true,
-      "health": 250,
+      "health": 1500,
+      "hitParticle": "blackChip",
+      "explodeParticle": "barrelBreak",
       "reflectBullets": false,
-      "hitParticle": "glassChip",
-      "explodeParticle": "windowBreak",
       "loot": [],
-      "map": {"display": true, "color": 11776947, "scale": 1},
-      "terrain": {"grass": false, "beach": false},
-      "img": {
-        "sprite": "map-vat-01.img",
-        "residue": "map-vat-res.img",
-        "scale": 0.5,
-        "alpha": 1,
-        "tint": 16777215,
-        "zIdx": 10
-      },
-      "sound": {
-        "bullet": "glass_bullet",
-        "punch": "glass_bullet",
-        "explode": "window_break_01",
-        "enter": "none"
-      }
-    },
-    "vat_02": {
-      "type": "obstacle",
-      "scale": {"createMin": 1, "createMax": 1, "destroy": 0.95},
-      "collision": {},
-      "height": 0.5,
-      "collidable": true,
-      "destructible": false,
-      "health": 1000,
-      "reflectBullets": false,
-      "hitParticle": "glassChip",
-      "explodeParticle": "windowBreak",
-      "loot": [],
-      "map": {"display": true, "color": 11776947, "scale": 1},
-      "terrain": {"grass": true, "beach": false},
-      "img": {
-        "sprite": "map-vat-02.img",
-        "residue": "map-vat-res.img",
-        "scale": 0.5,
-        "alpha": 1,
-        "tint": 16777215,
-        "zIdx": 10
-      },
-      "sound": {
-        "bullet": "glass_bullet",
-        "punch": "glass_bullet",
-        "explode": "window_break_01",
-        "enter": "none"
-      }
-    },
-    "vending_01": {
-      "type": "obstacle",
-      "scale": {"createMin": 1, "createMax": 1, "destroy": 0.75},
-      "collision": {},
-      "height": 0.5,
-      "collidable": true,
-      "destructible": true,
-      "health": 150,
-      "hitParticle": "blueChip",
-      "explodeParticle": ["windowBreak", "lockerBreak"],
-      "reflectBullets": true,
-      "loot": ["tier_vending_soda", "soda"],
-      "map": {"display": false, "color": 10925, "scale": 0.875},
+      "map": {"display": true, "color": 6708838, "scale": 1},
       "terrain": {"grass": true, "beach": true},
       "img": {
-        "sprite": "map-vending-soda-01.img",
-        "residue": "map-vending-res.img",
-        "scale": 0.5,
+        "sprite": "map-tire-01.img",
+        "scale": 0.4,
         "alpha": 1,
         "tint": 16777215,
         "zIdx": 10
       },
       "sound": {
-        "bullet": "wall_bullet",
-        "punch": "metal_punch",
-        "explode": "vending_break_01",
+        "bullet": "cloth_bullet",
+        "punch": "cloth_punch",
+        "explode": "cloth_break_01",
         "enter": "none"
       }
     }
@@ -11896,16 +12161,12 @@
       "game-outfitPineapple": "Valiant Pineapple",
       "game-outfitTarkhany": "Tarkhany Regal",
       "game-outfitDesertCamo": "Desert Camo",
-      "game-outfitDesertGhillie": "Desert Ghillie",
       "game-outfitElf": "Tallow's Little Helper",
       "game-outfitSpetsnaz": "Siberian Assault",
-      "game-outfitDarkGhillie": "Incursion Ghillie",
       "game-outfitRedLeaderAged": "Red Victorious",
       "game-outfitBlueLeaderAged": "Stifled Blue",
       "game-outfitWoodsCloak": "Greencloak",
-      "game-outfitSpringGhillie": "Vernal Ghillie",
       "game-outfitNoir": "Neo Noir",
-      "game-outfitSummerGhillie": "Verdant Ghillie",
       "game-outfitWheat": "Splintered Wheat",
       "game-fists": "Poings",
       "game-knuckles_rusted": "Knuckles Rusted",
@@ -13777,16 +14038,12 @@
       "game-outfitPineapple": "Valiant Pineapple",
       "game-outfitTarkhany": "Tarkhany Regal",
       "game-outfitDesertCamo": "Desert Camo",
-      "game-outfitDesertGhillie": "Desert Ghillie",
       "game-outfitElf": "Tallow's Little Helper",
       "game-outfitSpetsnaz": "Siberian Assault",
-      "game-outfitDarkGhillie": "Incursion Ghillie",
       "game-outfitRedLeaderAged": "Red Victorious",
       "game-outfitBlueLeaderAged": "Stifled Blue",
       "game-outfitWoodsCloak": "Greencloak",
-      "game-outfitSpringGhillie": "Vernal Ghillie",
       "game-outfitNoir": "Neo Noir",
-      "game-outfitSummerGhillie": "Verdant Ghillie",
       "game-outfitWheat": "Splintered Wheat",
       "game-outfitDev": "Developer Swag",
       "game-outfitMod": "Discord Moderatr",
@@ -13841,12 +14098,15 @@
       "game-sv98": "SV-98",
       "game-m39": "M39 EMR",
       "game-garand": "M1 Garand",
+      "game-svd": "SVD-63",
+      "game-blr": "BLR 81",
       "game-mp5": "MP5",
       "game-mac10": "MAC-10",
       "game-ump9": "UMP9",
       "game-vector": "Vector",
       "game-vector45": "Vector",
       "game-scorpion": "CZ-3A1",
+      "game-vss": "VSS",
       "game-m870": "M870",
       "game-m1100": "M1100",
       "game-m1014": "Super 90",
@@ -13884,7 +14144,9 @@
       "game-m249": "M249",
       "game-qbb97": "QBB-97",
       "game-scout": "Scout Elite",
+      "game-l86": "L86A2",
       "game-awc": "AWM-S",
+      "game-scarssr": "Mk 20 SSR",
       "game-model94": "Model 94",
       "game-colt45": "Peacemaker",
       "game-colt45_dual": "Dual Peacemaker",
@@ -13926,12 +14188,14 @@
       "game-airdrop_crate_02": "Air Drop",
       "game-stove_01": "a stove",
       "game-grill_01": "a grill",
+      "game-propane_01": "a propane tank",
       "index-play-50v50": "Play 50v50",
       "index-50v50": "50v50",
       "game-red-team": "Red Team",
       "game-blue-team": "Blue Team",
       "game-red-leader": "Red Leader",
       "game-blue-leader": "Blue Leader",
+      "game-kill-leader": "Kill Leader",
       "game-leader": "Leader",
       "game-lieutenant": "Lieutenant",
       "game-medic": "Medic",
@@ -13954,10 +14218,26 @@
       "game-aoe_heal-desc": "Reviving and using medical items affects all nearby players.",
       "game-endless_ammo": "Endless Ammo",
       "game-endless_ammo-desc": "Guns always reload to full.",
+      "game-steelskin": "Cast Ironskin",
+      "game-steelskin-desc": "Take reduced damage and reflect enemy bullets.</br>Increased size.",
       "game-splinter": "Splinter Rounds",
       "game-splinter-desc": "Rounds fragment into three less powerful bullets.",
       "game-small_arms": "Small Arms",
-      "game-small_arms-desc": "Move faster with weapons deployed.</br>Decreased size."
+      "game-small_arms-desc": "Move faster with weapons deployed.</br>Decreased size.",
+      "game-takedown": "Takedown",
+      "game-takedown-desc": "Kills grant health, boost and a short burst of speed.",
+      "game-field_medic": "Combat Medic",
+      "game-field_medic-desc": "Move quickly while healing.",
+      "game-tree_climbing": "One With Nature",
+      "game-tree_climbing-desc": "Move through trees. Move faster in water.",
+      "game-scavenger": "Scavenger",
+      "game-scavenger-desc": "Obstacles can drop additional items when destroyed.",
+      "game-hunted": "The Hunted",
+      "game-hunted-desc": "Your location is revealed to all enemies.",
+      "game-chambered": "One In The Chamber",
+      "game-chambered-desc": "First and last round in each magazine deal extra damage.",
+      "game-martyrdom": "Martyrdom",
+      "game-martyrdom-desc": "Release several live grenades upon death."
     },
     "vn": {
       "updated": "2018-05-13",
@@ -14342,28 +14622,46 @@
       "index-play-solo": "Tekli oyna",
       "index-play-duo": "İkili oyna",
       "index-play-squad": "Takım oyna",
+      "index-join-team": "Join Team",
       "index-create-team": "Takım Oluştur",
       "index-leave-team": "Takımdan Çık",
       "index-joining-team": "Takıma Katılınıyor",
       "index-creating-team": "Takım Oluşturuluyor",
       "index-invite-link": "Davet linki",
+      "index-invite-code": "Invite code",
+      "index-join-team-help": "Got a team link or code? Paste it here:",
       "index-solo": "Tekli",
       "index-duo": "İkili",
       "index-squad": "Takım",
       "index-auto-fill": "Otomatik Oyuncu Seç",
       "index-no-fill": "Otomatik Oyuncu Seçme",
       "index-waiting-for-leader": "Liderin oyunu başlatması bekleniyor",
+      "index-joining-game": "Joining game",
+      "index-game-in-progress": "Game in progress",
       "index-play": "Oyna",
+      "index-customize-loadout": "Customize Emotes",
+      "index-twitter-follow": "Twitter Follow",
+      "index-youtube-subscribe": "YouTube Subscribe",
+      "index-facebook-like": "Facebook Like",
       "index-featured-youtuber": "Önerilen Youtuber",
+      "index-streaming-live": "Streaming Live!",
+      "index-viewer": "viewer",
+      "index-viewers": "viewers",
       "index-settings": "Ayarlar",
       "index-high-resolution": "Yüksek Çözünürlük görsel kaliteyi artırmak için seç",
       "index-screen-shake": "Ekran sallanması",
+      "index-anon-player-names": "Anonymize player names",
       "index-master-volume": "Ana Ses",
       "index-sfx-volume": "Ses Efekti Düzeyi",
       "index-music-volume": "Müzik Sesi",
       "index-mobile-announce": "Şimdi mobilde!",
       "index-mobile-tooltip": "Cihazınızdan <span>surviv.io</span> web sitesine girin!",
+      "index-version": "ver",
+      "index-privacy": "privacy",
+      "index-attributions": "attributions",
+      "index-proxy-sites": "proxy sites",
       "index-team-is-full": "Takım dolu!",
+      "index-team-kicked": "You were kicked from the team!",
       "index-failed-joining-team": "Takıma katılım başarısız oldu.",
       "index-failed-creating-team": "Takım oluşturma başarısız oldu.",
       "index-failed-finding-game": "Oyun bulma başarısız oldu.",
@@ -14377,8 +14675,9 @@
       "index-total-kills": "Tüm Öldürmeler",
       "index-total-wins": "Tüm Galibiyetler",
       "index-top-5-percent": "En Üst Yüzde 5",
-      "index-for": "için",
       "index-kill-death-ratio": "Öldürme-Ölüm oranı",
+      "index-mode": "Mode",
+      "index-for": "için",
       "index-today": "Bugün",
       "index-this-week": "Bu Hafta",
       "index-all-time": "Tüm Zamanlar",
@@ -14400,6 +14699,8 @@
       "index-stow-weapons-ctrl": "3 veya E",
       "index-swap-weapons": "Önceki Silaha Geç",
       "index-swap-weapons-ctrl": "Q",
+      "index-swap-weapon-slots": "Switch Gun Slots",
+      "index-swap-weapon-slots-ctrl": "T or drag gun to other slot",
       "index-reload": "Yeniden Doldur",
       "index-reload-ctrl": "R",
       "index-scope-zoom": "Yakınlaştırma",
@@ -14430,6 +14731,19 @@
       "index-tips-3-desc": "Oyuna basit bir sırt çantası dışında hiçbir öğeyle başlamayacaksın. Ganimet bulmak için haritanın etrafında dolaş: silahlar, cephane, kapsüller ve tıbbi ürünler. Diğer oyuncuları ele ve onların ganimetlerini alabilirsin!",
       "index-tips-4": "Kırmızı = Kötü!",
       "index-tips-4-desc": "Seni incitebilecek tek şey oyuncular değil. Ölümcül kırmızı bölge harita kenarlarından içeri ilerler eğer içene girerseniz giderek daha fazla zarar görürsünüz. Haritaya bakmayı unutma ve güvende kal.",
+      "index-movement-ctrl-touch": "Left stick",
+      "index-aim-ctrl-touch": "Right stick",
+      "index-shoot-ctrl-touch": "Drag right stick outside stick border",
+      "index-change-weapons-ctrl-touch": "Tap weapon slot",
+      "index-reload-ctrl-touch": "Tap equipped ammo counter",
+      "index-scope-zoom-ctrl-touch": "Tap zoom item",
+      "index-pickup-ctrl-touch": "Tap interaction button or loot name",
+      "index-use-medical-ctrl-touch": "Tap medical item",
+      "index-drop-item-ctrl-touch": "Touch and hold item",
+      "index-cancel-action-ctrl-touch": "Tap interaction button",
+      "index-view-map-ctrl-touch": "Tap minimap",
+      "index-use-ping-ctrl-touch": "View map and tap anywhere on map",
+      "index-use-emote-ctrl-touch": "Tap surviv icon",
       "index-loadout": "Özelleştirmek",
       "loadout-title-emote": "Emotes",
       "loadout-title-crosshair": "Crosshair",
@@ -14441,6 +14755,10 @@
       "loadout-stroked": "Stroked",
       "loadout-stock": "Stock",
       "loadout-common": "Common",
+      "loadout-uncommon": "Uncommon",
+      "loadout-rare": "Rare",
+      "loadout-epic": "Epic",
+      "loadout-mythic": "Mythic",
       "loadout-acquired": "Acquired",
       "loadout-category": "Category",
       "loadout-standard-issue": "Standard Issue",
@@ -14450,6 +14768,7 @@
       "loadout-new-account": "Account Created",
       "game-alive": "Hayatta",
       "game-reloading": "Yeniden Dolduruluyor",
+      "game-use": "Use",
       "game-using": "Kullanılıyor",
       "game-reviving": "İyileştiriliyor",
       "game-revive-teammate": "Takım Arkadaşını İyileştir",
@@ -14457,6 +14776,7 @@
       "game-cancel": "İptal et",
       "game-open-door": "Kapıyı aç",
       "game-close-door": "Kapıyı kapat",
+      "game-unlock": "Unlock",
       "game-You": "Sen",
       "game-you": "sen",
       "game-themselves": "kendisini",
@@ -14470,6 +14790,10 @@
       "game-finally-bled-out": "sonunda kan kaybederek öldü",
       "game-died-outside": "güvenli bölgenin dışında öldü",
       "game-the-red-zone": "Kırmızı alan",
+      "game-crushed": "crushed",
+      "game-the-air-drop": "The air drop",
+      "game-the-air-strike": "The air strike",
+      "game-an-air-strike": "an air strike",
       "game-waiting-for-players": "Oyuncular bekleniyor",
       "game-spectating": "İzleniyor",
       "game-red-zone-advances": "Kırmızı alan içinde geliyor",
@@ -14483,9 +14807,11 @@
       "game-item-already-owned": "Eşyaya zaten sahipsin!",
       "game-item-already-equipped": "Eşya zaten kuşanılmış!",
       "game-better-item-equipped": "Daha iyi eşya kuşanıldı!",
+      "game-gun-cannot-fire": "Gun cannot be fired here!",
       "game-play-new-game": "Yeni Oyun Oyna",
       "game-spectate": "Seyret",
       "game-full-screen": "Tam Ekran",
+      "game-aim-line": "Aim Line",
       "game-sound": "Ses",
       "game-quit-game": "Oyundan Çık",
       "game-return-to-game": "Oyuna Geri Dön",
@@ -14500,6 +14826,9 @@
       "game-chicken": "Hadi yine iyisin akşama tavuk var!",
       "game-won-the-game": "oyunu kazandı",
       "game-team-eliminated": "Takımınız yenildi.",
+      "game-solo-rank": "Solo Rank",
+      "game-duo-rank": "Duo Rank",
+      "game-squad-rank": "Squad Rank",
       "game-rank": "Sıralama",
       "game-team-rank": "Takım Sırası",
       "game-team-kills": "Takım Öldürmeleri",
@@ -14544,6 +14873,15 @@
       "game-helmet01": "Seviye 1 Kask",
       "game-helmet02": "Seviye 2 Kask",
       "game-helmet03": "Seviye 3 Kask",
+      "game-helmet03_leader": "Leader Helmet",
+      "game-helmet03_forest": "Shishigami no Kabuto",
+      "game-helmet03_moon": "Tsukuyomi no Kabuto",
+      "game-helmet03_lt": "Lieutenant Helmet",
+      "game-helmet03_lt_aged": "Lieutenant Helmet",
+      "game-helmet03_potato": "K-pot-ato",
+      "game-helmet03_dm01": "Marksman Helmet",
+      "game-helmet03_dm02": "Marksman Helmet",
+      "game-helmet04_leader": "Leader Helmet",
       "game-1xscope": "1x Dürbün",
       "game-2xscope": "2x Dürbün",
       "game-4xscope": "4x Dürbün",
@@ -14564,6 +14902,31 @@
       "game-outfitCamo": "Kamuflaj",
       "game-outfitRed": "Atış Talimi",
       "game-outfitWhite": "Buzul Yenilmezi",
+      "game-outfitJester": "Jester's Folly",
+      "game-outfitPrisoner": "The New Black",
+      "game-outfitCasanova": "Casanova Silks",
+      "game-outfitKhaki": "The Initiative",
+      "game-outfitCoral": "Coral Guise",
+      "game-outfitAqua": "Aquatic Avenger",
+      "game-outfitIslander": "Island Time",
+      "game-outfitMeteor": "Falling Star",
+      "game-outfitHeaven": "Celestial Garb",
+      "game-outfitWaterElem": "Water Elemental",
+      "game-outfitVerde": "Poncho Verde",
+      "game-outfitLumber": "Woodcutter's Wrap",
+      "game-outfitImperial": "Imperial Seal",
+      "game-outfitPineapple": "Valiant Pineapple",
+      "game-outfitTarkhany": "Tarkhany Regal",
+      "game-outfitDesertCamo": "Desert Camo",
+      "game-outfitElf": "Tallow's Little Helper",
+      "game-outfitSpetsnaz": "Siberian Assault",
+      "game-outfitRedLeaderAged": "Red Victorious",
+      "game-outfitBlueLeaderAged": "Stifled Blue",
+      "game-outfitWoodsCloak": "Greencloak",
+      "game-outfitNoir": "Neo Noir",
+      "game-outfitWheat": "Splintered Wheat",
+      "game-outfitDev": "Developer Swag",
+      "game-outfitMod": "Discord Moderatr",
       "game-fists": "Yumruk",
       "game-ak47": "AK-47",
       "game-dp28": "DP-28",
@@ -14589,19 +14952,60 @@
       "game-potato": "Patates",
       "game-hud-potato": "Patates",
       "game-potato_heavy": "Patates",
+      "game-machete_taiga": "Machete Taiga",
+      "game-hud-machete_taiga": "Machete",
+      "game-kukri_trad": "Tallow's Kukri",
+      "game-hud-kukri_trad": "Kukri",
+      "game-bonesaw_rusted": "Bonesaw Rusted",
+      "game-hud-bonesaw_rusted": "Bonesaw",
+      "game-stonehammer": "Stone Hammer",
+      "game-sledgehammer": "Sledgehammer",
+      "game-hook": "Hook",
+      "game-pan": "Pan",
       "game-barrel_01": "Varil",
+      "game-barrel_01b": "Varil",
       "game-silo_01": "Ambar",
       "game-oven_01": "ocak",
+      "game-control_panel_01": "Control Panel",
+      "game-control_panel_02": "Control Panel",
+      "game-control_panel_03": "a computer terminal",
+      "game-control_panel_04": "a computer terminal",
+      "game-control_panel_06": "a computer terminal",
+      "game-power_box_01": "a power box",
+      "game-airdrop_crate_01": "Air Drop",
+      "game-airdrop_crate_02": "Air Drop",
+      "game-stove_01": "a stove",
+      "game-grill_01": "a grill",
       "index-play-50v50": "50v50 oyna",
       "index-50v50": "50v50",
       "game-red-team": "Red Team",
       "game-blue-team": "Blue Team",
       "game-red-leader": "Red Leader",
       "game-blue-leader": "Blue Leader",
+      "game-leader": "Leader",
+      "game-lieutenant": "Lieutenant",
+      "game-medic": "Medic",
       "game-is-down": "is down",
       "game-is-dead": "is dead",
       "game-promoted-to": "promoted to",
-      "game-youve-been-promoted-to": "You've been promoted to"
+      "game-youve-been-promoted-to": "You've been promoted to",
+      "game-woods_king": "The Woods King",
+      "game-leadership": "Leadership",
+      "game-leadership-desc": "Max adrenaline.</br>Increased size.",
+      "game-firepower": "Firepower",
+      "game-firepower-desc": "High-capacity magazines.",
+      "game-gotw": "Gift of the Woods",
+      "game-gotw-desc": "Restore health over time.</br>Increased size.",
+      "game-windwalk": "Windwalk",
+      "game-windwalk-desc": "When taking fire, gain a short burst of speed.",
+      "game-rare_potato": "Rare Potato",
+      "game-rare_potato-desc": "Always rotate to a high quality weapon.",
+      "game-aoe_heal": "Mass Medicate",
+      "game-aoe_heal-desc": "Reviving and using medical items affects all nearby players.",
+      "game-endless_ammo": "Endless Ammo",
+      "game-endless_ammo-desc": "Guns always reload to full.",
+      "game-splinter": "Splinter Rounds",
+      "game-splinter-desc": "Rounds fragment into three less powerful bullets."
     },
     "da": {
       "updated": "2018-03-17",
@@ -15762,7 +16166,6 @@
       "game-outfitCamo": "Camuflaje de Bosque",
       "game-outfitRed": "Práctica de Tiro",
       "game-outfitWhite": "Vengador del Ártico",
-      "game-outfitDesertGhillie": "Ghillie de Desierto",
       "game-outfitDesertCamo": "Camuflaje de Desierto",
       "game-fists": "Puños",
       "game-knuckles_rusted": "Nudillos oxidados",
@@ -15860,9 +16263,9 @@
       "game-leadership-desc": "Adrenalina maxima.</br>Aumento de tamaño.",
       "game-firepower": "Bandolera",
       "game-firepower-desc": "Cargadores extendidos.",
-      "game-gotw": "Don de los Bosques",
+      "game-gotw": "Don de los bosques",
       "game-gotw-desc": "Pasivamente regenera su vida.</br>Aumento de tamaño.",
-      "game-windwalk": "Viento Viajando",
+      "game-windwalk": "Viento viajando",
       "game-windwalk-desc": "Si recibes disparos mientras corres, te moverás más rápido.",
       "game-rare_potato": "Papa rara",
       "game-rare_potato-desc": "Siempre rotaras a un arma buena.",
@@ -15872,8 +16275,24 @@
       "game-endless_ammo-desc": "Las armas siempre tendran balas para recargar.",
       "game-splinter": "Astillas de balas",
       "game-splinter-desc": "Las balas se fragmentan en tres balas mas débiles.",
-      "game-small_arms": "Armas Pequeñas",
-      "game-small_arms-desc": "Muévete más rápido con las armas desplegadas.</br>Tamaño disminuido."
+      "game-small_arms": "Armas pequeñas",
+      "game-small_arms-desc": "Muévete más rápido con las armas desplegadas.</br>Tamaño disminuido.",
+      "game-steelskin": "Piel de hierro fundido",
+      "game-steelskin-desc": "Toma daño reducido y refleja las balas enemigas.</br>Aumento de tamaño.",
+      "game-takedown": "Derribar",
+      "game-takedown-desc": "Las muertes otorgan salud, impulso y un breve estallido de velocidad.",
+      "game-field_medic": "Medico de combate",
+      "game-field_medic-desc": "Muévase rápidamente mientras sana.",
+      "game-tree_climbing": "Uno con la naturaleza",
+      "game-tree_climbing-desc": "Move through trees. Move faster in water.",
+      "game-scavenger": "Carroñero",
+      "game-scavenger-desc": "Los obstáculos pueden dejar caer elementos adicionales cuando se destruyen.",
+      "game-hunted": "La cacería",
+      "game-hunted-desc": "Tu ubicación se revela a todos los enemigos.",
+      "game-chambered": "Una en la recámara",
+      "game-chambered-desc": "La primera y última ronda de cada revista infligen daño adicional.",
+      "game-martyrdom": "Martirio",
+      "game-martyrdom-desc": "Desata varias granadas vivas al morir."
     },
     "nl": {
       "updated": "2018-02-12",
