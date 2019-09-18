@@ -446,10 +446,10 @@
     "caseTiming": "shoot",
     "ammo": "9mm",
     "ammoSpawnCount": 60,
-    "maxClip": 10,
-    "maxReload": 10,
-    "extendedClip": 20,
-    "extendedReload": 20,
+    "maxClip": 20,
+    "maxReload": 20,
+    "extendedClip": 30,
+    "extendedReload": 30,
     "reloadTime": 2.3,
     "fireDelay": 0.16,
     "switchDelay": 0.75,
@@ -490,27 +490,27 @@
         "bulletDamage": [22, 14.85, 11, 8.47, 7.48],
         "bulletDamageObj": 22,
         "bulletDamageHS": [44, 33, 26.4, 19.8, 13.2],
-        "bulletsWHS": 1.5,
-        "bulletsREG": 8.5,
-        "magDMG": [253, 176, 133, 102, 83],
-        "susDPS": [64, 44, 34, 26, 21],
+        "bulletsWHS": 3,
+        "bulletsREG": 17,
+        "magDMG": [506, 351, 266, 203, 167],
+        "susDPS": [90, 62, 47, 36, 30],
         "burDPS": [152, 105, 80, 61, 50],
         "htKill": [4, 6, 8, 10, 12],
         "ttKill": [0.51, 0.84, 1.17, 1.51, 1.84],
         "falloff": [
-          "64/59/55/52/48",
-          "44/41/39/36/33",
-          "34/31/29/27/25",
-          "26/24/22/21/19",
-          "21/20/18/17/16"
+          "90/84/78/73/68",
+          "62/58/54/51/47",
+          "47/44/41/38/36",
+          "36/34/31/29/27",
+          "30/28/26/24/22"
         ]
       },
       "firing": {
         "firePerMin": 375,
         "firePerSec": 6,
         "distanceEffective": 98.72,
-        "dumpTime": 1.67,
-        "cycleTime": 3.97
+        "dumpTime": 3.33,
+        "cycleTime": 5.63
       }
     }
   },
@@ -794,7 +794,7 @@
     },
     "worldImg": {
       "sprite": "https://surviv.io/img/guns/gun-long-01.svg",
-      "tint": "10984586 | #A79C8A"
+      "tint": false
     },
     "calculations": {
       "damage": {
@@ -1323,7 +1323,7 @@
     },
     "worldImg": {
       "sprite": "https://surviv.io/img/guns/gun-scarssr-01.svg",
-      "tint": "10189640 | #9B7B48"
+      "tint": false
     },
     "calculations": {
       "damage": {
