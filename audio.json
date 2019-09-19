@@ -358,6 +358,8 @@
     "leader_dead_01": "https://surviv.io/audio/ui/leader_dead_01.mp3",
     "lt_assigned_01": "https://surviv.io/audio/ui/lt_assigned_01.mp3",
     "medic_assigned_01": "https://surviv.io/audio/ui/medic_assigned_01.mp3",
+    "marksman_assigned_01": "https://surviv.io/audio/ui/marksman_assigned_01.mp3",
+    "last_man_assigned_01": "https://surviv.io/audio/ui/last_man_assigned_01.mp3",
     "helmet03_forest_pickup_01": "https://surviv.io/audio/ui/helmet03_forest_pickup_01.mp3"
   },
   "music": {"menu_music": "https://surviv.io/audio/ambient/menu_music_01.mp3"}

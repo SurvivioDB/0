@@ -1,6 +1,6 @@
 {
   "map": {
-    "protocolVersion": 65,
+    "protocolVersion": 66,
     "DamageType": {
       "Player": 0,
       "Bleeding": 1,
@@ -145,7 +145,7 @@
       "556mm": [90, 180, 240, 300],
       "12gauge": [15, 30, 60, 90],
       "50AE": [49, 98, 147, 196],
-      "308sub": [10, 20, 30, 40],
+      "308sub": [10, 20, 40, 80],
       "flare": [2, 4, 6, 8],
       "45acp": [90, 180, 240, 300],
       "frag": [3, 6, 9, 12],
@@ -4852,6 +4852,7 @@
       "switchDelay": 0.25,
       "barrelLength": 2.2,
       "barrelOffset": 0,
+      "dualOffset": 0.6,
       "recoilTime": false,
       "moveSpread": 9,
       "shotSpread": 11,
@@ -5016,6 +5017,7 @@
       "switchDelay": 0.25,
       "barrelLength": 2.2,
       "barrelOffset": 0,
+      "dualOffset": 0.6,
       "recoilTime": false,
       "moveSpread": 6,
       "shotSpread": 7,
@@ -5171,6 +5173,7 @@
       "switchDelay": 0.25,
       "barrelLength": 2.2,
       "barrelOffset": 0,
+      "dualOffset": 0.6,
       "recoilTime": false,
       "moveSpread": 16,
       "shotSpread": 18,
@@ -5318,6 +5321,7 @@
       "switchDelay": 0.3,
       "barrelLength": 2.3,
       "barrelOffset": 0,
+      "dualOffset": 0.6,
       "recoilTime": false,
       "moveSpread": 2,
       "shotSpread": 3,
@@ -5472,6 +5476,7 @@
       "switchDelay": 0.3,
       "barrelLength": 2,
       "barrelOffset": 0,
+      "dualOffset": 0.6,
       "recoilTime": false,
       "moveSpread": 4,
       "shotSpread": 1.75,
@@ -5627,6 +5632,7 @@
       "switchDelay": 0.3,
       "barrelLength": 2,
       "barrelOffset": 0,
+      "dualOffset": 0.6,
       "recoilTime": false,
       "moveSpread": 2.8,
       "shotSpread": 1.4,
@@ -5782,6 +5788,7 @@
       "switchDelay": 0.3,
       "barrelLength": 2.26,
       "barrelOffset": 0,
+      "dualOffset": 0.6,
       "recoilTime": 0.35,
       "moveSpread": 3,
       "shotSpread": 16,
@@ -5936,6 +5943,7 @@
       "switchDelay": 0.25,
       "barrelLength": 2.1,
       "barrelOffset": 0,
+      "dualOffset": 0.6,
       "recoilTime": false,
       "moveSpread": 8,
       "shotSpread": 9.5,
@@ -6165,6 +6173,7 @@
       "switchDelay": 0.3,
       "barrelLength": 1.855,
       "barrelOffset": 0,
+      "dualOffset": 0.6,
       "recoilTime": 0.5,
       "moveSpread": 7.5,
       "shotSpread": 3.5,
@@ -6308,6 +6317,7 @@
       "switchDelay": 0.3,
       "barrelLength": 2,
       "barrelOffset": 0,
+      "dualOffset": 0.6,
       "recoilTime": false,
       "moveSpread": 3,
       "shotSpread": 1.25,
@@ -7953,6 +7963,23 @@
         "borderTint": false
       }
     },
+    "chest04": {
+      "name": "Level 4 Vest",
+      "type": "chest",
+      "noDrop": true,
+      "level": 4,
+      "damageReduction": 0.55,
+      "skinImg": {
+        "baseTint": "1846790 | #1C2E06",
+        "baseSprite": "https://surviv.io/img/player/player-armor-base-01.svg"
+      },
+      "lootImg": {
+        "sprite": "https://surviv.io/img/loot/loot-chest-03.svg",
+        "tint": false,
+        "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+        "borderTint": false
+      }
+    },
     "helmet01": {
       "name": "Level 1 Helmet",
       "type": "helmet",
@@ -8111,49 +8138,19 @@
         "sprite": "https://surviv.io/img/player/player-helmet-potato.svg"
       }
     },
-    "helmet03_dm01": {
+    "helmet03_marksman": {
       "type": "helmet",
-      "reskin": "helmet03",
+      "reskin": "helmet04",
       "name": "Marksman Helmet",
-      "perk": "endless_ammo",
+      "noDrop": true,
       "skinImg": {
         "baseTint": false,
         "baseTintRed": false,
         "baseTintBlue": false,
-        "baseSprite": "https://surviv.io/img/player/player-helmet-dm-01.svg"
+        "baseSprite": "https://surviv.io/img/player/player-helmet-marksman.svg"
       },
       "lootImg": {
-        "sprite": "https://surviv.io/img/player/player-helmet-dm-01.svg"
-      }
-    },
-    "helmet03_dm02": {
-      "type": "helmet",
-      "reskin": "helmet03",
-      "name": "Marksman Helmet",
-      "perk": "splinter",
-      "skinImg": {
-        "baseTint": false,
-        "baseTintRed": false,
-        "baseTintBlue": false,
-        "baseSprite": "https://surviv.io/img/player/player-helmet-dm-02.svg"
-      },
-      "lootImg": {
-        "sprite": "https://surviv.io/img/player/player-helmet-dm-02.svg"
-      }
-    },
-    "helmet03_dm03": {
-      "type": "helmet",
-      "reskin": "helmet03",
-      "name": "Marksman Helmet",
-      "perk": "small_arms",
-      "skinImg": {
-        "baseTint": false,
-        "baseTintRed": false,
-        "baseTintBlue": false,
-        "baseSprite": "https://surviv.io/img/player/player-helmet-dm-03.svg"
-      },
-      "lootImg": {
-        "sprite": "https://surviv.io/img/player/player-helmet-dm-03.svg"
+        "sprite": "https://surviv.io/img/player/player-helmet-marksman.svg"
       }
     },
     "helmet04_medic": {
@@ -8169,6 +8166,36 @@
       },
       "lootImg": {
         "sprite": "https://surviv.io/img/player/player-helmet-medic.svg"
+      }
+    },
+    "helmet04_last_man_red": {
+      "type": "helmet",
+      "reskin": "helmet04",
+      "name": "Lone Survivr Helmet",
+      "noDrop": true,
+      "skinImg": {
+        "baseTint": false,
+        "baseTintRed": false,
+        "baseTintBlue": false,
+        "baseSprite": "https://surviv.io/img/player/player-helmet-last-man-01.svg"
+      },
+      "lootImg": {
+        "sprite": "https://surviv.io/img/player/player-helmet-last-man-01.svg"
+      }
+    },
+    "helmet04_last_man_blue": {
+      "type": "helmet",
+      "reskin": "helmet04",
+      "name": "Lone Survivr Helmet",
+      "noDrop": true,
+      "skinImg": {
+        "baseTint": false,
+        "baseTintRed": false,
+        "baseTintBlue": false,
+        "baseSprite": "https://surviv.io/img/player/player-helmet-last-man-02.svg"
+      },
+      "lootImg": {
+        "sprite": "https://surviv.io/img/player/player-helmet-last-man-02.svg"
       }
     },
     "helmet04_leader": {
@@ -9652,6 +9679,16 @@
         "border": "https://surviv.io/img/loot/loot-circle-outer-03.svg",
         "borderTint": false
       }
+    },
+    "targeting": {
+      "name": "Targeting",
+      "type": "perk",
+      "lootImg": {
+        "sprite": "https://surviv.io/img/loot/loot-perk-targeting.svg",
+        "tint": false,
+        "border": "https://surviv.io/img/loot/loot-circle-outer-03.svg",
+        "borderTint": false
+      }
     }
   },
   "emitter": {
@@ -10044,6 +10081,8 @@
       "leader_dead_01": "https://surviv.io/audio/ui/leader_dead_01.mp3",
       "lt_assigned_01": "https://surviv.io/audio/ui/lt_assigned_01.mp3",
       "medic_assigned_01": "https://surviv.io/audio/ui/medic_assigned_01.mp3",
+      "marksman_assigned_01": "https://surviv.io/audio/ui/marksman_assigned_01.mp3",
+      "last_man_assigned_01": "https://surviv.io/audio/ui/last_man_assigned_01.mp3",
       "helmet03_forest_pickup_01": "https://surviv.io/audio/ui/helmet03_forest_pickup_01.mp3"
     },
     "music": {"menu_music": "https://surviv.io/audio/ambient/menu_music_01.mp3"}
@@ -10227,8 +10266,8 @@
     }
   },
   "info": {
-    "version": 65,
-    "timestamp": 1568783745294,
-    "date": "18/09/2019 @ 5:15AM UTC"
+    "version": 66,
+    "timestamp": 1568863801071,
+    "date": "19/09/2019 @ 3:30AM UTC"
   }
 }
