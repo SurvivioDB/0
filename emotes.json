@@ -1260,7 +1260,7 @@
     "type": "emote",
     "name": "Flag Latvia",
     "rarity": 1,
-    "texture": "https://surviv.io/img/emotes/flag-azerbaijan.svg",
+    "texture": "https://surviv.io/img/emotes/flag-latvia.svg",
     "channel": "ui",
     "teamOnly": false,
     "category": "Flags"

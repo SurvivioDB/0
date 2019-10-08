@@ -794,7 +794,7 @@
     },
     "worldImg": {
       "sprite": "https://surviv.io/img/guns/gun-long-01.svg",
-      "tint": false
+      "tint": "10984586 | #A79C8A"
     },
     "calculations": {
       "damage": {
@@ -1281,7 +1281,7 @@
   "scarssr": {
     "name": "SCAR-SSR",
     "type": "gun",
-    "quality": 0,
+    "quality": 1,
     "fireMode": "single",
     "caseTiming": "shoot",
     "ammo": "308sub",
@@ -1893,6 +1893,81 @@
         "dumpTime": 8,
         "cycleTime": 12,
         "cycleTimeSingle": 1.5
+      }
+    }
+  },
+  "mkg45": {
+    "name": "Mk45G",
+    "type": "gun",
+    "quality": 1,
+    "fireMode": "single",
+    "caseTiming": "shoot",
+    "ammo": "45acp",
+    "ammoSpawnCount": 52,
+    "maxClip": 13,
+    "maxReload": 13,
+    "extendedClip": 26,
+    "extendedReload": 26,
+    "reloadTime": 2.1,
+    "fireDelay": 0.17,
+    "switchDelay": 0.75,
+    "barrelLength": 3.3,
+    "barrelOffset": 0,
+    "recoilTime": 0.2,
+    "moveSpread": 7.5,
+    "shotSpread": 3.5,
+    "bulletCount": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 28,
+      "obstacleDamage": 1,
+      "falloff": 0.75,
+      "distance": 145,
+      "speed": 126,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "45acp",
+      "tracerWidth": 0.1,
+      "tracerLength": 0.9
+    },
+    "headshotMult": 1.5,
+    "speed": {"equip": 0, "attack": 0},
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-weapon-mkg45.svg",
+      "tint": "65280 | #00FF00",
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    },
+    "worldImg": {
+      "sprite": "https://surviv.io/img/guns/gun-long-01.svg",
+      "tint": "3487029 | #353535"
+    },
+    "calculations": {
+      "damage": {
+        "bulletDamage": [28, 18.9, 14, 10.78, 9.52],
+        "bulletDamageObj": 28,
+        "bulletDamageHS": [42, 31.5, 25.2, 18.9, 12.6],
+        "bulletsWHS": 1.95,
+        "bulletsREG": 11.05,
+        "magDMG": [391, 270, 204, 156, 130],
+        "susDPS": [83, 58, 43, 33, 28],
+        "burDPS": [151, 104, 78, 60, 50],
+        "htKill": [4, 5, 7, 9, 11],
+        "ttKill": [0.63, 0.83, 1.23, 1.63, 2.03],
+        "falloff": [
+          "83/75/68/61/55",
+          "58/52/47/42/38",
+          "43/39/35/32/29",
+          "33/30/27/24/22",
+          "28/25/22/20/18"
+        ]
+      },
+      "firing": {
+        "firePerMin": 352,
+        "firePerSec": 5,
+        "distanceEffective": 106.78,
+        "dumpTime": 2.6,
+        "cycleTime": 4.7
       }
     }
   },
@@ -4454,6 +4529,7 @@
     "pistol": true,
     "outsideOnly": true,
     "ammoSpawnCount": 1,
+    "ignoreEndlessAmmo": true,
     "maxClip": 1,
     "maxReload": 1,
     "extendedClip": 1,
@@ -4519,6 +4595,7 @@
     "pistol": true,
     "outsideOnly": true,
     "ammoSpawnCount": 2,
+    "ignoreEndlessAmmo": true,
     "maxClip": 2,
     "maxReload": 2,
     "extendedClip": 2,
@@ -6161,7 +6238,7 @@
     "type": "chest",
     "noDrop": true,
     "level": 4,
-    "damageReduction": 0.55,
+    "damageReduction": 0.6,
     "skinImg": {
       "baseTint": "1846790 | #1C2E06",
       "baseSprite": "https://surviv.io/img/player/player-armor-base-01.svg"
