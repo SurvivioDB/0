@@ -1,6 +1,6 @@
 {
   "map": {
-    "protocolVersion": 66,
+    "protocolVersion": 67,
     "Input": {
       "MoveLeft": 0,
       "MoveRight": 1,
@@ -1345,6 +1345,19 @@
       "tracerWidth": 0.1,
       "tracerLength": 0.7
     },
+    "bullet_mkg45": {
+      "type": "bullet",
+      "damage": 28,
+      "obstacleDamage": 1,
+      "falloff": 0.75,
+      "distance": 145,
+      "speed": 126,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "45acp",
+      "tracerWidth": 0.1,
+      "tracerLength": 0.9
+    },
     "bullet_deagle": {
       "type": "bullet",
       "damage": 35,
@@ -2392,7 +2405,7 @@
       "worldImg": {
         "sprite": "gun-long-01.img",
         "scale": {"x": 0.5, "y": 0.485},
-        "tint": 16777215,
+        "tint": 10984586,
         "leftHandOffset": {"x": 4.2, "y": 0},
         "recoil": 1.66
       },
@@ -2698,7 +2711,7 @@
     "scarssr": {
       "name": "SCAR-SSR",
       "type": "gun",
-      "quality": 0,
+      "quality": 1,
       "fireMode": "single",
       "caseTiming": "shoot",
       "ammo": "308sub",
@@ -3089,6 +3102,53 @@
         "pickup": "gun_pickup_01",
         "empty": "empty_fire_02",
         "deploy": "model94_cycle_01"
+      }
+    },
+    "mkg45": {
+      "name": "Mk45G",
+      "type": "gun",
+      "quality": 1,
+      "fireMode": "single",
+      "caseTiming": "shoot",
+      "ammo": "45acp",
+      "ammoSpawnCount": 52,
+      "maxClip": 13,
+      "maxReload": 13,
+      "extendedClip": 26,
+      "extendedReload": 26,
+      "reloadTime": 2.1,
+      "fireDelay": 0.17,
+      "switchDelay": 0.75,
+      "barrelLength": 3.3,
+      "barrelOffset": 0,
+      "recoilTime": 0.2,
+      "moveSpread": 7.5,
+      "shotSpread": 3.5,
+      "bulletCount": 1,
+      "bulletType": "bullet_mkg45",
+      "headshotMult": 1.5,
+      "speed": {"equip": 0, "attack": 0},
+      "lootImg": {
+        "sprite": "loot-weapon-mkg45.img",
+        "tint": 65280,
+        "border": "loot-circle-outer-01.img",
+        "borderTint": 0,
+        "scale": 0.3
+      },
+      "worldImg": {
+        "sprite": "gun-long-01.img",
+        "scale": {"x": 0.5, "y": 0.47},
+        "tint": 3487029,
+        "leftHandOffset": {"x": 4.2, "y": 0},
+        "recoil": 1.66
+      },
+      "particle": {"shellScale": 1, "shellOffset": 0.45},
+      "sound": {
+        "shoot": "mkg45_01",
+        "reload": "mkg45_reload_01",
+        "pickup": "gun_pickup_01",
+        "empty": "empty_fire_02",
+        "deploy": "mkg45_switch_01"
       }
     },
     "blr": {
@@ -4740,6 +4800,7 @@
       "pistol": true,
       "outsideOnly": true,
       "ammoSpawnCount": 1,
+      "ignoreEndlessAmmo": true,
       "maxClip": 1,
       "maxReload": 1,
       "extendedClip": 1,
@@ -4791,6 +4852,7 @@
       "pistol": true,
       "outsideOnly": true,
       "ammoSpawnCount": 2,
+      "ignoreEndlessAmmo": true,
       "maxClip": 2,
       "maxReload": 2,
       "extendedClip": 2,
@@ -6529,7 +6591,7 @@
       "type": "chest",
       "noDrop": true,
       "level": 4,
-      "damageReduction": 0.55,
+      "damageReduction": 0.6,
       "skinImg": {
         "baseTint": 1846790,
         "baseSprite": "player-armor-base-01.img"
@@ -8208,7 +8270,7 @@
       "type": "emote",
       "name": "Flag Latvia",
       "rarity": 1,
-      "texture": "flag-azerbaijan.img",
+      "texture": "flag-latvia.img",
       "sound": "emote_01",
       "channel": "ui",
       "teamOnly": false,
@@ -8455,6 +8517,42 @@
       "type": "perk",
       "lootImg": {
         "sprite": "loot-perk-targeting.img",
+        "tint": 16777215,
+        "border": "loot-circle-outer-03.img",
+        "borderTint": 16777215,
+        "scale": 0.275
+      },
+      "sound": {"pickup": "perk_pickup_01"}
+    },
+    "45_bonus": {
+      "name": ".45 In The Chamber",
+      "type": "perk",
+      "lootImg": {
+        "sprite": "loot-perk-45-bonus.img",
+        "tint": 16777215,
+        "border": "loot-circle-outer-03.img",
+        "borderTint": 16777215,
+        "scale": 0.275
+      },
+      "sound": {"pickup": "perk_pickup_01"}
+    },
+    "broken_arrow": {
+      "name": "Broken Arrow",
+      "type": "perk",
+      "lootImg": {
+        "sprite": "loot-perk-broken-arrow.img",
+        "tint": 16777215,
+        "border": "loot-circle-outer-03.img",
+        "borderTint": 16777215,
+        "scale": 0.275
+      },
+      "sound": {"pickup": "perk_pickup_01"}
+    },
+    "fabricate": {
+      "name": "Fabricate",
+      "type": "perk",
+      "lootImg": {
+        "sprite": "loot-perk-fabricate.img",
         "tint": 16777215,
         "border": "loot-circle-outer-03.img",
         "borderTint": 16777215,
@@ -8963,6 +9061,19 @@
       "model94_cycle_01": {
         "path": "audio/guns/model94_cycle_01.mp3",
         "volume": 1
+      },
+      "mkg45_01": {
+        "path": "audio/guns/mkg45_01.mp3",
+        "volume": 1,
+        "maxInstances": 5
+      },
+      "mkg45_reload_01": {
+        "path": "audio/guns/mkg45_reload_01.mp3",
+        "volume": 1.25
+      },
+      "mkg45_switch_01": {
+        "path": "audio/guns/mkg45_switch_01.mp3",
+        "volume": 1.25
       },
       "blr_01": {
         "path": "audio/guns/blr_01.mp3",
