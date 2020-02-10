@@ -35,6 +35,7 @@
     },
     "bulletTypeBonus": "bullet_mp5_bonus",
     "headshotMult": 2,
+    "size": "med",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-mp5.svg",
@@ -80,6 +81,7 @@
     },
     "bulletTypeBonus": "bullet_mac10_bonus",
     "headshotMult": 2,
+    "size": "med",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-mac10.svg",
@@ -127,6 +129,7 @@
     },
     "bulletTypeBonus": "bullet_ump9_bonus",
     "headshotMult": 2,
+    "size": "med",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-ump9.svg",
@@ -172,6 +175,7 @@
     },
     "bulletTypeBonus": "bullet_vector_bonus",
     "headshotMult": 2,
+    "size": "med",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-vector.svg",
@@ -216,6 +220,7 @@
       "tracerLength": 0.7
     },
     "headshotMult": 2,
+    "size": "med",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-vector45.svg",
@@ -399,6 +404,7 @@
       "tracerLength": 0.9
     },
     "headshotMult": 2,
+    "size": "med",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-hk416.svg",
@@ -488,6 +494,7 @@
       "tracerLength": 0.9
     },
     "headshotMult": 2,
+    "size": "long",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-mk12.svg",
@@ -532,6 +539,7 @@
       "tracerLength": 0.9
     },
     "headshotMult": 2,
+    "size": "long",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-l86.svg",
@@ -623,6 +631,7 @@
       "tracerLength": 0.9
     },
     "headshotMult": 2,
+    "size": "long",
     "speed": {"equip": 0, "attack": -2},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-qbb97.svg",
@@ -641,6 +650,7 @@
     "type": "gun",
     "quality": 0,
     "fireMode": "single",
+    "weaponClass": "sniper",
     "caseTiming": "shoot",
     "ammo": "556mm",
     "aimDelay": true,
@@ -673,6 +683,7 @@
       "tracerLength": 0.95
     },
     "headshotMult": 1.5,
+    "size": "long",
     "speed": {"equip": 0, "attack": 5},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-scout.svg",
@@ -717,6 +728,7 @@
       "tracerLength": 0.9
     },
     "headshotMult": 2,
+    "size": "long",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-ak.svg",
@@ -761,6 +773,7 @@
       "tracerLength": 0.9
     },
     "headshotMult": 2,
+    "size": "long",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-scar.svg",
@@ -853,6 +866,7 @@
       "tracerLength": 0.9
     },
     "headshotMult": 2,
+    "size": "long",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-an94.svg",
@@ -988,6 +1002,7 @@
       "tracerLength": 0.9
     },
     "headshotMult": 2,
+    "size": "long",
     "speed": {"equip": 0, "attack": -2},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-dp28.svg",
@@ -1036,6 +1051,7 @@
       "tracerLength": 0.9
     },
     "headshotMult": 2,
+    "size": "long",
     "speed": {"equip": 0, "attack": -1.5},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-bar.svg",
@@ -1142,6 +1158,7 @@
     "type": "gun",
     "quality": 0,
     "fireMode": "single",
+    "weaponClass": "sniper",
     "caseTiming": "shoot",
     "ammo": "45acp",
     "ammoSpawnCount": 64,
@@ -1173,6 +1190,7 @@
       "tracerLength": 1
     },
     "headshotMult": 1.5,
+    "size": "long",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-model94.svg",
@@ -1217,6 +1235,7 @@
       "tracerLength": 0.9
     },
     "headshotMult": 2,
+    "size": "long",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-mkg45.svg",
@@ -1231,6 +1250,7 @@
     "type": "gun",
     "quality": 0,
     "fireMode": "single",
+    "weaponClass": "sniper",
     "caseTiming": "shoot",
     "ammo": "762mm",
     "ammoSpawnCount": 30,
@@ -1262,6 +1282,7 @@
       "tracerLength": 1
     },
     "headshotMult": 1.5,
+    "size": "long",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-blr.svg",
@@ -1276,6 +1297,7 @@
     "type": "gun",
     "quality": 0,
     "fireMode": "single",
+    "weaponClass": "sniper",
     "caseTiming": "shoot",
     "ammo": "762mm",
     "aimDelay": true,
@@ -1311,6 +1333,7 @@
       "tracerLength": 1
     },
     "headshotMult": 1.5,
+    "size": "long",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-mosin.svg",
@@ -1325,6 +1348,7 @@
     "type": "gun",
     "quality": 1,
     "fireMode": "single",
+    "weaponClass": "sniper",
     "caseTiming": "shoot",
     "ammo": "762mm",
     "aimDelay": true,
@@ -1357,6 +1381,7 @@
       "tracerLength": 1
     },
     "headshotMult": 1.5,
+    "size": "long",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-sv98.svg",
@@ -1371,6 +1396,7 @@
     "type": "gun",
     "quality": 1,
     "fireMode": "single",
+    "weaponClass": "sniper",
     "caseTiming": "shoot",
     "ammo": "308sub",
     "aimDelay": true,
@@ -1448,6 +1474,7 @@
       "tracerLength": 0.9
     },
     "headshotMult": 2,
+    "size": "long",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-m39.svg",
@@ -1492,6 +1519,7 @@
       "tracerLength": 0.9
     },
     "headshotMult": 2,
+    "size": "long",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-svd.svg",
@@ -1583,6 +1611,7 @@
       "tracerLength": 0.8
     },
     "headshotMult": 1.5,
+    "size": "long",
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-m870.svg",
       "tint": "65280 | #00FF00",
@@ -1675,6 +1704,7 @@
       "tracerLength": 0.1
     },
     "headshotMult": 1.5,
+    "size": "long",
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-m1100.svg",
       "tint": "65280 | #00FF00",
@@ -1812,6 +1842,7 @@
       "tracerLength": 0.5
     },
     "headshotMult": 1.5,
+    "size": "long",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-spas12.svg",
@@ -1857,6 +1888,7 @@
       "tracerLength": 0.4
     },
     "headshotMult": 1.5,
+    "size": "long",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-m1014.svg",
@@ -1973,6 +2005,7 @@
     },
     "bulletTypeBonus": "bullet_m9_bonus",
     "headshotMult": 2,
+    "size": "short",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-m9.svg",
@@ -2021,6 +2054,7 @@
     },
     "bulletTypeBonus": "bullet_m9_bonus",
     "headshotMult": 2,
+    "size": "short",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-m9-dual.svg",
@@ -2069,6 +2103,7 @@
       "tracerLength": 0.7
     },
     "headshotMult": 2,
+    "size": "short",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-m9-cursed.svg",
@@ -2118,6 +2153,7 @@
     },
     "bulletTypeBonus": "bullet_m93r_bonus",
     "headshotMult": 2,
+    "size": "short",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-m93r.svg",
@@ -2168,6 +2204,7 @@
     },
     "bulletTypeBonus": "bullet_m93r_bonus",
     "headshotMult": 2,
+    "size": "short",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-m93r-dual.svg",
@@ -2215,6 +2252,7 @@
     },
     "bulletTypeBonus": "bullet_glock_bonus",
     "headshotMult": 2,
+    "size": "short",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-glock.svg",
@@ -2263,6 +2301,7 @@
     },
     "bulletTypeBonus": "bullet_glock_bonus",
     "headshotMult": 2,
+    "size": "short",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-glock-dual.svg",
@@ -2404,6 +2443,7 @@
       "tracerLength": 0.8
     },
     "headshotMult": 2,
+    "size": "short",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-ot38.svg",
@@ -2451,6 +2491,7 @@
       "tracerLength": 0.8
     },
     "headshotMult": 2,
+    "size": "short",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-ot38-dual.svg",
@@ -2592,6 +2633,7 @@
       "tracerLength": 0.8
     },
     "headshotMult": 1.5,
+    "size": "short",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-colt45.svg",
@@ -2639,6 +2681,7 @@
       "tracerLength": 0.8
     },
     "headshotMult": 1.5,
+    "size": "short",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-colt45-dual.svg",
@@ -2685,6 +2728,7 @@
       "tracerLength": 0.7
     },
     "headshotMult": 2,
+    "size": "short",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-m1911.svg",
@@ -2732,6 +2776,7 @@
       "tracerLength": 0.7
     },
     "headshotMult": 2,
+    "size": "short",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-m1911-dual.svg",
@@ -2776,6 +2821,7 @@
       "tracerLength": 0.7
     },
     "headshotMult": 2,
+    "size": "med",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-m1a1.svg",
@@ -2922,6 +2968,7 @@
     },
     "noSplinter": true,
     "headshotMult": 2,
+    "size": "short",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-flare-gun.svg",
@@ -2976,6 +3023,7 @@
     },
     "noSplinter": true,
     "headshotMult": 2,
+    "size": "short",
     "speed": {"equip": 0, "attack": 0},
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-weapon-flare-gun-dual.svg",
@@ -3189,10 +3237,194 @@
     },
     "worldImg": {"sprite": "https://surviv.io/img/guns/gun-bugle-01.svg", "tint": false}
   },
+  "heart_cannon": {
+    "name": "Heart Cannon",
+    "type": "gun",
+    "quality": 0,
+    "fireMode": "single",
+    "caseTiming": "shoot",
+    "isLauncher": true,
+    "noPotatoSwap": true,
+    "deployGroup": 3,
+    "ammo": "heart_ammo",
+    "ammoSpawnCount": 0,
+    "ammoInfinite": true,
+    "maxClip": 4,
+    "maxReload": 1,
+    "extendedClip": 4,
+    "extendedReload": 1,
+    "reloadTime": 1,
+    "fireDelay": 1.2,
+    "switchDelay": 0.9,
+    "barrelLength": 3,
+    "barrelOffset": -1,
+    "recoilTime": false,
+    "moveSpread": 2,
+    "shotSpread": 1,
+    "bulletCount": 1,
+    "projType": {
+      "type": "throwable",
+      "forceMaxThrowDistance": true,
+      "explodeOnImpact": true,
+      "destroyNonCollidables": true,
+      "playerCollision": true,
+      "fuseTime": 0.5,
+      "aimDistance": 32,
+      "rad": 1,
+      "throwPhysics": {
+        "playerVelMult": 0,
+        "velZ": 3,
+        "speed": 65,
+        "spinVel": 15.71,
+        "spinDrag": 1,
+        "fixedCollisionHeight": 0.25
+      },
+      "speed": {"equip": 0, "attack": 0},
+      "lootImg": {
+        "sprite": "https://surviv.io/img/loot/loot-throwable-heart.svg",
+        "tint": "65280 | #00FF00",
+        "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+        "borderTint": false
+      },
+      "worldImg": {"sprite": "https://surviv.io/img/projectiles/proj-heart-01.svg", "tint": false},
+      "handImg": {},
+      "useThrowParticles": false,
+      "trail": {"maxLength": 25, "width": 2.8, "tint": 16727363},
+      "onHit": {
+        "type": "explosion",
+        "damage": 95,
+        "obstacleDamage": 1.3,
+        "teamDamage": false,
+        "rad": {"min": 3.5, "max": 6.5},
+        "shrapnelCount": 0,
+        "shrapnelType": "",
+        "explosionEffectType": "heart_cannonball",
+        "decalType": "decal_heart_explosion"
+      }
+    },
+    "noSplinter": true,
+    "headshotMult": 1,
+    "speed": {"equip": -3, "attack": 0},
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-weapon-potato-cannon.svg",
+      "tint": "65280 | #00FF00",
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    },
+    "worldImg": {"sprite": "https://surviv.io/img/guns/gun-heart-cannon-01.svg", "tint": false}
+  },
+  "m134": {
+    "name": "M134",
+    "type": "gun",
+    "quality": 1,
+    "fireMode": "auto",
+    "caseTiming": "shoot",
+    "ammo": "762mm",
+    "ammoSpawnCount": 100,
+    "maxClip": 200,
+    "maxReload": 200,
+    "extendedClip": 250,
+    "extendedReload": 250,
+    "reloadTime": 8,
+    "fireDelay": 0.055,
+    "switchDelay": 0.9,
+    "barrelLength": 4.8,
+    "barrelOffset": 0,
+    "recoilTime": false,
+    "moveSpread": 1,
+    "shotSpread": 1,
+    "bulletCount": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 10,
+      "obstacleDamage": 5,
+      "falloff": 0.5,
+      "distance": 200,
+      "speed": 130,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "762mm",
+      "tracerWidth": 0.1,
+      "tracerLength": 0.9
+    },
+    "headshotMult": 1.5,
+    "speed": {"equip": -3, "attack": -6},
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-weapon-m134.svg",
+      "tint": "65280 | #00FF00",
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    },
+    "worldImg": {
+      "sprite": "https://surviv.io/img/guns/gun-m134-01.svg",
+      "tint": false,
+      "rightHandOffset": {"x": 5, "y": 5}
+    }
+  },
+  "m79": {
+    "name": "M79",
+    "type": "gun",
+    "quality": 0,
+    "fireMode": "single",
+    "caseTiming": "shoot",
+    "isLauncher": true,
+    "noPotatoSwap": true,
+    "deployGroup": 3,
+    "ammo": "40mm",
+    "ammoSpawnCount": 10,
+    "ammoInfinite": false,
+    "maxClip": 1,
+    "maxReload": 1,
+    "extendedClip": 1,
+    "extendedReload": 1,
+    "reloadTime": 2.3,
+    "fireDelay": 0,
+    "switchDelay": 0.9,
+    "barrelLength": 2,
+    "barrelOffset": -1,
+    "recoilTime": false,
+    "moveSpread": 2,
+    "shotSpread": 1,
+    "bulletCount": 1,
+    "projType": {
+      "type": "throwable",
+      "explodeOnImpact": true,
+      "playerCollision": true,
+      "fuseTime": 4,
+      "aimDistance": 0,
+      "rad": 1,
+      "throwPhysics": {"playerVelMult": 0.6, "velZ": 5, "speed": 20, "spinVel": 31.42, "spinDrag": 1},
+      "speed": {"equip": 0, "attack": 0},
+      "worldImg": {"sprite": "https://surviv.io/img/projectiles/proj-40mm-01.svg", "tint": false},
+      "handImg": {},
+      "useThrowParticles": false,
+      "onHit": {
+        "type": "explosion",
+        "damage": 125,
+        "obstacleDamage": 1.1,
+        "rad": {"min": 5, "max": 12},
+        "shrapnelCount": 12,
+        "shrapnelType": "shrapnel_frag",
+        "explosionEffectType": "frag",
+        "decalType": "decal_frag_explosion"
+      }
+    },
+    "noSplinter": true,
+    "headshotMult": 1,
+    "speed": {"equip": -3, "attack": 0},
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-weapon-m79.svg",
+      "tint": "65280 | #00FF00",
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    },
+    "worldImg": {"sprite": "https://surviv.io/img/guns/gun-m79-01.svg", "tint": false}
+  },
   "fists": {
     "type": "melee",
     "name": "Fists",
     "lore": "The old one-two.",
+    "isSkin": true,
     "quality": 0,
     "autoAttack": false,
     "switchDelay": 0.25,
@@ -3205,6 +3437,23 @@
       "sprite": "https://surviv.io/img/loot/loot-weapon-fists.svg",
       "rad": 25,
       "tint": "65280 | #00FF00"
+    },
+    "skin": {
+      "red_gloves": {
+        "name": "Red Gloves",
+        "rarity": 4,
+        "lootImg": "https://surviv.io/img/loot/loot-melee-red-gloves.svg"
+      },
+      "feral_gloves": {
+        "name": "Feral Claws",
+        "rarity": 4,
+        "lootImg": "https://surviv.io/img/loot/loot-melee-feral-claws.svg"
+      },
+      "crab_gloves": {
+        "name": "Crab Claws",
+        "rarity": 4,
+        "lootImg": "https://surviv.io/img/loot/loot-melee-crab-tongs.svg"
+      }
     }
   },
   "knuckles": {
@@ -4245,6 +4494,61 @@
     "worldImg": {"sprite": "https://surviv.io/img/projectiles/proj-bomb-iron-01.svg", "tint": false},
     "useThrowParticles": true
   },
+  "heart_frag": {
+    "name": "Heart Grenade",
+    "type": "throwable",
+    "quality": 0,
+    "explosionType": {
+      "type": "explosion",
+      "damage": 125,
+      "obstacleDamage": 1.1,
+      "rad": {"min": 5, "max": 12},
+      "shrapnelCount": 12,
+      "shrapnelType": {
+        "type": "bullet",
+        "damage": 20,
+        "obstacleDamage": 1,
+        "falloff": 1,
+        "speed": 20,
+        "distance": 8,
+        "variance": 1.5,
+        "shrapnel": true,
+        "tracerColor": "shrapnel",
+        "tracerWidth": 0.125,
+        "tracerLength": 0.6
+      },
+      "explosionEffectType": "heart_frag",
+      "decalType": "decal_heart_explosion"
+    },
+    "inventoryOrder": 1,
+    "cookable": true,
+    "explodeOnImpact": false,
+    "playerCollision": false,
+    "fuseTime": 4,
+    "aimDistance": 0,
+    "rad": 1,
+    "throwPhysics": {
+      "playerVelMult": 0.6,
+      "velZ": 5,
+      "speed": 20,
+      "spinVel": 31.42,
+      "spinDrag": 1,
+      "distance": 20
+    },
+    "speed": {"equip": 0, "attack": 0},
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-throwable-heart.svg",
+      "tint": "65280 | #00FF00",
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    },
+    "worldImg": {
+      "deploy": "https://surviv.io/img/proj/proj-frag-nopin-nolever-03.svg",
+      "equip": "https://surviv.io/img/proj/proj-frag-pin-03.svg",
+      "cook": "https://surviv.io/img/proj/proj-frag-nopin-03.svg"
+    },
+    "useThrowParticles": true
+  },
   "9mm": {
     "name": "9mm",
     "type": "ammo",
@@ -4341,6 +4645,21 @@
       "tintDark": "7618334 | #743F1E"
     }
   },
+  "heart_ammo": {
+    "name": "Heart Ammo",
+    "type": "ammo",
+    "special": true,
+    "hideUi": true,
+    "minStackSize": 10,
+    "lootImg": {"sprite": "loot-ammo-box.img", "tint": "16761035 | #FFC0CB", "tintDark": "16761035 | #FFC0CB"}
+  },
+  "40mm": {
+    "name": "40 mm",
+    "type": "ammo",
+    "special": true,
+    "minStackSize": 10,
+    "lootImg": {"sprite": "loot-ammo-box.img", "tint": "843179 | #0CDDAB", "tintDark": "843179 | #0CDDAB"}
+  },
   "bandage": {
     "name": "Bandage",
     "type": "heal",
@@ -4402,6 +4721,19 @@
     "boost": 0,
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-medical-flask-01.svg",
+      "tint": false,
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    },
+    "emitter": "boost"
+  },
+  "chocolateBox": {
+    "name": "Chocolate Box",
+    "type": "boost",
+    "useTime": 3,
+    "boost": 25,
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-medical-chocolateBox.svg",
       "tint": false,
       "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
       "borderTint": false

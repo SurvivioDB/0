@@ -13,7 +13,7 @@
     "channel": "ui",
     "teamOnly": true,
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_ammo": {
     "type": "emote",
@@ -21,7 +21,7 @@
     "channel": "ui",
     "teamOnly": true,
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_ammo9mm": {
     "type": "emote",
@@ -29,7 +29,7 @@
     "channel": "ui",
     "teamOnly": true,
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_ammo12gauge": {
     "type": "emote",
@@ -37,7 +37,7 @@
     "channel": "ui",
     "teamOnly": true,
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_ammo762mm": {
     "type": "emote",
@@ -45,7 +45,7 @@
     "channel": "ui",
     "teamOnly": true,
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_ammo556mm": {
     "type": "emote",
@@ -53,7 +53,7 @@
     "channel": "ui",
     "teamOnly": true,
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_ammo50ae": {
     "type": "emote",
@@ -61,7 +61,7 @@
     "channel": "ui",
     "teamOnly": true,
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_ammo308sub": {
     "type": "emote",
@@ -69,7 +69,7 @@
     "channel": "ui",
     "teamOnly": true,
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_ammoflare": {
     "type": "emote",
@@ -77,7 +77,7 @@
     "channel": "ui",
     "teamOnly": true,
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_ammo45acp": {
     "type": "emote",
@@ -85,7 +85,7 @@
     "channel": "ui",
     "teamOnly": true,
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_loot": {
     "type": "emote",
@@ -93,105 +93,105 @@
     "channel": "ui",
     "teamOnly": false,
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_trick_nothing": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/face-imp-trick.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_trick_size": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/face-imp-trick.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_trick_m9": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/face-imp-trick.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_trick_chatty": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/face-imp-trick.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_trick_drain": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/face-imp-trick.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_treat_9mm": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/face-angel-treat.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_treat_12g": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/face-angel-treat.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_treat_556": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/face-angel-treat.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_treat_762": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/face-angel-treat.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_treat_super": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/face-angel-treat.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "r.Locked"
+    "category": "i.Locked"
   },
   "emote_bugle_inspiration_red": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/bugle-inspiration-red.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_bugle_final_red": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/bugle-final-red.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_bugle_inspiration_blue": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/bugle-inspiration-blue.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_bugle_final_blue": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/bugle-final-blue.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_thumbsup": {
     "type": "emote",
@@ -200,7 +200,7 @@
     "texture": "https://surviv.io/img/emotes/thumbs-up.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_sadface": {
     "type": "emote",
@@ -209,7 +209,7 @@
     "texture": "https://surviv.io/img/emotes/face-sad.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Faces"
+    "category": "i.Faces"
   },
   "emote_happyface": {
     "type": "emote",
@@ -218,7 +218,7 @@
     "texture": "https://surviv.io/img/emotes/face-happy.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Faces"
+    "category": "i.Faces"
   },
   "emote_surviv": {
     "type": "emote",
@@ -227,7 +227,7 @@
     "texture": "https://surviv.io/img/emotes/surviv.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Logos"
+    "category": "i.Logos"
   },
   "emote_gg": {
     "type": "emote",
@@ -236,7 +236,7 @@
     "texture": "https://surviv.io/img/emotes/gg.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_question": {
     "type": "emote",
@@ -245,7 +245,7 @@
     "texture": "https://surviv.io/img/emotes/question.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_tombstone": {
     "type": "emote",
@@ -254,7 +254,7 @@
     "texture": "https://surviv.io/img/emotes/tombstone.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_joyface": {
     "type": "emote",
@@ -263,7 +263,7 @@
     "texture": "https://surviv.io/img/emotes/face-joy.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Faces"
+    "category": "i.Faces"
   },
   "emote_sobface": {
     "type": "emote",
@@ -272,7 +272,7 @@
     "texture": "https://surviv.io/img/emotes/face-sob.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Faces"
+    "category": "i.Faces"
   },
   "emote_thinkingface": {
     "type": "emote",
@@ -281,7 +281,7 @@
     "texture": "https://surviv.io/img/emotes/face-thinking.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Faces"
+    "category": "i.Faces"
   },
   "emote_flagus": {
     "type": "emote",
@@ -290,7 +290,7 @@
     "texture": "https://surviv.io/img/emotes/flag-united-states-of-america.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagthailand": {
     "type": "emote",
@@ -299,7 +299,7 @@
     "texture": "https://surviv.io/img/emotes/flag-thailand.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flaggermany": {
     "type": "emote",
@@ -308,7 +308,7 @@
     "texture": "https://surviv.io/img/emotes/flag-germany.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagfrance": {
     "type": "emote",
@@ -317,7 +317,7 @@
     "texture": "https://surviv.io/img/emotes/flag-france.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagsouthkorea": {
     "type": "emote",
@@ -326,7 +326,7 @@
     "texture": "https://surviv.io/img/emotes/flag-south-korea.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagbrazil": {
     "type": "emote",
@@ -335,7 +335,7 @@
     "texture": "https://surviv.io/img/emotes/flag-brazil.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagcanada": {
     "type": "emote",
@@ -344,7 +344,7 @@
     "texture": "https://surviv.io/img/emotes/flag-canada.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagspain": {
     "type": "emote",
@@ -353,7 +353,7 @@
     "texture": "https://surviv.io/img/emotes/flag-spain.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagrussia": {
     "type": "emote",
@@ -362,7 +362,7 @@
     "texture": "https://surviv.io/img/emotes/flag-russia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagmexico": {
     "type": "emote",
@@ -371,7 +371,7 @@
     "texture": "https://surviv.io/img/emotes/flag-mexico.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagpoland": {
     "type": "emote",
@@ -380,7 +380,7 @@
     "texture": "https://surviv.io/img/emotes/flag-republic-of-poland.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flaguk": {
     "type": "emote",
@@ -389,7 +389,7 @@
     "texture": "https://surviv.io/img/emotes/flag-united-kingdom.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagcolombia": {
     "type": "emote",
@@ -398,7 +398,7 @@
     "texture": "https://surviv.io/img/emotes/flag-colombia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagukraine": {
     "type": "emote",
@@ -407,7 +407,7 @@
     "texture": "https://surviv.io/img/emotes/flag-ukraine.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagturkey": {
     "type": "emote",
@@ -416,7 +416,7 @@
     "texture": "https://surviv.io/img/emotes/flag-turkey.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagphilippines": {
     "type": "emote",
@@ -425,7 +425,7 @@
     "texture": "https://surviv.io/img/emotes/flag-philippines.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagczechia": {
     "type": "emote",
@@ -434,7 +434,7 @@
     "texture": "https://surviv.io/img/emotes/flag-czech-republic.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagperu": {
     "type": "emote",
@@ -443,7 +443,7 @@
     "texture": "https://surviv.io/img/emotes/flag-peru.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagaustria": {
     "type": "emote",
@@ -452,7 +452,7 @@
     "texture": "https://surviv.io/img/emotes/flag-austria.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagargentina": {
     "type": "emote",
@@ -461,7 +461,7 @@
     "texture": "https://surviv.io/img/emotes/flag-argentina.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagjapan": {
     "type": "emote",
@@ -470,7 +470,7 @@
     "texture": "https://surviv.io/img/emotes/flag-japan.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagvenezuela": {
     "type": "emote",
@@ -479,7 +479,7 @@
     "texture": "https://surviv.io/img/emotes/flag-venezuela.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagvietnam": {
     "type": "emote",
@@ -488,7 +488,7 @@
     "texture": "https://surviv.io/img/emotes/flag-vietnam.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagswitzerland": {
     "type": "emote",
@@ -497,7 +497,7 @@
     "texture": "https://surviv.io/img/emotes/flag-switzerland.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagnetherlands": {
     "type": "emote",
@@ -506,7 +506,7 @@
     "texture": "https://surviv.io/img/emotes/flag-netherlands.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagchina": {
     "type": "emote",
@@ -515,7 +515,7 @@
     "texture": "https://surviv.io/img/emotes/flag-china.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagtaiwan": {
     "type": "emote",
@@ -524,7 +524,7 @@
     "texture": "https://surviv.io/img/emotes/flag-taiwan.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagchile": {
     "type": "emote",
@@ -533,7 +533,7 @@
     "texture": "https://surviv.io/img/emotes/flag-chile.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagaustralia": {
     "type": "emote",
@@ -542,7 +542,7 @@
     "texture": "https://surviv.io/img/emotes/flag-australia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagdenmark": {
     "type": "emote",
@@ -551,7 +551,7 @@
     "texture": "https://surviv.io/img/emotes/flag-denmark.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagitaly": {
     "type": "emote",
@@ -560,7 +560,7 @@
     "texture": "https://surviv.io/img/emotes/flag-italy.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagsweden": {
     "type": "emote",
@@ -569,7 +569,7 @@
     "texture": "https://surviv.io/img/emotes/flag-sweden.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagecuador": {
     "type": "emote",
@@ -578,7 +578,7 @@
     "texture": "https://surviv.io/img/emotes/flag-ecuador.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagslovakia": {
     "type": "emote",
@@ -587,7 +587,7 @@
     "texture": "https://surviv.io/img/emotes/flag-slovakia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flaghungary": {
     "type": "emote",
@@ -596,7 +596,7 @@
     "texture": "https://surviv.io/img/emotes/flag-hungary.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagromania": {
     "type": "emote",
@@ -605,7 +605,7 @@
     "texture": "https://surviv.io/img/emotes/flag-romania.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flaghongkong": {
     "type": "emote",
@@ -614,7 +614,7 @@
     "texture": "https://surviv.io/img/emotes/flag-hong-kong.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagindonesia": {
     "type": "emote",
@@ -623,7 +623,7 @@
     "texture": "https://surviv.io/img/emotes/flag-indonesia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagfinland": {
     "type": "emote",
@@ -632,7 +632,7 @@
     "texture": "https://surviv.io/img/emotes/flag-finland.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagnorway": {
     "type": "emote",
@@ -641,7 +641,7 @@
     "texture": "https://surviv.io/img/emotes/flag-norway.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_heart": {
     "type": "emote",
@@ -650,7 +650,7 @@
     "texture": "https://surviv.io/img/emotes/heart.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_sleepy": {
     "type": "emote",
@@ -659,7 +659,7 @@
     "texture": "https://surviv.io/img/emotes/sleepy.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_flex": {
     "type": "emote",
@@ -668,7 +668,7 @@
     "texture": "https://surviv.io/img/emotes/flex.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_angryface": {
     "type": "emote",
@@ -677,7 +677,7 @@
     "texture": "https://surviv.io/img/emotes/face-angry.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Faces"
+    "category": "i.Faces"
   },
   "emote_upsidedownface": {
     "type": "emote",
@@ -686,7 +686,7 @@
     "texture": "https://surviv.io/img/emotes/face-upsidedown.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Faces"
+    "category": "i.Faces"
   },
   "emote_teabag": {
     "type": "emote",
@@ -695,7 +695,7 @@
     "texture": "https://surviv.io/img/emotes/teabag.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_alienface": {
     "type": "emote",
@@ -704,7 +704,7 @@
     "texture": "https://surviv.io/img/emotes/face-alien.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Faces"
+    "category": "i.Faces"
   },
   "emote_flagbelarus": {
     "type": "emote",
@@ -713,7 +713,7 @@
     "texture": "https://surviv.io/img/emotes/flag-belarus.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagbelgium": {
     "type": "emote",
@@ -722,7 +722,7 @@
     "texture": "https://surviv.io/img/emotes/flag-belgium.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagkazakhstan": {
     "type": "emote",
@@ -731,7 +731,7 @@
     "texture": "https://surviv.io/img/emotes/flag-kazakhstan.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_egg": {
     "type": "emote",
@@ -740,7 +740,7 @@
     "texture": "https://surviv.io/img/emotes/egg.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_police": {
     "type": "emote",
@@ -749,7 +749,7 @@
     "texture": "https://surviv.io/img/emotes/police.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_dabface": {
     "type": "emote",
@@ -758,7 +758,7 @@
     "texture": "https://surviv.io/img/emotes/face-dab.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Faces"
+    "category": "i.Faces"
   },
   "emote_flagmalaysia": {
     "type": "emote",
@@ -767,7 +767,7 @@
     "texture": "https://surviv.io/img/emotes/flag-malaysia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagnewzealand": {
     "type": "emote",
@@ -776,7 +776,7 @@
     "texture": "https://surviv.io/img/emotes/flag-new-zealand.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_logosurviv": {
     "type": "emote",
@@ -785,7 +785,7 @@
     "texture": "https://surviv.io/img/emotes/logo-surviv.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Logos"
+    "category": "i.Logos"
   },
   "emote_logoegg": {
     "type": "emote",
@@ -794,7 +794,7 @@
     "texture": "https://surviv.io/img/emotes/logo-egg.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Logos"
+    "category": "i.Logos"
   },
   "emote_logoswine": {
     "type": "emote",
@@ -803,7 +803,7 @@
     "texture": "https://surviv.io/img/emotes/logo-swine.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Logos"
+    "category": "i.Logos"
   },
   "emote_logohydra": {
     "type": "emote",
@@ -812,7 +812,7 @@
     "texture": "https://surviv.io/img/emotes/logo-hydra.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Logos"
+    "category": "i.Logos"
   },
   "emote_logostorm": {
     "type": "emote",
@@ -821,7 +821,7 @@
     "texture": "https://surviv.io/img/emotes/logo-storm.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Logos"
+    "category": "i.Logos"
   },
   "emote_flaghonduras": {
     "type": "emote",
@@ -830,7 +830,7 @@
     "texture": "https://surviv.io/img/emotes/flag-honduras.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_logocaduceus": {
     "type": "emote",
@@ -839,7 +839,7 @@
     "texture": "https://surviv.io/img/emotes/logo-caduceus.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Logos"
+    "category": "i.Logos"
   },
   "emote_impface": {
     "type": "emote",
@@ -848,7 +848,7 @@
     "texture": "https://surviv.io/img/emotes/face-imp.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Faces"
+    "category": "i.Faces"
   },
   "emote_monocleface": {
     "type": "emote",
@@ -857,7 +857,7 @@
     "texture": "https://surviv.io/img/emotes/face-monocle.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Faces"
+    "category": "i.Faces"
   },
   "emote_sunglassface": {
     "type": "emote",
@@ -866,7 +866,7 @@
     "texture": "https://surviv.io/img/emotes/face-sunglass.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Faces"
+    "category": "i.Faces"
   },
   "emote_headshotface": {
     "type": "emote",
@@ -875,7 +875,7 @@
     "texture": "https://surviv.io/img/emotes/face-headshot.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Faces"
+    "category": "i.Faces"
   },
   "emote_potato": {
     "type": "emote",
@@ -884,7 +884,7 @@
     "texture": "https://surviv.io/img/emotes/potato.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Food"
+    "category": "i.Food"
   },
   "emote_leek": {
     "type": "emote",
@@ -893,7 +893,7 @@
     "texture": "https://surviv.io/img/emotes/leek.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Food"
+    "category": "i.Food"
   },
   "emote_eggplant": {
     "type": "emote",
@@ -902,7 +902,7 @@
     "texture": "https://surviv.io/img/emotes/eggplant.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Food"
+    "category": "i.Food"
   },
   "emote_baguette": {
     "type": "emote",
@@ -911,7 +911,7 @@
     "texture": "https://surviv.io/img/emotes/baguette.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Food"
+    "category": "i.Food"
   },
   "emote_chick": {
     "type": "emote",
@@ -920,7 +920,7 @@
     "texture": "https://surviv.io/img/emotes/chick.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_flagbolivia": {
     "type": "emote",
@@ -929,7 +929,7 @@
     "texture": "https://surviv.io/img/emotes/flag-bolivia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagcroatia": {
     "type": "emote",
@@ -938,7 +938,7 @@
     "texture": "https://surviv.io/img/emotes/flag-croatia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagindia": {
     "type": "emote",
@@ -947,7 +947,7 @@
     "texture": "https://surviv.io/img/emotes/flag-india.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagisrael": {
     "type": "emote",
@@ -956,7 +956,7 @@
     "texture": "https://surviv.io/img/emotes/flag-israel.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flaggeorgia": {
     "type": "emote",
@@ -965,7 +965,7 @@
     "texture": "https://surviv.io/img/emotes/flag-georgia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flaggreece": {
     "type": "emote",
@@ -974,7 +974,7 @@
     "texture": "https://surviv.io/img/emotes/flag-greece.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagguatemala": {
     "type": "emote",
@@ -983,7 +983,7 @@
     "texture": "https://surviv.io/img/emotes/flag-guatemala.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagportugal": {
     "type": "emote",
@@ -992,7 +992,7 @@
     "texture": "https://surviv.io/img/emotes/flag-portugal.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagserbia": {
     "type": "emote",
@@ -1001,7 +1001,7 @@
     "texture": "https://surviv.io/img/emotes/flag-serbia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagsingapore": {
     "type": "emote",
@@ -1010,7 +1010,7 @@
     "texture": "https://surviv.io/img/emotes/flag-singapore.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagtrinidad": {
     "type": "emote",
@@ -1019,7 +1019,7 @@
     "texture": "https://surviv.io/img/emotes/flag-trinidad-and-tobago.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flaguruguay": {
     "type": "emote",
@@ -1028,7 +1028,7 @@
     "texture": "https://surviv.io/img/emotes/flag-uruguay.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_logoconch": {
     "type": "emote",
@@ -1037,7 +1037,7 @@
     "texture": "https://surviv.io/img/emotes/logo-conch.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Logos"
+    "category": "i.Logos"
   },
   "emote_pineapple": {
     "type": "emote",
@@ -1046,7 +1046,7 @@
     "texture": "https://surviv.io/img/emotes/pineapple.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Food"
+    "category": "i.Food"
   },
   "emote_coconut": {
     "type": "emote",
@@ -1055,7 +1055,7 @@
     "texture": "https://surviv.io/img/emotes/coconut.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Food"
+    "category": "i.Food"
   },
   "emote_crab": {
     "type": "emote",
@@ -1064,7 +1064,7 @@
     "texture": "https://surviv.io/img/emotes/crab.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Animals"
+    "category": "i.Animals"
   },
   "emote_whale": {
     "type": "emote",
@@ -1073,7 +1073,7 @@
     "texture": "https://surviv.io/img/emotes/whale.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Animals"
+    "category": "i.Animals"
   },
   "emote_logometeor": {
     "type": "emote",
@@ -1082,7 +1082,7 @@
     "texture": "https://surviv.io/img/emotes/logo-meteor.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Logos"
+    "category": "i.Logos"
   },
   "emote_salt": {
     "type": "emote",
@@ -1091,7 +1091,7 @@
     "texture": "https://surviv.io/img/emotes/salt.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_disappointface": {
     "type": "emote",
@@ -1100,7 +1100,7 @@
     "texture": "https://surviv.io/img/emotes/face-disappoint.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Faces"
+    "category": "i.Faces"
   },
   "emote_logocrossing": {
     "type": "emote",
@@ -1109,7 +1109,7 @@
     "texture": "https://surviv.io/img/emotes/logo-crossing.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Logos"
+    "category": "i.Logos"
   },
   "emote_fish": {
     "type": "emote",
@@ -1118,7 +1118,7 @@
     "texture": "https://surviv.io/img/emotes/fish.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Animals"
+    "category": "i.Animals"
   },
   "emote_campfire": {
     "type": "emote",
@@ -1127,7 +1127,7 @@
     "texture": "https://surviv.io/img/emotes/campfire.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_chickendinner": {
     "type": "emote",
@@ -1136,7 +1136,7 @@
     "texture": "https://surviv.io/img/emotes/chicken-dinner.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Food"
+    "category": "i.Food"
   },
   "emote_cattle": {
     "type": "emote",
@@ -1145,7 +1145,7 @@
     "texture": "https://surviv.io/img/emotes/cattle.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Animals"
+    "category": "i.Animals"
   },
   "emote_icecream": {
     "type": "emote",
@@ -1154,7 +1154,7 @@
     "texture": "https://surviv.io/img/emotes/ice-cream.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Food"
+    "category": "i.Food"
   },
   "emote_cupcake": {
     "type": "emote",
@@ -1163,7 +1163,7 @@
     "texture": "https://surviv.io/img/emotes/cupcake.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Food"
+    "category": "i.Food"
   },
   "emote_donut": {
     "type": "emote",
@@ -1172,7 +1172,7 @@
     "texture": "https://surviv.io/img/emotes/donut.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Food"
+    "category": "i.Food"
   },
   "emote_logohatchet": {
     "type": "emote",
@@ -1181,7 +1181,7 @@
     "texture": "https://surviv.io/img/emotes/logo-hatchet.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Logos"
+    "category": "i.Logos"
   },
   "emote_acorn": {
     "type": "emote",
@@ -1190,7 +1190,7 @@
     "texture": "https://surviv.io/img/emotes/acorn.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Food"
+    "category": "i.Food"
   },
   "emote_trunk": {
     "type": "emote",
@@ -1199,7 +1199,7 @@
     "texture": "https://surviv.io/img/emotes/trunk.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_forest": {
     "type": "emote",
@@ -1208,7 +1208,7 @@
     "texture": "https://surviv.io/img/emotes/forest.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_pumpkin": {
     "type": "emote",
@@ -1217,7 +1217,7 @@
     "texture": "https://surviv.io/img/emotes/pumpkin.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_candycorn": {
     "type": "emote",
@@ -1226,7 +1226,7 @@
     "texture": "https://surviv.io/img/emotes/candy-corn.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Food"
+    "category": "i.Food"
   },
   "emote_pilgrimhat": {
     "type": "emote",
@@ -1235,7 +1235,7 @@
     "texture": "https://surviv.io/img/emotes/pilgrim-hat.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_turkeyanimal": {
     "type": "emote",
@@ -1244,7 +1244,7 @@
     "texture": "https://surviv.io/img/emotes/turkey-animal.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Animals"
+    "category": "i.Animals"
   },
   "emote_heartface": {
     "type": "emote",
@@ -1253,7 +1253,7 @@
     "texture": "https://surviv.io/img/emotes/face-heart.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Faces"
+    "category": "i.Faces"
   },
   "emote_logochrysanthemum": {
     "type": "emote",
@@ -1262,7 +1262,7 @@
     "texture": "https://surviv.io/img/emotes/logo-chrysanthemum.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Logos"
+    "category": "i.Logos"
   },
   "emote_santahat": {
     "type": "emote",
@@ -1271,7 +1271,7 @@
     "texture": "https://surviv.io/img/emotes/santa-hat.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_snowman": {
     "type": "emote",
@@ -1280,7 +1280,7 @@
     "texture": "https://surviv.io/img/emotes/snowman.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_snowflake": {
     "type": "emote",
@@ -1289,7 +1289,7 @@
     "texture": "https://surviv.io/img/emotes/snowflake.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_flagmorocco": {
     "type": "emote",
@@ -1298,7 +1298,7 @@
     "texture": "https://surviv.io/img/emotes/flag-morocco.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagestonia": {
     "type": "emote",
@@ -1307,7 +1307,7 @@
     "texture": "https://surviv.io/img/emotes/flag-estonia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagalgeria": {
     "type": "emote",
@@ -1316,7 +1316,7 @@
     "texture": "https://surviv.io/img/emotes/flag-algeria.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagegypt": {
     "type": "emote",
@@ -1325,7 +1325,7 @@
     "texture": "https://surviv.io/img/emotes/flag-egypt.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagazerbaijan": {
     "type": "emote",
@@ -1334,7 +1334,7 @@
     "texture": "https://surviv.io/img/emotes/flag-azerbaijan.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagalbania": {
     "type": "emote",
@@ -1343,7 +1343,7 @@
     "texture": "https://surviv.io/img/emotes/flag-albania.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flaglithuania": {
     "type": "emote",
@@ -1352,7 +1352,7 @@
     "texture": "https://surviv.io/img/emotes/flag-lithuania.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flaglatvia": {
     "type": "emote",
@@ -1361,7 +1361,7 @@
     "texture": "https://surviv.io/img/emotes/flag-latvia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flaguae": {
     "type": "emote",
@@ -1370,7 +1370,7 @@
     "texture": "https://surviv.io/img/emotes/flag-united-arab-emirates.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_flagdominicanrepublic": {
     "type": "emote",
@@ -1379,7 +1379,7 @@
     "texture": "https://surviv.io/img/emotes/flag-dominican-republic.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Flags"
+    "category": "i.Flags"
   },
   "emote_logocloud": {
     "type": "emote",
@@ -1388,7 +1388,7 @@
     "texture": "https://surviv.io/img/emotes/logo-cloud.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Logos"
+    "category": "i.Logos"
   },
   "emote_ghost_base": {
     "type": "emote",
@@ -1397,7 +1397,7 @@
     "texture": "https://surviv.io/img/emotes/ghost-base.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_bandagedface": {
     "type": "emote",
@@ -1406,7 +1406,7 @@
     "texture": "https://surviv.io/img/emotes/face-bandaged.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Faces"
+    "category": "i.Faces"
   },
   "emote_picassoface": {
     "type": "emote",
@@ -1415,7 +1415,7 @@
     "texture": "https://surviv.io/img/emotes/face-picasso.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Faces"
+    "category": "i.Faces"
   },
   "emote_pooface": {
     "type": "emote",
@@ -1424,7 +1424,7 @@
     "texture": "https://surviv.io/img/emotes/face-poo.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Faces"
+    "category": "i.Faces"
   },
   "emote_ok": {
     "type": "emote",
@@ -1433,7 +1433,7 @@
     "texture": "https://surviv.io/img/emotes/ok.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_rainbow": {
     "type": "emote",
@@ -1442,7 +1442,7 @@
     "texture": "https://surviv.io/img/emotes/rainbow.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Other"
+    "category": "i.Other"
   },
   "emote_logotwins": {
     "type": "emote",
@@ -1451,6 +1451,6 @@
     "texture": "https://surviv.io/img/emotes/logo-twins.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "r.Logos"
+    "category": "i.Logos"
   }
 }

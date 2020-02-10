@@ -126,6 +126,57 @@
     "rarity": 3,
     "lore": "M1100 not included."
   },
+  "outfitWinter": {
+    "name": "Onesie",
+    "noDropOnDeath": true,
+    "skinImg": {
+      "baseTint": false,
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitWinter.svg",
+      "handTint": false,
+      "handSprite": "https://surviv.io/img/player/player-hands-winter.svg",
+      "footTint": "4168127 | #3F99BF",
+      "footSprite": "https://surviv.io/img/player/player-feet-02.svg",
+      "backpackTint": "4168127 | #3F99BF",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootImg": {"sprite": "https://surviv.io/img/loot/loot-shirt-outfitWinter.svg", "tint": false},
+    "rarity": 3,
+    "lore": "Sleep well."
+  },
+  "outfitGeometric": {
+    "name": "Geometric",
+    "noDropOnDeath": true,
+    "skinImg": {
+      "baseTint": false,
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitGeometric.svg",
+      "handTint": false,
+      "handSprite": "https://surviv.io/img/player/player-hands-geometric.svg",
+      "footTint": "544848 | #085050",
+      "footSprite": "https://surviv.io/img/player/player-feet-02.svg",
+      "backpackTint": "544848 | #085050",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootImg": {"sprite": "https://surviv.io/img/loot/loot-shirt-outfitGeometric.svg", "tint": false},
+    "rarity": 3,
+    "lore": "What a square."
+  },
+  "outfitMilitary": {
+    "name": "Military",
+    "noDropOnDeath": true,
+    "skinImg": {
+      "baseTint": false,
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitMilitary.svg",
+      "handTint": false,
+      "handSprite": "https://surviv.io/img/player/player-hands-military.svg",
+      "footTint": "4873026 | #4A5B42",
+      "footSprite": "https://surviv.io/img/player/player-feet-02.svg",
+      "backpackTint": "4873026 | #4A5B42",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootImg": {"sprite": "https://surviv.io/img/loot/loot-shirt-outfitMilitary.svg", "tint": false},
+    "rarity": 3,
+    "lore": "Hide now."
+  },
   "outfitDev": {
     "name": "Developer Swag",
     "noDropOnDeath": true,

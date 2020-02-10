@@ -62,6 +62,9 @@
     "pkm_01": "https://surviv.io/audio/guns/pkm_02.mp3",
     "pkm_reload_01": "https://surviv.io/audio/guns/pkp_reload_01.mp3",
     "pkm_switch_01": "https://surviv.io/audio/guns/pkp_switch_01.mp3",
+    "m134_01": "https://surviv.io/audio/guns/m134_01.mp3",
+    "m134_reload_01": "https://surviv.io/audio/guns/m134_reload_01.mp3",
+    "m134_switch_01": "https://surviv.io/audio/guns/pkp_switch_01.mp3",
     "m870_01": "https://surviv.io/audio/guns/m870_01.mp3",
     "m870_reload_01": "https://surviv.io/audio/guns/m870_reload_01.mp3",
     "m870_cycle_01": "https://surviv.io/audio/guns/m870_cycle_01.mp3",
@@ -171,6 +174,9 @@
     "potato_cannon_01": "https://surviv.io/audio/guns/potato_cannon_01.mp3",
     "potato_cannon_reload_01": "https://surviv.io/audio/guns/potato_cannon_reload_01.mp3",
     "potato_cannon_switch_01": "https://surviv.io/audio/guns/potato_cannon_switch_01.mp3",
+    "m79_01": "https://surviv.io/audio/guns/potato_cannon_01.mp3",
+    "m79_reload_01": "https://surviv.io/audio/guns/potato_cannon_reload_01.mp3",
+    "m79_switch_01": "https://surviv.io/audio/guns/potato_cannon_switch_01.mp3",
     "potato_smg_01": "https://surviv.io/audio/guns/potato_smg_01.mp3",
     "potato_smg_reload_01": "https://surviv.io/audio/guns/potato_smg_reload_01.mp3",
     "potato_smg_switch_01": "https://surviv.io/audio/guns/potato_smg_switch_01.mp3",
@@ -184,7 +190,8 @@
     "healthkit_use_01": "https://surviv.io/audio/ui/healthkit_use_01.mp3",
     "soda_use_01": "https://surviv.io/audio/ui/soda_use_01.mp3",
     "pills_use_01": "https://surviv.io/audio/ui/pills_use_01.mp3",
-    "stow_weapon_01": "https://surviv.io/audio/ui/stow_weapon_01.mp3"
+    "stow_weapon_01": "https://surviv.io/audio/ui/stow_weapon_01.mp3",
+    "chocolateBox_use_01": "https://surviv.io/audio/ui/chocolateBox_use_01.mp3"
   },
   "hits": {
     "stone_bullet_hit_01": "https://surviv.io/audio/hits/stone_bullet_hit_01.mp3",
@@ -376,6 +383,7 @@
     "perk_pickup_01": "https://surviv.io/audio/ui/perk_pickup_01.mp3",
     "xp_pickup_01": "https://surviv.io/audio/ui/xp_pickup_01.mp3",
     "xp_pickup_02": "https://surviv.io/audio/ui/xp_pickup_02.mp3",
+    "chocolateBox_pickup_01": "https://surviv.io/audio/ui/chocolateBox_pickup_01.mp3",
     "ping_danger_01": "https://surviv.io/audio/ui/ping_danger_01.mp3",
     "ping_coming_01": "https://surviv.io/audio/ui/ping_coming_01.mp3",
     "ping_help_01": "https://surviv.io/audio/ui/ping_help_01.mp3",
