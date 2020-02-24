@@ -236,6 +236,7 @@
   "sfx": {
     "crate_break_01": "https://surviv.io/audio/sfx/crate_break_01.mp3",
     "crate_break_02": "https://surviv.io/audio/sfx/crate_break_02.mp3",
+    "metal_crate_break_01": "https://surviv.io/audio/sfx/metal_crate_break_01.mp3",
     "tree_break_01": "https://surviv.io/audio/sfx/tree_break_01.mp3",
     "bush_break_01": "https://surviv.io/audio/sfx/bush_break_01.mp3",
     "bush_enter_01": "https://surviv.io/audio/sfx/bush_enter_01.mp3",

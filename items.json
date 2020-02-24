@@ -3306,7 +3306,7 @@
     "headshotMult": 1,
     "speed": {"equip": -3, "attack": 0},
     "lootImg": {
-      "sprite": "https://surviv.io/img/loot/loot-weapon-potato-cannon.svg",
+      "sprite": "https://surviv.io/img/loot/loot-weapon-heart-cannon.svg",
       "tint": "65280 | #00FF00",
       "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
       "borderTint": false
