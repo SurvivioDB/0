@@ -2831,6 +2831,86 @@
     },
     "worldImg": {"sprite": "https://surviv.io/img/guns/gun-med-01.svg", "tint": "3674112 | #381000"}
   },
+  "rainbow_blaster": {
+    "name": "Rainbow Blaster",
+    "type": "gun",
+    "quality": 0,
+    "fireMode": "blaster",
+    "caseTiming": "shoot",
+    "ammo": "rainbow_ammo",
+    "projType": {
+      "type": "throwable",
+      "forceMaxThrowDistance": true,
+      "explodeOnImpact": true,
+      "destroyNonCollidables": true,
+      "playerCollision": true,
+      "fuseTime": 999.9,
+      "aimDistance": 250,
+      "rad": 0.6,
+      "throwPhysics": {
+        "playerVelMult": 0,
+        "velZ": 25,
+        "speed": 85,
+        "spinVel": 28.27,
+        "spinDrag": 1,
+        "fixedCollisionHeight": 0.25
+      },
+      "speed": {"equip": 0, "attack": 0},
+      "lootImg": {
+        "sprite": "https://surviv.io/img/loot/loot-throwable-potato.svg",
+        "tint": "65280 | #00FF00",
+        "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+        "borderTint": false
+      },
+      "worldImg": {"sprite": "", "tint": false},
+      "handImg": {},
+      "useThrowParticles": false,
+      "trail": {"maxLength": 40, "width": 0.8, "tint": 16777215, "sprite": "player-rainbow-trail.img"},
+      "onHit": {
+        "type": "explosion",
+        "damage": 1000,
+        "obstacleDamage": 1000,
+        "teamDamage": false,
+        "rad": {"min": 1, "max": 2},
+        "shrapnelCount": 0,
+        "shrapnelType": "",
+        "explosionEffectType": "rounds",
+        "decalType": "decal_rounds_explosion"
+      }
+    },
+    "noDrop": true,
+    "noPotatoSwap": true,
+    "ammoSpawnCount": 1,
+    "maxClip": 1,
+    "maxReload": 1,
+    "extendedClip": 1,
+    "extendedReload": 1,
+    "reloadTime": 0,
+    "fireDelay": 0.16,
+    "switchDelay": 0.3,
+    "barrelLength": 4.6,
+    "barrelOffset": 0,
+    "recoilTime": 0.5,
+    "moveSpread": 6,
+    "shotSpread": 2.5,
+    "bulletCount": 1,
+    "loadTime": 1.5,
+    "headshotMult": 2,
+    "speed": {"equip": 0, "attack": 0, "load": "-.2"},
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-weapon-rainbow-blaster.svg",
+      "tint": "65280 | #00FF00",
+      "border": "https://surviv.io/img/loot/loot-circle-outer-07.svg",
+      "noTint": true
+    },
+    "worldImg": {
+      "sprite": "https://surviv.io/img/guns/gun-rainbow-blater.svg",
+      "tint": false,
+      "magImg": {"sprite": "https://surviv.io/img/guns/gun-rainbow-top.svg", "top": true, "max_height_adj": 15},
+      "onLoadComplete": "gun-rainbow-blater-loaded.img",
+      "loadingBullet": {"sprite": "rainbow-ball.img", "maxScale": 0.5}
+    }
+  },
   "deagle": {
     "name": "DEagle 50",
     "type": "gun",
@@ -3289,7 +3369,7 @@
       "worldImg": {"sprite": "https://surviv.io/img/projectiles/proj-heart-01.svg", "tint": false},
       "handImg": {},
       "useThrowParticles": false,
-      "trail": {"maxLength": 25, "width": 2.8, "tint": 16727363},
+      "trail": {"maxLength": 25, "width": 2.8, "tint": 16777215},
       "onHit": {
         "type": "explosion",
         "damage": 95,
@@ -3439,20 +3519,26 @@
       "tint": "65280 | #00FF00"
     },
     "skin": {
-      "red_gloves": {
-        "name": "Red Gloves",
-        "rarity": 4,
-        "lootImg": "https://surviv.io/img/loot/loot-melee-red-gloves.svg"
-      },
+      "red_gloves": {"name": "Red Gloves", "lootImg": "https://surviv.io/img/loot/loot-melee-red-gloves.svg"},
       "feral_gloves": {
         "name": "Feral Claws",
-        "rarity": 4,
         "lootImg": "https://surviv.io/img/loot/loot-melee-feral-claws.svg"
       },
-      "crab_gloves": {
-        "name": "Crab Claws",
+      "crab_gloves": {"name": "Crab Claws", "lootImg": "https://surviv.io/img/loot/loot-melee-crab-tongs.svg"},
+      "fist_split": {
+        "name": "Split the diff",
+        "rarity": 2,
+        "lootImg": "https://surviv.io/img/loot/loot-melee-SpliTheDiff.svg"
+      },
+      "fist_blueVelvet": {
+        "name": "Blue Velvet",
+        "rarity": 1,
+        "lootImg": "https://surviv.io/img/loot/loot-melee-BlueVelvet.svg"
+      },
+      "fist_frostpunch": {
+        "name": "Frostpunch",
         "rarity": 4,
-        "lootImg": "https://surviv.io/img/loot/loot-melee-crab-tongs.svg"
+        "lootImg": "https://surviv.io/img/loot/loot-melee-FrostPunch.svg"
       }
     }
   },
@@ -3480,7 +3566,7 @@
     "skin": {
       "knuckles_heroic": {
         "name": "Knuckles Heroic",
-        "rarity": 3,
+        "rarity": 4,
         "lootImg": "https://surviv.io/img/loot/loot-melee-knuckles-heroic.svg"
       }
     }
@@ -3542,7 +3628,7 @@
     "skin": {
       "bayonet_woodland": {
         "name": "Bayonet Woodland",
-        "rarity": 4,
+        "rarity": 5,
         "lootImg": "https://surviv.io/img/loot/loot-melee-bayonet-woodland.svg"
       }
     }
@@ -3726,6 +3812,7 @@
     "autoAttack": false,
     "switchDelay": 0.25,
     "damage": 52,
+    "noPotatoSwap": true,
     "obstacleDamage": 2.8,
     "headshotMult": 1,
     "attack": {"rad": 1, "damageTimes": [0.21], "cooldownTime": 0.42},
@@ -4520,6 +4607,7 @@
       "explosionEffectType": "heart_frag",
       "decalType": "decal_heart_explosion"
     },
+    "noPotatoSwap": true,
     "inventoryOrder": 1,
     "cookable": true,
     "explodeOnImpact": false,
@@ -4653,6 +4741,14 @@
     "minStackSize": 10,
     "lootImg": {"sprite": "loot-ammo-box.img", "tint": "16761035 | #FFC0CB", "tintDark": "16761035 | #FFC0CB"}
   },
+  "rainbow_ammo": {
+    "name": "Rainbow Ammo",
+    "type": "ammo",
+    "special": true,
+    "hideUi": true,
+    "minStackSize": 10,
+    "lootImg": {"sprite": "loot-ammo-box.img", "noTint": true}
+  },
   "40mm": {
     "name": "40 mm",
     "type": "ammo",
@@ -4734,6 +4830,19 @@
     "boost": 25,
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-medical-chocolateBox.svg",
+      "tint": false,
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    },
+    "emitter": "boost"
+  },
+  "bottle": {
+    "name": "Bottle",
+    "type": "boost",
+    "useTime": 3,
+    "boost": 0,
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-luck-bottle.svg",
       "tint": false,
       "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
       "borderTint": false

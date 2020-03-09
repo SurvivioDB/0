@@ -13,7 +13,7 @@
     "channel": "ui",
     "teamOnly": true,
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_ammo": {
     "type": "emote",
@@ -21,7 +21,7 @@
     "channel": "ui",
     "teamOnly": true,
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_ammo9mm": {
     "type": "emote",
@@ -29,7 +29,7 @@
     "channel": "ui",
     "teamOnly": true,
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_ammo12gauge": {
     "type": "emote",
@@ -37,7 +37,7 @@
     "channel": "ui",
     "teamOnly": true,
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_ammo762mm": {
     "type": "emote",
@@ -45,7 +45,7 @@
     "channel": "ui",
     "teamOnly": true,
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_ammo556mm": {
     "type": "emote",
@@ -53,7 +53,7 @@
     "channel": "ui",
     "teamOnly": true,
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_ammo50ae": {
     "type": "emote",
@@ -61,7 +61,7 @@
     "channel": "ui",
     "teamOnly": true,
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_ammo308sub": {
     "type": "emote",
@@ -69,7 +69,7 @@
     "channel": "ui",
     "teamOnly": true,
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_ammoflare": {
     "type": "emote",
@@ -77,7 +77,7 @@
     "channel": "ui",
     "teamOnly": true,
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_ammo45acp": {
     "type": "emote",
@@ -85,7 +85,7 @@
     "channel": "ui",
     "teamOnly": true,
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_loot": {
     "type": "emote",
@@ -93,1320 +93,1320 @@
     "channel": "ui",
     "teamOnly": false,
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_trick_nothing": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/face-imp-trick.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_trick_size": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/face-imp-trick.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_trick_m9": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/face-imp-trick.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_trick_chatty": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/face-imp-trick.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_trick_drain": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/face-imp-trick.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_treat_9mm": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/face-angel-treat.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_treat_12g": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/face-angel-treat.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_treat_556": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/face-angel-treat.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_treat_762": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/face-angel-treat.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_treat_super": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/face-angel-treat.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "a.Locked"
+    "category": "i.Locked"
   },
   "emote_bugle_inspiration_red": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/bugle-inspiration-red.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_bugle_final_red": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/bugle-final-red.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_bugle_inspiration_blue": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/bugle-inspiration-blue.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_bugle_final_blue": {
     "type": "emote",
     "texture": "https://surviv.io/img/emotes/bugle-final-blue.svg",
     "channel": "ui",
     "noCustom": true,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_thumbsup": {
     "type": "emote",
     "name": "Thumbs Up",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/thumbs-up.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_sadface": {
     "type": "emote",
     "name": "Sad Face",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/face-sad.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Faces"
+    "category": "i.Faces"
   },
   "emote_happyface": {
     "type": "emote",
     "name": "Happy Face",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/face-happy.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Faces"
+    "category": "i.Faces"
   },
   "emote_surviv": {
     "type": "emote",
     "name": "Surviv Logo",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/surviv.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Logos"
+    "category": "i.Logos"
   },
   "emote_gg": {
     "type": "emote",
     "name": "GG",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/gg.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_question": {
     "type": "emote",
     "name": "Question Mark",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/question.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_tombstone": {
     "type": "emote",
     "name": "Tombstone",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/tombstone.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_joyface": {
     "type": "emote",
     "name": "Joyful Face",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/face-joy.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Faces"
+    "category": "i.Faces"
   },
   "emote_sobface": {
     "type": "emote",
     "name": "Sobbing Face",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/face-sob.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Faces"
+    "category": "i.Faces"
   },
   "emote_thinkingface": {
     "type": "emote",
     "name": "Thonk",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/face-thinking.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Faces"
+    "category": "i.Faces"
   },
   "emote_flagus": {
     "type": "emote",
     "name": "Flag United States",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-united-states-of-america.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagthailand": {
     "type": "emote",
     "name": "Flag Thailand",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-thailand.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flaggermany": {
     "type": "emote",
     "name": "Flag Germany",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-germany.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagfrance": {
     "type": "emote",
     "name": "Flag France",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-france.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagsouthkorea": {
     "type": "emote",
     "name": "Flag South Korea",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-south-korea.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagbrazil": {
     "type": "emote",
     "name": "Flag Brazil",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-brazil.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagcanada": {
     "type": "emote",
     "name": "Flag Canada",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-canada.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagspain": {
     "type": "emote",
     "name": "Flag Spain",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-spain.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagrussia": {
     "type": "emote",
     "name": "Flag Russia",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-russia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagmexico": {
     "type": "emote",
     "name": "Flag Mexico",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-mexico.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagpoland": {
     "type": "emote",
     "name": "Flag Poland",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-republic-of-poland.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flaguk": {
     "type": "emote",
     "name": "Flag United Kingdom",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-united-kingdom.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagcolombia": {
     "type": "emote",
     "name": "Flag Colombia",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-colombia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagukraine": {
     "type": "emote",
     "name": "Flag Ukraine",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-ukraine.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagturkey": {
     "type": "emote",
     "name": "Flag Turkey",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-turkey.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagphilippines": {
     "type": "emote",
     "name": "Flag Philippines",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-philippines.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagczechia": {
     "type": "emote",
     "name": "Flag Czechia",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-czech-republic.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagperu": {
     "type": "emote",
     "name": "Flag Peru",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-peru.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagaustria": {
     "type": "emote",
     "name": "Flag Austria",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-austria.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagargentina": {
     "type": "emote",
     "name": "Flag Argentina",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-argentina.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagjapan": {
     "type": "emote",
     "name": "Flag Japan",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-japan.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagvenezuela": {
     "type": "emote",
     "name": "Flag Venezuela",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-venezuela.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagvietnam": {
     "type": "emote",
     "name": "Flag Vietnam",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-vietnam.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagswitzerland": {
     "type": "emote",
     "name": "Flag Switzerland",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-switzerland.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagnetherlands": {
     "type": "emote",
     "name": "Flag Netherlands",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-netherlands.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagchina": {
     "type": "emote",
     "name": "Flag China",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-china.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagtaiwan": {
     "type": "emote",
     "name": "Flag Taiwan",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-taiwan.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagchile": {
     "type": "emote",
     "name": "Flag Chile",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-chile.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagaustralia": {
     "type": "emote",
     "name": "Flag Australia",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-australia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagdenmark": {
     "type": "emote",
     "name": "Flag Denmark",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-denmark.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagitaly": {
     "type": "emote",
     "name": "Flag Italy",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-italy.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagsweden": {
     "type": "emote",
     "name": "Flag Sweden",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-sweden.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagecuador": {
     "type": "emote",
     "name": "Flag Ecuador",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-ecuador.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagslovakia": {
     "type": "emote",
     "name": "Flag Slovakia",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-slovakia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flaghungary": {
     "type": "emote",
     "name": "Flag Hungary",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-hungary.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagromania": {
     "type": "emote",
     "name": "Flag Romania",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-romania.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flaghongkong": {
     "type": "emote",
     "name": "Flag Hong Kong",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-hong-kong.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagindonesia": {
     "type": "emote",
     "name": "Flag Indonesia",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-indonesia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagfinland": {
     "type": "emote",
     "name": "Flag Finland",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-finland.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagnorway": {
     "type": "emote",
     "name": "Flag Norway",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-norway.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_heart": {
     "type": "emote",
     "name": "Heart",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/heart.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_sleepy": {
     "type": "emote",
     "name": "Zzz",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/sleepy.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_flex": {
     "type": "emote",
     "name": "Flex",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flex.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_angryface": {
     "type": "emote",
     "name": "Angry Face",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/face-angry.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Faces"
+    "category": "i.Faces"
   },
   "emote_upsidedownface": {
     "type": "emote",
     "name": "Upside Down Face",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/face-upsidedown.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Faces"
+    "category": "i.Faces"
   },
   "emote_teabag": {
     "type": "emote",
     "name": "Teabag",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/teabag.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_alienface": {
     "type": "emote",
     "name": "Alien Face",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/face-alien.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Faces"
+    "category": "i.Faces"
   },
   "emote_flagbelarus": {
     "type": "emote",
     "name": "Flag Belarus",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-belarus.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagbelgium": {
     "type": "emote",
     "name": "Flag Belgium",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-belgium.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagkazakhstan": {
     "type": "emote",
     "name": "Flag Kazakhstan",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-kazakhstan.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_egg": {
     "type": "emote",
     "name": "Egg",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/egg.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_police": {
     "type": "emote",
     "name": "Police Insignia",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/police.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_dabface": {
     "type": "emote",
     "name": "Dab Face",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/face-dab.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Faces"
+    "category": "i.Faces"
   },
   "emote_flagmalaysia": {
     "type": "emote",
     "name": "Flag Malaysia",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-malaysia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagnewzealand": {
     "type": "emote",
     "name": "Flag New Zealand",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-new-zealand.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_logosurviv": {
     "type": "emote",
     "name": "PARMA",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/logo-surviv.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Logos"
+    "category": "i.Logos"
   },
   "emote_logoegg": {
     "type": "emote",
     "name": "The Egg",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/logo-egg.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Logos"
+    "category": "i.Logos"
   },
   "emote_logoswine": {
     "type": "emote",
     "name": "The Swine",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/logo-swine.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Logos"
+    "category": "i.Logos"
   },
   "emote_logohydra": {
     "type": "emote",
     "name": "The Hydra",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/logo-hydra.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Logos"
+    "category": "i.Logos"
   },
   "emote_logostorm": {
     "type": "emote",
     "name": "The Storm",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/logo-storm.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Logos"
+    "category": "i.Logos"
   },
   "emote_flaghonduras": {
     "type": "emote",
     "name": "Flag Honduras",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-honduras.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_logocaduceus": {
     "type": "emote",
     "name": "The Caduceus",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/logo-caduceus.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Logos"
+    "category": "i.Logos"
   },
   "emote_impface": {
     "type": "emote",
     "name": "Imp Face",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/face-imp.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Faces"
+    "category": "i.Faces"
   },
   "emote_monocleface": {
     "type": "emote",
     "name": "Monocole Face",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/face-monocle.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Faces"
+    "category": "i.Faces"
   },
   "emote_sunglassface": {
     "type": "emote",
     "name": "Sunglasses Face",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/face-sunglass.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Faces"
+    "category": "i.Faces"
   },
   "emote_headshotface": {
     "type": "emote",
     "name": "Headshot!",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/face-headshot.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Faces"
+    "category": "i.Faces"
   },
   "emote_potato": {
     "type": "emote",
     "name": "Potato",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/potato.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Food"
+    "category": "i.Food"
   },
   "emote_leek": {
     "type": "emote",
     "name": "Leek",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/leek.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Food"
+    "category": "i.Food"
   },
   "emote_eggplant": {
     "type": "emote",
     "name": "Eggplant",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/eggplant.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Food"
+    "category": "i.Food"
   },
   "emote_baguette": {
     "type": "emote",
     "name": "Baguette",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/baguette.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Food"
+    "category": "i.Food"
   },
   "emote_chick": {
     "type": "emote",
     "name": "Chick",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/chick.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_flagbolivia": {
     "type": "emote",
     "name": "Flag Bolivia",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-bolivia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagcroatia": {
     "type": "emote",
     "name": "Flag Croatia",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-croatia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagindia": {
     "type": "emote",
     "name": "Flag India",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-india.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagisrael": {
     "type": "emote",
     "name": "Flag Israel",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-israel.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flaggeorgia": {
     "type": "emote",
     "name": "Flag Georgia",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-georgia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flaggreece": {
     "type": "emote",
     "name": "Flag Greece",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-greece.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagguatemala": {
     "type": "emote",
-    "name": "Flag Gautemala",
-    "rarity": 1,
+    "name": "Flag Guatemala",
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-guatemala.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagportugal": {
     "type": "emote",
     "name": "Flag Portugal",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-portugal.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagserbia": {
     "type": "emote",
     "name": "Flag Serbia",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-serbia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagsingapore": {
     "type": "emote",
     "name": "Flag Singapore",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-singapore.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagtrinidad": {
     "type": "emote",
     "name": "Flag Trinidad and Tobago",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-trinidad-and-tobago.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flaguruguay": {
     "type": "emote",
     "name": "Flag Uruguay",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-uruguay.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_logoconch": {
     "type": "emote",
     "name": "The Conch",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/logo-conch.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Logos"
+    "category": "i.Logos"
   },
   "emote_pineapple": {
     "type": "emote",
     "name": "Pineapple",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/pineapple.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Food"
+    "category": "i.Food"
   },
   "emote_coconut": {
     "type": "emote",
     "name": "Coconut",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/coconut.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Food"
+    "category": "i.Food"
   },
   "emote_crab": {
     "type": "emote",
     "name": "Crab",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/crab.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Animals"
+    "category": "i.Animals"
   },
   "emote_whale": {
     "type": "emote",
     "name": "Whale",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/whale.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Animals"
+    "category": "i.Animals"
   },
   "emote_logometeor": {
     "type": "emote",
     "name": "The Meteor",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/logo-meteor.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Logos"
+    "category": "i.Logos"
   },
   "emote_salt": {
     "type": "emote",
     "name": "Salt Shaker",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/salt.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_disappointface": {
     "type": "emote",
     "name": "Disappointed Face",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/face-disappoint.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Faces"
+    "category": "i.Faces"
   },
   "emote_logocrossing": {
     "type": "emote",
     "name": "The Crossing",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/logo-crossing.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Logos"
+    "category": "i.Logos"
   },
   "emote_fish": {
     "type": "emote",
     "name": "Fish",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/fish.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Animals"
+    "category": "i.Animals"
   },
   "emote_campfire": {
     "type": "emote",
     "name": "Campfire",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/campfire.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_chickendinner": {
     "type": "emote",
     "name": "Chicken Dinner",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/chicken-dinner.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Food"
+    "category": "i.Food"
   },
   "emote_cattle": {
     "type": "emote",
     "name": "Cattle Skull",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/cattle.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Animals"
+    "category": "i.Animals"
   },
   "emote_icecream": {
     "type": "emote",
     "name": "Ice Cream",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/ice-cream.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Food"
+    "category": "i.Food"
   },
   "emote_cupcake": {
     "type": "emote",
     "name": "Cupcake",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/cupcake.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Food"
+    "category": "i.Food"
   },
   "emote_donut": {
     "type": "emote",
     "name": "Donut",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/donut.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Food"
+    "category": "i.Food"
   },
   "emote_logohatchet": {
     "type": "emote",
     "name": "The Hatchet",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/logo-hatchet.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Logos"
+    "category": "i.Logos"
   },
   "emote_acorn": {
     "type": "emote",
     "name": "Acorn",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/acorn.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Food"
+    "category": "i.Food"
   },
   "emote_trunk": {
     "type": "emote",
     "name": "Tree Trunk",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/trunk.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_forest": {
     "type": "emote",
     "name": "Forest",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/forest.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_pumpkin": {
     "type": "emote",
     "name": "Pumpkin",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/pumpkin.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_candycorn": {
     "type": "emote",
     "name": "Candy Corn",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/candy-corn.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Food"
+    "category": "i.Food"
   },
   "emote_pilgrimhat": {
     "type": "emote",
     "name": "Pilgrim",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/pilgrim-hat.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_turkeyanimal": {
     "type": "emote",
     "name": "Turkey",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/turkey-animal.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Animals"
+    "category": "i.Animals"
   },
   "emote_heartface": {
     "type": "emote",
     "name": "Heart Face",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/face-heart.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Faces"
+    "category": "i.Faces"
   },
   "emote_logochrysanthemum": {
     "type": "emote",
     "name": "The Chrysanthemum",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/logo-chrysanthemum.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Logos"
+    "category": "i.Logos"
   },
   "emote_santahat": {
     "type": "emote",
     "name": "Santa Hat",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/santa-hat.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_snowman": {
     "type": "emote",
     "name": "Snowman",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/snowman.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_snowflake": {
     "type": "emote",
     "name": "Snowflake",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/snowflake.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_flagmorocco": {
     "type": "emote",
     "name": "Flag Morocco",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-morocco.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagestonia": {
     "type": "emote",
     "name": "Flag Estonia",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-estonia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagalgeria": {
     "type": "emote",
     "name": "Flag Algeria",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-algeria.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagegypt": {
     "type": "emote",
     "name": "Flag Egypt",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-egypt.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagazerbaijan": {
     "type": "emote",
     "name": "Flag Azerbaijan",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-azerbaijan.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagalbania": {
     "type": "emote",
     "name": "Flag Albania",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-albania.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flaglithuania": {
     "type": "emote",
     "name": "Flag Lithuania",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-lithuania.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flaglatvia": {
     "type": "emote",
     "name": "Flag Latvia",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-latvia.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flaguae": {
     "type": "emote",
     "name": "Flag United Arab Emirates",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-united-arab-emirates.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_flagdominicanrepublic": {
     "type": "emote",
     "name": "Flag Dominican Republic",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/flag-dominican-republic.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Flags"
+    "category": "i.Flags"
   },
   "emote_logocloud": {
     "type": "emote",
     "name": "The Cloud",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/logo-cloud.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Logos"
+    "category": "i.Logos"
   },
   "emote_ghost_base": {
     "type": "emote",
     "name": "Ghost",
-    "rarity": 2,
+    "rarity": 3,
     "texture": "https://surviv.io/img/emotes/ghost-base.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_bandagedface": {
     "type": "emote",
     "name": "Bandaged Face",
-    "rarity": 2,
+    "rarity": 1,
     "texture": "https://surviv.io/img/emotes/face-bandaged.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Faces"
+    "category": "i.Faces"
   },
   "emote_picassoface": {
     "type": "emote",
@@ -1415,42 +1415,78 @@
     "texture": "https://surviv.io/img/emotes/face-picasso.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Faces"
+    "category": "i.Faces"
   },
   "emote_pooface": {
     "type": "emote",
     "name": "Poo Face",
-    "rarity": 3,
+    "rarity": 4,
     "texture": "https://surviv.io/img/emotes/face-poo.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Faces"
+    "category": "i.Faces"
   },
   "emote_ok": {
     "type": "emote",
     "name": "Ok",
-    "rarity": 2,
+    "rarity": 1,
     "texture": "https://surviv.io/img/emotes/ok.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_rainbow": {
     "type": "emote",
     "name": "Rainbow",
-    "rarity": 3,
+    "rarity": 2,
     "texture": "https://surviv.io/img/emotes/rainbow.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Other"
+    "category": "i.Other"
   },
   "emote_logotwins": {
     "type": "emote",
     "name": "The Twins",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/emotes/logo-twins.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "a.Logos"
+    "category": "i.Logos"
+  },
+  "emote_oof": {
+    "type": "emote",
+    "name": "Oof",
+    "rarity": 1,
+    "texture": "https://surviv.io/img/emotes/emote-oof.svg",
+    "channel": "ui",
+    "teamOnly": false,
+    "category": "i.Other"
+  },
+  "emote_shockface": {
+    "type": "emote",
+    "name": "Shock & Awe",
+    "rarity": 2,
+    "texture": "https://surviv.io/img/emotes/face-shock.svg",
+    "channel": "ui",
+    "teamOnly": false,
+    "category": "i.Faces"
+  },
+  "emote_skull": {
+    "type": "emote",
+    "name": "To Be, Or Not?",
+    "rarity": 3,
+    "texture": "https://surviv.io/img/emotes/emote-skull.svg",
+    "channel": "ui",
+    "teamOnly": false,
+    "category": "i.Other"
+  },
+  "emote_trollface": {
+    "type": "emote",
+    "name": "Trollface",
+    "rarity": 4,
+    "texture": "https://surviv.io/img/emotes/emote-trollface.svg",
+    "channel": "ui",
+    "teamOnly": false,
+    "category": "i.Other"
   }
 }

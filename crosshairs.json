@@ -10,21 +10,21 @@
   "crosshair_001": {
     "type": "crosshair",
     "name": "Style 001",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/crosshairs/crosshair001.svg",
     "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 16.933 16.933\"><path d=\"M7.693.215v1.471A6.829 6.829 0 0 0 1.69 7.693H.215V9.24h1.471a6.829 6.829 0 0 0 6.007 6.003v1.475H9.24v-1.47a6.829 6.829 0 0 0 6.003-6.008h1.475V7.693h-1.47A6.829 6.829 0 0 0 9.24 1.69V.215zm0 2.745v1.897H9.24V2.96a5.567 5.567 0 0 1 4.734 4.733h-1.897V9.24h1.896a5.567 5.567 0 0 1-4.733 4.734v-1.897H7.693v1.896A5.567 5.567 0 0 1 2.96 9.24h1.897V7.693H2.96A5.567 5.567 0 0 1 7.693 2.96z\" fill=\"white\" stroke=\"black\" stroke-width=\".5\" stroke-linecap=\"square\"/></svg>"
   },
   "crosshair_005": {
     "type": "crosshair",
     "name": "Style 005",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/crosshairs/crosshair005.svg",
     "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 16.933 16.933\"><path d=\"M.53 3.704L3.703.53l4.763 4.763L13.229.529l3.175 3.175-4.762 4.763 4.762 4.762-3.175 3.175-4.762-4.762-4.763 4.762L.53 13.23l4.763-4.762L.529 3.704\" fill=\"white\" stroke=\"black\" stroke-width=\".5\" stroke-linecap=\"square\"/></svg>"
   },
   "crosshair_007": {
     "type": "crosshair",
     "name": "Style 007",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/crosshairs/crosshair007.svg",
     "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 16.933 16.933\"><path d=\"M9.091.345v4.998H7.842V.345h1.25m2.498 7.497h4.998v1.25H11.59v-1.25M9.091 11.59v4.998H7.842V11.59h1.25M.344 7.842h4.998v1.25H.345v-1.25\" fill=\"white\" stroke=\"black\" stroke-width=\".5\" stroke-linecap=\"square\"/></svg>"
   },
@@ -45,7 +45,7 @@
   "crosshair_027": {
     "type": "crosshair",
     "name": "Style 027",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/crosshairs/crosshair027.svg",
     "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 16.933 16.933\"><path d=\"M2.117 1.058H6.35v1.059H2.117V6.35H1.058V2.117q0-.437.305-.741.317-.318.754-.318m0 14.817q-.437 0-.754-.318-.305-.304-.305-.74v-4.234h1.059v4.234H6.35v1.058H2.117m12.7-14.817q.436 0 .754.318.304.304.304.74V6.35h-1.058V2.117h-4.234V1.058h4.234m1.058 13.759q0 .436-.304.74-.318.318-.754.318h-4.234v-1.058h4.234v-4.234h1.058v4.234M8.996 6.88v1.057h1.058v1.059H8.996v1.058H7.937V8.996H6.88V7.937h1.058V6.88h1.059\" fill=\"white\" stroke=\"black\" stroke-width=\".5\" stroke-linecap=\"square\"/></svg>"
   },
@@ -87,35 +87,35 @@
   "crosshair_080": {
     "type": "crosshair",
     "name": "Style 080",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/crosshairs/crosshair080.svg",
     "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 16.933 16.933\"><path d=\"M3.598 3.598q-1.627 1.628-1.931 3.81H.595q.318-2.619 2.25-4.564Q4.788.913 7.407.595v1.072q-2.182.304-3.81 1.931m9.737 9.737q1.627-1.627 1.945-3.81h1.058q-.317 2.62-2.262 4.55-1.932 1.946-4.551 2.263V15.28q2.183-.318 3.81-1.945m0-9.737q-1.627-1.627-3.81-1.931V.595q2.62.318 4.55 2.25 1.946 1.944 2.263 4.563H15.28q-.318-2.182-1.945-3.81M6.879 6.88h1.058v1.058H6.88V6.88m2.117 0h1.058v1.058H8.996V6.88m0 2.117h1.058v1.058H8.996V8.996m-2.117 0h1.058v1.058H6.88V8.996M3.6 13.335q1.627 1.627 3.81 1.945v1.058q-2.62-.317-4.565-2.262Q.913 12.144.595 9.525h1.072q.304 2.183 1.931 3.81\" fill=\"white\" stroke=\"black\" stroke-width=\".5\" stroke-linecap=\"square\"/></svg>"
   },
   "crosshair_086": {
     "type": "crosshair",
     "name": "Style 086",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/crosshairs/crosshair086.svg",
     "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 16.933 16.933\"><path d=\"M16.528 1.413L11.49 6.451h-1.008V5.444L15.52.406l1.008 1.007m-16.122 0L1.413.406l5.038 5.038V6.45H5.444L.406 1.413m0 14.107l5.038-5.038H6.45v1.008l-5.038 5.038L.406 15.52m16.122 0l-1.008 1.008-5.038-5.038v-1.008h1.008l5.038 5.038\" fill=\"white\" stroke=\"black\" stroke-width=\".5\" stroke-linecap=\"square\"/></svg>"
   },
   "crosshair_094": {
     "type": "crosshair",
     "name": "Style 094",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/crosshairs/crosshair094.svg",
     "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 16.933 16.933\"><path d=\"M8.467 1.587q-2.077 0-3.705 1.059l-.754-.754Q5.953.529 8.467.529q2.513 0 4.471 1.363l-.767.754q-1.627-1.059-3.704-1.059m6.879 6.88q0-2.077-1.059-3.705l.768-.754q1.35 1.945 1.35 4.459 0 2.513-1.35 4.471l-.768-.767q1.059-1.627 1.059-3.704m1.058-6.88L13.23 4.762h-1.058V3.704L15.346.53l1.058 1.058M1.587.53l3.175 3.175v1.058H3.704L.53 1.587 1.587.53m0 7.938q0 2.077 1.059 3.704l-.754.767Q.529 10.98.529 8.467q0-2.514 1.363-4.459l.754.754Q1.587 6.39 1.587 8.467m6.35 0l.53-.53.529.53-.53.529-.529-.53m.53 6.88q2.077 0 3.704-1.059l.767.768q-1.958 1.35-4.471 1.35-2.514 0-4.459-1.35l.754-.768q1.628 1.059 3.705 1.059m-6.88 1.058L.53 15.346l3.175-3.175h1.058v1.058l-3.175 3.175m13.759 0L12.17 13.23v-1.058h1.058l3.175 3.175-1.058 1.058\" fill=\"white\" stroke=\"black\" stroke-width=\".5\" stroke-linecap=\"square\"/></svg>"
   },
   "crosshair_098": {
     "type": "crosshair",
     "name": "Style 098",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/crosshairs/crosshair098.svg",
     "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 16.933 16.933\"><path d=\"M8.996 8.467q0 .172-.093.304l-.066.066q-.145.159-.37.159t-.384-.159l-.053-.066q-.093-.132-.093-.304 0-.225.146-.384.159-.146.384-.146t.37.146q.159.159.159.384m-5.821 3.175h10.583L8.467 2.646l-5.292 8.996M8.467.529L15.875 12.7H1.058L8.467.53\" fill=\"white\" stroke=\"black\" stroke-width=\".5\" stroke-linecap=\"square\"/></svg>"
   },
   "crosshair_101": {
     "type": "crosshair",
     "name": "Style 101",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/crosshairs/crosshair101.svg",
     "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 16.933 16.933\"><path d=\"M6.588 6.588l-.013.013q-.754.78-.754 1.866v.013q0 .542.185 1.005.198.463.582.86l.066.066q.754.702 1.813.702 1.058 0 1.812-.715l.053-.053.013-.013q.384-.384.582-.86.186-.463.186-1.005 0-1.098-.768-1.879-.582-.582-1.35-.714L8.48 5.82h-.013l-.53.053q-.754.132-1.336.7l-.013.014m1.35-4.471h1.058v2.685q1.204.146 2.09 1.032 1.085 1.085 1.085 2.633 0 .926-.397 1.693l2.222 1.773-.767.767-2.116-1.64-.027.026q-1.085 1.085-2.62 1.085-1.547 0-2.632-1.085l-.026-.026-2.104 1.64-.767-.767 2.222-1.773q-.396-.767-.396-1.693 0-1.535 1.071-2.62l.013-.013q.887-.886 2.09-1.032V2.117m1.059 6.35q0 .225-.159.37-.145.159-.37.159t-.384-.159q-.145-.145-.145-.37t.145-.384q.159-.146.384-.146t.37.146q.159.159.159.384\" fill=\"white\" stroke=\"black\" stroke-width=\".5\" stroke-linecap=\"square\"/></svg>"
   },
@@ -136,7 +136,7 @@
   "crosshair_118": {
     "type": "crosshair",
     "name": "Style 118",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/crosshairs/crosshair118.svg",
     "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 16.933 16.933\"><path d=\"M13.335 3.598q-2.01-2.01-4.868-2.01-2.858 0-4.869 2.01-2.01 2.011-2.01 4.869 0 2.857 2.01 4.868 2.011 2.01 4.869 2.01 2.857 0 4.868-2.01 2.01-2.01 2.01-4.868 0-2.858-2.01-4.869m3.07 4.869q0 3.294-2.33 5.609-2.314 2.328-5.608 2.328-3.294 0-5.623-2.328Q.53 11.76.53 8.466q0-3.293 2.315-5.622Q5.173.53 8.467.53t5.609 2.315q2.328 2.329 2.328 5.623\" fill=\"white\" stroke=\"black\" stroke-width=\".5\" stroke-linecap=\"square\"/><path d=\"M8.996 8.467q0 .225-.159.37-.145.159-.37.159t-.384-.159q-.146-.145-.146-.37t.146-.384q.159-.146.384-.146t.37.146q.159.159.159.384\" fill=\"white\" stroke=\"black\" stroke-width=\".5\" stroke-linecap=\"square\"/></svg>"
   },
@@ -157,21 +157,21 @@
   "crosshair_136": {
     "type": "crosshair",
     "name": "Style 136",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/crosshairs/crosshair136.svg",
     "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 16.933 16.933\"><path d=\"M8.466.354A8.112 8.112 0 0 0 .354 8.466a8.112 8.112 0 0 0 8.112 8.113 8.112 8.112 0 0 0 8.113-8.113A8.112 8.112 0 0 0 8.466.354zm-.1 1.497v6.514H1.852a6.619 6.619 0 0 1 6.512-6.514zm.202.002a6.619 6.619 0 0 1 6.514 6.512H8.568V1.853zM1.85 8.568h6.514v6.512a6.619 6.619 0 0 1-6.514-6.512zm6.717 0h6.512a6.619 6.619 0 0 1-6.512 6.514V8.568z\" fill=\"white\" stroke=\"black\" stroke-width=\".5\" stroke-linecap=\"square\"/></svg>"
   },
   "crosshair_158": {
     "type": "crosshair",
     "name": "Style 158",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/crosshairs/crosshair158.svg",
     "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 16.933 16.933\"><path d=\"M8.98 8.46q0 .218-.141.372-.154.142-.372.142t-.36-.142q-.154-.154-.154-.372t.154-.359q.142-.154.36-.154t.372.154q.14.141.14.36m-7.698 0q0 1.808.834 3.271l.706-.706.988.988-1.604 1.579q-.475-.526-.834-1.104Q.255 10.706.255 8.46q0-2.976 1.95-5.132L3.848 4.97 2.82 5.997l-.744-.744Q1.28 6.69 1.28 8.46m14.371 0q0-1.77-.783-3.195l-.641.63L13.2 4.867l1.527-1.54q.513.564.886 1.18 1.064 1.758 1.064 3.952 0 2.207-1.077 3.965l-.886 1.168-1.63-1.63 1.027-1.026.744.744q.796-1.45.796-3.22\" fill=\"white\" stroke=\"black\" stroke-width=\".5\" stroke-linecap=\"square\"/></svg>"
   },
   "crosshair_160": {
     "type": "crosshair",
     "name": "Style 160",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/crosshairs/crosshair160.svg",
     "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 16.933 16.933\"><path d=\"M16.933.564L9.878 7.62l-.565-.564L16.37 0l.564.564M9.031 8.467q0 .24-.17.395-.154.17-.394.17-.24 0-.41-.17-.155-.155-.155-.395 0-.24.155-.41.17-.155.41-.155.24 0 .395.155.17.17.17.41m7.337 8.466L9.313 9.878l.565-.565 7.055 7.056-.564.564M0 .564L.564 0 7.62 7.056l-.564.564L0 .564m.564 16.37L0 16.368l7.056-7.056.564.565-7.056 7.055\" fill=\"white\" stroke=\"black\" stroke-width=\".5\" stroke-linecap=\"square\"/></svg>"
   },
@@ -185,7 +185,7 @@
   "crosshair_176": {
     "type": "crosshair",
     "name": "Style 176",
-    "rarity": 1,
+    "rarity": 0,
     "texture": "https://surviv.io/img/crosshairs/crosshair176.svg",
     "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"64\" height=\"64\" viewBox=\"0 0 16.933 16.933\"><path d=\"M12.7 8.467q0 1.137-.53 2.063v1.112h-.912Q10.081 12.7 8.467 12.7q-1.628 0-2.805-1.058h-.9v-1.098q-.529-.926-.529-2.077 0-1.151.53-2.077V5.292h.886q1.19-1.059 2.818-1.059 1.614 0 2.804 1.059h.9V6.39q.529.926.529 2.077m-1.984-2.25q-.913-.899-2.17-.925h-.159q-1.27.026-2.17.926-.925.926-.925 2.249 0 1.31.926 2.249.9.9 2.17.926h.158q1.257-.027 2.17-.926.926-.94.926-2.25 0-1.322-.926-2.248m-1.72 2.249q0 .225-.159.37-.145.159-.37.159t-.384-.159q-.145-.145-.145-.37t.145-.384q.159-.146.384-.146t.37.146q.159.159.159.384\" fill=\"white\" stroke=\"black\" stroke-width=\".5\" stroke-linecap=\"square\"/></svg>"
   },

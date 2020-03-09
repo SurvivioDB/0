@@ -30,6 +30,8 @@
     "colt45_reload_02": "https://surviv.io/audio/guns/colt45_reload_02.mp3",
     "colt45_switch_01": "https://surviv.io/audio/guns/colt45_switch_01.mp3",
     "deagle_01": "https://surviv.io/audio/guns/deagle_01.mp3",
+    "rainbow_blaster_01": "https://surviv.io/audio/guns/rainbow_blaster_01.mp3",
+    "rainbow_blaster_loading": "https://surviv.io/audio/guns/rainbow_blaster_loading.mp3",
     "deagle_reload_01": "https://surviv.io/audio/guns/deagle_reload_01.mp3",
     "deagle_reload_02": "https://surviv.io/audio/guns/deagle_reload_02.mp3",
     "deagle_switch_01": "https://surviv.io/audio/guns/deagle_switch_01.mp3",
@@ -297,6 +299,8 @@
     "explosion_03": "https://surviv.io/audio/sfx/explosion_03.mp3",
     "explosion_04": "https://surviv.io/audio/sfx/explosion_04.mp3",
     "explosion_05": "https://surviv.io/audio/sfx/explosion_05.mp3",
+    "lucky_sound": "https://surviv.io/audio/sfx/lucky_effect_01.mp3",
+    "teleport_sound": "https://surviv.io/audio/sfx/teleport_sound_01.mp3",
     "explosion_smoke_01": "https://surviv.io/audio/sfx/explosion_smoke_01.mp3",
     "snowball_01": "https://surviv.io/audio/sfx/snowball_01.mp3",
     "snowball_02": "https://surviv.io/audio/sfx/snowball_02.mp3",
@@ -414,7 +418,10 @@
     "kill_leader_assigned_02": "https://surviv.io/audio/ui/kill_leader_assigned_02.mp3",
     "kill_leader_dead_01": "https://surviv.io/audio/ui/kill_leader_dead_01.mp3",
     "kill_leader_dead_02": "https://surviv.io/audio/ui/kill_leader_dead_02.mp3",
-    "spawn_01": "https://surviv.io/audio/ui/spawn_01.mp3"
+    "spawn_01": "https://surviv.io/audio/ui/spawn_01.mp3",
+    "spin_01": "https://surviv.io/audio/ui/spin_01.mp3",
+    "get_item_01": "https://surviv.io/audio/ui/get_item_01.mp3",
+    "open_crate_spinner_01": "https://surviv.io/audio/ui/open_crate_spinner_01.mp3"
   },
   "music": {"menu_music": "https://surviv.io/audio/ambient/menu_music_01.mp3"}
 }
