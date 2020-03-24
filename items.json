@@ -4746,6 +4746,7 @@
     "type": "ammo",
     "special": true,
     "hideUi": true,
+    "noDrop": true,
     "minStackSize": 10,
     "lootImg": {"sprite": "loot-ammo-box.img", "noTint": true}
   },
