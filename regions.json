@@ -1,0 +1,62 @@
+[
+  {
+    "region": "na",
+    "zone": "sfo",
+    "url": "na-sfo-p1.surviv.io",
+    "playUrl": "https://surviv.io/?region=na&zone=sfo"
+  },
+  {
+    "region": "na",
+    "zone": "nyc",
+    "url": "na-nyc-p1.surviv.io",
+    "playUrl": "https://surviv.io/?region=na&zone=nyc"
+  },
+  {
+    "region": "na",
+    "zone": "chi",
+    "url": "na-chi-p1.surviv.io",
+    "playUrl": "https://surviv.io/?region=na&zone=chi"
+  },
+  {
+    "region": "sa",
+    "zone": "sao",
+    "url": "sa-sao-p1.surviv.io",
+    "playUrl": "https://surviv.io/?region=sa&zone=sao"
+  },
+  {
+    "region": "eu",
+    "zone": "fra",
+    "url": "eu-fra-p1.surviv.io",
+    "playUrl": "https://surviv.io/?region=eu&zone=fra"
+  },
+  {
+    "region": "eu",
+    "zone": "waw",
+    "url": "eu-waw-p1.surviv.io",
+    "playUrl": "https://surviv.io/?region=eu&zone=waw"
+  },
+  {
+    "region": "as",
+    "zone": "sgp",
+    "url": "as-sgp-p1.surviv.io",
+    "playUrl": "https://surviv.io/?region=as&zone=sgp"
+  },
+  {
+    "region": "as",
+    "zone": "nrt",
+    "url": "as-nrt-p1.surviv.io",
+    "playUrl": "https://surviv.io/?region=as&zone=nrt"
+  },
+  {
+    "region": "as",
+    "zone": "vnm",
+    "url": "as-vnm-p1.surviv.io",
+    "playUrl": "https://surviv.io/?region=as&zone=vnm"
+  },
+  {
+    "region": "kr",
+    "zone": "sel",
+    "url": "kr-sel-p1.surviv.io",
+    "playUrl": "https://surviv.io/?region=kr&zone=sel"
+  }
+]
