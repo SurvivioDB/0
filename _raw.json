@@ -188,7 +188,7 @@
   },
   "map": {
     "protocolVersion": 82,
-    "clientVersion": "0.9.2",
+    "clientVersion": "0.9.2b",
     "Input": {
       "MoveLeft": 0,
       "MoveRight": 1,
