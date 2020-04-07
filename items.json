@@ -4850,6 +4850,18 @@
     },
     "emitter": "boost"
   },
+  "gunchilada": {
+    "name": "Gunchilada",
+    "type": "boost",
+    "useTime": 2,
+    "boost": 0,
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-gunchilada.svg",
+      "tint": false,
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    }
+  },
   "1xscope": {
     "name": "1x Scope",
     "type": "scope",

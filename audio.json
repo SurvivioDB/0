@@ -193,7 +193,8 @@
     "soda_use_01": "https://surviv.io/audio/ui/soda_use_01.mp3",
     "pills_use_01": "https://surviv.io/audio/ui/pills_use_01.mp3",
     "stow_weapon_01": "https://surviv.io/audio/ui/stow_weapon_01.mp3",
-    "chocolateBox_use_01": "https://surviv.io/audio/ui/chocolateBox_use_01.mp3"
+    "chocolateBox_use_01": "https://surviv.io/audio/ui/chocolateBox_use_01.mp3",
+    "gunchilada_use_01": "https://surviv.io/audio/ui/gunchilada_use_01.mp3"
   },
   "hits": {
     "stone_bullet_hit_01": "https://surviv.io/audio/hits/stone_bullet_hit_01.mp3",
@@ -233,7 +234,9 @@
     "cloth_hit_02": "https://surviv.io/audio/hits/cloth_hit_02.mp3",
     "organic_hit_01": "https://surviv.io/audio/hits/organic_hit_01.mp3",
     "piano_hit_01": "https://surviv.io/audio/hits/piano_hit_01.mp3",
-    "piano_hit_02": "https://surviv.io/audio/hits/piano_hit_02.mp3"
+    "piano_hit_02": "https://surviv.io/audio/hits/piano_hit_02.mp3",
+    "egg_hit_01": "https://surviv.io/audio/hits/egg_hit_01.mp3",
+    "pinata_hit_01": "https://surviv.io/audio/hits/pinata_hit_01.mp3"
   },
   "sfx": {
     "crate_break_01": "https://surviv.io/audio/sfx/crate_break_01.mp3",
@@ -260,7 +263,9 @@
     "cloth_break_01": "https://surviv.io/audio/sfx/cloth_break_01.mp3",
     "screen_break_01": "https://surviv.io/audio/sfx/screen_break_01.mp3",
     "pumpkin_break_01": "https://surviv.io/audio/sfx/pumpkin_break_01.mp3",
+    "pinata_break_01": "https://surviv.io/audio/sfx/pinata_break_01.mp3",
     "ceramic_break_01": "https://surviv.io/audio/sfx/ceramic_break_01.mp3",
+    "egg_break_01": "https://surviv.io/audio/sfx/egg_break_01.mp3",
     "footstep_grass_01": "https://surviv.io/audio/sfx/footstep_grass_01.mp3",
     "footstep_grass_02": "https://surviv.io/audio/sfx/footstep_grass_02.mp3",
     "footstep_metal_01": "https://surviv.io/audio/sfx/footstep_metal_01.mp3",
@@ -354,7 +359,8 @@
     "xp_drop_02": "https://surviv.io/audio/sfx/xp_drop_02.mp3",
     "cluck_01": "https://surviv.io/audio/sfx/cluck_01.mp3",
     "cluck_02": "https://surviv.io/audio/sfx/cluck_02.mp3",
-    "feather_01": "https://surviv.io/audio/sfx/feather_01.mp3"
+    "feather_01": "https://surviv.io/audio/sfx/feather_01.mp3",
+    "sugar_rush_01": "https://surviv.io/audio/sfx/sugar_rush_01.mp3"
   },
   "ambient": {
     "ambient_wind_01": "https://surviv.io/audio/ambient/ambient_wind_01.mp3",
@@ -389,6 +395,7 @@
     "xp_pickup_01": "https://surviv.io/audio/ui/xp_pickup_01.mp3",
     "xp_pickup_02": "https://surviv.io/audio/ui/xp_pickup_02.mp3",
     "chocolateBox_pickup_01": "https://surviv.io/audio/ui/chocolateBox_pickup_01.mp3",
+    "gunchilada_pickup_01": "https://surviv.io/audio/ui/gunchilada_pickup_01.mp3",
     "ping_danger_01": "https://surviv.io/audio/ui/ping_danger_01.mp3",
     "ping_coming_01": "https://surviv.io/audio/ui/ping_coming_01.mp3",
     "ping_help_01": "https://surviv.io/audio/ui/ping_help_01.mp3",

@@ -182,6 +182,58 @@
       "startDate": [1585425600000, "03/28/2020 1PM/4PM PST/EST"],
       "endDate": [1585598400000, "03/30/2020 1PM/4PM PST/EST"],
       "isActive": true
+    },
+    {
+      "id": "event-eggsplosion-start",
+      "name": "event-eggsplosion-start-title",
+      "description": "event-eggsplosion-start-desc",
+      "buttontxt": "winter-event-btn-text",
+      "featureImg": "../img/modals/eggsplosion_featured_image.png",
+      "paragraphImage": "../img/modals/eggsplosion_paragraph_image.png",
+      "priority": 1,
+      "SKU": "all",
+      "startDate": [1586203200000, "04/06/2020 1PM/4PM PST/EST"],
+      "endDate": [1586635200000, "04/11/2020 1PM/4PM PST/EST"],
+      "isActive": true
+    },
+    {
+      "id": "event-eggsplosion-end",
+      "name": "event-eggsplosion-end-title",
+      "description": "event-eggsplosion-end-desc",
+      "buttontxt": "winter-event-btn-text",
+      "featureImg": "../img/modals/eggsplosion_featured_image.png",
+      "paragraphImage": "../img/modals/eggsplosion_paragraph_image.png",
+      "priority": 2,
+      "SKU": "all",
+      "startDate": [1586635200000, "04/11/2020 1PM/4PM PST/EST"],
+      "endDate": [1586808000000, "04/13/2020 1PM/4PM PST/EST"],
+      "isActive": true
+    },
+    {
+      "id": "event-sinko-de-ammo-start",
+      "name": "event-sinko-de-ammo-start-title",
+      "description": "event-sinko-de-ammo-start-desc",
+      "buttontxt": "winter-event-btn-text",
+      "featureImg": "../img/modals/sinko_de_ammo_featured_image.png",
+      "paragraphImage": "../img/modals/sinko_de_ammo_paragraph_image.png",
+      "priority": 1,
+      "SKU": "all",
+      "startDate": [1587412800000, "04/20/2020 1PM/4PM PST/EST"],
+      "endDate": [1587844800000, "04/25/2020 1PM/4PM PST/EST"],
+      "isActive": true
+    },
+    {
+      "id": "event-sinko-de-ammo-end",
+      "name": "event-sinko-de-ammo-end-title",
+      "description": "event-sinko-de-ammo-end-desc",
+      "buttontxt": "winter-event-btn-text",
+      "featureImg": "../img/modals/sinko_de_ammo_featured_image.png",
+      "paragraphImage": "../img/modals/sinko_de_ammo_paragraph_image.png",
+      "priority": 2,
+      "SKU": "all",
+      "startDate": [1587844800000, "04/25/2020 1PM/4PM PST/EST"],
+      "endDate": [1588017600000, "04/27/2020 1PM/4PM PST/EST"],
+      "isActive": true
     }
   ]
 }
