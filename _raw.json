@@ -240,7 +240,7 @@
   },
   "map": {
     "protocolVersion": 83,
-    "clientVersion": "0.9.3",
+    "clientVersion": "0.9.3a",
     "Input": {
       "MoveLeft": 0,
       "MoveRight": 1,
@@ -11580,7 +11580,7 @@
   "frame": {
     "loadout": [
       {
-        "meta": {"image": "loadout-0-100-0ab26702.png", "size": {"w": 4096, "h": 4096}, "scale": 1},
+        "meta": {"image": "loadout-0-100-e48e2bc5.png", "size": {"w": 4096, "h": 4096}, "scale": 1},
         "frames": {
           "part-aura-circle-01.img": {
             "frame": {"x": 508, "y": 2, "w": 284, "h": 280},
@@ -16424,7 +16424,7 @@
     ],
     "shared": [
       {
-        "meta": {"image": "shared-0-100-f6706cb6.png", "size": {"w": 4096, "h": 4096}, "scale": 1},
+        "meta": {"image": "shared-0-100-c4a3f784.png", "size": {"w": 4096, "h": 4096}, "scale": 1},
         "frames": {
           "map-building-police-floor-01.img": {
             "frame": {"x": 1438, "y": 2, "w": 2112, "h": 1568},
@@ -16524,14 +16524,14 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 54, "h": 480},
             "sourceSize": {"w": 54, "h": 480}
           },
-          "map-wall-14.img": {
+          "map-wall-14-rounded.img": {
             "frame": {"x": 4046, "y": 1857, "w": 32, "h": 448},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 448},
             "sourceSize": {"w": 32, "h": 448}
           },
-          "map-wall-14-rounded.img": {
+          "map-wall-14.img": {
             "frame": {"x": 3493, "y": 1598, "w": 32, "h": 448},
             "rotated": false,
             "trimmed": false,
@@ -16573,14 +16573,14 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 384},
             "sourceSize": {"w": 32, "h": 384}
           },
-          "map-wall-12-rounded.img": {
+          "map-wall-12.img": {
             "frame": {"x": 4040, "y": 2421, "w": 32, "h": 384},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 384},
             "sourceSize": {"w": 32, "h": 384}
           },
-          "map-wall-12.img": {
+          "map-wall-12-rounded.img": {
             "frame": {"x": 3507, "y": 2082, "w": 32, "h": 384},
             "rotated": false,
             "trimmed": false,
@@ -16643,14 +16643,14 @@
             "spriteSourceSize": {"x": 0, "y": -1, "w": 63, "h": 260},
             "sourceSize": {"w": 62, "h": 258}
           },
-          "map-tree-07su.img": {
+          "map-tree-03.img": {
             "frame": {"x": 649, "y": 3816, "w": 256, "h": 256},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 256, "h": 256},
             "sourceSize": {"w": 256, "h": 256}
           },
-          "map-tree-03.img": {
+          "map-tree-07su.img": {
             "frame": {"x": 909, "y": 3816, "w": 256, "h": 256},
             "rotated": false,
             "trimmed": false,
@@ -16706,14 +16706,14 @@
             "spriteSourceSize": {"x": 0, "y": 1, "w": 24, "h": 241},
             "sourceSize": {"w": 24, "h": 242}
           },
-          "loot-crate-01.img": {
+          "loot-crate-02.img": {
             "frame": {"x": 2326, "y": 3816, "w": 238, "h": 238},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 238, "h": 238},
             "sourceSize": {"w": 238, "h": 238}
           },
-          "loot-crate-02.img": {
+          "loot-crate-01.img": {
             "frame": {"x": 2568, "y": 3816, "w": 238, "h": 238},
             "rotated": false,
             "trimmed": false,
@@ -16825,14 +16825,14 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 124, "h": 124},
             "sourceSize": {"w": 124, "h": 124}
           },
-          "map-toilet-02.img": {
+          "map-toilet-01.img": {
             "frame": {"x": 2599, "y": 2690, "w": 97, "h": 124},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 15, "y": 2, "w": 97, "h": 124},
             "sourceSize": {"w": 128, "h": 128}
           },
-          "map-toilet-01.img": {
+          "map-toilet-02.img": {
             "frame": {"x": 2700, "y": 2690, "w": 97, "h": 124},
             "rotated": false,
             "trimmed": true,
@@ -16909,14 +16909,14 @@
             "spriteSourceSize": {"x": 0, "y": 24, "w": 128, "h": 79},
             "sourceSize": {"w": 128, "h": 128}
           },
-          "player-hands-geometric.img": {
+          "player-hands-winter.img": {
             "frame": {"x": 3820, "y": 1774, "w": 77, "h": 77},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 77, "h": 77},
             "sourceSize": {"w": 77, "h": 77}
           },
-          "player-hands-winter.img": {
+          "player-hands-geometric.img": {
             "frame": {"x": 3901, "y": 1774, "w": 77, "h": 77},
             "rotated": false,
             "trimmed": false,
@@ -16979,28 +16979,28 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 128, "h": 64},
             "sourceSize": {"w": 128, "h": 64}
           },
-          "crosshair160.img": {
+          "map-column-01.img": {
             "frame": {"x": 3523, "y": 3742, "w": 64, "h": 64},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 64, "h": 64},
             "sourceSize": {"w": 64, "h": 64}
           },
-          "map-column-01.img": {
+          "crosshair160.img": {
             "frame": {"x": 3591, "y": 3742, "w": 64, "h": 64},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 64, "h": 64},
             "sourceSize": {"w": 64, "h": 64}
           },
-          "map-wall-02-rounded.img": {
+          "map-wall-02.img": {
             "frame": {"x": 3659, "y": 3742, "w": 32, "h": 64},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 64},
             "sourceSize": {"w": 32, "h": 64}
           },
-          "map-wall-02.img": {
+          "map-wall-02-rounded.img": {
             "frame": {"x": 3695, "y": 3742, "w": 32, "h": 64},
             "rotated": false,
             "trimmed": false,
@@ -17066,7 +17066,7 @@
         }
       },
       {
-        "meta": {"image": "shared-1-100-24344941.png", "size": {"w": 4096, "h": 4096}, "scale": 1},
+        "meta": {"image": "shared-1-100-781d10a4.png", "size": {"w": 4096, "h": 4096}, "scale": 1},
         "frames": {
           "map-bunker-conch-compartment-floor-01a.img": {
             "frame": {"x": 562, "y": 2, "w": 942, "h": 880},
@@ -17215,49 +17215,49 @@
             "spriteSourceSize": {"x": 2, "y": 2, "w": 374, "h": 468},
             "sourceSize": {"w": 376, "h": 472}
           },
-          "map-building-container-ceiling-01.img": {
+          "map-building-container-ceiling-02.img": {
             "frame": {"x": 2706, "y": 1762, "w": 180, "h": 380},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 180, "h": 380},
             "sourceSize": {"w": 180, "h": 536}
           },
-          "map-building-container-ceiling-02.img": {
+          "map-building-container-ceiling-01.img": {
             "frame": {"x": 2706, "y": 2146, "w": 180, "h": 380},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 180, "h": 380},
             "sourceSize": {"w": 180, "h": 536}
           },
-          "map-building-container-open-ceiling-01.img": {
+          "map-building-container-ceiling-05.img": {
             "frame": {"x": 3870, "y": 2, "w": 180, "h": 380},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 180, "h": 380},
+            "sourceSize": {"w": 180, "h": 536}
+          },
+          "map-building-container-open-ceiling-01.img": {
+            "frame": {"x": 3870, "y": 386, "w": 180, "h": 380},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 156, "w": 180, "h": 380},
             "sourceSize": {"w": 180, "h": 692}
           },
           "map-building-container-ceiling-03.img": {
-            "frame": {"x": 3870, "y": 386, "w": 180, "h": 380},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 180, "h": 380},
-            "sourceSize": {"w": 180, "h": 536}
-          },
-          "map-building-container-ceiling-05.img": {
             "frame": {"x": 3870, "y": 770, "w": 180, "h": 380},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 180, "h": 380},
             "sourceSize": {"w": 180, "h": 536}
           },
-          "map-wall-11-rounded.img": {
+          "map-wall-11.img": {
             "frame": {"x": 3870, "y": 1154, "w": 32, "h": 352},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 352},
             "sourceSize": {"w": 32, "h": 352}
           },
-          "map-wall-11.img": {
+          "map-wall-11-rounded.img": {
             "frame": {"x": 3906, "y": 1154, "w": 32, "h": 352},
             "rotated": false,
             "trimmed": false,
@@ -17285,14 +17285,14 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 320},
             "sourceSize": {"w": 32, "h": 320}
           },
-          "map-wall-glass-10.img": {
+          "map-wall-10-rounded.img": {
             "frame": {"x": 3928, "y": 1510, "w": 32, "h": 320},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 320},
             "sourceSize": {"w": 32, "h": 320}
           },
-          "map-wall-10-rounded.img": {
+          "map-wall-glass-10.img": {
             "frame": {"x": 3964, "y": 1510, "w": 32, "h": 320},
             "rotated": false,
             "trimmed": false,
@@ -17306,7 +17306,7 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 90, "h": 288},
             "sourceSize": {"w": 90, "h": 288}
           },
-          "map-wall-09-rounded.img": {
+          "map-wall-09.img": {
             "frame": {"x": 4000, "y": 1510, "w": 32, "h": 288},
             "rotated": false,
             "trimmed": false,
@@ -17320,7 +17320,7 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 288},
             "sourceSize": {"w": 32, "h": 288}
           },
-          "map-wall-09.img": {
+          "map-wall-09-rounded.img": {
             "frame": {"x": 4000, "y": 1838, "w": 32, "h": 288},
             "rotated": false,
             "trimmed": false,
@@ -17404,7 +17404,7 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 90, "h": 192},
             "sourceSize": {"w": 90, "h": 192}
           },
-          "gun-long-03.img": {
+          "gun-long-02.img": {
             "frame": {"x": 3964, "y": 2774, "w": 33, "h": 188},
             "rotated": false,
             "trimmed": true,
@@ -17418,7 +17418,7 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 33, "h": 188},
             "sourceSize": {"w": 33, "h": 189}
           },
-          "gun-long-02.img": {
+          "gun-long-03.img": {
             "frame": {"x": 3870, "y": 2970, "w": 33, "h": 188},
             "rotated": false,
             "trimmed": true,
@@ -17467,28 +17467,28 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 164, "h": 164},
             "sourceSize": {"w": 164, "h": 164}
           },
-          "map-airdrop-02x.img": {
+          "map-airdrop-01x.img": {
             "frame": {"x": 3684, "y": 2145, "w": 160, "h": 160},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 160, "h": 160},
             "sourceSize": {"w": 160, "h": 160}
           },
-          "map-building-dock-floor-01a.img": {
+          "map-airdrop-02.img": {
             "frame": {"x": 3689, "y": 3054, "w": 160, "h": 160},
             "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 0, "y": 2, "w": 160, "h": 160},
-            "sourceSize": {"w": 160, "h": 162}
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 160, "h": 160},
+            "sourceSize": {"w": 160, "h": 160}
           },
-          "map-wall-04-stone.img": {
+          "map-wall-04-cobalt.img": {
             "frame": {"x": 4009, "y": 2970, "w": 40, "h": 160},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 40, "h": 160},
             "sourceSize": {"w": 40, "h": 160}
           },
-          "map-wall-04-cobalt.img": {
+          "map-wall-04-stone.img": {
             "frame": {"x": 3929, "y": 3524, "w": 40, "h": 160},
             "rotated": false,
             "trimmed": false,
@@ -17509,14 +17509,14 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 160},
             "sourceSize": {"w": 32, "h": 160}
           },
-          "map-bed-res-02.img": {
+          "map-bed-res-01.img": {
             "frame": {"x": 2799, "y": 894, "w": 88, "h": 158},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 5, "y": 16, "w": 88, "h": 158},
             "sourceSize": {"w": 96, "h": 192}
           },
-          "map-bed-res-01.img": {
+          "map-bed-res-02.img": {
             "frame": {"x": 2799, "y": 1056, "w": 88, "h": 158},
             "rotated": false,
             "trimmed": true,
@@ -17551,7 +17551,7 @@
             "spriteSourceSize": {"x": 6, "y": 0, "w": 135, "h": 143},
             "sourceSize": {"w": 144, "h": 144}
           },
-          "map-barrel-01.img": {
+          "map-barrel-02.img": {
             "frame": {"x": 141, "y": 3951, "w": 142, "h": 142},
             "rotated": false,
             "trimmed": true,
@@ -17565,7 +17565,7 @@
             "spriteSourceSize": {"x": 1, "y": 1, "w": 142, "h": 142},
             "sourceSize": {"w": 144, "h": 144}
           },
-          "map-barrel-02.img": {
+          "map-barrel-01.img": {
             "frame": {"x": 433, "y": 3951, "w": 142, "h": 142},
             "rotated": false,
             "trimmed": true,
@@ -17593,12 +17593,12 @@
             "spriteSourceSize": {"x": 1, "y": 0, "w": 140, "h": 141},
             "sourceSize": {"w": 141, "h": 141}
           },
-          "map-wall-outhouse-bot.img": {
-            "frame": {"x": 2843, "y": 2530, "w": 72, "h": 24},
+          "map-wall-shack-bot.img": {
+            "frame": {"x": 2706, "y": 2530, "w": 242, "h": 24},
             "rotated": false,
             "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 72, "h": 24},
-            "sourceSize": {"w": 72, "h": 24}
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 242, "h": 24},
+            "sourceSize": {"w": 242, "h": 24}
           },
           "map-door-slot-02.img": {
             "frame": {"x": 2891, "y": 894, "w": 38, "h": 136},
@@ -17684,7 +17684,7 @@
             "spriteSourceSize": {"x": 3, "y": 9, "w": 138, "h": 129},
             "sourceSize": {"w": 144, "h": 144}
           },
-          "marker-map-quest-check.img": {
+          "marker-map-quest-1.img": {
             "frame": {"x": 2399, "y": 3951, "w": 129, "h": 129},
             "rotated": false,
             "trimmed": false,
@@ -17698,14 +17698,14 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 129, "h": 129},
             "sourceSize": {"w": 129, "h": 129}
           },
-          "marker-map-quest-1.img": {
+          "marker-map-quest-3.img": {
             "frame": {"x": 2665, "y": 3951, "w": 129, "h": 129},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 129, "h": 129},
             "sourceSize": {"w": 129, "h": 129}
           },
-          "marker-map-quest-3.img": {
+          "marker-map-quest-check.img": {
             "frame": {"x": 2798, "y": 3951, "w": 129, "h": 129},
             "rotated": false,
             "trimmed": false,
@@ -17768,21 +17768,21 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 54, "h": 128},
             "sourceSize": {"w": 54, "h": 128}
           },
-          "gun-med-03.img": {
+          "gun-med-02.img": {
             "frame": {"x": 2917, "y": 1522, "w": 33, "h": 128},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 33, "h": 128},
             "sourceSize": {"w": 33, "h": 129}
           },
-          "gun-med-04.img": {
+          "gun-med-03.img": {
             "frame": {"x": 2890, "y": 1894, "w": 33, "h": 128},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 33, "h": 128},
             "sourceSize": {"w": 33, "h": 129}
           },
-          "gun-med-02.img": {
+          "gun-med-04.img": {
             "frame": {"x": 2890, "y": 2146, "w": 33, "h": 128},
             "rotated": false,
             "trimmed": true,
@@ -17866,14 +17866,14 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 104},
             "sourceSize": {"w": 32, "h": 104}
           },
-          "map-wall-03-rounded.img": {
+          "map-wall-03.img": {
             "frame": {"x": 4054, "y": 110, "w": 32, "h": 96},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 96},
             "sourceSize": {"w": 32, "h": 96}
           },
-          "map-wall-03.img": {
+          "map-wall-03-rounded.img": {
             "frame": {"x": 4054, "y": 210, "w": 32, "h": 96},
             "rotated": false,
             "trimmed": false,
@@ -17992,7 +17992,7 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 24, "h": 45},
             "sourceSize": {"w": 24, "h": 46}
           },
-          "map-gun-mount-03.img": {
+          "map-gun-mount-02.img": {
             "frame": {"x": 3689, "y": 3218, "w": 128, "h": 44},
             "rotated": false,
             "trimmed": true,
@@ -18020,19 +18020,19 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 30, "h": 38},
             "sourceSize": {"w": 30, "h": 38}
           },
-          "loot_st_patrick_button_icon.img": {
-            "frame": {"x": 4054, "y": 401, "w": 31, "h": 34},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 31, "h": 34},
-            "sourceSize": {"w": 31, "h": 34}
-          },
           "pinata_icon.img": {
-            "frame": {"x": 4054, "y": 439, "w": 31, "h": 34},
+            "frame": {"x": 4054, "y": 401, "w": 31, "h": 34},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 1, "w": 31, "h": 34},
             "sourceSize": {"w": 31, "h": 35}
+          },
+          "loot_st_patrick_button_icon.img": {
+            "frame": {"x": 4054, "y": 439, "w": 31, "h": 34},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 31, "h": 34},
+            "sourceSize": {"w": 31, "h": 34}
           },
           "map-switch-03.img": {
             "frame": {"x": 4054, "y": 477, "w": 30, "h": 34},
@@ -18055,14 +18055,14 @@
             "spriteSourceSize": {"x": 0, "y": 1, "w": 25, "h": 34},
             "sourceSize": {"w": 25, "h": 35}
           },
-          "crosshair176.img": {
+          "map-bottle-01.img": {
             "frame": {"x": 4054, "y": 591, "w": 32, "h": 32},
             "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 16, "y": 16, "w": 32, "h": 32},
-            "sourceSize": {"w": 64, "h": 64}
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 32},
+            "sourceSize": {"w": 32, "h": 32}
           },
-          "map-bottle-03.img": {
+          "map-wall-01-rounded.img": {
             "frame": {"x": 4054, "y": 627, "w": 32, "h": 32},
             "rotated": false,
             "trimmed": false,
@@ -18076,21 +18076,21 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 32},
             "sourceSize": {"w": 32, "h": 32}
           },
-          "map-bottle-01.img": {
+          "map-bottle-05.img": {
             "frame": {"x": 4054, "y": 699, "w": 32, "h": 32},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 32},
             "sourceSize": {"w": 32, "h": 32}
           },
-          "map-wall-01-rounded.img": {
+          "crosshair176.img": {
             "frame": {"x": 4054, "y": 735, "w": 32, "h": 32},
             "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 32},
-            "sourceSize": {"w": 32, "h": 32}
+            "trimmed": true,
+            "spriteSourceSize": {"x": 16, "y": 16, "w": 32, "h": 32},
+            "sourceSize": {"w": 64, "h": 64}
           },
-          "map-bottle-05.img": {
+          "map-bottle-03.img": {
             "frame": {"x": 4054, "y": 771, "w": 32, "h": 32},
             "rotated": false,
             "trimmed": false,
@@ -18103,13 +18103,6 @@
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 30, "h": 32},
             "sourceSize": {"w": 30, "h": 34}
-          },
-          "iap-discount-tag.img": {
-            "frame": {"x": 2706, "y": 2530, "w": 133, "h": 30},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 0, "y": 40, "w": 133, "h": 30},
-            "sourceSize": {"w": 133, "h": 136}
           },
           "loot-blossom-icon.img": {
             "frame": {"x": 4054, "y": 843, "w": 30, "h": 30},
@@ -18128,7 +18121,7 @@
         }
       },
       {
-        "meta": {"image": "shared-2-100-d138c160.png", "size": {"w": 4096, "h": 4096}, "scale": 1},
+        "meta": {"image": "shared-2-100-98248c7f.png", "size": {"w": 4096, "h": 4096}, "scale": 1},
         "frames": {
           "map-building-club-floor-01g.img": {
             "frame": {"x": 743, "y": 2, "w": 800, "h": 578},
@@ -18291,7 +18284,7 @@
             "spriteSourceSize": {"x": 15, "y": 15, "w": 378, "h": 393},
             "sourceSize": {"w": 408, "h": 408}
           },
-          "map-building-panicroom-floor.img": {
+          "map-building-panicroom-ceiling.img": {
             "frame": {"x": 2126, "y": 1179, "w": 288, "h": 384},
             "rotated": false,
             "trimmed": false,
@@ -18305,7 +18298,7 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 288, "h": 384},
             "sourceSize": {"w": 288, "h": 384}
           },
-          "map-building-panicroom-ceiling.img": {
+          "map-building-panicroom-floor.img": {
             "frame": {"x": 2722, "y": 2233, "w": 288, "h": 384},
             "rotated": false,
             "trimmed": false,
@@ -18431,14 +18424,14 @@
             "spriteSourceSize": {"x": 24, "y": 0, "w": 408, "h": 288},
             "sourceSize": {"w": 432, "h": 336}
           },
-          "map-bunker-generic-floor-01.img": {
+          "map-bunker-generic-floor-02.img": {
             "frame": {"x": 3113, "y": 2670, "w": 295, "h": 281},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 12, "y": 0, "w": 295, "h": 281},
             "sourceSize": {"w": 320, "h": 288}
           },
-          "map-bunker-generic-floor-02.img": {
+          "map-bunker-generic-floor-01.img": {
             "frame": {"x": 3412, "y": 2670, "w": 295, "h": 281},
             "rotated": false,
             "trimmed": true,
@@ -18452,14 +18445,14 @@
             "spriteSourceSize": {"x": 1, "y": 0, "w": 225, "h": 226},
             "sourceSize": {"w": 226, "h": 226}
           },
-          "map-building-saferoom-ceiling.img": {
+          "map-building-saferoom-floor.img": {
             "frame": {"x": 2, "y": 3097, "w": 352, "h": 224},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 352, "h": 224},
             "sourceSize": {"w": 352, "h": 224}
           },
-          "map-building-saferoom-floor.img": {
+          "map-building-saferoom-ceiling.img": {
             "frame": {"x": 358, "y": 3097, "w": 352, "h": 224},
             "rotated": false,
             "trimmed": false,
@@ -18606,14 +18599,14 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 488, "h": 176},
             "sourceSize": {"w": 488, "h": 176}
           },
-          "map-shack-res-03.img": {
+          "map-shack-res-02.img": {
             "frame": {"x": 1980, "y": 3325, "w": 220, "h": 176},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 100, "y": 69, "w": 220, "h": 176},
             "sourceSize": {"w": 420, "h": 340}
           },
-          "map-shack-res-02.img": {
+          "map-shack-res-03.img": {
             "frame": {"x": 2204, "y": 3325, "w": 220, "h": 176},
             "rotated": false,
             "trimmed": true,
@@ -18641,28 +18634,28 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 288, "h": 160},
             "sourceSize": {"w": 288, "h": 160}
           },
-          "map-airdrop-01.img": {
+          "map-airdrop-02x.img": {
             "frame": {"x": 3822, "y": 1424, "w": 160, "h": 160},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 160, "h": 160},
             "sourceSize": {"w": 160, "h": 160}
           },
-          "map-airdrop-01x.img": {
+          "map-building-dock-floor-01a.img": {
             "frame": {"x": 3172, "y": 3325, "w": 160, "h": 160},
             "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 160, "h": 160},
-            "sourceSize": {"w": 160, "h": 160}
+            "trimmed": true,
+            "spriteSourceSize": {"x": 0, "y": 2, "w": 160, "h": 160},
+            "sourceSize": {"w": 160, "h": 162}
           },
-          "map-table-03.img": {
+          "map-airdrop-01.img": {
             "frame": {"x": 3336, "y": 3325, "w": 160, "h": 160},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 160, "h": 160},
             "sourceSize": {"w": 160, "h": 160}
           },
-          "map-airdrop-02.img": {
+          "map-table-03.img": {
             "frame": {"x": 3500, "y": 3325, "w": 160, "h": 160},
             "rotated": false,
             "trimmed": false,
@@ -18711,98 +18704,98 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 416, "h": 144},
             "sourceSize": {"w": 416, "h": 144}
           },
-          "map-crate-14.img": {
+          "map-crate-14a.img": {
             "frame": {"x": 3850, "y": 2377, "w": 156, "h": 144},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 156, "h": 144},
             "sourceSize": {"w": 156, "h": 144}
           },
-          "map-crate-14a.img": {
+          "map-crate-14.img": {
             "frame": {"x": 2276, "y": 979, "w": 156, "h": 144},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 156, "h": 144},
             "sourceSize": {"w": 156, "h": 144}
           },
-          "map-crate-02.img": {
+          "map-crate-08.img": {
             "frame": {"x": 1299, "y": 3515, "w": 144, "h": 144},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
             "sourceSize": {"w": 144, "h": 144}
           },
-          "pass-unlock-bg.img": {
+          "pass-unlock-type-bg.img": {
             "frame": {"x": 1447, "y": 3515, "w": 144, "h": 144},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 1, "w": 144, "h": 144},
             "sourceSize": {"w": 146, "h": 146}
           },
-          "map-crate-09.img": {
+          "pass-unlock-bg.img": {
             "frame": {"x": 1595, "y": 3515, "w": 144, "h": 144},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
-            "sourceSize": {"w": 144, "h": 144}
-          },
-          "pass-unlock-type-bg.img": {
-            "frame": {"x": 1743, "y": 3515, "w": 144, "h": 144},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 1, "w": 144, "h": 144},
             "sourceSize": {"w": 146, "h": 146}
           },
-          "map-crate-01.img": {
-            "frame": {"x": 1891, "y": 3515, "w": 144, "h": 144},
+          "map-stone-04.img": {
+            "frame": {"x": 1743, "y": 3515, "w": 144, "h": 144},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
             "sourceSize": {"w": 144, "h": 144}
           },
           "map-crate-03.img": {
+            "frame": {"x": 1891, "y": 3515, "w": 144, "h": 144},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
+            "sourceSize": {"w": 144, "h": 144}
+          },
+          "map-crate-02.img": {
             "frame": {"x": 2039, "y": 3515, "w": 144, "h": 144},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
             "sourceSize": {"w": 144, "h": 144}
           },
-          "map-crate-07.img": {
+          "map-crate-09.img": {
             "frame": {"x": 2187, "y": 3515, "w": 144, "h": 144},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
             "sourceSize": {"w": 144, "h": 144}
           },
-          "loot-circle-outer-06.img": {
+          "map-crate-01.img": {
             "frame": {"x": 2335, "y": 3515, "w": 144, "h": 144},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 1, "y": 1, "w": 144, "h": 144},
-            "sourceSize": {"w": 146, "h": 146}
-          },
-          "map-crate-02sv.img": {
-            "frame": {"x": 2483, "y": 3515, "w": 144, "h": 144},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
-            "sourceSize": {"w": 144, "h": 144}
-          },
-          "map-crate-08.img": {
-            "frame": {"x": 2631, "y": 3515, "w": 144, "h": 144},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
-            "sourceSize": {"w": 144, "h": 144}
-          },
-          "map-stone-04.img": {
-            "frame": {"x": 2779, "y": 3515, "w": 144, "h": 144},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
             "sourceSize": {"w": 144, "h": 144}
           },
           "map-stone-05.img": {
+            "frame": {"x": 2483, "y": 3515, "w": 144, "h": 144},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
+            "sourceSize": {"w": 144, "h": 144}
+          },
+          "map-crate-07.img": {
+            "frame": {"x": 2631, "y": 3515, "w": 144, "h": 144},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
+            "sourceSize": {"w": 144, "h": 144}
+          },
+          "loot-circle-outer-06.img": {
+            "frame": {"x": 2779, "y": 3515, "w": 144, "h": 144},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 1, "y": 1, "w": 144, "h": 144},
+            "sourceSize": {"w": 146, "h": 146}
+          },
+          "map-crate-02sv.img": {
             "frame": {"x": 2927, "y": 3515, "w": 144, "h": 144},
             "rotated": false,
             "trimmed": false,
@@ -18914,19 +18907,19 @@
             "spriteSourceSize": {"x": 13, "y": 11, "w": 124, "h": 115},
             "sourceSize": {"w": 144, "h": 144}
           },
-          "loot-weapon-m134.img": {
-            "frame": {"x": 2966, "y": 2924, "w": 115, "h": 115},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 9, "y": 10, "w": 115, "h": 115},
-            "sourceSize": {"w": 129, "h": 129}
-          },
           "marker-map-zone.img": {
-            "frame": {"x": 3871, "y": 3097, "w": 115, "h": 115},
+            "frame": {"x": 2966, "y": 2924, "w": 115, "h": 115},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 115, "h": 115},
             "sourceSize": {"w": 115, "h": 115}
+          },
+          "loot-weapon-m134.img": {
+            "frame": {"x": 3871, "y": 3097, "w": 115, "h": 115},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 9, "y": 10, "w": 115, "h": 115},
+            "sourceSize": {"w": 129, "h": 129}
           },
           "map-case-flare-res-01.img": {
             "frame": {"x": 3075, "y": 3515, "w": 128, "h": 114},
@@ -18956,14 +18949,14 @@
             "spriteSourceSize": {"x": 6, "y": 8, "w": 116, "h": 113},
             "sourceSize": {"w": 128, "h": 129}
           },
-          "loot-shirt-outfitClayMore.img": {
+          "loot-shirt-outfitChromesis.img": {
             "frame": {"x": 3577, "y": 3515, "w": 116, "h": 113},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 6, "y": 8, "w": 116, "h": 113},
             "sourceSize": {"w": 128, "h": 129}
           },
-          "loot-shirt-outfitChromesis.img": {
+          "loot-shirt-outfitClayMore.img": {
             "frame": {"x": 3697, "y": 3515, "w": 116, "h": 113},
             "rotated": false,
             "trimmed": true,
@@ -18977,33 +18970,33 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 148, "h": 112},
             "sourceSize": {"w": 148, "h": 112}
           },
-          "loot-shirt-outfitGeometric.img": {
-            "frame": {"x": 2, "y": 3668, "w": 116, "h": 112},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 116, "h": 112},
-            "sourceSize": {"w": 116, "h": 113}
-          },
           "loot-shirt-outfitSunset.img": {
-            "frame": {"x": 122, "y": 3668, "w": 116, "h": 112},
+            "frame": {"x": 2, "y": 3668, "w": 116, "h": 112},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 6, "y": 8, "w": 116, "h": 112},
             "sourceSize": {"w": 128, "h": 129}
           },
           "loot-shirt-outfitMilitary.img": {
-            "frame": {"x": 242, "y": 3668, "w": 116, "h": 112},
+            "frame": {"x": 122, "y": 3668, "w": 116, "h": 112},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 116, "h": 112},
             "sourceSize": {"w": 116, "h": 113}
           },
           "loot-shirt-outfitDeepPurple.img": {
-            "frame": {"x": 362, "y": 3668, "w": 116, "h": 112},
+            "frame": {"x": 242, "y": 3668, "w": 116, "h": 112},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 6, "y": 9, "w": 116, "h": 112},
             "sourceSize": {"w": 128, "h": 129}
+          },
+          "loot-shirt-outfitGeometric.img": {
+            "frame": {"x": 362, "y": 3668, "w": 116, "h": 112},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 116, "h": 112},
+            "sourceSize": {"w": 116, "h": 113}
           },
           "loot-shirt-outfitWinter.img": {
             "frame": {"x": 482, "y": 3668, "w": 115, "h": 112},
@@ -19019,12 +19012,12 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 112, "h": 112},
             "sourceSize": {"w": 112, "h": 112}
           },
-          "map-wall-outhouse-top.img": {
-            "frame": {"x": 1793, "y": 1138, "w": 204, "h": 24},
+          "map-wall-outhouse-bot.img": {
+            "frame": {"x": 2944, "y": 1756, "w": 72, "h": 24},
             "rotated": false,
             "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 204, "h": 24},
-            "sourceSize": {"w": 204, "h": 24}
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 72, "h": 24},
+            "sourceSize": {"w": 72, "h": 24}
           },
           "loot-perk-final-bugle.img": {
             "frame": {"x": 833, "y": 3668, "w": 104, "h": 112},
@@ -19040,42 +19033,42 @@
             "spriteSourceSize": {"x": 6, "y": 10, "w": 117, "h": 111},
             "sourceSize": {"w": 129, "h": 129}
           },
-          "map-control-panel-01.img": {
+          "map-control-panel-04.img": {
             "frame": {"x": 1062, "y": 3668, "w": 144, "h": 110},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 110},
             "sourceSize": {"w": 144, "h": 110}
           },
-          "map-control-panel-04.img": {
+          "map-control-panel-02.img": {
             "frame": {"x": 1210, "y": 3668, "w": 144, "h": 110},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 110},
             "sourceSize": {"w": 144, "h": 110}
           },
-          "map-control-panel-05.img": {
+          "map-control-panel-01.img": {
             "frame": {"x": 1358, "y": 3668, "w": 144, "h": 110},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 110},
             "sourceSize": {"w": 144, "h": 110}
           },
-          "map-control-panel-02.img": {
+          "map-control-panel-05.img": {
             "frame": {"x": 1506, "y": 3668, "w": 144, "h": 110},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 110},
             "sourceSize": {"w": 144, "h": 110}
           },
-          "map-case-deagle-01.img": {
+          "map-case-deagle-02.img": {
             "frame": {"x": 1654, "y": 3668, "w": 144, "h": 108},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 108},
             "sourceSize": {"w": 144, "h": 108}
           },
-          "map-case-deagle-02.img": {
+          "map-case-deagle-01.img": {
             "frame": {"x": 1802, "y": 3668, "w": 144, "h": 108},
             "rotated": false,
             "trimmed": false,
@@ -19173,35 +19166,35 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 56, "h": 104},
             "sourceSize": {"w": 56, "h": 104}
           },
-          "map-case-hatchet-01.img": {
+          "map-case-flare-01.img": {
             "frame": {"x": 3287, "y": 3668, "w": 140, "h": 102},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 140, "h": 102},
             "sourceSize": {"w": 140, "h": 102}
           },
-          "map-case-flare-01.img": {
+          "map-chest-02.img": {
             "frame": {"x": 3431, "y": 3668, "w": 140, "h": 102},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 140, "h": 102},
             "sourceSize": {"w": 140, "h": 102}
           },
-          "map-chest-03.img": {
+          "map-chest-01.img": {
             "frame": {"x": 3575, "y": 3668, "w": 140, "h": 102},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 140, "h": 102},
             "sourceSize": {"w": 140, "h": 102}
           },
-          "map-chest-01.img": {
+          "map-case-hatchet-01.img": {
             "frame": {"x": 3719, "y": 3668, "w": 140, "h": 102},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 140, "h": 102},
             "sourceSize": {"w": 140, "h": 102}
           },
-          "map-chest-02.img": {
+          "map-chest-03.img": {
             "frame": {"x": 3863, "y": 3668, "w": 140, "h": 102},
             "rotated": false,
             "trimmed": false,
@@ -19292,12 +19285,12 @@
             "spriteSourceSize": {"x": 5, "y": 11, "w": 106, "h": 99},
             "sourceSize": {"w": 120, "h": 121}
           },
-          "part-heart-02.img": {
+          "part-cupid-03.img": {
             "frame": {"x": 1074, "y": 3784, "w": 106, "h": 99},
             "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 106, "h": 99},
-            "sourceSize": {"w": 106, "h": 99}
+            "trimmed": true,
+            "spriteSourceSize": {"x": 6, "y": 11, "w": 106, "h": 99},
+            "sourceSize": {"w": 121, "h": 121}
           },
           "part-cupid-01.img": {
             "frame": {"x": 1184, "y": 3784, "w": 106, "h": 99},
@@ -19306,12 +19299,12 @@
             "spriteSourceSize": {"x": 5, "y": 11, "w": 106, "h": 99},
             "sourceSize": {"w": 121, "h": 121}
           },
-          "part-cupid-03.img": {
+          "part-heart-02.img": {
             "frame": {"x": 1294, "y": 3784, "w": 106, "h": 99},
             "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 6, "y": 11, "w": 106, "h": 99},
-            "sourceSize": {"w": 121, "h": 121}
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 106, "h": 99},
+            "sourceSize": {"w": 106, "h": 99}
           },
           "part-chocolateBox.img": {
             "frame": {"x": 1404, "y": 3784, "w": 98, "h": 99},
@@ -19348,14 +19341,14 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 192, "h": 96},
             "sourceSize": {"w": 192, "h": 96}
           },
-          "map-woodpile-01.img": {
+          "map-bathrocks-01.img": {
             "frame": {"x": 1994, "y": 3784, "w": 96, "h": 96},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 96, "h": 96},
             "sourceSize": {"w": 96, "h": 96}
           },
-          "map-bathrocks-01.img": {
+          "map-woodpile-01.img": {
             "frame": {"x": 2094, "y": 3784, "w": 96, "h": 96},
             "rotated": false,
             "trimmed": false,
@@ -19369,14 +19362,14 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 96, "h": 96},
             "sourceSize": {"w": 96, "h": 96}
           },
-          "map-recorder-02.img": {
+          "map-recorder-01.img": {
             "frame": {"x": 3019, "y": 1899, "w": 64, "h": 96},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 64, "h": 96},
             "sourceSize": {"w": 64, "h": 96}
           },
-          "map-recorder-01.img": {
+          "map-recorder-02.img": {
             "frame": {"x": 3019, "y": 1999, "w": 64, "h": 96},
             "rotated": false,
             "trimmed": false,
@@ -19390,14 +19383,14 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 192, "h": 94},
             "sourceSize": {"w": 192, "h": 94}
           },
-          "map-refrigerator-01.img": {
+          "map-vending-soda-01.img": {
             "frame": {"x": 2490, "y": 3784, "w": 108, "h": 94},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 108, "h": 94},
             "sourceSize": {"w": 108, "h": 94}
           },
-          "map-vending-soda-01.img": {
+          "map-refrigerator-01.img": {
             "frame": {"x": 2602, "y": 3784, "w": 108, "h": 94},
             "rotated": false,
             "trimmed": false,
@@ -19418,35 +19411,35 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 96, "h": 94},
             "sourceSize": {"w": 96, "h": 94}
           },
-          "map-pot-01.img": {
+          "map-pot-05.img": {
             "frame": {"x": 3014, "y": 2233, "w": 94, "h": 94},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 1, "w": 94, "h": 94},
             "sourceSize": {"w": 96, "h": 96}
           },
-          "map-pot-03.img": {
+          "map-pot-01.img": {
             "frame": {"x": 3014, "y": 2331, "w": 94, "h": 94},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 1, "w": 94, "h": 94},
             "sourceSize": {"w": 96, "h": 96}
           },
-          "map-pot-04.img": {
+          "map-pot-02.img": {
             "frame": {"x": 3014, "y": 2429, "w": 94, "h": 94},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 1, "w": 94, "h": 94},
             "sourceSize": {"w": 96, "h": 96}
           },
-          "map-pot-02.img": {
+          "map-pot-03.img": {
             "frame": {"x": 2914, "y": 3784, "w": 94, "h": 94},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 1, "w": 94, "h": 94},
             "sourceSize": {"w": 96, "h": 96}
           },
-          "map-pot-05.img": {
+          "map-pot-04.img": {
             "frame": {"x": 3012, "y": 3784, "w": 94, "h": 94},
             "rotated": false,
             "trimmed": true,
@@ -19607,14 +19600,14 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 62, "h": 80},
             "sourceSize": {"w": 62, "h": 80}
           },
-          "map-recorder-04.img": {
+          "map-recorder-03.img": {
             "frame": {"x": 3049, "y": 1459, "w": 48, "h": 80},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 48, "h": 80},
             "sourceSize": {"w": 48, "h": 80}
           },
-          "map-recorder-03.img": {
+          "map-recorder-04.img": {
             "frame": {"x": 2371, "y": 1567, "w": 48, "h": 80},
             "rotated": false,
             "trimmed": false,
@@ -19649,14 +19642,14 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 240, "h": 75},
             "sourceSize": {"w": 240, "h": 75}
           },
-          "map-deposit-box-02.img": {
+          "map-deposit-box-01.img": {
             "frame": {"x": 1232, "y": 3890, "w": 160, "h": 74},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 160, "h": 74},
             "sourceSize": {"w": 160, "h": 74}
           },
-          "map-deposit-box-01.img": {
+          "map-deposit-box-02.img": {
             "frame": {"x": 1396, "y": 3890, "w": 160, "h": 74},
             "rotated": false,
             "trimmed": false,
@@ -19705,19 +19698,19 @@
             "spriteSourceSize": {"x": 2, "y": 2, "w": 60, "h": 60},
             "sourceSize": {"w": 64, "h": 64}
           },
-          "map-bush-res-02.img": {
-            "frame": {"x": 3937, "y": 1332, "w": 59, "h": 60},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 42, "y": 45, "w": 59, "h": 60},
-            "sourceSize": {"w": 144, "h": 144}
-          },
           "metal-barrel-03.img": {
-            "frame": {"x": 3871, "y": 3216, "w": 59, "h": 60},
+            "frame": {"x": 3937, "y": 1332, "w": 59, "h": 60},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 8, "y": 4, "w": 59, "h": 60},
             "sourceSize": {"w": 74, "h": 68}
+          },
+          "map-bush-res-02.img": {
+            "frame": {"x": 3871, "y": 3216, "w": 59, "h": 60},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 42, "y": 45, "w": 59, "h": 60},
+            "sourceSize": {"w": 144, "h": 144}
           },
           "map-bathhouse-pool-01.img": {
             "frame": {"x": 3966, "y": 2955, "w": 36, "h": 60},
@@ -19740,14 +19733,14 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 96, "h": 49},
             "sourceSize": {"w": 96, "h": 50}
           },
-          "map-locker-01.img": {
+          "map-locker-02.img": {
             "frame": {"x": 2072, "y": 3890, "w": 96, "h": 49},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 96, "h": 49},
             "sourceSize": {"w": 96, "h": 50}
           },
-          "map-locker-02.img": {
+          "map-locker-01.img": {
             "frame": {"x": 2172, "y": 3890, "w": 96, "h": 49},
             "rotated": false,
             "trimmed": true,
@@ -19782,14 +19775,14 @@
             "spriteSourceSize": {"x": 46, "y": 48, "w": 52, "h": 48},
             "sourceSize": {"w": 144, "h": 144}
           },
-          "loot-melee-BlueVelvet.img": {
+          "loot-melee-SpliTheDiff.img": {
             "frame": {"x": 2828, "y": 3890, "w": 109, "h": 47},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 11, "y": 41, "w": 109, "h": 47},
             "sourceSize": {"w": 129, "h": 129}
           },
-          "loot-melee-SpliTheDiff.img": {
+          "loot-melee-BlueVelvet.img": {
             "frame": {"x": 2941, "y": 3890, "w": 109, "h": 47},
             "rotated": false,
             "trimmed": true,
@@ -19803,21 +19796,21 @@
             "spriteSourceSize": {"x": 4, "y": 2, "w": 56, "h": 46},
             "sourceSize": {"w": 64, "h": 64}
           },
-          "map-bush-res-04.img": {
-            "frame": {"x": 3054, "y": 3890, "w": 46, "h": 46},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 4, "y": 4, "w": 46, "h": 46},
-            "sourceSize": {"w": 54, "h": 54}
-          },
           "map-tree-res-01.img": {
-            "frame": {"x": 3104, "y": 3890, "w": 46, "h": 46},
+            "frame": {"x": 3054, "y": 3890, "w": 46, "h": 46},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 1, "w": 46, "h": 46},
             "sourceSize": {"w": 48, "h": 48}
           },
-          "map-gun-mount-02.img": {
+          "map-bush-res-04.img": {
+            "frame": {"x": 3104, "y": 3890, "w": 46, "h": 46},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 4, "y": 4, "w": 46, "h": 46},
+            "sourceSize": {"w": 54, "h": 54}
+          },
+          "map-gun-mount-03.img": {
             "frame": {"x": 2430, "y": 2621, "w": 128, "h": 44},
             "rotated": false,
             "trimmed": true,
@@ -19873,14 +19866,14 @@
             "spriteSourceSize": {"x": 12, "y": 12, "w": 40, "h": 40},
             "sourceSize": {"w": 64, "h": 64}
           },
-          "map-barrel-03.img": {
+          "map-barrel-04.img": {
             "frame": {"x": 2943, "y": 882, "w": 89, "h": 35},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 89, "h": 35},
             "sourceSize": {"w": 89, "h": 35}
           },
-          "map-barrel-04.img": {
+          "map-barrel-03.img": {
             "frame": {"x": 2851, "y": 1756, "w": 89, "h": 35},
             "rotated": false,
             "trimmed": false,
@@ -19901,12 +19894,12 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 360, "h": 24},
             "sourceSize": {"w": 360, "h": 24}
           },
-          "map-wall-shack-bot.img": {
-            "frame": {"x": 1547, "y": 1138, "w": 242, "h": 24},
+          "map-wall-outhouse-top.img": {
+            "frame": {"x": 1547, "y": 1138, "w": 204, "h": 24},
             "rotated": false,
             "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 242, "h": 24},
-            "sourceSize": {"w": 242, "h": 24}
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 204, "h": 24},
+            "sourceSize": {"w": 204, "h": 24}
           },
           "map-tree-09.img": {
             "frame": {"x": 717, "y": 3668, "w": 112, "h": 112},
@@ -21572,7 +21565,7 @@
     ],
     "gradient": [
       {
-        "meta": {"image": "gradient-0-100-575e79d0.png", "size": {"w": 1024, "h": 1024}, "scale": 1},
+        "meta": {"image": "gradient-0-100-906919b2.png", "size": {"w": 1024, "h": 1024}, "scale": 1},
         "frames": {
           "map-barrel-res-01.img": {
             "frame": {"x": 238, "y": 2, "w": 226, "h": 216},
