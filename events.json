@@ -234,6 +234,58 @@
       "startDate": [1587844800000, "04/25/2020 1PM/4PM PST/EST"],
       "endDate": [1588017600000, "04/27/2020 1PM/4PM PST/EST"],
       "isActive": true
+    },
+    {
+      "id": "event-space-start",
+      "name": "event-space-start-title",
+      "description": "event-space-start-desc",
+      "buttontxt": "winter-event-btn-text",
+      "featureImg": "../img/modals/lasr_swrd_featured_image.png",
+      "paragraphImage": "../img/modals/lasr_swrd_paragraph_image.png",
+      "priority": 1,
+      "SKU": "all",
+      "startDate": [1588622400000, "05/04/2020 1PM/4PM PST/EST"],
+      "endDate": [1589054400000, "05/09/2020 1PM/4PM PST/EST"],
+      "isActive": true
+    },
+    {
+      "id": "event-space-end",
+      "name": "event-space-end-title",
+      "description": "event-space-end-desc",
+      "buttontxt": "winter-event-btn-text",
+      "featureImg": "../img/modals/lasr_swrd_featured_image.png",
+      "paragraphImage": "../img/modals/lasr_swrd_paragraph_image.png",
+      "priority": 2,
+      "SKU": "all",
+      "startDate": [1589054400000, "05/09/2020 1PM/4PM PST/EST"],
+      "endDate": [1589227200000, "05/11/2020 1PM/4PM PST/EST"],
+      "isActive": true
+    },
+    {
+      "id": "event-ultimate-sacrifice-start",
+      "name": "event-ultimate-sacrifice-start-title",
+      "description": "event-ultimate-sacrifice-start-desc",
+      "buttontxt": "winter-event-btn-text",
+      "featureImg": "../img/modals/ultimate_sacrifice_featured_image.png",
+      "paragraphImage": "../img/modals/ultimate_sacrifice_paragraph_image.png",
+      "priority": 1,
+      "SKU": "all",
+      "startDate": [1589832000000, "05/18/2020 1PM/4PM PST/EST"],
+      "endDate": [1590264000000, "05/23/2020 1PM/4PM PST/EST"],
+      "isActive": true
+    },
+    {
+      "id": "event-ultimate-sacrifice-end",
+      "name": "event-ultimate-sacrifice-end-title",
+      "description": "event-ultimate-sacrifice-end-desc",
+      "buttontxt": "winter-event-btn-text",
+      "featureImg": "../img/modals/ultimate_sacrifice_featured_image.png",
+      "paragraphImage": "../img/modals/ultimate_sacrifice_paragraph_image.png",
+      "priority": 2,
+      "SKU": "all",
+      "startDate": [1590264000000, "05/23/2020 1PM/4PM PST/EST"],
+      "endDate": [1590436800000, "05/25/2020 1PM/4PM PST/EST"],
+      "isActive": true
     }
   ]
 }

@@ -2957,6 +2957,99 @@
     },
     "worldImg": {"sprite": "https://surviv.io/img/guns/gun-deagle-01.svg", "tint": false}
   },
+  "lasr_gun": {
+    "name": "Lasr Gun",
+    "type": "gun",
+    "quality": 0,
+    "fireMode": "single",
+    "caseTiming": "shoot",
+    "ammo": "12gauge",
+    "ammoSpawnCount": 56,
+    "pistol": true,
+    "dualWieldType": "lasr_gun_dual",
+    "maxClip": 7,
+    "maxReload": 7,
+    "extendedClip": 9,
+    "extendedReload": 9,
+    "reloadTime": 2.3,
+    "fireDelay": 0.16,
+    "switchDelay": 0.3,
+    "barrelLength": 2.555,
+    "barrelOffset": 0,
+    "recoilTime": 0.5,
+    "moveSpread": 6,
+    "shotSpread": 2.5,
+    "bulletCount": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 42,
+      "obstacleDamage": 1,
+      "falloff": 0.75,
+      "speed": 115,
+      "distance": 240,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "laser",
+      "tracerWidth": 0.12,
+      "tracerLength": 0.8
+    },
+    "headshotMult": 2,
+    "speed": {"equip": 0, "attack": 0},
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-weapon-lasr-gun.svg",
+      "tint": "65280 | #00FF00",
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    },
+    "worldImg": {"sprite": "https://surviv.io/img/guns/gun-lasr-gun.svg", "tint": false}
+  },
+  "lasr_gun_dual": {
+    "name": "Dual Lasr Gun",
+    "type": "gun",
+    "quality": 0,
+    "fireMode": "single",
+    "caseTiming": "shoot",
+    "ammo": "12gauge",
+    "ammoSpawnCount": 98,
+    "isDual": true,
+    "pistol": true,
+    "maxClip": 14,
+    "maxReload": 14,
+    "extendedClip": 18,
+    "extendedReload": 18,
+    "reloadTime": 4,
+    "fireDelay": 0.12,
+    "switchDelay": 0.3,
+    "barrelLength": 2.4,
+    "barrelOffset": 0,
+    "dualOffset": 0.6,
+    "recoilTime": 0.5,
+    "moveSpread": 7.5,
+    "shotSpread": 3.5,
+    "bulletCount": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 42,
+      "obstacleDamage": 1,
+      "falloff": 0.75,
+      "speed": 115,
+      "distance": 240,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "laser",
+      "tracerWidth": 0.12,
+      "tracerLength": 0.8
+    },
+    "headshotMult": 2,
+    "speed": {"equip": 0, "attack": 0},
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-weapon-double-lasr-gun.svg",
+      "tint": "65280 | #00FF00",
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    },
+    "worldImg": {"sprite": "https://surviv.io/img/guns/gun-lasr-gun.svg", "tint": false}
+  },
   "deagle_dual": {
     "name": "Dual DEagle 50",
     "type": "gun",
@@ -3830,6 +3923,87 @@
       "leftHandOntop": true
     }
   },
+  "lasr_swrd": {
+    "name": "Lasr Swrd",
+    "type": "melee",
+    "quality": 0,
+    "armorPiercing": true,
+    "cleave": true,
+    "autoAttack": false,
+    "switchDelay": 0.25,
+    "damage": 60,
+    "obstacleDamage": 1.5,
+    "headshotMult": 1,
+    "attack": {"rad": 2.1, "damageTimes": [0.3], "cooldownTime": 0.6, "poseTime": 0.2},
+    "speed": {"equip": 1},
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-melee-lasr-sword-01.svg",
+      "tint": false,
+      "border": "https://surviv.io/img/loot/loot-circle-outer-02.svg",
+      "borderTint": false,
+      "mirror": true
+    },
+    "worldImg": {
+      "sprite": "https://surviv.io/img/lasr/lasr-sword-01.svg",
+      "tint": false,
+      "leftHandOntop": true
+    },
+    "reflectArea": {"rad": 1.1}
+  },
+  "lasr_swrd_02": {
+    "name": "Lasr Swrd",
+    "type": "melee",
+    "quality": 0,
+    "armorPiercing": true,
+    "cleave": true,
+    "autoAttack": false,
+    "switchDelay": 0.25,
+    "damage": 60,
+    "obstacleDamage": 1.5,
+    "headshotMult": 1,
+    "attack": {"rad": 2.1, "damageTimes": [0.3], "cooldownTime": 0.6, "poseTime": 0.2},
+    "speed": {"equip": 1},
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-melee-lasr-sword-02.svg",
+      "tint": false,
+      "border": "https://surviv.io/img/loot/loot-circle-outer-02.svg",
+      "borderTint": false,
+      "mirror": true
+    },
+    "worldImg": {
+      "sprite": "https://surviv.io/img/lasr/lasr-sword-02.svg",
+      "tint": false,
+      "leftHandOntop": true
+    },
+    "reflectArea": {"rad": 1.1}
+  },
+  "lasr_swrd_03": {
+    "name": "Lasr Swrd",
+    "type": "melee",
+    "quality": 0,
+    "armorPiercing": true,
+    "cleave": true,
+    "autoAttack": false,
+    "switchDelay": 0.25,
+    "damage": 60,
+    "obstacleDamage": 1.5,
+    "headshotMult": 1,
+    "attack": {"rad": 2.1, "damageTimes": [0.3], "cooldownTime": 0.6, "poseTime": 0.2},
+    "speed": {"equip": 1},
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-melee-lasr-sword-03.svg",
+      "tint": false,
+      "border": "https://surviv.io/img/loot/loot-circle-outer-02.svg",
+      "borderTint": false,
+      "mirror": true
+    },
+    "worldImg": {
+      "sprite": "https://surviv.io/img/lasr/lasr-sword-03.svg",
+      "tint": false,
+      "leftHandOntop": true
+    },
+    "reflectArea": {"rad": 1.1}
+  },
   "katana": {
     "name": "Katana",
     "type": "melee",
@@ -4637,6 +4811,39 @@
     },
     "useThrowParticles": true
   },
+  "mine": {
+    "name": "Mine",
+    "type": "throwable",
+    "quality": 0,
+    "explosionType": "explosion_frag",
+    "inventoryOrder": 1,
+    "cookable": true,
+    "explodeOnImpact": false,
+    "playerCollision": false,
+    "fuseTime": 9999,
+    "aimDistance": 0,
+    "rad": 1,
+    "buildTime": 5,
+    "explosionTime": 1,
+    "noFriction": true,
+    "damageCollision": true,
+    "throwPhysics": {
+      "playerVelMult": 0.6,
+      "velZ": 5,
+      "speed": 20,
+      "spinVel": 3.14,
+      "spinDrag": 1,
+      "distance": 20
+    },
+    "speed": {"equip": 0, "attack": 0},
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-throwable-mine.svg",
+      "tint": "65280 | #00FF00",
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    },
+    "worldImg": "https://surviv.io/img/proj/proj-mine-01.svg"
+  },
   "9mm": {
     "name": "9mm",
     "type": "ammo",
@@ -4857,6 +5064,18 @@
     "boost": 0,
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-gunchilada.svg",
+      "tint": false,
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    }
+  },
+  "pulseBox": {
+    "name": "Pulse Box",
+    "type": "boost",
+    "useTime": 0.2,
+    "boost": 0,
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-pulseBox.svg",
       "tint": false,
       "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
       "borderTint": false

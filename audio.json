@@ -30,9 +30,11 @@
     "colt45_reload_02": "https://surviv.io/audio/guns/colt45_reload_02.mp3",
     "colt45_switch_01": "https://surviv.io/audio/guns/colt45_switch_01.mp3",
     "deagle_01": "https://surviv.io/audio/guns/deagle_01.mp3",
+    "lasr_01": "https://surviv.io/audio/guns/lasr_01.mp3",
     "rainbow_blaster_01": "https://surviv.io/audio/guns/rainbow_blaster_01.mp3",
     "rainbow_blaster_loading": "https://surviv.io/audio/guns/rainbow_blaster_loading.mp3",
     "deagle_reload_01": "https://surviv.io/audio/guns/deagle_reload_01.mp3",
+    "lasr_gun_reload_01": "https://surviv.io/audio/guns/lasr_gun_reload_01.mp3",
     "deagle_reload_02": "https://surviv.io/audio/guns/deagle_reload_02.mp3",
     "deagle_switch_01": "https://surviv.io/audio/guns/deagle_switch_01.mp3",
     "flare_gun_01": "https://surviv.io/audio/guns/flare_gun_01.mp3",
@@ -194,7 +196,8 @@
     "pills_use_01": "https://surviv.io/audio/ui/pills_use_01.mp3",
     "stow_weapon_01": "https://surviv.io/audio/ui/stow_weapon_01.mp3",
     "chocolateBox_use_01": "https://surviv.io/audio/ui/chocolateBox_use_01.mp3",
-    "gunchilada_use_01": "https://surviv.io/audio/ui/gunchilada_use_01.mp3"
+    "gunchilada_use_01": "https://surviv.io/audio/ui/gunchilada_use_01.mp3",
+    "pulseBox_use_01": "https://surviv.io/audio/ui/pulseBox_use_01.mp3"
   },
   "hits": {
     "stone_bullet_hit_01": "https://surviv.io/audio/hits/stone_bullet_hit_01.mp3",
@@ -211,6 +214,7 @@
     "brick_bullet_hit_01": "https://surviv.io/audio/hits/brick_bullet_hit_01.mp3",
     "punch_hit_01": "https://surviv.io/audio/hits/punch_hit_01.mp3",
     "knife_hit_01": "https://surviv.io/audio/hits/knife_hit_01.mp3",
+    "lasr_hit_01": "https://surviv.io/audio/hits/lasr_hit_01.mp3",
     "pan_hit_01": "https://surviv.io/audio/hits/pan_hit_01.mp3",
     "axe_hit_01": "https://surviv.io/audio/hits/axe_hit_01.mp3",
     "hook_hit_01": "https://surviv.io/audio/hits/hook_hit_01.mp3",
@@ -290,6 +294,7 @@
     "punch_swing_01": "https://surviv.io/audio/sfx/punch_swing_01.mp3",
     "knife_swing_01": "https://surviv.io/audio/sfx/knife_swing_01.mp3",
     "medium_swing_01": "https://surviv.io/audio/sfx/medium_swing_01.mp3",
+    "lasr_swing_01": "https://surviv.io/audio/sfx/lasr_swing_01.mp3",
     "heavy_swing_01": "https://surviv.io/audio/sfx/heavy_swing_01.mp3",
     "bullet_whiz_01": "https://surviv.io/audio/sfx/bullet_whiz_01.mp3",
     "bullet_whiz_02": "https://surviv.io/audio/sfx/bullet_whiz_02.mp3",
