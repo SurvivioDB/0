@@ -292,7 +292,7 @@
   },
   "map": {
     "protocolVersion": 84,
-    "clientVersion": "0.9.4",
+    "clientVersion": "0.9.4b",
     "DamageType": {"Player": 0, "Bleeding": 1, "Gas": 2, "Airdrop": 3, "Airstrike": 4, "Freeze": 5},
     "GasMode": {"Inactive": 0, "Waiting": 1, "Moving": 2},
     "Plane": {"Airdrop": 0, "Airstrike": 1},
@@ -10773,7 +10773,7 @@
   "frame": {
     "loadout": [
       {
-        "meta": {"image": "loadout-0-100-d4981f0c.png", "size": {"w": 4096, "h": 4096}},
+        "meta": {"image": "loadout-0-100-8b85ea8d.png", "size": {"w": 4096, "h": 4096}},
         "frames": {
           "part-aura-circle-01.img": {
             "frame": {"x": 508, "y": 2, "w": 284, "h": 280},
@@ -20961,7 +20961,7 @@
     ],
     "gradient": [
       {
-        "meta": {"image": "gradient-0-100-ca2b6690.png", "size": {"w": 1024, "h": 1024}},
+        "meta": {"image": "gradient-0-100-7780ec7d.png", "size": {"w": 1024, "h": 1024}},
         "frames": {
           "map-barrel-res-01.img": {
             "frame": {"x": 238, "y": 2, "w": 226, "h": 216},
@@ -22762,5 +22762,5 @@
     "https://kugaheavyindustry.com": {"google": true, "discord": true},
     "https://chandlertallowmd.com": {"google": true, "discord": true}
   },
-  "info": {"version": 84, "timestamp": 1589217969474, "date": "11/05/2020 @ 5:26PM UTC"}
+  "info": {"version": 84, "timestamp": 1589228104449, "date": "11/05/2020 @ 8:15PM UTC"}
 }

@@ -292,7 +292,7 @@
   },
   "map": {
     "protocolVersion": 84,
-    "clientVersion": "0.9.4",
+    "clientVersion": "0.9.4b",
     "Input": {
       "MoveLeft": 0,
       "MoveRight": 1,
@@ -11967,7 +11967,7 @@
   "frame": {
     "loadout": [
       {
-        "meta": {"image": "loadout-0-100-d4981f0c.png", "size": {"w": 4096, "h": 4096}, "scale": 1},
+        "meta": {"image": "loadout-0-100-8b85ea8d.png", "size": {"w": 4096, "h": 4096}, "scale": 1},
         "frames": {
           "part-aura-circle-01.img": {
             "frame": {"x": 508, "y": 2, "w": 284, "h": 280},
@@ -22155,7 +22155,7 @@
     ],
     "gradient": [
       {
-        "meta": {"image": "gradient-0-100-ca2b6690.png", "size": {"w": 1024, "h": 1024}, "scale": 1},
+        "meta": {"image": "gradient-0-100-7780ec7d.png", "size": {"w": 1024, "h": 1024}, "scale": 1},
         "frames": {
           "map-barrel-res-01.img": {
             "frame": {"x": 238, "y": 2, "w": 226, "h": 216},
