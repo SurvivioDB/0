@@ -292,7 +292,7 @@
   },
   "map": {
     "protocolVersion": 84,
-    "clientVersion": "0.9.4b",
+    "clientVersion": "0.9.4",
     "DamageType": {"Player": 0, "Bleeding": 1, "Gas": 2, "Airdrop": 3, "Airstrike": 4, "Freeze": 5},
     "GasMode": {"Inactive": 0, "Waiting": 1, "Moving": 2},
     "Plane": {"Airdrop": 0, "Airstrike": 1},
@@ -22762,5 +22762,5 @@
     "https://kugaheavyindustry.com": {"google": true, "discord": true},
     "https://chandlertallowmd.com": {"google": true, "discord": true}
   },
-  "info": {"version": 84, "timestamp": 1589228104449, "date": "11/05/2020 @ 8:15PM UTC"}
+  "info": {"version": 84, "timestamp": 1589229005285, "date": "11/05/2020 @ 8:30PM UTC"}
 }

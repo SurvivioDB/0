@@ -292,7 +292,7 @@
   },
   "map": {
     "protocolVersion": 84,
-    "clientVersion": "0.9.4b",
+    "clientVersion": "0.9.4",
     "Input": {
       "MoveLeft": 0,
       "MoveRight": 1,
