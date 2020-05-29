@@ -10778,7 +10778,7 @@
   "frame": {
     "loadout": [
       {
-        "meta": {"image": "loadout-0-100-84e7fc26.png", "size": {"w": 4096, "h": 4096}},
+        "meta": {"image": "loadout-0-100-889ace23.png", "size": {"w": 4096, "h": 4096}},
         "frames": {
           "part-aura-circle-01.img": {
             "frame": {"x": 508, "y": 2, "w": 284, "h": 280},
@@ -20987,7 +20987,7 @@
     ],
     "gradient": [
       {
-        "meta": {"image": "gradient-0-100-c7c2ac08.png", "size": {"w": 1024, "h": 1024}},
+        "meta": {"image": "gradient-0-100-38c835af.png", "size": {"w": 1024, "h": 1024}},
         "frames": {
           "map-barrel-res-01.img": {
             "frame": {"x": 238, "y": 2, "w": 226, "h": 216},
@@ -22788,5 +22788,5 @@
     "https://kugaheavyindustry.com": {"google": true, "discord": true},
     "https://chandlertallowmd.com": {"google": true, "discord": true}
   },
-  "info": {"version": 84, "timestamp": 1589833210163, "date": "18/05/2020 @ 8:20PM UTC"}
+  "info": {"version": 84, "timestamp": 1590768913948, "date": "29/05/2020 @ 4:15PM UTC"}
 }
