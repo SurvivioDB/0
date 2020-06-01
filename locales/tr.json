@@ -1058,5 +1058,11 @@
   "event-ultimate-sacrifice-end-title": "YAKINDA SONA ERIYOR BÜYÜK FEDAKARLIK",
   "event-ultimate-sacrifice-end-desc": "Nihai kurban olay 1 pm PST 5/25 sona eriyor. Bu yeni komutan özelliklerinden için son şansınız.",
   "game-mine": "Kara mayını",
-  "index-failed-joining-game-loadout": "devre dışı uyumsuz uzantıları lütfen."
+  "index-failed-joining-game-loadout": "devre dışı uyumsuz uzantıları lütfen.",
+  "game-hud-mine": "Kara mayını",
+  "event-storm-start-title": "FIRTINA MODU",
+  "event-storm-start-desc": "havalarda Gizemli kaymalar kaosa adayı atmış. nehirler acele, rüzgar Sürüş, dolu ve yıldırım düşmesi artık ölümlü tehdit oluşturmaktadır. Hayatta kalanlar barınak aramak ve yakın Statik elektrik oluşumunu duran önlemek için tavsiye edilir.",
+  "event-storm-end-title": "YAKINDA SONA FIRTINA OLAY!",
+  "event-storm-end-desc": "13:00 PST 06/08 Bizim fırtına olay biter. Bu fırtına etkinliği deneyimi için son şansınız.",
+  "game-weather": "Hava"
 }

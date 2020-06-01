@@ -1058,5 +1058,11 @@
   "event-ultimate-sacrifice-end-title": "ULTIEME OFFER DIE BINNENKORT AFLOPEN",
   "event-ultimate-sacrifice-end-desc": "Onze ultieme offer event eindigt op 5/25 om 1 uur PST. Dit is je laatste kans om de nieuwe commandant functies ervaren.",
   "game-mine": "Mijn",
-  "index-failed-joining-game-loadout": "Gelieve uitschakelen incompatibele extensies."
+  "index-failed-joining-game-loadout": "Gelieve uitschakelen incompatibele extensies.",
+  "game-hud-mine": "Mijn",
+  "event-storm-start-title": "STORM-MODUS",
+  "event-storm-start-desc": "Mysterieuze verschuivingen in het weer hebben het eiland in chaos gestort. Rijden wind, snelstromende rivieren, hagel en blikseminslagen nu vormen sterfelijk bedreigingen. Overlevenden wordt geadviseerd om beschutting te zoeken, en om te voorkomen dat zich in de buurt van statische elektriciteit.",
+  "event-storm-end-title": "STORM EVENEMENT EINDIGT BINNENKORT!",
+  "event-storm-end-desc": "Onze storm event eindigt op 06/08 om 13:00 PST. Dit is je laatste kans om de storm evenement ervaren.",
+  "game-weather": "Weer"
 }

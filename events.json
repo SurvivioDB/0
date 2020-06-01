@@ -286,6 +286,32 @@
       "startDate": [1590264000000, "05/23/2020 1PM/4PM PST/EST"],
       "endDate": [1590436800000, "05/25/2020 1PM/4PM PST/EST"],
       "isActive": true
+    },
+    {
+      "id": "event-storm-start",
+      "name": "event-storm-start-title",
+      "description": "event-storm-start-desc",
+      "buttontxt": "winter-event-btn-text",
+      "featureImg": "../img/modals/storm_featured_image.png",
+      "paragraphImage": "../img/modals/storm_paragraph_image.png",
+      "priority": 1,
+      "SKU": "all",
+      "startDate": [1591041600000, "06/01/2020 1PM/4PM PST/EST"],
+      "endDate": [1591473600000, "06/06/2020 1PM/4PM PST/EST"],
+      "isActive": true
+    },
+    {
+      "id": "event-storm-end",
+      "name": "event-storm-end-title",
+      "description": "event-storm-end-desc",
+      "buttontxt": "winter-event-btn-text",
+      "featureImg": "../img/modals/storm_featured_image.png",
+      "paragraphImage": "../img/modals/storm_paragraph_image.png",
+      "priority": 2,
+      "SKU": "all",
+      "startDate": [1591473600000, "06/06/2020 1PM/4PM PST/EST"],
+      "endDate": [1591646400000, "06/08/2020 1PM/4PM PST/EST"],
+      "isActive": true
     }
   ]
 }

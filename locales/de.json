@@ -1058,5 +1058,11 @@
   "event-ultimate-sacrifice-end-title": "ULTIMATIVE OPFER ENDET BALD",
   "event-ultimate-sacrifice-end-desc": "Unser ultimatives Opfer Veranstaltung endet am 25.05 um 13.00 Uhr PST. Dies ist Ihre letzte Chance, die neuen Kommandanten Features zu erleben.",
   "game-mine": "Bergwerk",
-  "index-failed-joining-game-loadout": "Bitte deaktivieren inkompatible Erweiterungen."
+  "index-failed-joining-game-loadout": "Bitte deaktivieren inkompatible Erweiterungen.",
+  "game-hud-mine": "Bergwerk",
+  "event-storm-start-title": "STURM-MODUS",
+  "event-storm-start-desc": "Mysterious Verschiebungen in Wetter haben die Insel ins Chaos gestürzt. Fahrtwind, rauschende Flüsse, Hagel und Blitzeinschlägen stellen jetzt sterblichen Bedrohungen. Überlebende werden gebeten, Schutz zu suchen, und vermeidet in der Nähe statische Aufladung steht.",
+  "event-storm-end-title": "STURMEREIGNIS ENDET BALD!",
+  "event-storm-end-desc": "Unser Sturmereignis endet am 06.08 um 13.00 Uhr PST. Dies ist Ihre letzte Chance, das Sturmereignis zu erleben.",
+  "game-weather": "Wetter"
 }
