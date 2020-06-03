@@ -1058,5 +1058,11 @@
   "event-ultimate-sacrifice-end-title": "SACRIFICE ULTIME SE TERMINANT BIENTÔT",
   "event-ultimate-sacrifice-end-desc": "Notre événement ultime sacrifice se termine le 5/25 à 13 heures PST. Ceci est votre dernière chance de découvrir les nouvelles fonctionnalités de commandant.",
   "game-mine": "Mien",
-  "index-failed-joining-game-loadout": "Veuillez désactiver les extensions incompatibles."
+  "index-failed-joining-game-loadout": "Veuillez désactiver les extensions incompatibles.",
+  "game-hud-mine": "Mien",
+  "event-storm-start-title": "MODE STORM",
+  "event-storm-start-desc": "changements mystérieux temps ont jeté l'île dans le chaos. vent de conduite, des rivières impétueuses, la grêle et la foudre posent maintenant des menaces mortelles. il est conseillé aux survivants de chercher un abri, et d'éviter l'accumulation de statique debout près.",
+  "event-storm-end-title": "ÉVÉNEMENT STORM SE TERMINE BIENTÔT!",
+  "event-storm-end-desc": "Nos extrémités d'événements de tempête sur 06/08 à 13 heures PST. Ceci est votre dernière chance de vivre l'événement de tempête.",
+  "game-weather": "Conditions météorologiques"
 }

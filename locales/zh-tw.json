@@ -1058,5 +1058,11 @@
   "event-ultimate-sacrifice-end-title": "最終的犧牲即將結束",
   "event-ultimate-sacrifice-end-desc": "下午1點PST的5/25我們的最終犧牲事件結束。這是你最後的機會去體驗新的指揮官功能。",
   "game-mine": "地雷",
-  "index-failed-joining-game-loadout": "請禁用不兼容的擴展。"
+  "index-failed-joining-game-loadout": "請禁用不兼容的擴展。",
+  "game-hud-mine": "地雷",
+  "event-storm-start-title": "風暴模式",
+  "event-storm-start-desc": "在天氣轉變神秘拋出島上陷入一片混亂。驅風，湍急的河流，冰雹和雷擊造成現在凡人的威脅。倖存者應尋求庇護，避免站在附近靜電堆積。",
+  "event-storm-end-title": "風暴活動即將結束！",
+  "event-storm-end-desc": "下午1點PST在06/08我們的暴雨事件結束。這是你最後一次機會去體驗風暴活動。",
+  "game-weather": "天氣"
 }

@@ -1058,5 +1058,11 @@
   "event-ultimate-sacrifice-end-title": "DERRADEIRO SACRIFÍCIO TERMINA EM BREVE",
   "event-ultimate-sacrifice-end-desc": "Nosso evento sacrifício final termina em 25/05 em 1 pm PST. Esta é sua última chance de experimentar os novos recursos comandante.",
   "game-mine": "Mina",
-  "index-failed-joining-game-loadout": "Agradar extensões incompatíveis com deficiência."
+  "index-failed-joining-game-loadout": "Agradar extensões incompatíveis com deficiência.",
+  "game-hud-mine": "Mina",
+  "event-storm-start-title": "MODO DE TEMPESTADE",
+  "event-storm-start-desc": "mudanças misteriosas em tempo ter jogado a ilha no caos. vento condução, rios caudalosos, greves granizo e relâmpagos agora representam ameaças mortais. Os sobreviventes são aconselhados a procurar abrigo, e evitar a pé formação estática próximo.",
+  "event-storm-end-title": "EVENTO TEMPESTADE TERMINA EM BREVE!",
+  "event-storm-end-desc": "Nossos fins evento tempestade em 06/08 em 1 pm PST. Esta é a sua última chance de experimentar o evento tempestade.",
+  "game-weather": "Clima"
 }

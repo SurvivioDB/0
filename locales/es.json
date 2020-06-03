@@ -1058,5 +1058,11 @@
   "event-ultimate-sacrifice-end-title": "SACRIFICIO FINAL TERMINARÁ PRONTO",
   "event-ultimate-sacrifice-end-desc": "Nuestro evento último sacrificio termina el 5/25 a la 1 pm PST. Esta es su última oportunidad de experimentar las nuevas características del comandante.",
   "game-mine": "Mina",
-  "index-failed-joining-game-loadout": "Por favor, desactiva las extensiones incompatibles."
+  "index-failed-joining-game-loadout": "Por favor, desactiva las extensiones incompatibles.",
+  "game-hud-mine": "Mina",
+  "event-storm-start-title": "MODO DE TORMENTA",
+  "event-storm-start-desc": "los cambios en el clima misteriosos han lanzado la isla en el caos. Conducir viento, corriendo ríos, huelgas granizo, relámpagos y ahora representan una amenaza mortal. Se aconseja a los sobrevivientes a buscar refugio, y evitar la acumulación de electricidad estática de pie cerca.",
+  "event-storm-end-title": "EVENTO DE TORMENTA QUE TERMINA PRONTO!",
+  "event-storm-end-desc": "Nuestros fines evento de tormenta en 06/08 a la 1 pm PST. Esta es su última oportunidad de experimentar el evento de tormenta.",
+  "game-weather": "Clima"
 }

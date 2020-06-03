@@ -1058,5 +1058,11 @@
   "event-ultimate-sacrifice-end-title": "ULTIMO SACRIFICIO SI CONCLUDONO PRESTO",
   "event-ultimate-sacrifice-end-desc": "Il nostro ultimo evento sacrificio termina il 5/25 alle 13:00 PST. Questa è la tua ultima possibilità di sperimentare le nuove funzionalità comandante.",
   "game-mine": "Mina",
-  "index-failed-joining-game-loadout": "Si prega di estensioni incompatibili disabili."
+  "index-failed-joining-game-loadout": "Si prega di estensioni incompatibili disabili.",
+  "game-hud-mine": "Mina",
+  "event-storm-start-title": "MODALITÀ TEMPESTA",
+  "event-storm-start-desc": "cambiamenti misteriosi in tempo hanno gettato l'isola nel caos. vento di guida, fiumi impetuosi, scioperi grandine e fulmini ora rappresentano minacce mortali. I sopravvissuti sono invitati a cercare riparo, ed evitare in piedi nei pressi di formazione di cariche elettrostatiche.",
+  "event-storm-end-title": "EVENTO DI PIOGGIA FINISCE PRESTO!",
+  "event-storm-end-desc": "Le nostre estremità evento tempesta sul 06/08 alle 13:00 PST. Questa è la tua ultima possibilità di sperimentare l'evento tempesta.",
+  "game-weather": "Tempo metereologico"
 }

@@ -4760,59 +4760,6 @@
     "worldImg": {"sprite": "https://surviv.io/img/projectiles/proj-bomb-iron-01.svg", "tint": false},
     "useThrowParticles": true
   },
-  "lightning": {
-    "name": "Lightning",
-    "type": "throwable",
-    "quality": 0,
-    "explosionType": {
-      "type": "explosion",
-      "damage": 200,
-      "obstacleDamage": 150,
-      "rad": {"min": 10, "max": 20},
-      "shrapnelCount": 0,
-      "shrapnelType": {
-        "type": "bullet",
-        "damage": 10,
-        "obstacleDamage": 1,
-        "falloff": 1,
-        "speed": 24,
-        "distance": 12,
-        "variance": 1.5,
-        "shrapnel": true,
-        "tracerColor": "shrapnel",
-        "tracerWidth": 0.125,
-        "tracerLength": 0.6
-      },
-      "explosionEffectType": "thunder_explosion",
-      "decalType": "decal_lightning_explosion"
-    },
-    "inventoryOrder": 1,
-    "cookable": true,
-    "noPotatoSwap": true,
-    "explodeOnImpact": false,
-    "playerCollision": false,
-    "fuseTime": 60,
-    "aimDistance": 0,
-    "rad": 3,
-    "throwPhysics": {
-      "playerVelMult": 0.6,
-      "velZ": 0,
-      "speed": 20,
-      "spinVel": 0,
-      "spinDrag": 0,
-      "randomizeSpinDir": true,
-      "distance": null
-    },
-    "speed": {"equip": 0, "attack": 0},
-    "lootImg": {
-      "sprite": "",
-      "tint": "65280 | #00FF00",
-      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
-      "borderTint": false
-    },
-    "worldImg": {"sprite": "", "tint": false},
-    "useThrowParticles": true
-  },
   "heart_frag": {
     "name": "Heart Grenade",
     "type": "throwable",
