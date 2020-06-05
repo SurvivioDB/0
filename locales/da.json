@@ -1058,5 +1058,11 @@
   "event-ultimate-sacrifice-end-title": "ULTIMATIVE OFFER SLUTTER SNART",
   "event-ultimate-sacrifice-end-desc": "Vores ultimative offer begivenhed slutter den 5/25 1 PM PST. Dette er din sidste chance for at opleve de nye Commander funktioner.",
   "game-mine": "Mine",
-  "index-failed-joining-game-loadout": "Skal du deaktivere inkompatible udvidelser."
+  "index-failed-joining-game-loadout": "Skal du deaktivere inkompatible udvidelser.",
+  "game-hud-mine": "Mine",
+  "event-storm-start-title": "STORM-TILSTAND",
+  "event-storm-start-desc": "Mystiske skift i vejret har kastet øen i kaos. Kørsel vind, brusende floder, hagl, og lynnedslag nu udgør dødelige trusler. Overlevende rådes til at søge ly, og undgå at stå i nærheden statisk elektricitet.",
+  "event-storm-end-title": "STORM BEGIVENHED SLUTTER SNART!",
+  "event-storm-end-desc": "Vores storm event ender på 06/08 ved 01:00 PST. Dette er din sidste chance for at opleve stormen begivenhed.",
+  "game-weather": "Vejr"
 }

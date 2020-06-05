@@ -1058,5 +1058,11 @@
   "event-ultimate-sacrifice-end-title": "OSTATECZNYM OFIARA KOŃCZĄC WKRÓTCE",
   "event-ultimate-sacrifice-end-desc": "Naszym najważniejszym wydarzeniem ofiara kończy się na 5/25 na 1 pm PST. To twoja ostatnia szansa, aby doświadczyć nowych funkcji dowódcy.",
   "game-mine": "Kopalnia",
-  "index-failed-joining-game-loadout": "Proszę wyłączyć niekompatybilne rozszerzenia."
+  "index-failed-joining-game-loadout": "Proszę wyłączyć niekompatybilne rozszerzenia.",
+  "game-hud-mine": "Kopalnia",
+  "event-storm-start-title": "TRYB BURZA",
+  "event-storm-start-desc": "Tajemnicze zmiany w pogodzie rzucić wyspę w chaosie. Jazda wiatr gwałtowny rzeki, uderzenia gradu, pioruna i teraz stanowią śmiertelne zagrożenia. Ocaleni powinni szukać schronienia i uniknąć stałego w pobliżu gromadzeniu się ładunków elektrostatycznych.",
+  "event-storm-end-title": "BURZA WYDARZENIE KOŃCZĄCE SIĘ WKRÓTCE!",
+  "event-storm-end-desc": "Nasze końce zdarzeń burzy na 06/08 na 1 pm PST. To twoja ostatnia szansa, aby przeżyć to wydarzenie burzy.",
+  "game-weather": "Pogoda"
 }

@@ -1058,5 +1058,11 @@
   "event-ultimate-sacrifice-end-title": "ULTIMATA OFFRET SLUTAR SNART",
   "event-ultimate-sacrifice-end-desc": "Vårt främsta offret händelsen slutar på 5/25 på 01:00 PST. Det här är din sista chans att uppleva ny befälhavare funktioner.",
   "game-mine": "Landmina",
-  "index-failed-joining-game-loadout": "Inaktivera inkompatibla tillägg."
+  "index-failed-joining-game-loadout": "Inaktivera inkompatibla tillägg.",
+  "game-hud-mine": "Landmina",
+  "event-storm-start-title": "STORM LÄGE",
+  "event-storm-start-desc": "Mystiska förändringar i vädret har kastat ön i kaos. Körning vind, forsande älvar, hagel och blixtnedslag utgör nu dödliga hot. Överlevande uppmanas att söka skydd, och undvika att stå nära statisk elektricitet.",
+  "event-storm-end-title": "STORM HÄNDELSE SLUTAR SNART!",
+  "event-storm-end-desc": "Våra storm händelse ändar på 06/08 vid 01:00 PST. Det här är din sista chans att uppleva stormen händelsen.",
+  "game-weather": "Väder"
 }

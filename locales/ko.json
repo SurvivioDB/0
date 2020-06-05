@@ -1058,5 +1058,11 @@
   "event-ultimate-sacrifice-end-title": "곧 종료 궁극적 인 희생",
   "event-ultimate-sacrifice-end-desc": "우리의 궁극적 인 희생 이벤트 오후 1 태평양 표준시 5/25에 끝납니다. 이 새로운 사령관 기능을 체험 할 수있는 마지막 기회입니다.",
   "game-mine": "지뢰",
-  "index-failed-joining-game-loadout": "비활성화 호환되지 않는 확장을하시기 바랍니다."
+  "index-failed-joining-game-loadout": "비활성화 호환되지 않는 확장을하시기 바랍니다.",
+  "game-hud-mine": "지뢰",
+  "event-storm-start-title": "스톰 모드",
+  "event-storm-start-desc": "날씨에 신비한 변화는 혼란에 섬을 던졌다. 강 돌진, 바람 운전, 우박과 번개는 이제 인간의 위협을 포즈. 생존자들은 피난처를 추구하고, 근처 정적 축적 서 않도록하는 것이 좋습니다.",
+  "event-storm-end-title": "곧 종료 스톰 이벤트!",
+  "event-storm-end-desc": "태평양 표준시 오후 1시에서 06/08에 우리의 폭풍 이벤트 종료됩니다. 이 폭풍 이벤트를 체험 할 수있는 마지막 기회입니다.",
+  "game-weather": "날씨"
 }
