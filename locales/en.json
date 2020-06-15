@@ -1059,9 +1059,18 @@
   "event-ultimate-sacrifice-start-desc": "This week we honor the countless men and women who’ve fallen defending their nations, with a weeklong 50v50. Commanders who die now drop protective shields on death and summon airdrops. The river beds also have a surprise. May the heroes of history inspire you to comparable acts of courage and sacrifice",
   "event-ultimate-sacrifice-end-title": "ULTIMATE SACRIFICE ENDING SOON",
   "event-ultimate-sacrifice-end-desc": "Our Ultimate Sacrifice event ends on 5/25 at 1 pm PST. This is your last chance to experience the new Commander features.",
-  "game-weather": "Weather",
   "event-storm-start-title": "STORM",
   "event-storm-start-desc": "Mysterious shifts in weather have thrown the island into chaos. Driving wind, rushing rivers, hail, and lightning strikes now pose mortal threats. Survivrs are advised to seek shelter, and avoid standing near static buildup.",
   "event-storm-end-title": "STORM ENDING SOON",
-  "event-storm-end-desc": "Our Storm event ends on 06/08 at 1 pm PST. This is your last chance to experience the Storm event."
+  "event-storm-end-desc": "Our Storm event ends on 06/08 at 1 pm PST. This is your last chance to experience the Storm event.",
+  "game-weather": "Weather",
+  "game-waterGun": "Water Gun",
+  "game-water_balloon": "Water Balloon",
+  "game-outfitSpeedo": "Speedo",
+  "game-watermelon": "Popsicle",
+  "game-watermelon-tooltip": "Boosts movement speed by 1.1x for 10 seconds. Stackable.",
+  "event-beach-start-title": "BEACH PARTY",
+  "event-beach-start-desc": "Summer is here! Island staff have generously distributed Ice Boxes containing goodies: Cool off (and slow down) fellow Survivrs with water balloons and water guns, or find some refreshing Popsicles for a speed boost.",
+  "event-beach-end-title": "BEACH PARTY ENDING SOON!",
+  "event-beach-end-desc": "Our Beach Party event ends on 06/22 at 1 pm PST. This is your last chance to experience the Beach Party event."
 }

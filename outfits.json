@@ -1003,5 +1003,19 @@
     "baseScale": 1,
     "lootImg": {"tint": "11100701 | #A9621D"},
     "skinImg": "https://surviv.io/img/map/map-tree-02.svg"
+  },
+  "outfitSpeedo": {
+    "noDrop": false,
+    "skinImg": {
+      "baseTint": false,
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitSpeedo.svg",
+      "handTint": false,
+      "handSprite": "https://surviv.io/img/player/player-hands-speedo.svg",
+      "footTint": "9803157 | #959595",
+      "footSprite": "https://surviv.io/img/player/player-feet-01.svg",
+      "backpackTint": "9803157 | #959595",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
+    },
+    "lootImg": {"sprite": "https://surviv.io/img/loot/loot-shirt-speedo.svg", "tint": false}
   }
 }

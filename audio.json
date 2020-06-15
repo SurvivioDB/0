@@ -42,6 +42,8 @@
     "flare_gun_reload_02": "https://surviv.io/audio/guns/flare_gun_reload_02.mp3",
     "ak47_01": "https://surviv.io/audio/guns/ak47_01.mp3",
     "ak47_reload_01": "https://surviv.io/audio/guns/ak47_reload_01.mp3",
+    "water_gun_01": "https://surviv.io/audio/guns/water_gun_01.mp3",
+    "water_gun_reload_01": "https://surviv.io/audio/guns/water_gun_reload_01.mp3",
     "ak47_switch_01": "https://surviv.io/audio/guns/ak47_switch_01.mp3",
     "an94_01": "https://surviv.io/audio/guns/an94_01.mp3",
     "an94_reload_01": "https://surviv.io/audio/guns/an94_reload_01.mp3",
@@ -302,6 +304,8 @@
     "bullet_whiz_02": "https://surviv.io/audio/sfx/bullet_whiz_02.mp3",
     "bullet_whiz_03": "https://surviv.io/audio/sfx/bullet_whiz_03.mp3",
     "frag_throw_01": "https://surviv.io/audio/sfx/frag_throw_01.mp3",
+    "water_balloon_throw_01": "https://surviv.io/audio/sfx/water_balloon_throw_01.mp3",
+    "water_balloon_deploy_01": "https://surviv.io/audio/sfx/water_hit_01.mp3",
     "frag_pin_01": "https://surviv.io/audio/sfx/frag_pin_01.mp3",
     "frag_deploy_01": "https://surviv.io/audio/ui/frag_pickup_01.mp3",
     "frag_water_01": "https://surviv.io/audio/hits/frag_water_01.mp3",
@@ -368,7 +372,8 @@
     "cluck_01": "https://surviv.io/audio/sfx/cluck_01.mp3",
     "cluck_02": "https://surviv.io/audio/sfx/cluck_02.mp3",
     "feather_01": "https://surviv.io/audio/sfx/feather_01.mp3",
-    "sugar_rush_01": "https://surviv.io/audio/sfx/sugar_rush_01.mp3"
+    "sugar_rush_01": "https://surviv.io/audio/sfx/sugar_rush_01.mp3",
+    "wet_sound_01": "https://surviv.io/audio/sfx/water_hit_01.mp3"
   },
   "ambient": {
     "ambient_wind_01": "https://surviv.io/audio/ambient/ambient_wind_01.mp3",
@@ -404,6 +409,7 @@
     "xp_pickup_02": "https://surviv.io/audio/ui/xp_pickup_02.mp3",
     "chocolateBox_pickup_01": "https://surviv.io/audio/ui/chocolateBox_pickup_01.mp3",
     "gunchilada_pickup_01": "https://surviv.io/audio/ui/gunchilada_pickup_01.mp3",
+    "watermelon_pickup_01": "https://surviv.io/audio/ui/gunchilada_pickup_01.mp3",
     "ping_danger_01": "https://surviv.io/audio/ui/ping_danger_01.mp3",
     "ping_coming_01": "https://surviv.io/audio/ui/ping_coming_01.mp3",
     "ping_help_01": "https://surviv.io/audio/ui/ping_help_01.mp3",

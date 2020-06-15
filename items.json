@@ -738,6 +738,61 @@
     },
     "worldImg": {"sprite": "https://surviv.io/img/guns/gun-long-01.svg", "tint": "6433298 | #622A12"}
   },
+  "waterGun": {
+    "name": "Water Gun",
+    "type": "gun",
+    "quality": 0,
+    "fireMode": "auto",
+    "caseTiming": "shoot",
+    "ammo": "762mm",
+    "ammoSpawnCount": 90,
+    "maxClip": 30,
+    "maxReload": 30,
+    "extendedClip": 40,
+    "extendedReload": 40,
+    "reloadTime": 2.5,
+    "fireDelay": 0.1,
+    "switchDelay": 0.75,
+    "barrelLength": 2.3,
+    "barrelOffset": 0,
+    "recoilTime": false,
+    "moveSpread": 7.5,
+    "shotSpread": 2.5,
+    "bulletCount": 1,
+    "bulletType": {
+      "type": "bullet",
+      "damage": 5.5,
+      "obstacleDamage": 1,
+      "falloff": 0.9,
+      "distance": 200,
+      "speed": 100,
+      "variance": 0,
+      "shrapnel": false,
+      "tracerColor": "water",
+      "tracerWidth": 0.1,
+      "tracerLength": 2.5,
+      "onHit": {
+        "type": "explosion",
+        "damage": 2,
+        "obstacleDamage": 1,
+        "rad": {"min": 1.24, "max": 1.25},
+        "shrapnelCount": 0,
+        "shrapnelType": "",
+        "explosionEffectType": "water_balloon",
+        "decalType": "decal_snowball_explosion"
+      }
+    },
+    "headshotMult": 2,
+    "size": "long",
+    "speed": {"equip": 0, "attack": 0},
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-weapon-water.svg",
+      "tint": "65280 | #00FF00",
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    },
+    "worldImg": {"sprite": "https://surviv.io/img/water/water-gun.svg", "tint": false}
+  },
   "scar": {
     "name": "SCAR-H",
     "type": "gun",
@@ -4578,6 +4633,39 @@
     "worldImg": "https://surviv.io/img/proj/proj-snowball-01.svg",
     "useThrowParticles": false
   },
+  "water_balloon": {
+    "name": "Water Balloon",
+    "type": "throwable",
+    "quality": 0,
+    "explosionType": "explosion_water_balloon",
+    "inventoryOrder": 0,
+    "cookable": true,
+    "noPotatoSwap": true,
+    "forceMaxThrowDistance": true,
+    "explodeOnImpact": true,
+    "playerCollision": true,
+    "fuseTime": 9999,
+    "aimDistance": 32,
+    "rad": 1,
+    "throwPhysics": {
+      "playerVelMult": 0,
+      "velZ": 5,
+      "speed": 20,
+      "spinVel": 31.42,
+      "spinDrag": 1,
+      "fixedCollisionHeight": 0.25,
+      "distance": 20
+    },
+    "speed": {"equip": 0, "attack": 0},
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-throwable-water.svg",
+      "tint": "65280 | #00FF00",
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    },
+    "worldImg": "https://surviv.io/img/proj/proj-water-balloon.svg",
+    "useThrowParticles": false
+  },
   "snowball_heavy": {
     "name": "Snowball",
     "type": "throwable",
@@ -5122,6 +5210,18 @@
     "boost": 0,
     "lootImg": {
       "sprite": "https://surviv.io/img/loot/loot-gunchilada.svg",
+      "tint": false,
+      "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
+      "borderTint": false
+    }
+  },
+  "watermelon": {
+    "name": "watermelon",
+    "type": "boost",
+    "useTime": 2,
+    "boost": 0,
+    "lootImg": {
+      "sprite": "https://surviv.io/img/loot/loot-watermelon.svg",
       "tint": false,
       "border": "https://surviv.io/img/loot/loot-circle-outer-01.svg",
       "borderTint": false

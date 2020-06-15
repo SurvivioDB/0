@@ -312,6 +312,32 @@
       "startDate": [1591473600000, "06/06/2020 1PM/4PM PST/EST"],
       "endDate": [1591646400000, "06/08/2020 1PM/4PM PST/EST"],
       "isActive": true
+    },
+    {
+      "id": "event-beach-start",
+      "name": "event-beach-start-title",
+      "description": "event-beach-start-desc",
+      "buttontxt": "winter-event-btn-text",
+      "featureImg": "../img/modals/beach_featured_image.png",
+      "paragraphImage": "../img/modals/beach_paragraph_image.png",
+      "priority": 1,
+      "SKU": "all",
+      "startDate": [1592251200000, "06/15/2020 1PM/4PM PST/EST"],
+      "endDate": [1592683200000, "06/20/2020 1PM/4PM PST/EST"],
+      "isActive": true
+    },
+    {
+      "id": "event-beach-end",
+      "name": "event-beach-end-title",
+      "description": "event-beach-end-desc",
+      "buttontxt": "winter-event-btn-text",
+      "featureImg": "../img/modals/beach_featured_image.png",
+      "paragraphImage": "../img/modals/beach_paragraph_image.png",
+      "priority": 2,
+      "SKU": "all",
+      "startDate": [1592683200000, "06/20/2020 1PM/4PM PST/EST"],
+      "endDate": [1592856000000, "06/22/2020 1PM/4PM PST/EST"],
+      "isActive": true
     }
   ]
 }

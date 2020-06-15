@@ -1061,8 +1061,17 @@
   "index-failed-joining-game-loadout": "Si prega di estensioni incompatibili disabili.",
   "game-hud-mine": "Mina",
   "event-storm-start-title": "MODALITÀ TEMPESTA",
-  "event-storm-start-desc": "cambiamenti misteriosi in tempo hanno gettato l'isola nel caos. vento di guida, fiumi impetuosi, scioperi grandine e fulmini ora rappresentano minacce mortali. I sopravvissuti sono invitati a cercare riparo, ed evitare in piedi nei pressi di formazione di cariche elettrostatiche.",
-  "event-storm-end-title": "EVENTO DI PIOGGIA FINISCE PRESTO!",
-  "event-storm-end-desc": "Le nostre estremità evento tempesta sul 06/08 alle 13:00 PST. Questa è la tua ultima possibilità di sperimentare l'evento tempesta.",
-  "game-weather": "Tempo metereologico"
+  "event-storm-start-desc": "Misteriosi cambiamenti climatici hanno fatto precipitare l'isola nel caos. Vento forte, fiumi in piena, grandine e fulmini ora costituiscono pericoli mortali. Si consiglia ai superstiti di cercare riparo ed evitare di sostare vicino ad accumuli di energia statica.",
+  "event-storm-end-title": "L'EVENTO TEMPESTA STA PER FINIRE!",
+  "event-storm-end-desc": "L'evento Tempesta finirà il giorno 08/06 alle ore 13:00 (PST). È la tua ultima possibilità di provare l'evento Tempesta.",
+  "game-waterGun": "Pistola ad acqua",
+  "game-water_balloon": "Gavettone",
+  "game-outfitSpeedo": "Speedo",
+  "game-watermelon": "Popsicle",
+  "game-watermelon-tooltip": "Aumenta velocità di movimento del 1.1x per 10 secondi. Impilabile.",
+  "event-beach-start-title": "FESTA IN SPIAGGIA",
+  "event-beach-start-desc": "L'estate è qui! Personale Isola hanno generosamente distribuito contenitori di ghiaccio che contengono extra: Rinfrescatevi (e lento verso il basso) altri sopravvissuti con palloncini d'acqua e pistole ad acqua, o trovare alcuni ghiaccioli rinfrescanti per un aumento di velocità.",
+  "event-beach-end-title": "L'EVENTO FESTA IN SPIAGGIA STA PER FINIRE!",
+  "event-beach-end-desc": "L'evento Festa in spiaggia finirà il giorno 22/06 alle ore 13:00 (PST). È la tua ultima possibilità di provare l'evento Festa in spiaggia.",
+  "game-weather": "Clima"
 }

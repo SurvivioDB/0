@@ -1060,9 +1060,18 @@
   "game-mine": "Mìn",
   "index-failed-joining-game-loadout": "Vui lòng vô hiệu hóa các tiện ích mở rộng không tương thích.",
   "game-hud-mine": "Mìn",
-  "event-storm-start-title": "CHẾ ĐỘ BÃO",
-  "event-storm-start-desc": "thay đổi bí ẩn trong thời tiết đã ném hòn đảo này vào hỗn loạn. Lái xe gió, đổ xô sông, đình mưa đá và sét tại mối đe dọa chết. Những người sống sót được khuyên nên tìm nơi trú ẩn, và tránh đứng gần tích tụ tĩnh.",
-  "event-storm-end-title": "SỰ KIỆN CƠN BÃO KẾT THÚC SỚM!",
-  "event-storm-end-desc": "sự kiện bão của chúng tôi kết thúc vào ngày 08/06 lúc 1 giờ chiều PST. Đây là cơ hội cuối cùng của bạn để trải nghiệm những sự kiện cơn bão.",
-  "game-weather": "thời tiết"
+  "event-storm-start-title": "CHẾ ĐỘ BÃO TÁP",
+  "event-storm-start-desc": "Những thay đổi bí ẩn của thời tiết đã khiến hòn đảo rơi vào tình trạng hỗn loạn. Gió thổi ào ạt, sông chảy cuồn cuộn, mưa đá và những tia sét hiện tại đều trở thành những mối đe dọa trí mạng. Các Survivr nên tìm nơi trú ẩn và tránh đứng gần những nơi tích điện.",
+  "event-storm-end-title": "SỰ KIỆN BÃO TÁP SẼ SỚM KẾT THÚC!",
+  "event-storm-end-desc": "Sự kiện Bão Táp của chúng tôi sẽ kết thúc vào lúc 1 giờ chiều PST ngày 08/06. Đây là cơ hội cuối cùng của bạn để trải nghiệm sự kiện Bão Táp.",
+  "game-waterGun": "Súng nước",
+  "game-water_balloon": "Bóng nước",
+  "game-outfitSpeedo": "Speedo",
+  "game-watermelon": "Kem que",
+  "game-watermelon-tooltip": "Tăng tốc độ di chuyển bằng 1,1 lần trong vòng 10 giây. Stackable.",
+  "event-beach-start-title": "TIỆC BÃI BIỂN",
+  "event-beach-start-desc": "Mùa hè đến rồi! nhân viên Đảo đã hào phóng phân phối hộp băng chứa goodies: Tắm mát (và chậm) sống sót đồng với bong bóng nước và súng nước, hoặc tìm thấy một số kem tươi mới cho một tăng tốc độ.",
+  "event-beach-end-title": "TIỆC BÃI BIỂN SẼ SỚM KẾT THÚC!",
+  "event-beach-end-desc": "Sự kiện Tiệc Bãi Biển của chúng tôi sẽ kết thúc vào lúc 1 giờ chiều PST ngày 22/06. Đây là cơ hội cuối cùng của bạn để trải nghiệm sự kiện Tiệc Bãi Biển.",
+  "game-weather": "Thời tiết"
 }
