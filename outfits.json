@@ -876,7 +876,190 @@
       "backpackSprite": "https://surviv.io/img/player/player-circle-base-01.svg"
     },
     "lootImg": {"sprite": "https://surviv.io/img/loot/loot-shirt-outfitChromesis.svg", "tint": false},
-    "accessory": {"sprite": "outfit-chrome-accessory.img"}
+    "accessory": {"sprite": "outfit-chrome-accessory.img", "topUI": 55}
+  },
+  "outfitFragtastic": {
+    "name": "Fragtastic",
+    "noDropOnDeath": true,
+    "rarity": 1,
+    "lore": "",
+    "skinImg": {
+      "baseTint": "6445342 | #62591E",
+      "handTint": "8418603 | #80752B",
+      "footTint": "8418603 | #80752B",
+      "backpackTint": "15632257 | #EE8781"
+    },
+    "lootImg": {"sprite": "https://surviv.io/img/loot/loot-shirt-outfitFragtastic.svg", "tint": false}
+  },
+  "outfitRusticSands": {
+    "name": "Rustic Sands",
+    "noDropOnDeath": true,
+    "rarity": 1,
+    "lore": "",
+    "skinImg": {
+      "baseTint": "16439928 | #FADA78",
+      "handTint": "7422486 | #714216",
+      "footTint": "7422486 | #714216",
+      "backpackTint": "8071191 | #7B2817"
+    },
+    "lootImg": {"sprite": "https://surviv.io/img/loot/loot-shirt-outfitRusticSands.svg", "tint": false}
+  },
+  "outfitWaves": {
+    "name": "Waves",
+    "noDropOnDeath": true,
+    "rarity": 2,
+    "lore": "",
+    "skinImg": {
+      "baseTint": false,
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitWaves.svg",
+      "handTint": "3962264 | #3C7598",
+      "footTint": "3962264 | #3C7598",
+      "backpackTint": "1389637 | #153445"
+    },
+    "lootImg": {"sprite": "https://surviv.io/img/loot/loot-shirt-outfitWaves.svg", "tint": false}
+  },
+  "outfitUrbanCamo": {
+    "name": "Urban Camo",
+    "noDropOnDeath": true,
+    "rarity": 2,
+    "lore": "",
+    "skinImg": {
+      "baseTint": false,
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitUrbanCamo.svg",
+      "handTint": "2834524 | #2B405C",
+      "footTint": "2834524 | #2B405C",
+      "backpackTint": "10859210 | #A5B2CA"
+    },
+    "lootImg": {"sprite": "https://surviv.io/img/loot/loot-shirt-outfitUrbanCamo.svg", "tint": false}
+  },
+  "outfitNeonEyesore": {
+    "name": "Neon Eyesore",
+    "noDropOnDeath": true,
+    "rarity": 3,
+    "lore": "",
+    "skinImg": {
+      "baseTint": "7666941 | #74FCFD",
+      "handTint": "7731788 | #75FA4C",
+      "footTint": "7731788 | #75FA4C",
+      "backpackTint": "16776789 | #FFFE55"
+    },
+    "lootImg": {"sprite": "https://surviv.io/img/loot/loot-shirt-outfitNeonEyesore.svg", "tint": false}
+  },
+  "outfitGiraffe": {
+    "name": "Giraffe",
+    "noDropOnDeath": true,
+    "rarity": 3,
+    "lore": "",
+    "skinImg": {
+      "baseTint": false,
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitGiraffe.svg",
+      "handTint": "15840836 | #F1B644",
+      "footTint": "15840836 | #F1B644",
+      "backpackTint": "15840836 | #F1B644",
+      "backpackSprite": "https://surviv.io/img/player/player-circle-base-02.svg"
+    },
+    "lootImg": {"sprite": "https://surviv.io/img/loot/loot-shirt-outfitGiraffe.svg", "tint": false}
+  },
+  "outfitCow": {
+    "name": "Cow",
+    "noDropOnDeath": true,
+    "rarity": 3,
+    "lore": "",
+    "skinImg": {
+      "baseTint": false,
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitCow.svg",
+      "handTint": false,
+      "footTint": false,
+      "backpackTint": false
+    },
+    "lootImg": {"sprite": "https://surviv.io/img/loot/loot-shirt-outfitCow.svg", "tint": false}
+  },
+  "outfitMojo": {
+    "name": "Mojo",
+    "noDropOnDeath": true,
+    "rarity": 4,
+    "lore": "",
+    "skinImg": {
+      "baseTint": false,
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitMojo.svg",
+      "handTint": "15124237 | #E6C70D",
+      "footTint": "15124237 | #E6C70D",
+      "backpackTint": false
+    },
+    "lootImg": {"sprite": "https://surviv.io/img/loot/loot-shirt-outfitMojo.svg", "tint": false}
+  },
+  "outfitZebra": {
+    "name": "Zebra",
+    "noDropOnDeath": true,
+    "rarity": 4,
+    "lore": "",
+    "skinImg": {
+      "baseTint": false,
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitZebra.svg",
+      "handTint": false,
+      "footTint": false,
+      "backpackTint": false
+    },
+    "lootImg": {"sprite": "https://surviv.io/img/loot/loot-shirt-outfitZebra.svg", "tint": false}
+  },
+  "outfitAstronaut": {
+    "name": "Astronaut",
+    "noDropOnDeath": true,
+    "rarity": 4,
+    "lore": "",
+    "skinImg": {
+      "baseTint": false,
+      "baseSprite": "https://surviv.io/img/player/player-base-outfitAstronaut.svg",
+      "handTint": false,
+      "footTint": false,
+      "backpackTint": "16750080 | #FF9600"
+    },
+    "lootImg": {"sprite": "https://surviv.io/img/loot/loot-shirt-outfitAstronaut.svg", "tint": false},
+    "accessory": {"sprite": "player-accessory-outfitAstronaut.img", "scaleUI": 0.38}
+  },
+  "outfitDiamondy": {
+    "name": "Diamondy",
+    "noDropOnDeath": true,
+    "rarity": 5,
+    "lore": "",
+    "skinImg": {
+      "baseTint": "12577023 | #BFE8FF",
+      "handTint": "16302391 | #F8C137",
+      "footTint": "16302391 | #F8C137",
+      "backpackTint": "16302391 | #F8C137"
+    },
+    "lootImg": {"sprite": "https://surviv.io/img/loot/loot-shirt-outfitDiamondy.svg", "tint": false},
+    "accessory": {"sprite": "player-accessory-outfitDiamondy.img", "anchor": {"x": 0.6, "y": 0.5}, "topUI": 55}
+  },
+  "outfitMecha": {
+    "name": "Mecha",
+    "noDropOnDeath": true,
+    "rarity": 5,
+    "lore": "",
+    "skinImg": {
+      "baseTint": "15592941 | #EDEDED",
+      "handTint": false,
+      "handSprite": "https://surviv.io/img/player/player-hands-outfitMecha.svg",
+      "footTint": "5996250 | #5B7EDA",
+      "backpackTint": "5996250 | #5B7EDA"
+    },
+    "lootImg": {"sprite": "https://surviv.io/img/loot/loot-shirt-outfitMecha.svg", "tint": false},
+    "accessory": {"sprite": "player-accessory-outfitMecha.img", "anchor": {"x": 0.6, "y": 0.5}, "topUI": 55}
+  },
+  "outfitFireball": {
+    "name": "Fireball",
+    "noDropOnDeath": true,
+    "rarity": 5,
+    "lore": "",
+    "skinImg": {
+      "baseTint": "12266256 | #BB2B10",
+      "handTint": false,
+      "handSprite": "https://surviv.io/img/player/player-hands-outfitFireball.svg",
+      "footTint": "13644309 | #D03215",
+      "backpackTint": "13644309 | #D03215"
+    },
+    "lootImg": {"sprite": "https://surviv.io/img/loot/loot-shirt-outfitFireball.svg", "tint": false},
+    "accessory": {"sprite": "player-accessory-outfitFireball.img", "anchor": {"x": 0.6, "y": 0.5}, "topUI": 55}
   },
   "outfitBarrel": {
     "name": "Barrel Costume",

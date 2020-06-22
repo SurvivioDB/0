@@ -411,7 +411,7 @@
   "loadout-oof": "オーフ",
   "loadout-energel": "エナージェル",
   "loadout-hexamend": "ヘキサメンド",
-  "loadout-to-be,-or-not?": "生きるか死ぬか",
+  "loadout-to-be-or-not?": "生きるか死ぬか",
   "loadout-shock-&-awe": "衝撃と畏怖",
   "loadout-patch-job": "応急手当",
   "loadout-trollface": "トロールフェイス",
@@ -1073,5 +1073,8 @@
   "event-beach-start-desc": "夏が来た！島のスタッフは寛大グッズを含む氷箱を配布している：オフクール（およびスローダウン）水風船や水鉄砲で仲間の生存者、または速度向上のためのいくつかのさわやかなアイスキャンディーを見つけます。",
   "event-beach-end-title": "「ビーチパーティー」がまもなく終了！",
   "event-beach-end-desc": "ビーチパーティーイベントは、6月22日午後1時（PDT）に終了します。ビーチパーティーイベントを体験できる最後のチャンスです。",
-  "game-weather": "天候"
+  "game-weather": "天候",
+  "modal-open-store": "ショップ",
+  "iap-lto-title": "特別オファー",
+  "item-source-exclusive-offers": "特別オファー"
 }

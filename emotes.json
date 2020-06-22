@@ -1473,7 +1473,7 @@
   },
   "emote_skull": {
     "type": "emote",
-    "name": "To Be, Or Not?",
+    "name": "To Be Or Not?",
     "rarity": 3,
     "texture": "https://surviv.io/img/emotes/emote-skull.svg",
     "channel": "ui",
@@ -1485,6 +1485,114 @@
     "name": "Trollface",
     "rarity": 4,
     "texture": "https://surviv.io/img/emotes/emote-trollface.svg",
+    "channel": "ui",
+    "teamOnly": false,
+    "category": "i.Other"
+  },
+  "emote_greedy": {
+    "type": "emote",
+    "name": "Greedy",
+    "rarity": 1,
+    "texture": "https://surviv.io/img/emotes/emote-greedy.svg",
+    "channel": "ui",
+    "teamOnly": false,
+    "category": "i.Other"
+  },
+  "emote_easy": {
+    "type": "emote",
+    "name": "Easy",
+    "rarity": 1,
+    "texture": "https://surviv.io/img/emotes/emote-easy.svg",
+    "channel": "ui",
+    "teamOnly": false,
+    "category": "i.Other"
+  },
+  "emote_lies": {
+    "type": "emote",
+    "name": "Lies",
+    "rarity": 2,
+    "texture": "https://surviv.io/img/emotes/emote-lies.svg",
+    "channel": "ui",
+    "teamOnly": false,
+    "category": "i.Other"
+  },
+  "emote_sweaty": {
+    "type": "emote",
+    "name": "Sweaty",
+    "rarity": 2,
+    "texture": "https://surviv.io/img/emotes/emote-sweaty.svg",
+    "channel": "ui",
+    "teamOnly": false,
+    "category": "i.Other"
+  },
+  "emote_flushed": {
+    "type": "emote",
+    "name": "Flushed",
+    "rarity": 2,
+    "texture": "https://surviv.io/img/emotes/emote-flushed.svg",
+    "channel": "ui",
+    "teamOnly": false,
+    "category": "i.Other"
+  },
+  "emote_deadface": {
+    "type": "emote",
+    "name": "Dead Face",
+    "rarity": 3,
+    "texture": "https://surviv.io/img/emotes/emote-deadface.svg",
+    "channel": "ui",
+    "teamOnly": false,
+    "category": "i.Other"
+  },
+  "emote_starstruck": {
+    "type": "emote",
+    "name": "Starstruck",
+    "rarity": 3,
+    "texture": "https://surviv.io/img/emotes/emote-starstruck.svg",
+    "channel": "ui",
+    "teamOnly": false,
+    "category": "i.Other"
+  },
+  "emote_panned": {
+    "type": "emote",
+    "name": "Panned",
+    "rarity": 3,
+    "texture": "https://surviv.io/img/emotes/emote-panned.svg",
+    "channel": "ui",
+    "teamOnly": false,
+    "category": "i.Other"
+  },
+  "emote_happyghost": {
+    "type": "emote",
+    "name": "Happy Ghost",
+    "rarity": 4,
+    "texture": "https://surviv.io/img/emotes/emote-happyghost.svg",
+    "channel": "ui",
+    "teamOnly": false,
+    "category": "i.Other"
+  },
+  "emote_shroomcloud": {
+    "type": "emote",
+    "name": "Shroomcloud",
+    "rarity": 4,
+    "texture": "https://surviv.io/img/emotes/emote-shroomcloud.svg",
+    "channel": "ui",
+    "teamOnly": false,
+    "category": "i.Other"
+  },
+  "emote_fabulorn": {
+    "type": "emote",
+    "name": "Fabulorn",
+    "rarity": 5,
+    "texture": "https://surviv.io/img/emotes/emote-fabulorn.svg",
+    "channel": "ui",
+    "teamOnly": false,
+    "category": "i.Other"
+  },
+  "emote_shur": {
+    "type": "emote",
+    "name": "Shur",
+    "rarity": 5,
+    "texture": "https://surviv.io/img/emotes/emote-shur.svg",
     "channel": "ui",
     "teamOnly": false,
     "category": "i.Other"

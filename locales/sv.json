@@ -411,7 +411,7 @@
   "loadout-oof": "Puh",
   "loadout-energel": "Energel",
   "loadout-hexamend": "Hexamend",
-  "loadout-to-be,-or-not?": "Att vara eller inte vara?",
+  "loadout-to-be-or-not?": "Att vara eller inte vara?",
   "loadout-shock-&-awe": "Shockerande",
   "loadout-patch-job": "Ihopklistrat",
   "loadout-trollface": "Trollfejs",
@@ -1059,10 +1059,14 @@
   "event-ultimate-sacrifice-end-desc": "Vårt främsta offret händelsen slutar på 5/25 på 01:00 PST. Det här är din sista chans att uppleva ny befälhavare funktioner.",
   "game-mine": "Landmina",
   "index-failed-joining-game-loadout": "Inaktivera inkompatibla tillägg.",
+  "index-team-bigger-than-duo": "Läge valts kan inte spelas med mer än 2 spelare",
   "game-hud-mine": "Landmina",
   "event-storm-start-title": "STORM LÄGE",
   "event-storm-start-desc": "Mystiska förändringar i vädret har kastat ön i kaos. Körning vind, forsande älvar, hagel och blixtnedslag utgör nu dödliga hot. Överlevande uppmanas att söka skydd, och undvika att stå nära statisk elektricitet.",
   "event-storm-end-title": "STORM HÄNDELSE SLUTAR SNART!",
   "event-storm-end-desc": "Våra storm händelse ändar på 06/08 vid 01:00 PST. Det här är din sista chans att uppleva stormen händelsen.",
-  "game-weather": "Väder"
+  "game-weather": "Väder",
+  "modal-open-store": "AFFÄR",
+  "iap-lto-title": "EXKLUSIVA ERBJUDANDEN",
+  "item-source-exclusive-offers": "exklusiva erbjudanden"
 }

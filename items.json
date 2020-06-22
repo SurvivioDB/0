@@ -3689,6 +3689,44 @@
         "name": "Frostpunch",
         "rarity": 4,
         "lootImg": "https://surviv.io/img/loot/loot-melee-FrostPunch.svg"
+      },
+      "fist_immolate": {
+        "name": "Immolate",
+        "rarity": 1,
+        "lootImg": "https://surviv.io/img/loot/loot-melee-immolate.svg"
+      },
+      "fist_bulletbills": {
+        "name": "Bullet Bills",
+        "rarity": 1,
+        "lootImg": "https://surviv.io/img/loot/loot-melee-bulletbills.svg"
+      },
+      "fist_moss": {"name": "Moss", "rarity": 1, "lootImg": "https://surviv.io/img/loot/loot-melee-moss.svg"},
+      "fist_blackholes": {
+        "name": "Black Holes",
+        "rarity": 2,
+        "lootImg": "https://surviv.io/img/loot/loot-melee-blackholes.svg"
+      },
+      "fist_rainbowhands": {
+        "name": "Rainbow Hands",
+        "rarity": 3,
+        "lootImg": "https://surviv.io/img/loot/loot-melee-rainbowhands.svg"
+      },
+      "fist_darklets": {
+        "name": "Darklets",
+        "rarity": 2,
+        "lootImg": "https://surviv.io/img/loot/loot-melee-darklets.svg"
+      },
+      "fist_scifi": {
+        "name": "Scifi",
+        "rarity": 3,
+        "lootImg": "https://surviv.io/img/loot/loot-melee-scifi.svg"
+      },
+      "fist_poke": {"name": "Poke", "rarity": 4, "lootImg": "https://surviv.io/img/loot/loot-melee-poke.svg"},
+      "fist_paws": {"name": "Paws", "rarity": 4, "lootImg": "https://surviv.io/img/loot/loot-melee-paws.svg"},
+      "fist_dinoclaws": {
+        "name": "Dino Claws",
+        "rarity": 4,
+        "lootImg": "https://surviv.io/img/loot/loot-melee-dinoclaws.svg"
       }
     }
   },
@@ -5216,7 +5254,7 @@
     }
   },
   "watermelon": {
-    "name": "watermelon",
+    "name": "Popsicle",
     "type": "boost",
     "useTime": 2,
     "boost": 0,
