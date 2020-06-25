@@ -344,7 +344,7 @@
   },
   "map": {
     "protocolVersion": 86,
-    "clientVersion": "0.9.5c",
+    "clientVersion": "0.9.5d",
     "Input": {
       "MoveLeft": 0,
       "MoveRight": 1,
@@ -1474,15 +1474,15 @@
       "name": "Fragtastic",
       "noDropOnDeath": true,
       "rarity": 1,
-      "lore": "",
-      "skinImg": {"baseTint": 6445342, "handTint": 8418603, "footTint": 8418603, "backpackTint": 15632257},
+      "lore": "Created by Hatsune Blake",
+      "skinImg": {"baseTint": 6445342, "handTint": 8418603, "footTint": 8418603, "backpackTint": 9474192},
       "lootImg": {"sprite": "loot-shirt-outfitFragtastic.img", "tint": 16777215}
     },
     "outfitRusticSands": {
       "name": "Rustic Sands",
       "noDropOnDeath": true,
       "rarity": 1,
-      "lore": "",
+      "lore": "Created by FrankzeeTank",
       "skinImg": {"baseTint": 16439928, "handTint": 7422486, "footTint": 7422486, "backpackTint": 8071191},
       "lootImg": {"sprite": "loot-shirt-outfitRusticSands.img", "tint": 16777215}
     },
@@ -1490,7 +1490,7 @@
       "name": "Waves",
       "noDropOnDeath": true,
       "rarity": 2,
-      "lore": "",
+      "lore": "Created by Fonpard",
       "skinImg": {
         "baseTint": 16777215,
         "baseSprite": "player-base-outfitWaves.img",
@@ -1518,7 +1518,7 @@
       "name": "Neon Eyesore",
       "noDropOnDeath": true,
       "rarity": 3,
-      "lore": "",
+      "lore": "Created by Savage_Wuhan (Jerrie123)",
       "skinImg": {"baseTint": 7666941, "handTint": 7731788, "footTint": 7731788, "backpackTint": 16776789},
       "lootImg": {"sprite": "loot-shirt-outfitNeonEyesore.img", "tint": 16777215}
     },
@@ -4365,6 +4365,7 @@
       "fireMode": "auto",
       "caseTiming": "shoot",
       "ammo": "762mm",
+      "noPotatoSwap": true,
       "ammoSpawnCount": 90,
       "maxClip": 30,
       "maxReload": 30,
@@ -11487,7 +11488,8 @@
       "sound": "emote_01",
       "channel": "ui",
       "teamOnly": false,
-      "category": "i.Other"
+      "category": "i.Other",
+      "lore": "Created by Mxstyc"
     },
     "emote_easy": {
       "type": "emote",
@@ -11507,7 +11509,8 @@
       "sound": "emote_01",
       "channel": "ui",
       "teamOnly": false,
-      "category": "i.Other"
+      "category": "i.Other",
+      "lore": "Created by badname"
     },
     "emote_sweaty": {
       "type": "emote",
@@ -11517,7 +11520,8 @@
       "sound": "emote_01",
       "channel": "ui",
       "teamOnly": false,
-      "category": "i.Other"
+      "category": "i.Other",
+      "lore": "Created by badname"
     },
     "emote_flushed": {
       "type": "emote",
@@ -11527,7 +11531,8 @@
       "sound": "emote_01",
       "channel": "ui",
       "teamOnly": false,
-      "category": "i.Other"
+      "category": "i.Other",
+      "lore": "Created by Lil Fish"
     },
     "emote_deadface": {
       "type": "emote",
@@ -11537,7 +11542,8 @@
       "sound": "emote_01",
       "channel": "ui",
       "teamOnly": false,
-      "category": "i.Other"
+      "category": "i.Other",
+      "lore": "Created by Creeperslayr SaveTurtles"
     },
     "emote_starstruck": {
       "type": "emote",
@@ -11547,7 +11553,8 @@
       "sound": "emote_01",
       "channel": "ui",
       "teamOnly": false,
-      "category": "i.Other"
+      "category": "i.Other",
+      "lore": "Created by DotDot"
     },
     "emote_panned": {
       "type": "emote",
@@ -11557,7 +11564,8 @@
       "sound": "emote_01",
       "channel": "ui",
       "teamOnly": false,
-      "category": "i.Other"
+      "category": "i.Other",
+      "lore": "Created by Downtime"
     },
     "emote_happyghost": {
       "type": "emote",
@@ -11567,7 +11575,8 @@
       "sound": "emote_01",
       "channel": "ui",
       "teamOnly": false,
-      "category": "i.Other"
+      "category": "i.Other",
+      "lore": "Created by HenryBoy"
     },
     "emote_shroomcloud": {
       "type": "emote",
@@ -11577,7 +11586,8 @@
       "sound": "emote_01",
       "channel": "ui",
       "teamOnly": false,
-      "category": "i.Other"
+      "category": "i.Other",
+      "lore": ""
     },
     "emote_fabulorn": {
       "type": "emote",
@@ -12213,7 +12223,8 @@
       "name": "Paramedicine",
       "rarity": 1,
       "texture": "part-heal-paramedicine.img",
-      "emitter": "heal_paramedicine"
+      "emitter": "heal_paramedicine",
+      "lore": "Created by Roamer"
     },
     "heal_lotus": {
       "type": "heal_effect",
@@ -12276,21 +12287,24 @@
       "name": "Sugar High",
       "rarity": 1,
       "texture": "part-boost-sugar.img",
-      "emitter": "boost_sugar"
+      "emitter": "boost_sugar",
+      "lore": "Created by Incognito D00D"
     },
     "boost_gear": {
       "type": "boost_effect",
       "name": "Gear",
       "rarity": 1,
       "texture": "part-boost-gear.img",
-      "emitter": "boost_gear"
+      "emitter": "boost_gear",
+      "lore": "Created by Spy"
     },
     "boost_atomic": {
       "type": "boost_effect",
       "name": "Atomic",
       "rarity": 2,
       "texture": "part-boost-atomic.img",
-      "emitter": "boost_atomic"
+      "emitter": "boost_atomic",
+      "lore": "Created by avika"
     }
   },
   "crosshair": {
@@ -12609,6 +12623,7 @@
       "type": "pass",
       "endDate": 1598295600000,
       "buyOptions": {"basic": {"price": 4000, "extraXP": 0}, "all_levels": {"price": 7500, "extraXP": 0}},
+      "discountLevels": {"10": {"discount": 10}, "20": {"discount": 15}, "30": {"discount": 25}},
       "xp": [
         18,
         25,
@@ -12696,7 +12711,7 @@
   "frame": {
     "loadout": [
       {
-        "meta": {"image": "loadout-0-100-226cf018.png", "size": {"w": 4096, "h": 4096}, "scale": 1},
+        "meta": {"image": "loadout-0-100-96127610.png", "size": {"w": 4096, "h": 4096}, "scale": 1},
         "frames": {
           "part-aura-circle-01.img": {
             "frame": {"x": 508, "y": 2, "w": 284, "h": 280},
@@ -17897,7 +17912,7 @@
     ],
     "shared": [
       {
-        "meta": {"image": "shared-0-100-8c21aa43.png", "size": {"w": 4096, "h": 4096}, "scale": 1},
+        "meta": {"image": "shared-0-100-05100f09.png", "size": {"w": 4096, "h": 4096}, "scale": 1},
         "frames": {
           "map-building-police-floor-01.img": {
             "frame": {"x": 1438, "y": 2, "w": 2112, "h": 1568},
@@ -18025,7 +18040,7 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 416},
             "sourceSize": {"w": 32, "h": 416}
           },
-          "map-building-hut-ceiling-01.img": {
+          "map-building-hut-ceiling-02.img": {
             "frame": {"x": 3554, "y": 2421, "w": 378, "h": 393},
             "rotated": false,
             "trimmed": true,
@@ -18039,14 +18054,14 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 64, "h": 384},
             "sourceSize": {"w": 64, "h": 384}
           },
-          "map-wall-12-rounded.img": {
+          "map-wall-glass-12.img": {
             "frame": {"x": 4004, "y": 2421, "w": 32, "h": 384},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 384},
             "sourceSize": {"w": 32, "h": 384}
           },
-          "map-wall-glass-12.img": {
+          "map-wall-12-rounded.img": {
             "frame": {"x": 4040, "y": 2421, "w": 32, "h": 384},
             "rotated": false,
             "trimmed": false,
@@ -18109,14 +18124,14 @@
             "spriteSourceSize": {"x": 0, "y": -1, "w": 63, "h": 260},
             "sourceSize": {"w": 62, "h": 258}
           },
-          "map-tree-03.img": {
+          "map-tree-07su.img": {
             "frame": {"x": 369, "y": 3816, "w": 256, "h": 256},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 256, "h": 256},
             "sourceSize": {"w": 256, "h": 256}
           },
-          "map-tree-07su.img": {
+          "map-tree-03.img": {
             "frame": {"x": 629, "y": 3816, "w": 256, "h": 256},
             "rotated": false,
             "trimmed": false,
@@ -18172,68 +18187,68 @@
             "spriteSourceSize": {"x": 0, "y": 1, "w": 24, "h": 241},
             "sourceSize": {"w": 24, "h": 242}
           },
-          "loot-crate-01.img": {
-            "frame": {"x": 2046, "y": 3816, "w": 238, "h": 238},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 238, "h": 238},
-            "sourceSize": {"w": 238, "h": 238}
-          },
           "loot-crate-02.img": {
-            "frame": {"x": 2288, "y": 3816, "w": 238, "h": 238},
+            "frame": {"x": 2046, "y": 3816, "w": 239, "h": 238},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 239, "h": 238},
+            "sourceSize": {"w": 239, "h": 239}
+          },
+          "loot-crate-03.img": {
+            "frame": {"x": 2289, "y": 3816, "w": 239, "h": 238},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 239, "h": 238},
+            "sourceSize": {"w": 239, "h": 239}
+          },
+          "loot-crate-01.img": {
+            "frame": {"x": 2532, "y": 3816, "w": 238, "h": 238},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 238, "h": 238},
             "sourceSize": {"w": 238, "h": 238}
           },
           "map-pipes-03.img": {
-            "frame": {"x": 2530, "y": 3816, "w": 684, "h": 236},
+            "frame": {"x": 2774, "y": 3816, "w": 684, "h": 236},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 684, "h": 236},
             "sourceSize": {"w": 684, "h": 236}
           },
           "map-hut-res-01.img": {
-            "frame": {"x": 3218, "y": 3816, "w": 236, "h": 236},
+            "frame": {"x": 3462, "y": 3816, "w": 236, "h": 236},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 130, "y": 136, "w": 236, "h": 236},
             "sourceSize": {"w": 512, "h": 512}
           },
-          "map-chute-01x.img": {
-            "frame": {"x": 3458, "y": 3816, "w": 232, "h": 232},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 12, "y": 12, "w": 232, "h": 232},
-            "sourceSize": {"w": 256, "h": 256}
-          },
           "map-chute-01.img": {
-            "frame": {"x": 3694, "y": 3816, "w": 232, "h": 232},
+            "frame": {"x": 3702, "y": 3816, "w": 232, "h": 232},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 12, "y": 12, "w": 232, "h": 232},
             "sourceSize": {"w": 256, "h": 256}
           },
           "map-door-02.img": {
-            "frame": {"x": 3930, "y": 3816, "w": 80, "h": 224},
+            "frame": {"x": 3938, "y": 3816, "w": 80, "h": 224},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 80, "h": 224},
             "sourceSize": {"w": 80, "h": 224}
           },
           "map-wall-07.img": {
-            "frame": {"x": 4014, "y": 3816, "w": 32, "h": 224},
+            "frame": {"x": 4022, "y": 3816, "w": 32, "h": 224},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 224},
             "sourceSize": {"w": 32, "h": 224}
           },
-          "map-wall-07-rounded.img": {
-            "frame": {"x": 4050, "y": 3816, "w": 32, "h": 224},
+          "map-wall-shack-left.img": {
+            "frame": {"x": 4058, "y": 3816, "w": 24, "h": 222},
             "rotated": false,
             "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 224},
-            "sourceSize": {"w": 32, "h": 224}
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 24, "h": 222},
+            "sourceSize": {"w": 24, "h": 222}
           },
           "index-dropdown-arrow.img": {
             "frame": {"x": 4074, "y": 1086, "w": 10, "h": 6},
@@ -18298,14 +18313,14 @@
             "spriteSourceSize": {"x": 28, "y": 25, "w": 95, "h": 126},
             "sourceSize": {"w": 176, "h": 176}
           },
-          "emote-greedy.img": {
+          "emote-sweaty.img": {
             "frame": {"x": 2466, "y": 2690, "w": 125, "h": 125},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 2, "y": 2, "w": 125, "h": 125},
             "sourceSize": {"w": 129, "h": 129}
           },
-          "emote-sweaty.img": {
+          "emote-greedy.img": {
             "frame": {"x": 2595, "y": 2690, "w": 125, "h": 125},
             "rotated": false,
             "trimmed": true,
@@ -18333,26 +18348,26 @@
             "spriteSourceSize": {"x": 2, "y": 3, "w": 125, "h": 124},
             "sourceSize": {"w": 129, "h": 129}
           },
-          "emote-starstruck.img": {
+          "map-crate-05.img": {
             "frame": {"x": 3109, "y": 2690, "w": 124, "h": 124},
             "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 3, "y": 3, "w": 124, "h": 124},
-            "sourceSize": {"w": 130, "h": 129}
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 124, "h": 124},
+            "sourceSize": {"w": 124, "h": 124}
           },
-          "emote-flushed.img": {
+          "emote-lies.img": {
             "frame": {"x": 3237, "y": 2690, "w": 124, "h": 124},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 2, "y": 3, "w": 124, "h": 124},
             "sourceSize": {"w": 129, "h": 129}
           },
-          "map-crate-05.img": {
+          "emote-flushed.img": {
             "frame": {"x": 3365, "y": 2690, "w": 124, "h": 124},
             "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 124, "h": 124},
-            "sourceSize": {"w": 124, "h": 124}
+            "trimmed": true,
+            "spriteSourceSize": {"x": 2, "y": 3, "w": 124, "h": 124},
+            "sourceSize": {"w": 129, "h": 129}
           },
           "map-building-boarded-window-01.img": {
             "frame": {"x": 3493, "y": 2690, "w": 44, "h": 113},
@@ -18361,7 +18376,7 @@
             "spriteSourceSize": {"x": 4, "y": 7, "w": 44, "h": 113},
             "sourceSize": {"w": 48, "h": 128}
           },
-          "map-building-house-window-res-01.img": {
+          "map-building-house-window-01.img": {
             "frame": {"x": 4046, "y": 2309, "w": 32, "h": 104},
             "rotated": false,
             "trimmed": false,
@@ -18389,7 +18404,7 @@
             "spriteSourceSize": {"x": 0, "y": 1, "w": 70, "h": 78},
             "sourceSize": {"w": 70, "h": 79}
           },
-          "player-hands-geometric.img": {
+          "player-hands-winter.img": {
             "frame": {"x": 3894, "y": 1774, "w": 77, "h": 77},
             "rotated": false,
             "trimmed": false,
@@ -18466,28 +18481,28 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 128, "h": 64},
             "sourceSize": {"w": 128, "h": 64}
           },
-          "crosshair160.img": {
+          "map-column-01.img": {
             "frame": {"x": 3666, "y": 3742, "w": 64, "h": 64},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 64, "h": 64},
             "sourceSize": {"w": 64, "h": 64}
           },
-          "map-column-01.img": {
+          "crosshair160.img": {
             "frame": {"x": 3734, "y": 3742, "w": 64, "h": 64},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 64, "h": 64},
             "sourceSize": {"w": 64, "h": 64}
           },
-          "map-wall-02-rounded.img": {
+          "map-wall-02.img": {
             "frame": {"x": 3802, "y": 3742, "w": 32, "h": 64},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 64},
             "sourceSize": {"w": 32, "h": 64}
           },
-          "map-wall-02.img": {
+          "map-wall-02-rounded.img": {
             "frame": {"x": 3838, "y": 3742, "w": 32, "h": 64},
             "rotated": false,
             "trimmed": false,
@@ -18574,7 +18589,7 @@
         }
       },
       {
-        "meta": {"image": "shared-1-100-169bed97.png", "size": {"w": 4096, "h": 4096}, "scale": 1},
+        "meta": {"image": "shared-1-100-8aa5f855.png", "size": {"w": 4096, "h": 4096}, "scale": 1},
         "frames": {
           "map-bunker-conch-compartment-floor-01a.img": {
             "frame": {"x": 562, "y": 2, "w": 942, "h": 880},
@@ -18597,14 +18612,14 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 1442, "h": 866},
             "sourceSize": {"w": 1442, "h": 866}
           },
-          "map-building-house-floor-01.img": {
+          "map-building-house-floor-02.img": {
             "frame": {"x": 2, "y": 894, "w": 960, "h": 864},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 960, "h": 864},
             "sourceSize": {"w": 960, "h": 864}
           },
-          "map-building-house-floor-02.img": {
+          "map-building-house-floor-01.img": {
             "frame": {"x": 966, "y": 894, "w": 960, "h": 864},
             "rotated": false,
             "trimmed": false,
@@ -18723,33 +18738,33 @@
             "spriteSourceSize": {"x": 2, "y": 2, "w": 374, "h": 468},
             "sourceSize": {"w": 376, "h": 472}
           },
-          "map-building-container-ceiling-01.img": {
+          "map-building-container-open-ceiling-01.img": {
             "frame": {"x": 2706, "y": 1762, "w": 180, "h": 380},
             "rotated": false,
             "trimmed": true,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 180, "h": 380},
-            "sourceSize": {"w": 180, "h": 536}
+            "spriteSourceSize": {"x": 0, "y": 156, "w": 180, "h": 380},
+            "sourceSize": {"w": 180, "h": 692}
           },
-          "map-building-container-ceiling-02.img": {
+          "map-building-container-ceiling-01.img": {
             "frame": {"x": 2706, "y": 2146, "w": 180, "h": 380},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 180, "h": 380},
             "sourceSize": {"w": 180, "h": 536}
           },
-          "map-building-container-ceiling-03.img": {
+          "map-building-container-ceiling-02.img": {
             "frame": {"x": 3870, "y": 2, "w": 180, "h": 380},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 180, "h": 380},
             "sourceSize": {"w": 180, "h": 536}
           },
-          "map-building-container-open-ceiling-01.img": {
+          "map-building-container-ceiling-03.img": {
             "frame": {"x": 3870, "y": 386, "w": 180, "h": 380},
             "rotated": false,
             "trimmed": true,
-            "spriteSourceSize": {"x": 0, "y": 156, "w": 180, "h": 380},
-            "sourceSize": {"w": 180, "h": 692}
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 180, "h": 380},
+            "sourceSize": {"w": 180, "h": 536}
           },
           "map-building-container-ceiling-05.img": {
             "frame": {"x": 3870, "y": 770, "w": 180, "h": 380},
@@ -18786,21 +18801,21 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 54, "h": 324},
             "sourceSize": {"w": 54, "h": 324}
           },
-          "map-wall-10.img": {
+          "map-wall-10-rounded.img": {
             "frame": {"x": 3999, "y": 1154, "w": 32, "h": 320},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 320},
             "sourceSize": {"w": 32, "h": 320}
           },
-          "map-wall-10-rounded.img": {
+          "map-wall-glass-10.img": {
             "frame": {"x": 3928, "y": 1510, "w": 32, "h": 320},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 320},
             "sourceSize": {"w": 32, "h": 320}
           },
-          "map-wall-glass-10.img": {
+          "map-wall-10.img": {
             "frame": {"x": 3964, "y": 1510, "w": 32, "h": 320},
             "rotated": false,
             "trimmed": false,
@@ -18821,64 +18836,64 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 288},
             "sourceSize": {"w": 32, "h": 288}
           },
-          "map-wall-09-rounded.img": {
+          "map-wall-glass-9.img": {
             "frame": {"x": 3964, "y": 1838, "w": 32, "h": 288},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 288},
             "sourceSize": {"w": 32, "h": 288}
           },
-          "map-wall-glass-9.img": {
+          "map-wall-09-rounded.img": {
             "frame": {"x": 4000, "y": 1838, "w": 32, "h": 288},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 288},
             "sourceSize": {"w": 32, "h": 288}
           },
+          "map-chute-01x.img": {
+            "frame": {"x": 2954, "y": 2312, "w": 232, "h": 232},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 12, "y": 12, "w": 232, "h": 232},
+            "sourceSize": {"w": 256, "h": 256}
+          },
           "map-building-mansion-cellar-01b.img": {
-            "frame": {"x": 2954, "y": 2312, "w": 225, "h": 230},
+            "frame": {"x": 3190, "y": 2312, "w": 225, "h": 230},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 225, "h": 230},
             "sourceSize": {"w": 226, "h": 230}
           },
           "map-bunker-generic-ceiling-01.img": {
-            "frame": {"x": 3183, "y": 2312, "w": 192, "h": 230},
+            "frame": {"x": 3419, "y": 2312, "w": 192, "h": 230},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 64, "y": 0, "w": 192, "h": 230},
             "sourceSize": {"w": 320, "h": 288}
           },
           "map-building-mansion-floor-01c.img": {
-            "frame": {"x": 3379, "y": 2312, "w": 225, "h": 228},
+            "frame": {"x": 3615, "y": 2312, "w": 225, "h": 228},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 225, "h": 228},
             "sourceSize": {"w": 226, "h": 228}
           },
-          "map-building-club-floor-01a.img": {
-            "frame": {"x": 3608, "y": 2312, "w": 225, "h": 226},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 1, "y": 0, "w": 225, "h": 226},
-            "sourceSize": {"w": 226, "h": 226}
-          },
-          "map-wall-shack-left.img": {
-            "frame": {"x": 3870, "y": 2130, "w": 24, "h": 222},
+          "map-wall-07-rounded.img": {
+            "frame": {"x": 3870, "y": 2130, "w": 32, "h": 224},
             "rotated": false,
             "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 24, "h": 222},
-            "sourceSize": {"w": 24, "h": 222}
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 224},
+            "sourceSize": {"w": 32, "h": 224}
           },
           "map-bed-02.img": {
-            "frame": {"x": 3870, "y": 2356, "w": 176, "h": 216},
+            "frame": {"x": 3870, "y": 2358, "w": 176, "h": 216},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 176, "h": 216},
             "sourceSize": {"w": 176, "h": 216}
           },
           "map-bed-01.img": {
-            "frame": {"x": 3898, "y": 2130, "w": 96, "h": 216},
+            "frame": {"x": 3906, "y": 2130, "w": 96, "h": 216},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 96, "h": 216},
@@ -18892,77 +18907,77 @@
             "sourceSize": {"w": 512, "h": 512}
           },
           "map-building-barn-basement-ceiling-02.img": {
-            "frame": {"x": 3870, "y": 2576, "w": 164, "h": 192},
+            "frame": {"x": 3870, "y": 2578, "w": 164, "h": 192},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 16, "w": 164, "h": 192},
             "sourceSize": {"w": 164, "h": 208}
           },
           "map-pipes-05.img": {
-            "frame": {"x": 3870, "y": 2772, "w": 90, "h": 192},
+            "frame": {"x": 3870, "y": 2774, "w": 90, "h": 192},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 90, "h": 192},
             "sourceSize": {"w": 90, "h": 192}
           },
-          "gun-long-02.img": {
-            "frame": {"x": 3998, "y": 2130, "w": 33, "h": 188},
+          "gun-long-04.img": {
+            "frame": {"x": 4006, "y": 2130, "w": 33, "h": 188},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 33, "h": 188},
             "sourceSize": {"w": 33, "h": 189}
           },
           "gun-long-03.img": {
-            "frame": {"x": 3964, "y": 2772, "w": 33, "h": 188},
+            "frame": {"x": 3964, "y": 2774, "w": 33, "h": 188},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 33, "h": 188},
             "sourceSize": {"w": 33, "h": 189}
           },
-          "gun-long-04.img": {
-            "frame": {"x": 4001, "y": 2772, "w": 33, "h": 188},
+          "gun-long-02.img": {
+            "frame": {"x": 4001, "y": 2774, "w": 33, "h": 188},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 33, "h": 188},
             "sourceSize": {"w": 33, "h": 189}
           },
           "gun-m79-01.img": {
-            "frame": {"x": 3870, "y": 2968, "w": 39, "h": 186},
+            "frame": {"x": 3870, "y": 2970, "w": 39, "h": 186},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 39, "h": 186},
             "sourceSize": {"w": 39, "h": 186}
           },
           "map-smoke-res.img": {
-            "frame": {"x": 3870, "y": 3158, "w": 170, "h": 178},
+            "frame": {"x": 3870, "y": 3160, "w": 170, "h": 178},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 47, "y": 39, "w": 170, "h": 178},
             "sourceSize": {"w": 256, "h": 256}
           },
           "map-building-club-vault-ceiling.img": {
-            "frame": {"x": 3870, "y": 3340, "w": 160, "h": 176},
+            "frame": {"x": 3870, "y": 3342, "w": 160, "h": 176},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 160, "h": 176},
             "sourceSize": {"w": 160, "h": 176}
           },
           "loading-logo.img": {
-            "frame": {"x": 3870, "y": 3520, "w": 172, "h": 171},
+            "frame": {"x": 3870, "y": 3522, "w": 172, "h": 171},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 1, "w": 172, "h": 171},
             "sourceSize": {"w": 172, "h": 172}
           },
           "player-accessory-outfitDiamondy.img": {
-            "frame": {"x": 3913, "y": 2968, "w": 121, "h": 171},
+            "frame": {"x": 3913, "y": 2970, "w": 121, "h": 171},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 9, "y": 4, "w": 121, "h": 171},
             "sourceSize": {"w": 130, "h": 179}
           },
           "incentive_hydra.img": {
-            "frame": {"x": 3870, "y": 3695, "w": 170, "h": 170},
+            "frame": {"x": 3870, "y": 3697, "w": 170, "h": 170},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 170, "h": 170},
@@ -19010,28 +19025,28 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 40, "h": 160},
             "sourceSize": {"w": 40, "h": 160}
           },
-          "map-wall-05-rounded.img": {
+          "map-wall-05.img": {
             "frame": {"x": 3831, "y": 2145, "w": 32, "h": 160},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 160},
             "sourceSize": {"w": 32, "h": 160}
           },
-          "map-wall-05.img": {
+          "map-wall-05-rounded.img": {
             "frame": {"x": 2917, "y": 894, "w": 32, "h": 160},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 160},
             "sourceSize": {"w": 32, "h": 160}
           },
-          "map-bed-res-01.img": {
+          "map-bed-res-02.img": {
             "frame": {"x": 2799, "y": 1232, "w": 88, "h": 158},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 5, "y": 16, "w": 88, "h": 158},
             "sourceSize": {"w": 96, "h": 192}
           },
-          "map-bed-res-02.img": {
+          "map-bed-res-01.img": {
             "frame": {"x": 2799, "y": 1394, "w": 88, "h": 158},
             "rotated": false,
             "trimmed": true,
@@ -19052,7 +19067,7 @@
             "spriteSourceSize": {"x": 6, "y": 0, "w": 135, "h": 143},
             "sourceSize": {"w": 144, "h": 144}
           },
-          "map-stone-01.img": {
+          "map-barrel-01.img": {
             "frame": {"x": 141, "y": 3951, "w": 142, "h": 142},
             "rotated": false,
             "trimmed": true,
@@ -19066,7 +19081,7 @@
             "spriteSourceSize": {"x": 1, "y": 1, "w": 142, "h": 142},
             "sourceSize": {"w": 144, "h": 144}
           },
-          "map-barrel-01.img": {
+          "map-stone-01.img": {
             "frame": {"x": 433, "y": 3951, "w": 142, "h": 142},
             "rotated": false,
             "trimmed": true,
@@ -19115,7 +19130,7 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 38, "h": 136},
             "sourceSize": {"w": 38, "h": 136}
           },
-          "player-base-outfitZebra.img": {
+          "player-base-outfitGiraffe.img": {
             "frame": {"x": 3481, "y": 3771, "w": 134, "h": 134},
             "rotated": false,
             "trimmed": true,
@@ -19129,11 +19144,11 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 22, "h": 22},
             "sourceSize": {"w": 22, "h": 22}
           },
-          "player-base-outfitGiraffe.img": {
+          "player-base-outfitSplotchfest.img": {
             "frame": {"x": 1134, "y": 3951, "w": 134, "h": 134},
             "rotated": false,
             "trimmed": true,
-            "spriteSourceSize": {"x": 4, "y": 4, "w": 134, "h": 134},
+            "spriteSourceSize": {"x": 3, "y": 3, "w": 134, "h": 134},
             "sourceSize": {"w": 141, "h": 141}
           },
           "map-bunker-vent-03.img": {
@@ -19164,14 +19179,14 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 23, "h": 134},
             "sourceSize": {"w": 23, "h": 134}
           },
-          "player-base-outfitCow.img": {
+          "player-base-outfitAstronaut.img": {
             "frame": {"x": 1544, "y": 3951, "w": 134, "h": 133},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 4, "y": 4, "w": 134, "h": 133},
             "sourceSize": {"w": 141, "h": 141}
           },
-          "player-base-outfitAstronaut.img": {
+          "player-base-outfitCow.img": {
             "frame": {"x": 1682, "y": 3951, "w": 134, "h": 133},
             "rotated": false,
             "trimmed": true,
@@ -19220,28 +19235,28 @@
             "spriteSourceSize": {"x": 3, "y": 9, "w": 138, "h": 129},
             "sourceSize": {"w": 144, "h": 144}
           },
-          "marker-map-quest-3.img": {
+          "marker-map-quest-1.img": {
             "frame": {"x": 2937, "y": 3951, "w": 129, "h": 129},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 129, "h": 129},
             "sourceSize": {"w": 129, "h": 129}
           },
-          "marker-map-quest-1.img": {
+          "marker-map-quest-2.img": {
             "frame": {"x": 3070, "y": 3951, "w": 129, "h": 129},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 129, "h": 129},
             "sourceSize": {"w": 129, "h": 129}
           },
-          "marker-map-quest-check.img": {
+          "marker-map-quest-3.img": {
             "frame": {"x": 3203, "y": 3951, "w": 129, "h": 129},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 129, "h": 129},
             "sourceSize": {"w": 129, "h": 129}
           },
-          "marker-map-quest-2.img": {
+          "marker-map-quest-check.img": {
             "frame": {"x": 3336, "y": 3951, "w": 129, "h": 129},
             "rotated": false,
             "trimmed": false,
@@ -19255,7 +19270,7 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 288, "h": 128},
             "sourceSize": {"w": 288, "h": 128}
           },
-          "map-stairs-broken-01.img": {
+          "map-table-01.img": {
             "frame": {"x": 3761, "y": 3951, "w": 160, "h": 128},
             "rotated": false,
             "trimmed": false,
@@ -19283,7 +19298,7 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 54, "h": 128},
             "sourceSize": {"w": 54, "h": 128}
           },
-          "gun-med-04.img": {
+          "gun-med-02.img": {
             "frame": {"x": 2890, "y": 1894, "w": 33, "h": 128},
             "rotated": false,
             "trimmed": true,
@@ -19297,35 +19312,35 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 33, "h": 128},
             "sourceSize": {"w": 33, "h": 129}
           },
-          "gun-med-02.img": {
+          "gun-med-04.img": {
             "frame": {"x": 2890, "y": 2278, "w": 33, "h": 128},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 33, "h": 128},
             "sourceSize": {"w": 33, "h": 129}
           },
-          "map-wall-04-rounded.img": {
+          "map-wall-04.img": {
             "frame": {"x": 3760, "y": 2832, "w": 32, "h": 128},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 128},
             "sourceSize": {"w": 32, "h": 128}
           },
-          "map-wall-04.img": {
+          "map-wall-04-rounded.img": {
             "frame": {"x": 3796, "y": 2832, "w": 32, "h": 128},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 128},
             "sourceSize": {"w": 32, "h": 128}
           },
-          "map-door-05.img": {
+          "map-door-01.img": {
             "frame": {"x": 3838, "y": 944, "w": 24, "h": 128},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 24, "h": 128},
             "sourceSize": {"w": 24, "h": 128}
           },
-          "map-door-01.img": {
+          "map-door-05.img": {
             "frame": {"x": 3838, "y": 1076, "w": 24, "h": 128},
             "rotated": false,
             "trimmed": false,
@@ -19339,12 +19354,12 @@
             "spriteSourceSize": {"x": 0, "y": 1, "w": 53, "h": 127},
             "sourceSize": {"w": 53, "h": 128}
           },
-          "emote-lies.img": {
+          "emote-starstruck.img": {
             "frame": {"x": 3925, "y": 3951, "w": 124, "h": 124},
             "rotated": false,
             "trimmed": true,
-            "spriteSourceSize": {"x": 2, "y": 3, "w": 124, "h": 124},
-            "sourceSize": {"w": 129, "h": 129}
+            "spriteSourceSize": {"x": 3, "y": 3, "w": 124, "h": 124},
+            "sourceSize": {"w": 130, "h": 129}
           },
           "map-door-03.img": {
             "frame": {"x": 2890, "y": 2026, "w": 32, "h": 112},
@@ -19360,21 +19375,21 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 56, "h": 104},
             "sourceSize": {"w": 56, "h": 104}
           },
-          "map-building-house-window-01.img": {
+          "map-building-house-window-res-01.img": {
             "frame": {"x": 3832, "y": 2832, "w": 32, "h": 104},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 32, "h": 104},
             "sourceSize": {"w": 32, "h": 104}
           },
-          "gun-short-02.img": {
+          "gun-short-03.img": {
             "frame": {"x": 3814, "y": 3771, "w": 33, "h": 100},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 33, "h": 100},
             "sourceSize": {"w": 33, "h": 101}
           },
-          "gun-short-03.img": {
+          "gun-short-02.img": {
             "frame": {"x": 4054, "y": 2, "w": 33, "h": 100},
             "rotated": false,
             "trimmed": true,
@@ -19409,19 +19424,26 @@
             "spriteSourceSize": {"x": 17, "y": 21, "w": 94, "h": 86},
             "sourceSize": {"w": 128, "h": 128}
           },
-          "player-hands-winter.img": {
-            "frame": {"x": 3870, "y": 3869, "w": 77, "h": 77},
+          "player-hands-dinoclaws.img": {
+            "frame": {"x": 3870, "y": 3871, "w": 66, "h": 76},
             "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 77, "h": 77},
+            "trimmed": true,
+            "spriteSourceSize": {"x": 5, "y": 1, "w": 66, "h": 76},
             "sourceSize": {"w": 77, "h": 77}
           },
-          "player-fists-gloves-01.img": {
-            "frame": {"x": 3951, "y": 3869, "w": 69, "h": 77},
+          "metal-barrel-side-01.img": {
+            "frame": {"x": 3940, "y": 3871, "w": 50, "h": 74},
             "rotated": false,
             "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 69, "h": 77},
-            "sourceSize": {"w": 69, "h": 77}
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 50, "h": 74},
+            "sourceSize": {"w": 50, "h": 74}
+          },
+          "map-bathhouse-pool-01.img": {
+            "frame": {"x": 3994, "y": 3871, "w": 36, "h": 60},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 36, "h": 60},
+            "sourceSize": {"w": 36, "h": 60}
           },
           "loot-gunchilada.img": {
             "frame": {"x": 1930, "y": 1699, "w": 109, "h": 59},
@@ -19528,19 +19550,19 @@
             "spriteSourceSize": {"x": -1, "y": -1, "w": 34, "h": 34},
             "sourceSize": {"w": 32, "h": 32}
           },
-          "pinata_icon.img": {
-            "frame": {"x": 4054, "y": 501, "w": 31, "h": 34},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 0, "y": 1, "w": 31, "h": 34},
-            "sourceSize": {"w": 31, "h": 35}
-          },
           "loot_st_patrick_button_icon.img": {
-            "frame": {"x": 4054, "y": 539, "w": 31, "h": 34},
+            "frame": {"x": 4054, "y": 501, "w": 31, "h": 34},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 31, "h": 34},
             "sourceSize": {"w": 31, "h": 34}
+          },
+          "pinata_icon.img": {
+            "frame": {"x": 4054, "y": 539, "w": 31, "h": 34},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 0, "y": 1, "w": 31, "h": 34},
+            "sourceSize": {"w": 31, "h": 35}
           },
           "map-switch-01.img": {
             "frame": {"x": 4054, "y": 577, "w": 30, "h": 34},
@@ -19661,17 +19683,17 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 34, "h": 22},
             "sourceSize": {"w": 34, "h": 22}
           },
-          "player-base-outfitSplotchfest.img": {
+          "player-base-outfitZebra.img": {
             "frame": {"x": 3619, "y": 3771, "w": 134, "h": 134},
             "rotated": false,
             "trimmed": true,
-            "spriteSourceSize": {"x": 3, "y": 3, "w": 134, "h": 134},
+            "spriteSourceSize": {"x": 4, "y": 4, "w": 134, "h": 134},
             "sourceSize": {"w": 141, "h": 141}
           }
         }
       },
       {
-        "meta": {"image": "shared-2-100-75d32e90.png", "size": {"w": 4096, "h": 4096}, "scale": 1},
+        "meta": {"image": "shared-2-100-72e1fdd7.png", "size": {"w": 4096, "h": 4096}, "scale": 1},
         "frames": {
           "map-building-club-floor-01g.img": {
             "frame": {"x": 743, "y": 2, "w": 800, "h": 578},
@@ -19722,14 +19744,14 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 536, "h": 536},
             "sourceSize": {"w": 536, "h": 536}
           },
-          "map-tree-08f.img": {
+          "map-tree-08su.img": {
             "frame": {"x": 1094, "y": 1179, "w": 512, "h": 510},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 1, "w": 512, "h": 510},
             "sourceSize": {"w": 512, "h": 512}
           },
-          "map-tree-08su.img": {
+          "map-tree-08f.img": {
             "frame": {"x": 1610, "y": 1179, "w": 512, "h": 510},
             "rotated": false,
             "trimmed": true,
@@ -19827,14 +19849,14 @@
             "spriteSourceSize": {"x": 15, "y": 15, "w": 378, "h": 393},
             "sourceSize": {"w": 408, "h": 408}
           },
-          "map-building-hut-ceiling-02.img": {
+          "map-building-hut-ceiling-01.img": {
             "frame": {"x": 2030, "y": 1727, "w": 378, "h": 393},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 15, "y": 15, "w": 378, "h": 393},
             "sourceSize": {"w": 408, "h": 408}
           },
-          "map-building-panicroom-ceiling.img": {
+          "map-building-panicroom-floor.img": {
             "frame": {"x": 2126, "y": 1179, "w": 288, "h": 384},
             "rotated": false,
             "trimmed": false,
@@ -19848,7 +19870,7 @@
             "spriteSourceSize": {"x": 0, "y": 0, "w": 288, "h": 384},
             "sourceSize": {"w": 288, "h": 384}
           },
-          "map-building-panicroom-floor.img": {
+          "map-building-panicroom-ceiling.img": {
             "frame": {"x": 2722, "y": 2233, "w": 288, "h": 384},
             "rotated": false,
             "trimmed": false,
@@ -19981,19 +20003,26 @@
             "spriteSourceSize": {"x": 0, "y": 1, "w": 289, "h": 288},
             "sourceSize": {"w": 289, "h": 289}
           },
-          "map-bunker-generic-floor-02.img": {
+          "map-bunker-generic-floor-01.img": {
             "frame": {"x": 3406, "y": 2670, "w": 295, "h": 281},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 12, "y": 0, "w": 295, "h": 281},
             "sourceSize": {"w": 320, "h": 288}
           },
-          "map-bunker-generic-floor-01.img": {
+          "map-bunker-generic-floor-02.img": {
             "frame": {"x": 3705, "y": 2670, "w": 295, "h": 281},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 12, "y": 0, "w": 295, "h": 281},
             "sourceSize": {"w": 320, "h": 288}
+          },
+          "map-building-club-floor-01a.img": {
+            "frame": {"x": 2851, "y": 926, "w": 225, "h": 226},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 1, "y": 0, "w": 225, "h": 226},
+            "sourceSize": {"w": 226, "h": 226}
           },
           "map-building-saferoom-floor.img": {
             "frame": {"x": 2, "y": 3097, "w": 352, "h": 224},
@@ -20017,7 +20046,7 @@
             "sourceSize": {"w": 400, "h": 316}
           },
           "map-building-bathhouse-sideroom-ceiling-01.img": {
-            "frame": {"x": 2851, "y": 926, "w": 256, "h": 224},
+            "frame": {"x": 2851, "y": 1363, "w": 256, "h": 224},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 256, "h": 224},
@@ -20052,14 +20081,14 @@
             "sourceSize": {"w": 322, "h": 194}
           },
           "map-building-bathhouse-basement-01d.img": {
-            "frame": {"x": 2851, "y": 1154, "w": 258, "h": 193},
+            "frame": {"x": 2851, "y": 1156, "w": 258, "h": 193},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 1, "w": 258, "h": 193},
             "sourceSize": {"w": 258, "h": 194}
           },
           "map-building-club-floor-01b.img": {
-            "frame": {"x": 2851, "y": 1363, "w": 194, "h": 193},
+            "frame": {"x": 2851, "y": 1591, "w": 194, "h": 193},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 1, "w": 194, "h": 193},
@@ -20087,14 +20116,14 @@
             "sourceSize": {"w": 288, "h": 192}
           },
           "map-building-shack-ceiling-02.img": {
-            "frame": {"x": 2851, "y": 1560, "w": 240, "h": 192},
+            "frame": {"x": 2735, "y": 3097, "w": 240, "h": 192},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 240, "h": 192},
             "sourceSize": {"w": 240, "h": 240}
           },
           "map-hedgehog-01.img": {
-            "frame": {"x": 2735, "y": 3097, "w": 192, "h": 192},
+            "frame": {"x": 2979, "y": 3097, "w": 192, "h": 192},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 192, "h": 192},
@@ -20108,126 +20137,126 @@
             "sourceSize": {"w": 1090, "h": 194}
           },
           "loot-spinner-02.img": {
-            "frame": {"x": 2931, "y": 3097, "w": 243, "h": 183},
+            "frame": {"x": 3175, "y": 3097, "w": 243, "h": 183},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 8, "y": 37, "w": 243, "h": 183},
             "sourceSize": {"w": 252, "h": 253}
           },
           "map-shack-res-01.img": {
-            "frame": {"x": 3178, "y": 3097, "w": 305, "h": 181},
+            "frame": {"x": 3422, "y": 3097, "w": 305, "h": 181},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 60, "y": 49, "w": 305, "h": 181},
             "sourceSize": {"w": 420, "h": 340}
           },
           "map-bunker-conch-ceiling-01.img": {
-            "frame": {"x": 3487, "y": 3097, "w": 380, "h": 180},
+            "frame": {"x": 1096, "y": 3325, "w": 380, "h": 180},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 380, "h": 180},
             "sourceSize": {"w": 380, "h": 180}
           },
           "map-bunker-egg-chamber-floor-01b.img": {
-            "frame": {"x": 1096, "y": 3325, "w": 192, "h": 179},
+            "frame": {"x": 3731, "y": 3097, "w": 192, "h": 179},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 1, "w": 192, "h": 179},
             "sourceSize": {"w": 194, "h": 180}
           },
           "map-bunker-storm-chamber-floor-01b.img": {
-            "frame": {"x": 1292, "y": 3325, "w": 192, "h": 177},
+            "frame": {"x": 1480, "y": 3325, "w": 192, "h": 177},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 1, "w": 192, "h": 177},
             "sourceSize": {"w": 194, "h": 178}
           },
           "map-bunker-conch-chamber-ceiling-02.img": {
-            "frame": {"x": 1488, "y": 3325, "w": 488, "h": 176},
+            "frame": {"x": 1676, "y": 3325, "w": 488, "h": 176},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 488, "h": 176},
             "sourceSize": {"w": 488, "h": 176}
           },
           "map-shack-res-03.img": {
-            "frame": {"x": 1980, "y": 3325, "w": 220, "h": 176},
+            "frame": {"x": 2168, "y": 3325, "w": 220, "h": 176},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 100, "y": 69, "w": 220, "h": 176},
             "sourceSize": {"w": 420, "h": 340}
           },
           "map-shack-res-02.img": {
-            "frame": {"x": 2204, "y": 3325, "w": 220, "h": 176},
+            "frame": {"x": 2392, "y": 3325, "w": 220, "h": 176},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 100, "y": 69, "w": 220, "h": 176},
             "sourceSize": {"w": 420, "h": 340}
           },
           "map-pipes-02.img": {
-            "frame": {"x": 2428, "y": 3325, "w": 236, "h": 172},
+            "frame": {"x": 2616, "y": 3325, "w": 236, "h": 172},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 236, "h": 172},
             "sourceSize": {"w": 238, "h": 172}
           },
           "map-stove-01.img": {
-            "frame": {"x": 2668, "y": 3325, "w": 208, "h": 161},
+            "frame": {"x": 2856, "y": 3325, "w": 208, "h": 161},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 8, "y": 8, "w": 208, "h": 161},
             "sourceSize": {"w": 224, "h": 176}
           },
           "map-table-02.img": {
-            "frame": {"x": 2880, "y": 3325, "w": 288, "h": 160},
+            "frame": {"x": 3068, "y": 3325, "w": 288, "h": 160},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 288, "h": 160},
             "sourceSize": {"w": 288, "h": 160}
           },
-          "map-airdrop-01x.img": {
+          "map-airdrop-01.img": {
             "frame": {"x": 3822, "y": 1424, "w": 160, "h": 160},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 160, "h": 160},
             "sourceSize": {"w": 160, "h": 160}
           },
-          "map-airdrop-02.img": {
-            "frame": {"x": 3172, "y": 3325, "w": 160, "h": 160},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 160, "h": 160},
-            "sourceSize": {"w": 160, "h": 160}
-          },
           "map-building-dock-floor-01a.img": {
-            "frame": {"x": 3336, "y": 3325, "w": 160, "h": 160},
+            "frame": {"x": 3360, "y": 3325, "w": 160, "h": 160},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 2, "w": 160, "h": 160},
             "sourceSize": {"w": 160, "h": 162}
           },
-          "map-table-03.img": {
-            "frame": {"x": 3500, "y": 3325, "w": 160, "h": 160},
+          "map-airdrop-02.img": {
+            "frame": {"x": 3524, "y": 3325, "w": 160, "h": 160},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 160, "h": 160},
             "sourceSize": {"w": 160, "h": 160}
           },
           "map-airdrop-02x.img": {
-            "frame": {"x": 3664, "y": 3325, "w": 160, "h": 160},
+            "frame": {"x": 3688, "y": 3325, "w": 160, "h": 160},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 160, "h": 160},
             "sourceSize": {"w": 160, "h": 160}
           },
-          "map-airdrop-01.img": {
-            "frame": {"x": 3828, "y": 3325, "w": 160, "h": 160},
+          "map-airdrop-01x.img": {
+            "frame": {"x": 2, "y": 3515, "w": 160, "h": 160},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 160, "h": 160},
+            "sourceSize": {"w": 160, "h": 160}
+          },
+          "map-table-03.img": {
+            "frame": {"x": 166, "y": 3515, "w": 160, "h": 160},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 160, "h": 160},
             "sourceSize": {"w": 160, "h": 160}
           },
           "map-wheel-01.img": {
-            "frame": {"x": 2, "y": 3515, "w": 312, "h": 156},
+            "frame": {"x": 330, "y": 3515, "w": 312, "h": 156},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 312, "h": 156},
@@ -20255,35 +20284,35 @@
             "sourceSize": {"w": 152, "h": 152}
           },
           "map-wheel-03.img": {
-            "frame": {"x": 318, "y": 3515, "w": 312, "h": 149},
+            "frame": {"x": 646, "y": 3515, "w": 312, "h": 149},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 312, "h": 149},
             "sourceSize": {"w": 312, "h": 156}
           },
           "map-wheel-02.img": {
-            "frame": {"x": 634, "y": 3515, "w": 297, "h": 149},
+            "frame": {"x": 962, "y": 3515, "w": 297, "h": 149},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 8, "y": 0, "w": 297, "h": 149},
             "sourceSize": {"w": 312, "h": 156}
           },
           "map-crate-10.img": {
-            "frame": {"x": 935, "y": 3515, "w": 148, "h": 148},
+            "frame": {"x": 3852, "y": 3325, "w": 148, "h": 148},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 148, "h": 148},
             "sourceSize": {"w": 148, "h": 148}
           },
           "map-crate-11.img": {
-            "frame": {"x": 1087, "y": 3515, "w": 148, "h": 148},
+            "frame": {"x": 1263, "y": 3515, "w": 148, "h": 148},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 148, "h": 148},
             "sourceSize": {"w": 148, "h": 148}
           },
           "map-sandbags-01.img": {
-            "frame": {"x": 1239, "y": 3515, "w": 256, "h": 146},
+            "frame": {"x": 1415, "y": 3515, "w": 256, "h": 146},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 1, "w": 256, "h": 146},
@@ -20297,111 +20326,111 @@
             "sourceSize": {"w": 148, "h": 148}
           },
           "map-building-barn-ceiling-02.img": {
-            "frame": {"x": 1499, "y": 3515, "w": 416, "h": 144},
+            "frame": {"x": 1675, "y": 3515, "w": 416, "h": 144},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 416, "h": 144},
             "sourceSize": {"w": 416, "h": 144}
           },
-          "map-crate-14.img": {
-            "frame": {"x": 1919, "y": 3515, "w": 156, "h": 144},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 156, "h": 144},
-            "sourceSize": {"w": 156, "h": 144}
-          },
           "map-crate-14a.img": {
-            "frame": {"x": 2079, "y": 3515, "w": 156, "h": 144},
+            "frame": {"x": 2095, "y": 3515, "w": 156, "h": 144},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 156, "h": 144},
             "sourceSize": {"w": 156, "h": 144}
           },
-          "map-crate-08.img": {
-            "frame": {"x": 2239, "y": 3515, "w": 144, "h": 144},
+          "map-crate-14.img": {
+            "frame": {"x": 2255, "y": 3515, "w": 156, "h": 144},
             "rotated": false,
             "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
-            "sourceSize": {"w": 144, "h": 144}
-          },
-          "map-crate-09.img": {
-            "frame": {"x": 2387, "y": 3515, "w": 144, "h": 144},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
-            "sourceSize": {"w": 144, "h": 144}
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 156, "h": 144},
+            "sourceSize": {"w": 156, "h": 144}
           },
           "pass-unlock-bg.img": {
-            "frame": {"x": 2535, "y": 3515, "w": 144, "h": 144},
+            "frame": {"x": 2415, "y": 3515, "w": 144, "h": 144},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 1, "w": 144, "h": 144},
             "sourceSize": {"w": 146, "h": 146}
           },
-          "pass-unlock-type-bg.img": {
-            "frame": {"x": 2683, "y": 3515, "w": 144, "h": 144},
+          "loot-circle-outer-06.img": {
+            "frame": {"x": 2563, "y": 3515, "w": 144, "h": 144},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 1, "w": 144, "h": 144},
             "sourceSize": {"w": 146, "h": 146}
-          },
-          "map-crate-02.img": {
-            "frame": {"x": 2831, "y": 3515, "w": 144, "h": 144},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
-            "sourceSize": {"w": 144, "h": 144}
           },
           "map-crate-01.img": {
-            "frame": {"x": 2979, "y": 3515, "w": 144, "h": 144},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
-            "sourceSize": {"w": 144, "h": 144}
-          },
-          "map-stone-05.img": {
-            "frame": {"x": 3127, "y": 3515, "w": 144, "h": 144},
+            "frame": {"x": 2711, "y": 3515, "w": 144, "h": 144},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
             "sourceSize": {"w": 144, "h": 144}
           },
           "map-stone-04.img": {
-            "frame": {"x": 3275, "y": 3515, "w": 144, "h": 144},
+            "frame": {"x": 2859, "y": 3515, "w": 144, "h": 144},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
             "sourceSize": {"w": 144, "h": 144}
           },
-          "loot-circle-outer-06.img": {
-            "frame": {"x": 3423, "y": 3515, "w": 144, "h": 144},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 1, "y": 1, "w": 144, "h": 144},
-            "sourceSize": {"w": 146, "h": 146}
-          },
-          "map-crate-03.img": {
-            "frame": {"x": 3571, "y": 3515, "w": 144, "h": 144},
+          "map-crate-02.img": {
+            "frame": {"x": 3007, "y": 3515, "w": 144, "h": 144},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
             "sourceSize": {"w": 144, "h": 144}
           },
-          "map-crate-07.img": {
-            "frame": {"x": 3719, "y": 3515, "w": 144, "h": 144},
+          "map-stone-05.img": {
+            "frame": {"x": 3155, "y": 3515, "w": 144, "h": 144},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
             "sourceSize": {"w": 144, "h": 144}
           },
           "map-crate-02sv.img": {
-            "frame": {"x": 2, "y": 3675, "w": 144, "h": 144},
+            "frame": {"x": 3303, "y": 3515, "w": 144, "h": 144},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
             "sourceSize": {"w": 144, "h": 144}
           },
-          "map-table-01.img": {
+          "map-crate-03.img": {
+            "frame": {"x": 3451, "y": 3515, "w": 144, "h": 144},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
+            "sourceSize": {"w": 144, "h": 144}
+          },
+          "pass-unlock-type-bg.img": {
+            "frame": {"x": 3599, "y": 3515, "w": 144, "h": 144},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 1, "y": 1, "w": 144, "h": 144},
+            "sourceSize": {"w": 146, "h": 146}
+          },
+          "map-crate-07.img": {
+            "frame": {"x": 3747, "y": 3515, "w": 144, "h": 144},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
+            "sourceSize": {"w": 144, "h": 144}
+          },
+          "map-crate-08.img": {
+            "frame": {"x": 2, "y": 3679, "w": 144, "h": 144},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
+            "sourceSize": {"w": 144, "h": 144}
+          },
+          "map-crate-09.img": {
+            "frame": {"x": 150, "y": 3679, "w": 144, "h": 144},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 144},
+            "sourceSize": {"w": 144, "h": 144}
+          },
+          "map-stairs-broken-01.img": {
             "frame": {"x": 3822, "y": 1588, "w": 160, "h": 128},
             "rotated": false,
             "trimmed": false,
@@ -20506,15 +20535,15 @@
             "spriteSourceSize": {"x": 17, "y": 4, "w": 94, "h": 121},
             "sourceSize": {"w": 129, "h": 129}
           },
-          "map-case-chrys-01.img": {
-            "frame": {"x": 150, "y": 3675, "w": 156, "h": 120},
+          "map-case-ring-01.img": {
+            "frame": {"x": 298, "y": 3679, "w": 156, "h": 120},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 156, "h": 120},
             "sourceSize": {"w": 156, "h": 120}
           },
-          "map-case-ring-01.img": {
-            "frame": {"x": 310, "y": 3675, "w": 156, "h": 120},
+          "map-case-chrys-01.img": {
+            "frame": {"x": 458, "y": 3679, "w": 156, "h": 120},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 156, "h": 120},
@@ -20542,109 +20571,109 @@
             "sourceSize": {"w": 128, "h": 128}
           },
           "loot-perk-polarbear.img": {
-            "frame": {"x": 3871, "y": 3097, "w": 101, "h": 119},
+            "frame": {"x": 3895, "y": 3515, "w": 101, "h": 119},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 14, "y": 5, "w": 101, "h": 119},
             "sourceSize": {"w": 129, "h": 129}
           },
           "timer.img": {
-            "frame": {"x": 3867, "y": 3515, "w": 128, "h": 118},
+            "frame": {"x": 618, "y": 3679, "w": 128, "h": 118},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 5, "w": 128, "h": 118},
             "sourceSize": {"w": 128, "h": 128}
           },
           "map-chimney-01.img": {
-            "frame": {"x": 470, "y": 3675, "w": 120, "h": 118},
+            "frame": {"x": 750, "y": 3679, "w": 120, "h": 118},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 1, "w": 120, "h": 118},
             "sourceSize": {"w": 120, "h": 120}
           },
           "player-medic.img": {
-            "frame": {"x": 594, "y": 3675, "w": 118, "h": 118},
+            "frame": {"x": 874, "y": 3679, "w": 118, "h": 118},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 13, "y": 13, "w": 118, "h": 118},
             "sourceSize": {"w": 144, "h": 144}
           },
           "map-stone-res-01.img": {
-            "frame": {"x": 716, "y": 3675, "w": 118, "h": 118},
+            "frame": {"x": 996, "y": 3679, "w": 118, "h": 118},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 1, "w": 118, "h": 118},
             "sourceSize": {"w": 120, "h": 120}
           },
-          "part-heal-diamond.img": {
-            "frame": {"x": 838, "y": 3675, "w": 114, "h": 118},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 7, "y": 5, "w": 114, "h": 118},
-            "sourceSize": {"w": 129, "h": 129}
-          },
           "loot-weapon-pkm-lmg.img": {
-            "frame": {"x": 956, "y": 3675, "w": 114, "h": 118},
+            "frame": {"x": 1118, "y": 3679, "w": 114, "h": 118},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 7, "y": 8, "w": 114, "h": 118},
             "sourceSize": {"w": 132, "h": 129}
           },
+          "part-heal-diamond.img": {
+            "frame": {"x": 1236, "y": 3679, "w": 114, "h": 118},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 7, "y": 5, "w": 114, "h": 118},
+            "sourceSize": {"w": 129, "h": 129}
+          },
           "emote-trollface.img": {
-            "frame": {"x": 1074, "y": 3675, "w": 126, "h": 117},
+            "frame": {"x": 1354, "y": 3679, "w": 126, "h": 117},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 6, "w": 126, "h": 117},
             "sourceSize": {"w": 129, "h": 129}
           },
           "emote-happyghost.img": {
-            "frame": {"x": 1204, "y": 3675, "w": 104, "h": 117},
+            "frame": {"x": 1484, "y": 3679, "w": 104, "h": 117},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 12, "y": 6, "w": 104, "h": 117},
             "sourceSize": {"w": 129, "h": 129}
           },
           "loot-perk-cupid.img": {
-            "frame": {"x": 1312, "y": 3675, "w": 121, "h": 116},
+            "frame": {"x": 1592, "y": 3679, "w": 121, "h": 116},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 3, "y": 7, "w": 121, "h": 116},
             "sourceSize": {"w": 129, "h": 129}
           },
           "map-stone-res-04.img": {
-            "frame": {"x": 1437, "y": 3675, "w": 116, "h": 116},
+            "frame": {"x": 1717, "y": 3679, "w": 116, "h": 116},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 2, "y": 2, "w": 116, "h": 116},
             "sourceSize": {"w": 120, "h": 120}
           },
           "loot-weapon-m79.img": {
-            "frame": {"x": 1557, "y": 3675, "w": 111, "h": 116},
+            "frame": {"x": 1837, "y": 3679, "w": 111, "h": 116},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 9, "y": 7, "w": 111, "h": 116},
             "sourceSize": {"w": 129, "h": 129}
           },
           "map-squash-01.img": {
-            "frame": {"x": 1672, "y": 3675, "w": 124, "h": 115},
+            "frame": {"x": 1952, "y": 3679, "w": 124, "h": 115},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 13, "y": 11, "w": 124, "h": 115},
             "sourceSize": {"w": 144, "h": 144}
           },
-          "loot-weapon-m134.img": {
-            "frame": {"x": 1800, "y": 3675, "w": 115, "h": 115},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 9, "y": 10, "w": 115, "h": 115},
-            "sourceSize": {"w": 129, "h": 129}
-          },
           "marker-map-zone.img": {
-            "frame": {"x": 1919, "y": 3675, "w": 115, "h": 115},
+            "frame": {"x": 2080, "y": 3679, "w": 115, "h": 115},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 115, "h": 115},
             "sourceSize": {"w": 115, "h": 115}
+          },
+          "loot-weapon-m134.img": {
+            "frame": {"x": 2199, "y": 3679, "w": 115, "h": 115},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 9, "y": 10, "w": 115, "h": 115},
+            "sourceSize": {"w": 129, "h": 129}
           },
           "loadout-potato.img": {
             "frame": {"x": 3919, "y": 1874, "w": 87, "h": 115},
@@ -20654,336 +20683,336 @@
             "sourceSize": {"w": 129, "h": 129}
           },
           "map-case-flare-res-01.img": {
-            "frame": {"x": 2038, "y": 3675, "w": 128, "h": 114},
+            "frame": {"x": 2318, "y": 3679, "w": 128, "h": 114},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 13, "y": 11, "w": 128, "h": 114},
             "sourceSize": {"w": 144, "h": 144}
           },
-          "map-case-hatchet-res-01.img": {
-            "frame": {"x": 2170, "y": 3675, "w": 128, "h": 114},
+          "map-wall-outhouse-bot.img": {
+            "frame": {"x": 4013, "y": 2421, "w": 72, "h": 24},
             "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 13, "y": 11, "w": 128, "h": 114},
-            "sourceSize": {"w": 144, "h": 144}
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 72, "h": 24},
+            "sourceSize": {"w": 72, "h": 24}
           },
           "pass-xp.img": {
-            "frame": {"x": 2302, "y": 3675, "w": 128, "h": 114},
+            "frame": {"x": 2582, "y": 3679, "w": 128, "h": 114},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 31, "y": 4, "w": 128, "h": 114},
             "sourceSize": {"w": 193, "h": 118}
           },
           "loot-perk-inspiration.img": {
-            "frame": {"x": 2434, "y": 3675, "w": 114, "h": 114},
+            "frame": {"x": 2714, "y": 3679, "w": 114, "h": 114},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 11, "y": 5, "w": 114, "h": 114},
             "sourceSize": {"w": 128, "h": 128}
           },
-          "map-wall-outhouse-bot.img": {
-            "frame": {"x": 4013, "y": 2473, "w": 72, "h": 24},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 72, "h": 24},
-            "sourceSize": {"w": 72, "h": 24}
-          },
-          "loot-shirt-outfitChromesis.img": {
-            "frame": {"x": 2672, "y": 3675, "w": 116, "h": 113},
+          "loot-shirt-outfitSplotchfest.img": {
+            "frame": {"x": 2832, "y": 3679, "w": 116, "h": 113},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 6, "y": 8, "w": 116, "h": 113},
             "sourceSize": {"w": 128, "h": 129}
           },
-          "loot-shirt-outfitDiamondy.img": {
-            "frame": {"x": 2792, "y": 3675, "w": 116, "h": 113},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 6, "y": 8, "w": 116, "h": 113},
-            "sourceSize": {"w": 129, "h": 129}
-          },
-          "loot-shirt-outfitGiraffe.img": {
-            "frame": {"x": 2912, "y": 3675, "w": 116, "h": 113},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 6, "y": 8, "w": 116, "h": 113},
-            "sourceSize": {"w": 129, "h": 129}
-          },
-          "loot-shirt-outfitMecha.img": {
-            "frame": {"x": 3032, "y": 3675, "w": 116, "h": 113},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 6, "y": 8, "w": 116, "h": 113},
-            "sourceSize": {"w": 129, "h": 129}
-          },
-          "loot-shirt-outfitClayMore.img": {
-            "frame": {"x": 3152, "y": 3675, "w": 116, "h": 113},
+          "loot-shirt-outfitChromesis.img": {
+            "frame": {"x": 2952, "y": 3679, "w": 116, "h": 113},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 6, "y": 8, "w": 116, "h": 113},
             "sourceSize": {"w": 128, "h": 129}
           },
           "loot-shirt-outfitNeonEyesore.img": {
-            "frame": {"x": 3272, "y": 3675, "w": 116, "h": 113},
+            "frame": {"x": 3072, "y": 3679, "w": 116, "h": 113},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 6, "y": 8, "w": 116, "h": 113},
             "sourceSize": {"w": 129, "h": 129}
           },
-          "loot-shirt-outfitMojo.img": {
-            "frame": {"x": 3392, "y": 3675, "w": 115, "h": 113},
+          "loot-shirt-outfitDiamondy.img": {
+            "frame": {"x": 3192, "y": 3679, "w": 116, "h": 113},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 6, "y": 8, "w": 116, "h": 113},
+            "sourceSize": {"w": 129, "h": 129}
+          },
+          "loot-shirt-outfitClayMore.img": {
+            "frame": {"x": 3312, "y": 3679, "w": 116, "h": 113},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 6, "y": 8, "w": 116, "h": 113},
+            "sourceSize": {"w": 128, "h": 129}
+          },
+          "loot-shirt-outfitGiraffe.img": {
+            "frame": {"x": 3432, "y": 3679, "w": 116, "h": 113},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 6, "y": 8, "w": 116, "h": 113},
+            "sourceSize": {"w": 129, "h": 129}
+          },
+          "loot-shirt-outfitMecha.img": {
+            "frame": {"x": 3552, "y": 3679, "w": 116, "h": 113},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 6, "y": 8, "w": 116, "h": 113},
+            "sourceSize": {"w": 129, "h": 129}
+          },
+          "loot-shirt-outfitZebra.img": {
+            "frame": {"x": 3672, "y": 3679, "w": 115, "h": 113},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 7, "y": 8, "w": 115, "h": 113},
             "sourceSize": {"w": 129, "h": 129}
           },
-          "loot-shirt-outfitZebra.img": {
-            "frame": {"x": 3511, "y": 3675, "w": 115, "h": 113},
+          "loot-shirt-outfitMojo.img": {
+            "frame": {"x": 3791, "y": 3679, "w": 115, "h": 113},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 7, "y": 8, "w": 115, "h": 113},
             "sourceSize": {"w": 129, "h": 129}
           },
           "map-case-basement-01.img": {
-            "frame": {"x": 3630, "y": 3675, "w": 148, "h": 112},
+            "frame": {"x": 2, "y": 3827, "w": 148, "h": 112},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 148, "h": 112},
             "sourceSize": {"w": 148, "h": 112}
           },
-          "loot-shirt-outfitFireball.img": {
-            "frame": {"x": 3782, "y": 3675, "w": 116, "h": 112},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 6, "y": 8, "w": 116, "h": 112},
-            "sourceSize": {"w": 129, "h": 129}
-          },
           "loot-shirt-outfitFragtastic.img": {
-            "frame": {"x": 2, "y": 3823, "w": 116, "h": 112},
+            "frame": {"x": 154, "y": 3827, "w": 116, "h": 112},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 6, "y": 8, "w": 116, "h": 112},
             "sourceSize": {"w": 129, "h": 129}
           },
-          "loot-shirt-outfitGeometric.img": {
-            "frame": {"x": 122, "y": 3823, "w": 116, "h": 112},
+          "loot-shirt-outfitSunset.img": {
+            "frame": {"x": 274, "y": 3827, "w": 116, "h": 112},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 6, "y": 8, "w": 116, "h": 112},
+            "sourceSize": {"w": 128, "h": 129}
+          },
+          "loot-shirt-outfitMilitary.img": {
+            "frame": {"x": 394, "y": 3827, "w": 116, "h": 112},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 116, "h": 112},
             "sourceSize": {"w": 116, "h": 113}
           },
+          "loot-shirt-outfitFireball.img": {
+            "frame": {"x": 514, "y": 3827, "w": 116, "h": 112},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 6, "y": 8, "w": 116, "h": 112},
+            "sourceSize": {"w": 129, "h": 129}
+          },
           "loot-shirt-outfitDeepPurple.img": {
-            "frame": {"x": 242, "y": 3823, "w": 116, "h": 112},
+            "frame": {"x": 634, "y": 3827, "w": 116, "h": 112},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 6, "y": 9, "w": 116, "h": 112},
             "sourceSize": {"w": 128, "h": 129}
           },
-          "loot-shirt-outfitMilitary.img": {
-            "frame": {"x": 362, "y": 3823, "w": 116, "h": 112},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 116, "h": 112},
-            "sourceSize": {"w": 116, "h": 113}
-          },
           "loot-shirt-outfitUrbanCamo.img": {
-            "frame": {"x": 482, "y": 3823, "w": 116, "h": 112},
+            "frame": {"x": 754, "y": 3827, "w": 116, "h": 112},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 7, "y": 9, "w": 116, "h": 112},
             "sourceSize": {"w": 129, "h": 129}
           },
-          "loot-shirt-outfitSunset.img": {
-            "frame": {"x": 602, "y": 3823, "w": 116, "h": 112},
+          "loot-shirt-outfitGeometric.img": {
+            "frame": {"x": 874, "y": 3827, "w": 116, "h": 112},
             "rotated": false,
             "trimmed": true,
-            "spriteSourceSize": {"x": 6, "y": 8, "w": 116, "h": 112},
-            "sourceSize": {"w": 128, "h": 129}
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 116, "h": 112},
+            "sourceSize": {"w": 116, "h": 113}
           },
           "loot-shirt-outfitWaves.img": {
-            "frame": {"x": 722, "y": 3823, "w": 116, "h": 112},
+            "frame": {"x": 994, "y": 3827, "w": 116, "h": 112},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 6, "y": 8, "w": 116, "h": 112},
-            "sourceSize": {"w": 129, "h": 129}
-          },
-          "loot-shirt-outfitAstronaut.img": {
-            "frame": {"x": 842, "y": 3823, "w": 115, "h": 112},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 7, "y": 8, "w": 115, "h": 112},
             "sourceSize": {"w": 129, "h": 129}
           },
           "loot-shirt-outfitCow.img": {
-            "frame": {"x": 961, "y": 3823, "w": 115, "h": 112},
+            "frame": {"x": 1114, "y": 3827, "w": 115, "h": 112},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 7, "y": 8, "w": 115, "h": 112},
             "sourceSize": {"w": 129, "h": 129}
           },
           "loot-shirt-outfitWinter.img": {
-            "frame": {"x": 1080, "y": 3823, "w": 115, "h": 112},
+            "frame": {"x": 1233, "y": 3827, "w": 115, "h": 112},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 115, "h": 112},
             "sourceSize": {"w": 116, "h": 113}
           },
           "loot-shirt-outfitRusticSands.img": {
-            "frame": {"x": 1199, "y": 3823, "w": 115, "h": 112},
+            "frame": {"x": 1352, "y": 3827, "w": 115, "h": 112},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 7, "y": 8, "w": 115, "h": 112},
             "sourceSize": {"w": 129, "h": 129}
           },
-          "map-tree-09.img": {
-            "frame": {"x": 1318, "y": 3823, "w": 112, "h": 112},
+          "loot-shirt-outfitAstronaut.img": {
+            "frame": {"x": 1471, "y": 3827, "w": 115, "h": 112},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 7, "y": 8, "w": 115, "h": 112},
+            "sourceSize": {"w": 129, "h": 129}
+          },
+          "map-tree-04.img": {
+            "frame": {"x": 1590, "y": 3827, "w": 112, "h": 112},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 112, "h": 112},
             "sourceSize": {"w": 112, "h": 112}
           },
-          "map-tree-04.img": {
-            "frame": {"x": 1434, "y": 3823, "w": 112, "h": 112},
+          "map-tree-09.img": {
+            "frame": {"x": 1706, "y": 3827, "w": 112, "h": 112},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 112, "h": 112},
             "sourceSize": {"w": 112, "h": 112}
           },
           "loot-perk-final-bugle.img": {
-            "frame": {"x": 3902, "y": 3675, "w": 104, "h": 112},
+            "frame": {"x": 1822, "y": 3827, "w": 104, "h": 112},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 12, "y": 4, "w": 104, "h": 112},
             "sourceSize": {"w": 128, "h": 128}
           },
           "currency-potato-sack.img": {
-            "frame": {"x": 1550, "y": 3823, "w": 117, "h": 111},
+            "frame": {"x": 1930, "y": 3827, "w": 117, "h": 111},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 6, "y": 10, "w": 117, "h": 111},
             "sourceSize": {"w": 129, "h": 129}
           },
-          "map-control-panel-01.img": {
-            "frame": {"x": 1671, "y": 3823, "w": 144, "h": 110},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 110},
-            "sourceSize": {"w": 144, "h": 110}
-          },
           "map-control-panel-05.img": {
-            "frame": {"x": 1819, "y": 3823, "w": 144, "h": 110},
+            "frame": {"x": 2051, "y": 3827, "w": 144, "h": 110},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 110},
             "sourceSize": {"w": 144, "h": 110}
           },
           "map-control-panel-02.img": {
-            "frame": {"x": 1967, "y": 3823, "w": 144, "h": 110},
+            "frame": {"x": 2199, "y": 3827, "w": 144, "h": 110},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 110},
             "sourceSize": {"w": 144, "h": 110}
           },
           "map-control-panel-04.img": {
-            "frame": {"x": 2115, "y": 3823, "w": 144, "h": 110},
+            "frame": {"x": 2347, "y": 3827, "w": 144, "h": 110},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 110},
+            "sourceSize": {"w": 144, "h": 110}
+          },
+          "map-control-panel-01.img": {
+            "frame": {"x": 2495, "y": 3827, "w": 144, "h": 110},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 110},
             "sourceSize": {"w": 144, "h": 110}
           },
           "part-boost-sugar.img": {
-            "frame": {"x": 2263, "y": 3823, "w": 110, "h": 110},
+            "frame": {"x": 2643, "y": 3827, "w": 110, "h": 110},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 10, "y": 11, "w": 110, "h": 110},
             "sourceSize": {"w": 129, "h": 129}
           },
           "map-case-deagle-02.img": {
-            "frame": {"x": 2377, "y": 3823, "w": 144, "h": 108},
+            "frame": {"x": 2757, "y": 3827, "w": 144, "h": 108},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 108},
             "sourceSize": {"w": 144, "h": 108}
           },
           "map-case-deagle-01.img": {
-            "frame": {"x": 2525, "y": 3823, "w": 144, "h": 108},
+            "frame": {"x": 2905, "y": 3827, "w": 144, "h": 108},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 108},
             "sourceSize": {"w": 144, "h": 108}
           },
           "map-bollard-01.img": {
-            "frame": {"x": 2673, "y": 3823, "w": 112, "h": 108},
+            "frame": {"x": 3053, "y": 3827, "w": 112, "h": 108},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 18, "w": 112, "h": 108},
             "sourceSize": {"w": 144, "h": 144}
           },
           "news.img": {
-            "frame": {"x": 2789, "y": 3823, "w": 110, "h": 108},
+            "frame": {"x": 3169, "y": 3827, "w": 110, "h": 108},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 9, "y": 10, "w": 110, "h": 108},
             "sourceSize": {"w": 128, "h": 128}
           },
           "map-crate-20.img": {
-            "frame": {"x": 2903, "y": 3823, "w": 108, "h": 108},
+            "frame": {"x": 3283, "y": 3827, "w": 108, "h": 108},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 108, "h": 108},
             "sourceSize": {"w": 108, "h": 108}
           },
           "loot-perk-turkey_shoot.img": {
-            "frame": {"x": 3015, "y": 3823, "w": 102, "h": 108},
+            "frame": {"x": 3395, "y": 3827, "w": 102, "h": 108},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 13, "y": 10, "w": 102, "h": 108},
             "sourceSize": {"w": 128, "h": 128}
           },
           "part-heal-hexa.img": {
-            "frame": {"x": 3121, "y": 3823, "w": 123, "h": 107},
+            "frame": {"x": 3501, "y": 3827, "w": 123, "h": 107},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 3, "y": 10, "w": 123, "h": 107},
             "sourceSize": {"w": 129, "h": 129}
           },
           "loot-perk-snowfox.img": {
-            "frame": {"x": 3248, "y": 3823, "w": 107, "h": 107},
+            "frame": {"x": 3628, "y": 3827, "w": 107, "h": 107},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 11, "y": 11, "w": 107, "h": 107},
             "sourceSize": {"w": 129, "h": 129}
           },
           "map-toilet-res-01.img": {
-            "frame": {"x": 3359, "y": 3823, "w": 98, "h": 107},
+            "frame": {"x": 3910, "y": 3679, "w": 98, "h": 107},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 15, "y": 7, "w": 98, "h": 107},
             "sourceSize": {"w": 128, "h": 128}
           },
           "emote-fabulorn.img": {
-            "frame": {"x": 3461, "y": 3823, "w": 106, "h": 106},
+            "frame": {"x": 3739, "y": 3827, "w": 106, "h": 106},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 15, "y": 11, "w": 106, "h": 106},
             "sourceSize": {"w": 129, "h": 129}
           },
           "part-heal-patch.img": {
-            "frame": {"x": 3571, "y": 3823, "w": 105, "h": 105},
+            "frame": {"x": 3849, "y": 3827, "w": 105, "h": 105},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 12, "y": 12, "w": 105, "h": 105},
             "sourceSize": {"w": 129, "h": 129}
           },
           "map-decal-club-01.img": {
-            "frame": {"x": 3680, "y": 3823, "w": 100, "h": 105},
+            "frame": {"x": 2, "y": 3943, "w": 100, "h": 105},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 2, "y": 116, "w": 100, "h": 105},
             "sourceSize": {"w": 104, "h": 360}
           },
           "map-stove-02.img": {
-            "frame": {"x": 3784, "y": 3823, "w": 98, "h": 105},
+            "frame": {"x": 106, "y": 3943, "w": 98, "h": 105},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 7, "y": 7, "w": 98, "h": 105},
@@ -20997,112 +21026,112 @@
             "sourceSize": {"w": 129, "h": 129}
           },
           "emote-medical-healthkit.img": {
-            "frame": {"x": 3886, "y": 3823, "w": 118, "h": 104},
+            "frame": {"x": 208, "y": 3943, "w": 118, "h": 104},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 5, "y": 12, "w": 118, "h": 104},
             "sourceSize": {"w": 128, "h": 128}
           },
           "part-leaf-01sv.img": {
-            "frame": {"x": 2, "y": 3939, "w": 108, "h": 104},
+            "frame": {"x": 330, "y": 3943, "w": 108, "h": 104},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 10, "y": 12, "w": 108, "h": 104},
             "sourceSize": {"w": 128, "h": 128}
           },
           "part-heal-syringe.img": {
-            "frame": {"x": 114, "y": 3939, "w": 104, "h": 104},
+            "frame": {"x": 442, "y": 3943, "w": 104, "h": 104},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 12, "y": 13, "w": 104, "h": 104},
             "sourceSize": {"w": 129, "h": 129}
           },
-          "map-case-hatchet-01.img": {
-            "frame": {"x": 222, "y": 3939, "w": 140, "h": 102},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 140, "h": 102},
-            "sourceSize": {"w": 140, "h": 102}
-          },
           "map-chest-01.img": {
-            "frame": {"x": 366, "y": 3939, "w": 140, "h": 102},
+            "frame": {"x": 550, "y": 3943, "w": 140, "h": 102},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 140, "h": 102},
             "sourceSize": {"w": 140, "h": 102}
           },
-          "map-case-flare-01.img": {
-            "frame": {"x": 510, "y": 3939, "w": 140, "h": 102},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 140, "h": 102},
-            "sourceSize": {"w": 140, "h": 102}
-          },
-          "map-chest-02.img": {
-            "frame": {"x": 654, "y": 3939, "w": 140, "h": 102},
+          "map-case-hatchet-01.img": {
+            "frame": {"x": 694, "y": 3943, "w": 140, "h": 102},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 140, "h": 102},
             "sourceSize": {"w": 140, "h": 102}
           },
           "map-chest-03.img": {
-            "frame": {"x": 798, "y": 3939, "w": 140, "h": 102},
+            "frame": {"x": 838, "y": 3943, "w": 140, "h": 102},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 140, "h": 102},
+            "sourceSize": {"w": 140, "h": 102}
+          },
+          "map-chest-02.img": {
+            "frame": {"x": 982, "y": 3943, "w": 140, "h": 102},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 140, "h": 102},
+            "sourceSize": {"w": 140, "h": 102}
+          },
+          "map-case-flare-01.img": {
+            "frame": {"x": 1126, "y": 3943, "w": 140, "h": 102},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 140, "h": 102},
             "sourceSize": {"w": 140, "h": 102}
           },
           "part-takedown-01.img": {
-            "frame": {"x": 942, "y": 3939, "w": 126, "h": 102},
+            "frame": {"x": 1270, "y": 3943, "w": 126, "h": 102},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 13, "w": 126, "h": 102},
             "sourceSize": {"w": 128, "h": 128}
           },
           "map-grill-01.img": {
-            "frame": {"x": 1072, "y": 3939, "w": 120, "h": 102},
+            "frame": {"x": 1400, "y": 3943, "w": 120, "h": 102},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 4, "y": 13, "w": 120, "h": 102},
             "sourceSize": {"w": 128, "h": 128}
           },
-          "player-hands-poke.img": {
-            "frame": {"x": 3019, "y": 1797, "w": 72, "h": 102},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 72, "h": 102},
-            "sourceSize": {"w": 72, "h": 102}
-          },
           "loot-medical-flask-01.img": {
-            "frame": {"x": 3019, "y": 1903, "w": 72, "h": 102},
+            "frame": {"x": 3019, "y": 1797, "w": 72, "h": 102},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 28, "y": 13, "w": 72, "h": 102},
             "sourceSize": {"w": 129, "h": 129}
           },
+          "player-hands-poke.img": {
+            "frame": {"x": 3019, "y": 1903, "w": 72, "h": 102},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 72, "h": 102},
+            "sourceSize": {"w": 72, "h": 102}
+          },
           "broken-container-01.img": {
-            "frame": {"x": 1196, "y": 3939, "w": 321, "h": 101},
+            "frame": {"x": 1524, "y": 3943, "w": 321, "h": 101},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 1, "w": 321, "h": 101},
             "sourceSize": {"w": 321, "h": 102}
           },
           "jukebox.img": {
-            "frame": {"x": 1521, "y": 3939, "w": 211, "h": 101},
+            "frame": {"x": 1849, "y": 3943, "w": 211, "h": 101},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 1, "w": 211, "h": 101},
             "sourceSize": {"w": 212, "h": 102}
           },
           "map-crate-06.img": {
-            "frame": {"x": 1736, "y": 3939, "w": 164, "h": 100},
+            "frame": {"x": 2064, "y": 3943, "w": 164, "h": 100},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 164, "h": 100},
             "sourceSize": {"w": 164, "h": 100}
           },
           "part-boost-gear.img": {
-            "frame": {"x": 1904, "y": 3939, "w": 101, "h": 100},
+            "frame": {"x": 2232, "y": 3943, "w": 101, "h": 100},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 14, "y": 14, "w": 101, "h": 100},
@@ -21122,50 +21151,50 @@
             "spriteSourceSize": {"x": 33, "y": 14, "w": 62, "h": 100},
             "sourceSize": {"w": 129, "h": 129}
           },
+          "part-heart-02.img": {
+            "frame": {"x": 2337, "y": 3943, "w": 106, "h": 99},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 106, "h": 99},
+            "sourceSize": {"w": 106, "h": 99}
+          },
+          "part-cupid-03.img": {
+            "frame": {"x": 2447, "y": 3943, "w": 106, "h": 99},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 6, "y": 11, "w": 106, "h": 99},
+            "sourceSize": {"w": 121, "h": 121}
+          },
           "part-cupid-01.img": {
-            "frame": {"x": 2009, "y": 3939, "w": 106, "h": 99},
+            "frame": {"x": 2557, "y": 3943, "w": 106, "h": 99},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 5, "y": 11, "w": 106, "h": 99},
             "sourceSize": {"w": 121, "h": 121}
           },
           "part-cupid-02.img": {
-            "frame": {"x": 2119, "y": 3939, "w": 106, "h": 99},
+            "frame": {"x": 2667, "y": 3943, "w": 106, "h": 99},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 5, "y": 11, "w": 106, "h": 99},
             "sourceSize": {"w": 120, "h": 121}
           },
-          "part-cupid-03.img": {
-            "frame": {"x": 2229, "y": 3939, "w": 106, "h": 99},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 6, "y": 11, "w": 106, "h": 99},
-            "sourceSize": {"w": 121, "h": 121}
-          },
-          "part-heart-02.img": {
-            "frame": {"x": 2339, "y": 3939, "w": 106, "h": 99},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 106, "h": 99},
-            "sourceSize": {"w": 106, "h": 99}
-          },
           "part-heal-paramedicine.img": {
-            "frame": {"x": 2449, "y": 3939, "w": 99, "h": 99},
+            "frame": {"x": 2777, "y": 3943, "w": 99, "h": 99},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 15, "y": 15, "w": 99, "h": 99},
             "sourceSize": {"w": 129, "h": 129}
           },
           "part-chocolateBox.img": {
-            "frame": {"x": 2552, "y": 3939, "w": 98, "h": 99},
+            "frame": {"x": 2880, "y": 3943, "w": 98, "h": 99},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 12, "y": 11, "w": 98, "h": 99},
             "sourceSize": {"w": 121, "h": 121}
           },
           "surviv_logo_full.img": {
-            "frame": {"x": 2654, "y": 3939, "w": 418, "h": 98},
+            "frame": {"x": 2982, "y": 3943, "w": 418, "h": 98},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 4, "w": 418, "h": 98},
@@ -21186,69 +21215,48 @@
             "sourceSize": {"w": 100, "h": 100}
           },
           "map-couch-01.img": {
-            "frame": {"x": 3076, "y": 3939, "w": 288, "h": 96},
+            "frame": {"x": 3404, "y": 3943, "w": 288, "h": 96},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 288, "h": 96},
             "sourceSize": {"w": 288, "h": 96}
           },
           "map-couch-02.img": {
-            "frame": {"x": 3368, "y": 3939, "w": 192, "h": 96},
+            "frame": {"x": 3696, "y": 3943, "w": 192, "h": 96},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 192, "h": 96},
             "sourceSize": {"w": 192, "h": 96}
           },
-          "map-woodpile-01.img": {
-            "frame": {"x": 3564, "y": 3939, "w": 96, "h": 96},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 96, "h": 96},
-            "sourceSize": {"w": 96, "h": 96}
-          },
           "map-couch-03.img": {
-            "frame": {"x": 3664, "y": 3939, "w": 96, "h": 96},
+            "frame": {"x": 3892, "y": 3943, "w": 96, "h": 96},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 96, "h": 96},
             "sourceSize": {"w": 96, "h": 96}
           },
-          "map-bathrocks-01.img": {
-            "frame": {"x": 3764, "y": 3939, "w": 96, "h": 96},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 96, "h": 96},
-            "sourceSize": {"w": 96, "h": 96}
-          },
-          "map-recorder-02.img": {
+          "map-recorder-01.img": {
             "frame": {"x": 1458, "y": 701, "w": 64, "h": 96},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 64, "h": 96},
             "sourceSize": {"w": 64, "h": 96}
           },
-          "map-recorder-01.img": {
+          "map-recorder-02.img": {
             "frame": {"x": 1458, "y": 801, "w": 64, "h": 96},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 64, "h": 96},
             "sourceSize": {"w": 64, "h": 96}
           },
-          "map-refrigerator-01.img": {
-            "frame": {"x": 3864, "y": 3939, "w": 108, "h": 94},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 108, "h": 94},
-            "sourceSize": {"w": 108, "h": 94}
-          },
-          "map-pot-01.img": {
+          "map-pot-04.img": {
             "frame": {"x": 3014, "y": 2342, "w": 94, "h": 94},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 1, "w": 94, "h": 94},
             "sourceSize": {"w": 96, "h": 96}
           },
-          "map-pot-02.img": {
+          "map-pot-01.img": {
             "frame": {"x": 3014, "y": 2440, "w": 94, "h": 94},
             "rotated": false,
             "trimmed": true,
@@ -21270,14 +21278,14 @@
             "sourceSize": {"w": 128, "h": 128}
           },
           "map-saloon-bar-02.img": {
-            "frame": {"x": 3049, "y": 1363, "w": 54, "h": 92},
+            "frame": {"x": 3049, "y": 1591, "w": 54, "h": 92},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 54, "h": 92},
             "sourceSize": {"w": 54, "h": 92}
           },
           "loot-watermelon.img": {
-            "frame": {"x": 3049, "y": 1459, "w": 46, "h": 92},
+            "frame": {"x": 3049, "y": 1687, "w": 46, "h": 92},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 41, "y": 18, "w": 46, "h": 92},
@@ -21291,14 +21299,14 @@
             "sourceSize": {"w": 80, "h": 90}
           },
           "map-couch-res-01.img": {
-            "frame": {"x": 4013, "y": 2, "w": 79, "h": 86},
+            "frame": {"x": 3927, "y": 3097, "w": 79, "h": 86},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 8, "y": 5, "w": 79, "h": 86},
             "sourceSize": {"w": 96, "h": 96}
           },
           "player-hands-paws.img": {
-            "frame": {"x": 4013, "y": 92, "w": 70, "h": 85},
+            "frame": {"x": 3927, "y": 3187, "w": 70, "h": 85},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 1, "w": 70, "h": 85},
@@ -21319,168 +21327,182 @@
             "sourceSize": {"w": 108, "h": 94}
           },
           "player-fists-feral-claws.img": {
-            "frame": {"x": 4013, "y": 181, "w": 65, "h": 82},
+            "frame": {"x": 3938, "y": 2275, "w": 65, "h": 82},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 65, "h": 82},
             "sourceSize": {"w": 65, "h": 82}
           },
-          "player-fists-crab-tongs-01.img": {
-            "frame": {"x": 4013, "y": 267, "w": 62, "h": 80},
+          "loot-throwable-mine.img": {
+            "frame": {"x": 4013, "y": 2, "w": 81, "h": 81},
             "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 62, "h": 80},
-            "sourceSize": {"w": 62, "h": 80}
+            "trimmed": true,
+            "spriteSourceSize": {"x": 24, "y": 24, "w": 81, "h": 81},
+            "sourceSize": {"w": 129, "h": 129}
+          },
+          "proj-mine-01.img": {
+            "frame": {"x": 4013, "y": 87, "w": 81, "h": 81},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 24, "y": 24, "w": 81, "h": 81},
+            "sourceSize": {"w": 129, "h": 129}
+          },
+          "map-pot-res-01.img": {
+            "frame": {"x": 4013, "y": 172, "w": 80, "h": 80},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 32, "y": 32, "w": 80, "h": 80},
+            "sourceSize": {"w": 144, "h": 144}
           },
           "player-fists-crab-tongs-02.img": {
-            "frame": {"x": 4013, "y": 351, "w": 62, "h": 80},
+            "frame": {"x": 4013, "y": 256, "w": 62, "h": 80},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 62, "h": 80},
             "sourceSize": {"w": 62, "h": 80}
           },
-          "map-recorder-03.img": {
-            "frame": {"x": 4013, "y": 435, "w": 48, "h": 80},
+          "player-fists-crab-tongs-01.img": {
+            "frame": {"x": 4013, "y": 340, "w": 62, "h": 80},
             "rotated": false,
             "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 48, "h": 80},
-            "sourceSize": {"w": 48, "h": 80}
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 62, "h": 80},
+            "sourceSize": {"w": 62, "h": 80}
           },
           "map-recorder-04.img": {
-            "frame": {"x": 4013, "y": 519, "w": 48, "h": 80},
+            "frame": {"x": 4013, "y": 424, "w": 48, "h": 80},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 48, "h": 80},
             "sourceSize": {"w": 48, "h": 80}
           },
-          "player-fists-gloves-02.img": {
-            "frame": {"x": 4013, "y": 603, "w": 69, "h": 77},
+          "map-recorder-03.img": {
+            "frame": {"x": 4013, "y": 508, "w": 48, "h": 80},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 48, "h": 80},
+            "sourceSize": {"w": 48, "h": 80}
+          },
+          "player-hands-geometric.img": {
+            "frame": {"x": 4013, "y": 592, "w": 77, "h": 77},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 77, "h": 77},
+            "sourceSize": {"w": 77, "h": 77}
+          },
+          "player-fists-gloves-01.img": {
+            "frame": {"x": 4013, "y": 673, "w": 69, "h": 77},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 69, "h": 77},
             "sourceSize": {"w": 69, "h": 77}
           },
-          "player-hands-dinoclaws.img": {
-            "frame": {"x": 4013, "y": 684, "w": 66, "h": 76},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 5, "y": 1, "w": 66, "h": 76},
-            "sourceSize": {"w": 77, "h": 77}
-          },
-          "metal-barrel-side-01.img": {
-            "frame": {"x": 4013, "y": 764, "w": 50, "h": 74},
+          "player-fists-gloves-02.img": {
+            "frame": {"x": 4013, "y": 754, "w": 69, "h": 77},
             "rotated": false,
             "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 50, "h": 74},
-            "sourceSize": {"w": 50, "h": 74}
-          },
-          "player-hands-rainbowhands.img": {
-            "frame": {"x": 4013, "y": 842, "w": 73, "h": 73},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 73, "h": 73},
-            "sourceSize": {"w": 73, "h": 73}
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 69, "h": 77},
+            "sourceSize": {"w": 69, "h": 77}
           },
           "player-hands-outfitMecha.img": {
-            "frame": {"x": 4013, "y": 919, "w": 73, "h": 73},
+            "frame": {"x": 4013, "y": 835, "w": 73, "h": 73},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 2, "y": 2, "w": 73, "h": 73},
             "sourceSize": {"w": 77, "h": 77}
           },
           "player-hands-blackholes.img": {
-            "frame": {"x": 4013, "y": 996, "w": 73, "h": 73},
+            "frame": {"x": 4013, "y": 912, "w": 73, "h": 73},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 2, "y": 2, "w": 73, "h": 73},
             "sourceSize": {"w": 77, "h": 77}
           },
-          "rainbow-ball.img": {
-            "frame": {"x": 4013, "y": 1073, "w": 72, "h": 72},
+          "player-hands-rainbowhands.img": {
+            "frame": {"x": 4013, "y": 989, "w": 73, "h": 73},
             "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 1, "y": 1, "w": 72, "h": 72},
-            "sourceSize": {"w": 74, "h": 74}
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 73, "h": 73},
+            "sourceSize": {"w": 73, "h": 73}
           },
           "map-power-box-01.img": {
-            "frame": {"x": 4013, "y": 1149, "w": 72, "h": 72},
+            "frame": {"x": 4013, "y": 1066, "w": 72, "h": 72},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 72, "h": 72},
             "sourceSize": {"w": 72, "h": 72}
           },
+          "rainbow-ball.img": {
+            "frame": {"x": 4013, "y": 1142, "w": 72, "h": 72},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 1, "y": 1, "w": 72, "h": 72},
+            "sourceSize": {"w": 74, "h": 74}
+          },
           "player-hands-immolate.img": {
-            "frame": {"x": 4013, "y": 1225, "w": 77, "h": 71},
+            "frame": {"x": 4013, "y": 1218, "w": 77, "h": 71},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 1, "w": 77, "h": 71},
             "sourceSize": {"w": 77, "h": 72}
           },
           "crosshair118.img": {
-            "frame": {"x": 4013, "y": 1300, "w": 60, "h": 60},
+            "frame": {"x": 4013, "y": 1293, "w": 60, "h": 60},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 2, "y": 2, "w": 60, "h": 60},
             "sourceSize": {"w": 64, "h": 64}
           },
           "metal-barrel-03.img": {
-            "frame": {"x": 4013, "y": 1364, "w": 59, "h": 60},
+            "frame": {"x": 4013, "y": 1357, "w": 59, "h": 60},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 8, "y": 4, "w": 59, "h": 60},
             "sourceSize": {"w": 74, "h": 68}
           },
           "map-bush-res-02.img": {
-            "frame": {"x": 4013, "y": 1428, "w": 59, "h": 60},
+            "frame": {"x": 4013, "y": 1421, "w": 59, "h": 60},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 42, "y": 45, "w": 59, "h": 60},
             "sourceSize": {"w": 144, "h": 144}
           },
-          "map-bathhouse-pool-01.img": {
-            "frame": {"x": 4013, "y": 1492, "w": 36, "h": 60},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 36, "h": 60},
-            "sourceSize": {"w": 36, "h": 60}
-          },
-          "loot-melee-dinoclaws.img": {
-            "frame": {"x": 3871, "y": 3220, "w": 107, "h": 53},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 12, "y": 34, "w": 107, "h": 53},
-            "sourceSize": {"w": 129, "h": 129}
-          },
           "map-barrel-res-03.img": {
-            "frame": {"x": 4013, "y": 1556, "w": 76, "h": 52},
+            "frame": {"x": 4013, "y": 1485, "w": 76, "h": 52},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 34, "y": 86, "w": 76, "h": 52},
             "sourceSize": {"w": 144, "h": 144}
           },
           "map-woodpile-res-01.img": {
-            "frame": {"x": 4013, "y": 1612, "w": 72, "h": 52},
+            "frame": {"x": 4013, "y": 1541, "w": 72, "h": 52},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 12, "y": 22, "w": 72, "h": 52},
             "sourceSize": {"w": 96, "h": 96}
           },
+          "loot-i-01.img": {
+            "frame": {"x": 4013, "y": 1597, "w": 53, "h": 52},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 0, "y": 1, "w": 53, "h": 52},
+            "sourceSize": {"w": 53, "h": 53}
+          },
           "pass-basic-badge.img": {
-            "frame": {"x": 4013, "y": 1668, "w": 41, "h": 51},
+            "frame": {"x": 4013, "y": 1653, "w": 41, "h": 51},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 41, "h": 51},
             "sourceSize": {"w": 41, "h": 51}
           },
           "map-candle-01.img": {
-            "frame": {"x": 4013, "y": 1723, "w": 50, "h": 50},
+            "frame": {"x": 4013, "y": 1708, "w": 50, "h": 50},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 1, "w": 50, "h": 50},
             "sourceSize": {"w": 52, "h": 52}
           },
           "loadout-weapon.img": {
-            "frame": {"x": 4013, "y": 1777, "w": 43, "h": 50},
+            "frame": {"x": 4013, "y": 1762, "w": 43, "h": 50},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 3, "y": 2, "w": 43, "h": 50},
@@ -21494,67 +21516,39 @@
             "sourceSize": {"w": 129, "h": 129}
           },
           "map-decal-oil-04.img": {
-            "frame": {"x": 4013, "y": 1831, "w": 54, "h": 48},
+            "frame": {"x": 4013, "y": 1816, "w": 54, "h": 48},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 5, "y": 8, "w": 54, "h": 48},
             "sourceSize": {"w": 64, "h": 64}
           },
           "map-bush-res-01.img": {
-            "frame": {"x": 4013, "y": 1883, "w": 52, "h": 48},
+            "frame": {"x": 4013, "y": 1868, "w": 52, "h": 48},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 46, "y": 48, "w": 52, "h": 48},
             "sourceSize": {"w": 144, "h": 144}
           },
-          "loot-melee-SpliTheDiff.img": {
-            "frame": {"x": 2, "y": 4047, "w": 109, "h": 47},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 11, "y": 41, "w": 109, "h": 47},
-            "sourceSize": {"w": 129, "h": 129}
-          },
-          "loot-melee-BlueVelvet.img": {
-            "frame": {"x": 115, "y": 4047, "w": 109, "h": 47},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 11, "y": 41, "w": 109, "h": 47},
-            "sourceSize": {"w": 129, "h": 129}
-          },
-          "loot-melee-moss.img": {
-            "frame": {"x": 228, "y": 4047, "w": 108, "h": 47},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 10, "y": 41, "w": 108, "h": 47},
-            "sourceSize": {"w": 129, "h": 129}
-          },
           "crosshair098.img": {
-            "frame": {"x": 4013, "y": 1935, "w": 56, "h": 46},
+            "frame": {"x": 4013, "y": 1920, "w": 56, "h": 46},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 4, "y": 2, "w": 56, "h": 46},
             "sourceSize": {"w": 64, "h": 64}
           },
-          "map-bush-res-04.img": {
-            "frame": {"x": 4013, "y": 1985, "w": 46, "h": 46},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 4, "y": 4, "w": 46, "h": 46},
-            "sourceSize": {"w": 54, "h": 54}
-          },
           "map-tree-res-01.img": {
-            "frame": {"x": 4013, "y": 2035, "w": 46, "h": 46},
+            "frame": {"x": 4013, "y": 1970, "w": 46, "h": 46},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 1, "w": 46, "h": 46},
             "sourceSize": {"w": 48, "h": 48}
           },
-          "loot-melee-bulletbills.img": {
-            "frame": {"x": 340, "y": 4047, "w": 93, "h": 45},
+          "map-bush-res-04.img": {
+            "frame": {"x": 4013, "y": 2020, "w": 46, "h": 46},
             "rotated": false,
             "trimmed": true,
-            "spriteSourceSize": {"x": 18, "y": 34, "w": 93, "h": 45},
-            "sourceSize": {"w": 129, "h": 129}
+            "spriteSourceSize": {"x": 4, "y": 4, "w": 46, "h": 46},
+            "sourceSize": {"w": 54, "h": 54}
           },
           "map-gun-mount-02.img": {
             "frame": {"x": 2430, "y": 2621, "w": 128, "h": 44},
@@ -21571,7 +21565,7 @@
             "sourceSize": {"w": 128, "h": 56}
           },
           "map-decal-flyer-01.img": {
-            "frame": {"x": 4053, "y": 1492, "w": 36, "h": 44},
+            "frame": {"x": 4058, "y": 1653, "w": 36, "h": 44},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 6, "y": 2, "w": 36, "h": 44},
@@ -21592,42 +21586,42 @@
             "sourceSize": {"w": 129, "h": 129}
           },
           "map-building-bank-window-res-01.img": {
-            "frame": {"x": 4013, "y": 2085, "w": 44, "h": 43},
+            "frame": {"x": 4013, "y": 2070, "w": 44, "h": 43},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 46, "y": 55, "w": 44, "h": 43},
             "sourceSize": {"w": 144, "h": 144}
           },
-          "loot-info-02a.img": {
-            "frame": {"x": 4013, "y": 2132, "w": 49, "h": 42},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 6, "y": 11, "w": 49, "h": 42},
-            "sourceSize": {"w": 61, "h": 63}
-          },
           "loot-info-01a.img": {
-            "frame": {"x": 4013, "y": 2178, "w": 49, "h": 42},
+            "frame": {"x": 4013, "y": 2117, "w": 49, "h": 42},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 6, "y": 11, "w": 49, "h": 42},
             "sourceSize": {"w": 61, "h": 63}
           },
-          "loot-info-02.img": {
-            "frame": {"x": 4013, "y": 2224, "w": 48, "h": 42},
+          "loot-info-02a.img": {
+            "frame": {"x": 4013, "y": 2163, "w": 49, "h": 42},
             "rotated": false,
             "trimmed": true,
-            "spriteSourceSize": {"x": 6, "y": 11, "w": 48, "h": 42},
+            "spriteSourceSize": {"x": 6, "y": 11, "w": 49, "h": 42},
             "sourceSize": {"w": 61, "h": 63}
           },
           "loot-info-01.img": {
-            "frame": {"x": 4013, "y": 2270, "w": 48, "h": 42},
+            "frame": {"x": 4013, "y": 2209, "w": 48, "h": 42},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 7, "y": 11, "w": 48, "h": 42},
             "sourceSize": {"w": 61, "h": 63}
           },
+          "loot-info-02.img": {
+            "frame": {"x": 4013, "y": 2255, "w": 48, "h": 42},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 6, "y": 11, "w": 48, "h": 42},
+            "sourceSize": {"w": 61, "h": 63}
+          },
           "cobalt.img": {
-            "frame": {"x": 4013, "y": 2316, "w": 42, "h": 42},
+            "frame": {"x": 4013, "y": 2301, "w": 42, "h": 42},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 3, "y": 3, "w": 42, "h": 42},
@@ -21648,21 +21642,21 @@
             "sourceSize": {"w": 89, "h": 35}
           },
           "pass-star-1.img": {
-            "frame": {"x": 4013, "y": 2362, "w": 38, "h": 33},
+            "frame": {"x": 4013, "y": 2347, "w": 38, "h": 33},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 38, "h": 33},
             "sourceSize": {"w": 38, "h": 33}
           },
           "pass-star-2.img": {
-            "frame": {"x": 4013, "y": 2399, "w": 38, "h": 33},
+            "frame": {"x": 4055, "y": 2347, "w": 38, "h": 33},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 38, "h": 33},
             "sourceSize": {"w": 38, "h": 33}
           },
           "pass-star-3.img": {
-            "frame": {"x": 4013, "y": 2436, "w": 38, "h": 33},
+            "frame": {"x": 4013, "y": 2384, "w": 38, "h": 33},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 38, "h": 33},
@@ -21676,317 +21670,352 @@
             "sourceSize": {"w": 360, "h": 24}
           },
           "map-wall-shack-bot.img": {
-            "frame": {"x": 2851, "y": 1756, "w": 242, "h": 24},
+            "frame": {"x": 1547, "y": 1138, "w": 242, "h": 24},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 242, "h": 24},
             "sourceSize": {"w": 242, "h": 24}
           },
           "map-wall-outhouse-top.img": {
-            "frame": {"x": 1547, "y": 1138, "w": 204, "h": 24},
+            "frame": {"x": 1793, "y": 1138, "w": 204, "h": 24},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 204, "h": 24},
             "sourceSize": {"w": 204, "h": 24}
           },
-          "loot-shirt-outfitSplotchfest.img": {
-            "frame": {"x": 2552, "y": 3675, "w": 116, "h": 113},
+          "map-case-hatchet-res-01.img": {
+            "frame": {"x": 2450, "y": 3679, "w": 128, "h": 114},
             "rotated": false,
             "trimmed": true,
-            "spriteSourceSize": {"x": 6, "y": 8, "w": 116, "h": 113},
-            "sourceSize": {"w": 128, "h": 129}
+            "spriteSourceSize": {"x": 13, "y": 11, "w": 128, "h": 114},
+            "sourceSize": {"w": 144, "h": 144}
           }
         }
       },
       {
-        "meta": {"image": "shared-3-100-2fce1d0f.png", "size": {"w": 1024, "h": 1024}, "scale": 1},
+        "meta": {"image": "shared-3-100-8b2673f6.png", "size": {"w": 1024, "h": 1024}, "scale": 1},
         "frames": {
-          "map-vending-soda-01.img": {
-            "frame": {"x": 2, "y": 100, "w": 108, "h": 94},
+          "map-woodpile-01.img": {
+            "frame": {"x": 102, "y": 2, "w": 96, "h": 96},
             "rotated": false,
             "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 108, "h": 94},
-            "sourceSize": {"w": 108, "h": 94}
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 96, "h": 96},
+            "sourceSize": {"w": 96, "h": 96}
+          },
+          "map-bathrocks-01.img": {
+            "frame": {"x": 2, "y": 2, "w": 96, "h": 96},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 96, "h": 96},
+            "sourceSize": {"w": 96, "h": 96}
           },
           "map-control-panel-06.img": {
-            "frame": {"x": 2, "y": 2, "w": 192, "h": 94},
+            "frame": {"x": 2, "y": 102, "w": 192, "h": 94},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 192, "h": 94},
             "sourceSize": {"w": 192, "h": 94}
           },
+          "map-refrigerator-01.img": {
+            "frame": {"x": 202, "y": 2, "w": 108, "h": 94},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 108, "h": 94},
+            "sourceSize": {"w": 108, "h": 94}
+          },
+          "map-vending-soda-01.img": {
+            "frame": {"x": 202, "y": 100, "w": 108, "h": 94},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 108, "h": 94},
+            "sourceSize": {"w": 108, "h": 94}
+          },
           "map-control-panel-03.img": {
-            "frame": {"x": 198, "y": 2, "w": 96, "h": 94},
+            "frame": {"x": 2, "y": 200, "w": 96, "h": 94},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 96, "h": 94},
             "sourceSize": {"w": 96, "h": 94}
           },
           "map-tree-res-02.img": {
-            "frame": {"x": 198, "y": 100, "w": 96, "h": 94},
+            "frame": {"x": 102, "y": 200, "w": 96, "h": 94},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 1, "w": 96, "h": 94},
             "sourceSize": {"w": 96, "h": 96}
           },
           "map-pot-05.img": {
-            "frame": {"x": 2, "y": 198, "w": 94, "h": 94},
+            "frame": {"x": 202, "y": 200, "w": 94, "h": 94},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 1, "w": 94, "h": 94},
             "sourceSize": {"w": 96, "h": 96}
           },
-          "map-pot-04.img": {
-            "frame": {"x": 100, "y": 198, "w": 94, "h": 94},
+          "map-pot-02.img": {
+            "frame": {"x": 314, "y": 2, "w": 94, "h": 94},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 1, "w": 94, "h": 94},
             "sourceSize": {"w": 96, "h": 96}
           },
           "map-pot-03.img": {
-            "frame": {"x": 198, "y": 198, "w": 94, "h": 94},
+            "frame": {"x": 314, "y": 100, "w": 94, "h": 94},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 1, "w": 94, "h": 94},
             "sourceSize": {"w": 96, "h": 96}
           },
           "emote-skull.img": {
-            "frame": {"x": 298, "y": 2, "w": 89, "h": 94},
+            "frame": {"x": 314, "y": 198, "w": 89, "h": 94},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 20, "y": 17, "w": 89, "h": 94},
             "sourceSize": {"w": 129, "h": 129}
           },
           "map-oven-01.img": {
-            "frame": {"x": 391, "y": 2, "w": 108, "h": 93},
+            "frame": {"x": 2, "y": 298, "w": 108, "h": 93},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 108, "h": 93},
             "sourceSize": {"w": 108, "h": 94}
           },
           "map-drawers-02.img": {
-            "frame": {"x": 2, "y": 296, "w": 160, "h": 90},
+            "frame": {"x": 114, "y": 298, "w": 160, "h": 90},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 160, "h": 90},
             "sourceSize": {"w": 160, "h": 90}
           },
           "map-drawers-01.img": {
-            "frame": {"x": 166, "y": 296, "w": 160, "h": 90},
+            "frame": {"x": 412, "y": 2, "w": 160, "h": 90},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 160, "h": 90},
             "sourceSize": {"w": 160, "h": 90}
           },
           "map-crate-mil-02.img": {
-            "frame": {"x": 2, "y": 390, "w": 172, "h": 89},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 172, "h": 89},
-            "sourceSize": {"w": 172, "h": 89}
-          },
-          "map-crate-mil-05.img": {
-            "frame": {"x": 178, "y": 390, "w": 172, "h": 89},
-            "rotated": false,
-            "trimmed": false,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 172, "h": 89},
-            "sourceSize": {"w": 172, "h": 89}
-          },
-          "map-crate-mil-01.img": {
-            "frame": {"x": 503, "y": 2, "w": 172, "h": 89},
+            "frame": {"x": 2, "y": 395, "w": 172, "h": 89},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 172, "h": 89},
             "sourceSize": {"w": 172, "h": 89}
           },
           "map-crate-mil-03.img": {
-            "frame": {"x": 503, "y": 95, "w": 172, "h": 89},
+            "frame": {"x": 178, "y": 395, "w": 172, "h": 89},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 172, "h": 89},
+            "sourceSize": {"w": 172, "h": 89}
+          },
+          "map-crate-mil-05.img": {
+            "frame": {"x": 354, "y": 395, "w": 172, "h": 89},
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 172, "h": 89},
+            "sourceSize": {"w": 172, "h": 89}
+          },
+          "map-crate-mil-01.img": {
+            "frame": {"x": 576, "y": 2, "w": 172, "h": 89},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 172, "h": 89},
             "sourceSize": {"w": 172, "h": 89}
           },
           "map-crate-mil-04.img": {
-            "frame": {"x": 503, "y": 188, "w": 172, "h": 89},
+            "frame": {"x": 576, "y": 95, "w": 172, "h": 89},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 172, "h": 89},
             "sourceSize": {"w": 172, "h": 89}
           },
           "map-building-teahouse-floor-02.img": {
-            "frame": {"x": 503, "y": 281, "w": 128, "h": 88},
+            "frame": {"x": 576, "y": 188, "w": 128, "h": 88},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 128, "h": 88},
             "sourceSize": {"w": 128, "h": 88}
           },
           "map-bunker-vent-01.img": {
-            "frame": {"x": 503, "y": 373, "w": 82, "h": 84},
+            "frame": {"x": 576, "y": 280, "w": 82, "h": 84},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 1, "y": 0, "w": 82, "h": 84},
             "sourceSize": {"w": 84, "h": 84}
           },
           "map-squash-res-01.img": {
-            "frame": {"x": 589, "y": 373, "w": 84, "h": 81},
+            "frame": {"x": 662, "y": 280, "w": 84, "h": 81},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 5, "y": 12, "w": 84, "h": 81},
             "sourceSize": {"w": 96, "h": 96}
           },
-          "proj-mine-01.img": {
-            "frame": {"x": 391, "y": 99, "w": 81, "h": 81},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 24, "y": 24, "w": 81, "h": 81},
-            "sourceSize": {"w": 129, "h": 129}
-          },
-          "map-gun-mount-01.img": {
-            "frame": {"x": 679, "y": 443, "w": 144, "h": 48},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 48},
-            "sourceSize": {"w": 144, "h": 56}
-          },
           "loot-melee-crab-tongs.img": {
-            "frame": {"x": 330, "y": 296, "w": 126, "h": 80},
+            "frame": {"x": 576, "y": 368, "w": 126, "h": 80},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 23, "w": 126, "h": 80},
             "sourceSize": {"w": 128, "h": 128}
           },
-          "map-pot-res-01.img": {
-            "frame": {"x": 298, "y": 100, "w": 80, "h": 80},
+          "loot-melee-bulletbills.img": {
+            "frame": {"x": 654, "y": 568, "w": 93, "h": 45},
             "rotated": false,
             "trimmed": true,
-            "spriteSourceSize": {"x": 32, "y": 32, "w": 80, "h": 80},
-            "sourceSize": {"w": 144, "h": 144}
-          },
-          "map-towelrack-01.img": {
-            "frame": {"x": 2, "y": 483, "w": 192, "h": 76},
-            "rotated": false,
-            "trimmed": true,
-            "spriteSourceSize": {"x": 0, "y": 10, "w": 192, "h": 76},
-            "sourceSize": {"w": 192, "h": 96}
+            "spriteSourceSize": {"x": 18, "y": 34, "w": 93, "h": 45},
+            "sourceSize": {"w": 129, "h": 129}
           },
           "map-piano-01.img": {
-            "frame": {"x": 198, "y": 483, "w": 240, "h": 75},
+            "frame": {"x": 198, "y": 488, "w": 240, "h": 75},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 240, "h": 75},
             "sourceSize": {"w": 240, "h": 75}
           },
           "map-deposit-box-01.img": {
-            "frame": {"x": 442, "y": 483, "w": 160, "h": 74},
+            "frame": {"x": 412, "y": 96, "w": 160, "h": 74},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 160, "h": 74},
             "sourceSize": {"w": 160, "h": 74}
           },
           "map-deposit-box-02.img": {
-            "frame": {"x": 2, "y": 563, "w": 160, "h": 74},
+            "frame": {"x": 412, "y": 174, "w": 160, "h": 74},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 160, "h": 74},
             "sourceSize": {"w": 160, "h": 74}
           },
           "map-building-cabin-ceiling-01b.img": {
-            "frame": {"x": 166, "y": 563, "w": 148, "h": 74},
+            "frame": {"x": 412, "y": 252, "w": 148, "h": 74},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 148, "h": 74},
             "sourceSize": {"w": 148, "h": 76}
           },
           "part-heal-lotus.img": {
-            "frame": {"x": 354, "y": 390, "w": 119, "h": 74},
+            "frame": {"x": 278, "y": 298, "w": 119, "h": 74},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 5, "y": 28, "w": 119, "h": 74},
             "sourceSize": {"w": 129, "h": 129}
           },
           "loot-melee-poke.img": {
-            "frame": {"x": 318, "y": 563, "w": 119, "h": 73},
+            "frame": {"x": 442, "y": 488, "w": 119, "h": 73},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 5, "y": 22, "w": 119, "h": 73},
             "sourceSize": {"w": 129, "h": 129}
           },
           "sink-01.img": {
-            "frame": {"x": 441, "y": 563, "w": 101, "h": 61},
+            "frame": {"x": 412, "y": 330, "w": 101, "h": 61},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 101, "h": 61},
             "sourceSize": {"w": 101, "h": 61}
           },
           "loot-melee-sledgehammer.img": {
-            "frame": {"x": 679, "y": 2, "w": 150, "h": 60},
+            "frame": {"x": 565, "y": 488, "w": 150, "h": 60},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": -1, "y": -1, "w": 150, "h": 60},
             "sourceSize": {"w": 148, "h": 58}
           },
+          "loot-melee-dinoclaws.img": {
+            "frame": {"x": 2, "y": 568, "w": 107, "h": 53},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 12, "y": 34, "w": 107, "h": 53},
+            "sourceSize": {"w": 129, "h": 129}
+          },
           "emote-easy.img": {
-            "frame": {"x": 679, "y": 66, "w": 96, "h": 53},
+            "frame": {"x": 113, "y": 568, "w": 96, "h": 53},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 17, "y": 34, "w": 96, "h": 53},
             "sourceSize": {"w": 129, "h": 129}
           },
           "loot-melee-scifi.img": {
-            "frame": {"x": 679, "y": 123, "w": 119, "h": 52},
+            "frame": {"x": 213, "y": 568, "w": 119, "h": 52},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 9, "y": 39, "w": 119, "h": 52},
             "sourceSize": {"w": 129, "h": 129}
           },
           "loot-melee-FrostPunch.img": {
-            "frame": {"x": 679, "y": 179, "w": 114, "h": 49},
+            "frame": {"x": 336, "y": 568, "w": 114, "h": 49},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 8, "y": 39, "w": 114, "h": 49},
             "sourceSize": {"w": 129, "h": 129}
           },
-          "map-locker-02.img": {
-            "frame": {"x": 679, "y": 232, "w": 96, "h": 49},
+          "map-locker-01.img": {
+            "frame": {"x": 454, "y": 568, "w": 96, "h": 49},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 96, "h": 49},
             "sourceSize": {"w": 96, "h": 50}
           },
-          "map-locker-01.img": {
-            "frame": {"x": 679, "y": 285, "w": 96, "h": 49},
+          "map-locker-02.img": {
+            "frame": {"x": 554, "y": 568, "w": 96, "h": 49},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 96, "h": 49},
             "sourceSize": {"w": 96, "h": 50}
           },
           "map-locker-03.img": {
-            "frame": {"x": 679, "y": 338, "w": 96, "h": 49},
+            "frame": {"x": 2, "y": 625, "w": 96, "h": 49},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 96, "h": 49},
             "sourceSize": {"w": 96, "h": 50}
           },
           "map-screen-01.img": {
-            "frame": {"x": 2, "y": 641, "w": 256, "h": 48},
+            "frame": {"x": 102, "y": 625, "w": 256, "h": 48},
             "rotated": false,
             "trimmed": false,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 256, "h": 48},
             "sourceSize": {"w": 256, "h": 48}
           },
           "map-gun-mount-05.img": {
-            "frame": {"x": 679, "y": 391, "w": 144, "h": 48},
+            "frame": {"x": 362, "y": 625, "w": 144, "h": 48},
             "rotated": false,
             "trimmed": true,
             "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 48},
             "sourceSize": {"w": 144, "h": 56}
           },
-          "loot-throwable-mine.img": {
-            "frame": {"x": 391, "y": 184, "w": 81, "h": 81},
+          "map-gun-mount-01.img": {
+            "frame": {"x": 510, "y": 625, "w": 144, "h": 48},
             "rotated": false,
             "trimmed": true,
-            "spriteSourceSize": {"x": 24, "y": 24, "w": 81, "h": 81},
+            "spriteSourceSize": {"x": 0, "y": 0, "w": 144, "h": 48},
+            "sourceSize": {"w": 144, "h": 56}
+          },
+          "loot-melee-BlueVelvet.img": {
+            "frame": {"x": 2, "y": 678, "w": 109, "h": 47},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 11, "y": 41, "w": 109, "h": 47},
             "sourceSize": {"w": 129, "h": 129}
+          },
+          "loot-melee-SpliTheDiff.img": {
+            "frame": {"x": 115, "y": 678, "w": 109, "h": 47},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 11, "y": 41, "w": 109, "h": 47},
+            "sourceSize": {"w": 129, "h": 129}
+          },
+          "loot-melee-moss.img": {
+            "frame": {"x": 228, "y": 678, "w": 108, "h": 47},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 10, "y": 41, "w": 108, "h": 47},
+            "sourceSize": {"w": 129, "h": 129}
+          },
+          "map-towelrack-01.img": {
+            "frame": {"x": 2, "y": 488, "w": 192, "h": 76},
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {"x": 0, "y": 10, "w": 192, "h": 76},
+            "sourceSize": {"w": 192, "h": 96}
           }
         }
       }
@@ -23883,7 +23912,7 @@
     ],
     "gradient": [
       {
-        "meta": {"image": "gradient-0-100-270a905e.png", "size": {"w": 1024, "h": 1024}, "scale": 1},
+        "meta": {"image": "gradient-0-100-8361d237.png", "size": {"w": 1024, "h": 1024}, "scale": 1},
         "frames": {
           "map-barrel-res-01.img": {
             "frame": {"x": 238, "y": 2, "w": 226, "h": 216},
