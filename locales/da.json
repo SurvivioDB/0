@@ -1058,6 +1058,8 @@
   "event-ultimate-sacrifice-end-title": "ULTIMATIVE OFFER SLUTTER SNART",
   "event-ultimate-sacrifice-end-desc": "Vores ultimative offer begivenhed slutter den 5/25 1 PM PST. Dette er din sidste chance for at opleve de nye Commander funktioner.",
   "game-mine": "Mine",
+  "store-offers-not-available": "Disse tilbud er ikke længere tilgængelig, klik på 'OK' for at indlæse de nye",
+  "index-offers-expire": "Tilbud udløber:",
   "index-team-bigger-than-duo": "Tilstand valgt kan ikke afspilles med mere end 2 spillere",
   "index-failed-joining-game-loadout": "Skal du deaktivere inkompatible udvidelser.",
   "game-hud-mine": "Mine",

@@ -70,6 +70,7 @@
     "type": "pass",
     "endDate": 1598295600000,
     "buyOptions": {"basic": {"price": 4000, "extraXP": 0}, "all_levels": {"price": 7500, "extraXP": 0}},
+    "discountLevels": {"10": {"discount": 10}, "20": {"discount": 15}, "30": {"discount": 25}},
     "xp": [18, 25, 32, 40, 48, 56, 65, 74, 84, 94, 105, 116, 128, 140, 153, 167, 181, 196, 212, 229, 246, 264, 284, 304, 325, 347, 371, 395, 421],
     "items": [
       {"level": 2, "item": "fist_moss", "itemPremium": "fist_immolate"},

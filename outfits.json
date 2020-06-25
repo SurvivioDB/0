@@ -882,12 +882,12 @@
     "name": "Fragtastic",
     "noDropOnDeath": true,
     "rarity": 1,
-    "lore": "",
+    "lore": "Created by Hatsune Blake",
     "skinImg": {
       "baseTint": "6445342 | #62591E",
       "handTint": "8418603 | #80752B",
       "footTint": "8418603 | #80752B",
-      "backpackTint": "15632257 | #EE8781"
+      "backpackTint": "9474192 | #909090"
     },
     "lootImg": {"sprite": "https://surviv.io/img/loot/loot-shirt-outfitFragtastic.svg", "tint": false}
   },
@@ -895,7 +895,7 @@
     "name": "Rustic Sands",
     "noDropOnDeath": true,
     "rarity": 1,
-    "lore": "",
+    "lore": "Created by FrankzeeTank",
     "skinImg": {
       "baseTint": "16439928 | #FADA78",
       "handTint": "7422486 | #714216",
@@ -908,7 +908,7 @@
     "name": "Waves",
     "noDropOnDeath": true,
     "rarity": 2,
-    "lore": "",
+    "lore": "Created by Fonpard",
     "skinImg": {
       "baseTint": false,
       "baseSprite": "https://surviv.io/img/player/player-base-outfitWaves.svg",
@@ -936,7 +936,7 @@
     "name": "Neon Eyesore",
     "noDropOnDeath": true,
     "rarity": 3,
-    "lore": "",
+    "lore": "Created by Savage_Wuhan (Jerrie123)",
     "skinImg": {
       "baseTint": "7666941 | #74FCFD",
       "handTint": "7731788 | #75FA4C",

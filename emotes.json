@@ -1496,7 +1496,8 @@
     "texture": "https://surviv.io/img/emotes/emote-greedy.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "i.Other"
+    "category": "i.Other",
+    "lore": "Created by Mxstyc"
   },
   "emote_easy": {
     "type": "emote",
@@ -1514,7 +1515,8 @@
     "texture": "https://surviv.io/img/emotes/emote-lies.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "i.Other"
+    "category": "i.Other",
+    "lore": "Created by badname"
   },
   "emote_sweaty": {
     "type": "emote",
@@ -1523,7 +1525,8 @@
     "texture": "https://surviv.io/img/emotes/emote-sweaty.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "i.Other"
+    "category": "i.Other",
+    "lore": "Created by badname"
   },
   "emote_flushed": {
     "type": "emote",
@@ -1532,7 +1535,8 @@
     "texture": "https://surviv.io/img/emotes/emote-flushed.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "i.Other"
+    "category": "i.Other",
+    "lore": "Created by Lil Fish"
   },
   "emote_deadface": {
     "type": "emote",
@@ -1541,7 +1545,8 @@
     "texture": "https://surviv.io/img/emotes/emote-deadface.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "i.Other"
+    "category": "i.Other",
+    "lore": "Created by Creeperslayr SaveTurtles"
   },
   "emote_starstruck": {
     "type": "emote",
@@ -1550,7 +1555,8 @@
     "texture": "https://surviv.io/img/emotes/emote-starstruck.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "i.Other"
+    "category": "i.Other",
+    "lore": "Created by DotDot"
   },
   "emote_panned": {
     "type": "emote",
@@ -1559,7 +1565,8 @@
     "texture": "https://surviv.io/img/emotes/emote-panned.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "i.Other"
+    "category": "i.Other",
+    "lore": "Created by Downtime"
   },
   "emote_happyghost": {
     "type": "emote",
@@ -1568,7 +1575,8 @@
     "texture": "https://surviv.io/img/emotes/emote-happyghost.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "i.Other"
+    "category": "i.Other",
+    "lore": "Created by HenryBoy"
   },
   "emote_shroomcloud": {
     "type": "emote",
@@ -1577,7 +1585,8 @@
     "texture": "https://surviv.io/img/emotes/emote-shroomcloud.svg",
     "channel": "ui",
     "teamOnly": false,
-    "category": "i.Other"
+    "category": "i.Other",
+    "lore": ""
   },
   "emote_fabulorn": {
     "type": "emote",

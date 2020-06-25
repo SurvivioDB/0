@@ -1160,6 +1160,8 @@
   "event-storm-start-desc": "Mysterious shifts in weather have thrown the island into chaos. Driving wind, rushing rivers, hail, and lightning strikes now pose mortal threats. Survivrs are advised to seek shelter, and avoid standing near static buildup.",
   "event-storm-end-title": "STORM ENDING SOON",
   "event-storm-end-desc": "Our Storm event ends on 06/08 at 1 pm PST. This is your last chance to experience the Storm event.",
+  "store-offers-not-available": "These offers are no longer available, click 'Okay' to load the new ones",
+  "index-offers-expire": "Offers Expire:",
   "game-weather": "Weather",
   "game-waterGun": "Water Gun",
   "game-water_balloon": "Water Balloon",
